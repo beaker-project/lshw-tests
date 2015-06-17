@@ -1,0 +1,7 @@
+PRODUCT=0/0/0/0
+NAME="HDA Intel Front Mic"
+PHYS="ALSA"
+PROP=0
+EV=21
+SW=10
+MODALIAS=input:b0000v0000p0000e0000-e0,5,kramlsfw4,

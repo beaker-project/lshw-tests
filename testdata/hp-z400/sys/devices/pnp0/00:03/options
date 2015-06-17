@@ -1,0 +1,4 @@
+irq 6 High-Edge
+dma 2 8-bit compatible
+port 0x3f0-0x3f0, align 0x0, size 0x6, 16-bit address decoding
+port 0x3f7-0x3f7, align 0x0, size 0x1, 16-bit address decoding

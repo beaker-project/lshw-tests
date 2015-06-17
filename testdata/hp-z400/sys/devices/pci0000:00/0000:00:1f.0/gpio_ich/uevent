@@ -1,0 +1,3 @@
+DEVTYPE=mfd_device
+DRIVER=gpio_ich
+MODALIAS=platform:gpio_ich
