@@ -8,6 +8,7 @@
 #include <errno.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/utsname.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <dlfcn.h>
@@ -56,6 +57,15 @@ static char *redirected_sysconf_path(int name) {
         return NULL;
     char *path = malloc(strlen(test_dir) + 12);
     sprintf(path, "%s/sysconf/%d", test_dir, name);
+    return path;
+}
+
+static char *redirected_arch_path(void) {
+    char *test_dir = get_test_dir();
+    if (test_dir == NULL || test_dir[0] == '\0')
+        return NULL;
+    char *path = malloc(strlen(test_dir) + 6);
+    sprintf(path, "%s/arch", test_dir);
     return path;
 }
 
@@ -184,6 +194,42 @@ long sysconf(int name) {
                 value, p);
         free(p);
         return value;
+    } else {
+        return real_func(name);
+    }
+}
+
+int uname(struct utsname *name) {
+    static int (*real_func)(struct utsname *);
+    if (real_func == NULL) {
+        real_func = dlsym(RTLD_NEXT, "uname");
+        if (real_func == NULL) {
+            fprintf(stderr, "wrapper.so: failed to load real 'uname': %s\n", dlerror());
+            abort();
+        }
+    }
+    char *p = redirected_arch_path();
+    if (p != NULL) {
+        FILE *f = fopen(p, "r");
+        if (f == NULL) {
+            fprintf(stderr, "wrapper.so: failed to fopen %s\n", p);
+            abort();
+        }
+        char *arch;
+        if (fscanf(f, "%ms", &arch) != 1) {
+            fprintf(stderr, "wrapper.so: failed to read arch from %s\n", p);
+            abort();
+        }
+        fclose(f);
+        int result = real_func(name);
+        if (result == 0) {
+            fprintf(stderr, "wrapper.so: uname() overriding arch to %s from %s\n",
+                    arch, p);
+            strncpy(name->machine, arch, sizeof(name->machine));
+        }
+        free(p);
+        free(arch);
+        return result;
     } else {
         return real_func(name);
     }

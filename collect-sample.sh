@@ -52,3 +52,6 @@ cp /sys/kernel/debug/usb/devices "$1/sys/kernel/debug/usb/devices"
 # sysconf
 mkdir -p "$1/sysconf"
 ./dump_sysconf.py "$1"
+
+# arch
+uname -m >"$1/arch"
