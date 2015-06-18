@@ -1,0 +1,4 @@
+state = active
+io 0x2f8-0x2ff
+irq 3
+dma disabled

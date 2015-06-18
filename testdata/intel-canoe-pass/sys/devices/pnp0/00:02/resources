@@ -1,0 +1,2 @@
+state = active
+mem 0xff000000-0xffffffff

@@ -1,0 +1,6 @@
+PRODUCT=17/1/1/100
+NAME="Macintosh mouse button emulation"
+EV==7
+KEY==70000 0 0 0 0
+REL==3
+MODALIAS=input:b0017v0001p0001e0100-e0,1,2,k110,111,112,r0,1,amlsfw
