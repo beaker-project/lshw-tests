@@ -1,0 +1,2 @@
+DRIVER=appldata
+MODALIAS=platform:appldata

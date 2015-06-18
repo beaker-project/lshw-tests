@@ -1,0 +1,2 @@
+DEVTYPE=qeth_generic
+DRIVER=qeth

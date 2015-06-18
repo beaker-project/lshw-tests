@@ -1,0 +1,3 @@
+DRIVER=io_subchannel
+ST=0
+MODALIAS=css:t0
