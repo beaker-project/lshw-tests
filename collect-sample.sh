@@ -37,13 +37,9 @@ if [ -e /proc/device-tree ] ; then
     cp -dR /proc/device-tree "$1/proc/device-tree"
 fi
 
-# /sys/devices
+# /sys
 mkdir -p "$1/sys"
-cp -dR /sys/devices "$1/sys/devices"
-
-# /sys/bus/pci
-mkdir -p "$1/sys/bus"
-cp -dR /sys/bus/pci "$1/sys/bus/pci"
+cp -dR /sys/{devices,class,bus,block,firmware,power} "$1/sys/"
 
 # /sys/kernel/debug/usb/devices
 mkdir -p "$1/sys/kernel/debug/usb"
