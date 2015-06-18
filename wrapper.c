@@ -12,8 +12,19 @@
 #include <fcntl.h>
 #include <dlfcn.h>
 
+static char *get_test_dir(void) {
+    static char *d = NULL;
+    if (d == NULL) {
+        d = getenv("LSHW_TEST_DIR");
+        if (d == NULL) return NULL;
+        // convert to absolute path, makes things easier below
+        d = realpath(d, NULL);
+    }
+    return d;
+}
+
 static char *redirected_path(const char *pathname) {
-    char *test_dir = getenv("LSHW_TEST_DIR");
+    char *test_dir = get_test_dir();
     if (test_dir == NULL || test_dir[0] == '\0')
         return NULL;
     char *abs;
@@ -27,6 +38,7 @@ static char *redirected_path(const char *pathname) {
         abs = strdup(pathname);
     }
     if (strcmp(abs, "/proc/cpuinfo") == 0 ||
+            strcmp(abs, "/proc/sys/abi") == 0 ||
             strncmp(abs, "/proc/sys/kernel/", 17) == 0 ||
             strncmp(abs, "/dev/", 5) == 0 ||
             strncmp(abs, "/sys/", 5) == 0) {
@@ -41,7 +53,7 @@ static char *redirected_path(const char *pathname) {
 }
 
 static char *redirected_sysconf_path(int name) {
-    char *test_dir = getenv("LSHW_TEST_DIR");
+    char *test_dir = get_test_dir();
     if (test_dir == NULL || test_dir[0] == '\0')
         return NULL;
     char *path = malloc(strlen(test_dir) + 12);

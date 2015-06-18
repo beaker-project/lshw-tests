@@ -27,6 +27,10 @@ cp /proc/cpuinfo "$1/proc/cpuinfo"
 mkdir -p "$1/proc/net"
 cp /proc/net/dev "$1/proc/net/dev"
 
+# /proc/sys/kernel, /proc/sys/abi
+mkdir -p "$1/proc/sys"
+cp -dR /proc/sys/kernel /proc/sys/abi "$1/proc/sys/"
+
 # /sys/devices
 mkdir -p "$1/sys"
 cp -dR /sys/devices "$1/sys/devices"
