@@ -7,8 +7,9 @@ This makes it possible to work on lshw patches while checking for any
 unexpected changes or regressions in the output across a wide range of 
 hardware.
 
-Running
--------
+
+Running the tests
+-----------------
 
 To run the tests, first build the wrapper library:
 
@@ -22,3 +23,16 @@ XML which is checked into this repository:
 If you have built lshw from source, pass the binary's path in ``LSHW``:
 
     LSHW=../lshw/src/lshw ./run-tests.sh
+
+
+Collecting new hardware samples
+-------------------------------
+
+On the system you wish to collect a sample from, run the ``collect-sample.sh`` 
+script. This script needs root access because many of the kernel special files 
+it reads from are readable only by root.
+
+    sudo ./collect-sample.sh testdata/<new-sample-name>
+
+Note that the script will emit many errors when it runs, due to attempting to 
+read from various ``/sys`` special files that are not actually readable.
