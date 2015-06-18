@@ -1,0 +1,4 @@
+MAJOR=8
+MINOR=2
+DEVNAME=sda2
+DEVTYPE=partition

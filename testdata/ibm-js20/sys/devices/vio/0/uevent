@@ -1,0 +1,2 @@
+DRIVER=hvc_console
+MODALIAS=vio:TserialShvterm1

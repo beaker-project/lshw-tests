@@ -1,0 +1,273 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system" handle="">
+ <description>Computer</description>
+ <product>IBM,8842-P3A</product>
+ <serial>[REMOVED]</serial>
+ <width units="bits">64</width>
+  <node id="core" claimed="true" class="bus" handle="">
+   <description>Motherboard</description>
+   <physid>0</physid>
+   <capabilities>
+    <capability id="ibm_8842-p3a" />
+   </capabilities>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <product>IBM,2b405_131</product>
+     <physid>1</physid>
+     <logicalname>/proc/device-tree</logicalname>
+    </node>
+    <node id="cpu:0" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>PPC970FX, altivec supported</product>
+     <physid>2</physid>
+     <businfo>cpu@0</businfo>
+     <version>3.0 (pvr 003c 0300)</version>
+     <size units="Hz">2194624561</size>
+     <capabilities>
+      <capability id="performance-monitor" />
+     </capabilities>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>PPC970FX, altivec supported</product>
+     <physid>4</physid>
+     <businfo>cpu@1</businfo>
+     <version>3.0 (pvr 003c 0300)</version>
+     <size units="Hz">2194624561</size>
+     <capabilities>
+      <capability id="performance-monitor" />
+     </capabilities>
+    </node>
+    <node id="memory" claimed="true" class="memory" handle="">
+     <description>System memory</description>
+     <physid>5</physid>
+     <size units="bytes">2048720896</size>
+    </node>
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:11">
+     <description>PCI bridge</description>
+     <product>AMD-8131 PCI-X Bridge [1022:7450]</product>
+     <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
+     <physid>0</physid>
+     <businfo>pci@0000:00:00.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">66000000</clock>
+     <capabilities>
+      <capability id="pci" />
+      <capability id="pcix" >PCI-X</capability>
+      <capability id="ht" >HyperTransport</capability>
+      <capability id="normal_decode" />
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="ioport" value="200000(size=2097152)" />
+      <resource type="memory" value="100c0000000-100dfffffff" />
+     </resources>
+      <node id="network:0" claimed="true" class="network" handle="PCI:0000:11:01.0">
+       <description>Ethernet controller</description>
+       <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
+       <vendor>Broadcom Corporation [14E4]</vendor>
+       <physid>1</physid>
+       <businfo>pci@0000:11:01.0</businfo>
+       <version>03</version>
+       <width units="bits">64</width>
+       <clock units="Hz">66000000</clock>
+       <configuration>
+        <setting id="driver" value="tg3" />
+        <setting id="latency" value="64" />
+        <setting id="mingnt" value="64" />
+       </configuration>
+       <capabilities>
+        <capability id="pcix" >PCI-X</capability>
+        <capability id="pm" >Power Management</capability>
+        <capability id="vpd" >Vital Product Data</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="28" />
+        <resource type="memory" value="100c0030000-100c003ffff" />
+        <resource type="memory" value="100c0020000-100c002ffff" />
+       </resources>
+      </node>
+      <node id="network:1" claimed="true" class="network" handle="PCI:0000:11:01.1">
+       <description>Ethernet controller</description>
+       <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
+       <vendor>Broadcom Corporation [14E4]</vendor>
+       <physid>1.1</physid>
+       <businfo>pci@0000:11:01.1</businfo>
+       <version>03</version>
+       <width units="bits">64</width>
+       <clock units="Hz">66000000</clock>
+       <configuration>
+        <setting id="driver" value="tg3" />
+        <setting id="latency" value="64" />
+        <setting id="mingnt" value="64" />
+       </configuration>
+       <capabilities>
+        <capability id="pcix" >PCI-X</capability>
+        <capability id="pm" >Power Management</capability>
+        <capability id="vpd" >Vital Product Data</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="29" />
+        <resource type="memory" value="100c0010000-100c001ffff" />
+        <resource type="memory" value="100c0000000-100c000ffff" />
+       </resources>
+      </node>
+    </node>
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:21">
+     <description>PCI bridge</description>
+     <product>AMD-8111 PCI [1022:7460]</product>
+     <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
+     <physid>3</physid>
+     <businfo>pci@0000:00:03.0</businfo>
+     <version>07</version>
+     <width units="bits">32</width>
+     <clock units="Hz">66000000</clock>
+     <capabilities>
+      <capability id="pci" />
+      <capability id="ht" >HyperTransport</capability>
+      <capability id="normal_decode" />
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="ioport" value="8000(size=32768)" />
+      <resource type="memory" value="100e0000000-100ebffffff" />
+     </resources>
+      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:21:00.0">
+       <description>USB controller</description>
+       <product>AMD-8111 USB OHCI [1022:7464]</product>
+       <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
+       <physid>0</physid>
+       <businfo>pci@0000:21:00.0</businfo>
+       <version>0b</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="ohci_hcd" />
+        <setting id="latency" value="72" />
+        <setting id="maxlatency" value="80" />
+       </configuration>
+       <capabilities>
+        <capability id="ohci" >Open Host Controller Interface</capability>
+        <capability id="bus_master" >bus mastering</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="19" />
+        <resource type="memory" value="100e0001000-100e0001fff" />
+       </resources>
+        <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
+         <product>OHCI Host Controller [1D6B:1]</product>
+         <vendor>Linux 2.6.32-504.el6.ppc64 ohci_hcd [1D6B]</vendor>
+         <physid>1</physid>
+         <businfo>usb@1</businfo>
+         <logicalname>usb1</logicalname>
+         <version>2.06</version>
+         <configuration>
+          <setting id="driver" value="hub" />
+          <setting id="slots" value="3" />
+          <setting id="speed" value="12Mbit/s" />
+         </configuration>
+         <capabilities>
+          <capability id="usb-1.10" >USB 1.1</capability>
+         </capabilities>
+        </node>
+      </node>
+      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:21:00.1">
+       <description>USB controller</description>
+       <product>AMD-8111 USB OHCI [1022:7464]</product>
+       <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
+       <physid>0.1</physid>
+       <businfo>pci@0000:21:00.1</businfo>
+       <version>0b</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="ohci_hcd" />
+        <setting id="latency" value="72" />
+        <setting id="maxlatency" value="80" />
+       </configuration>
+       <capabilities>
+        <capability id="ohci" >Open Host Controller Interface</capability>
+        <capability id="bus_master" >bus mastering</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="19" />
+        <resource type="memory" value="100e0000000-100e0000fff" />
+       </resources>
+        <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
+         <product>OHCI Host Controller [1D6B:1]</product>
+         <vendor>Linux 2.6.32-504.el6.ppc64 ohci_hcd [1D6B]</vendor>
+         <physid>1</physid>
+         <businfo>usb@2</businfo>
+         <logicalname>usb2</logicalname>
+         <version>2.06</version>
+         <configuration>
+          <setting id="driver" value="hub" />
+          <setting id="slots" value="3" />
+          <setting id="speed" value="12Mbit/s" />
+         </configuration>
+         <capabilities>
+          <capability id="usb-1.10" >USB 1.1</capability>
+         </capabilities>
+        </node>
+      </node>
+    </node>
+    <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:04.1">
+     <description>IDE interface</description>
+     <product>AMD-8111 IDE [1022:7469]</product>
+     <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
+     <physid>4.1</physid>
+     <businfo>pci@0000:00:04.1</businfo>
+     <version>03</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="pata_amd" />
+      <setting id="latency" value="74" />
+     </configuration>
+     <capabilities>
+      <capability id="ide" />
+      <capability id="bus_master" >bus mastering</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="17" />
+      <resource type="ioport" value="7400(size=8)" />
+      <resource type="ioport" value="6c00(size=4)" />
+      <resource type="ioport" value="7800(size=8)" />
+      <resource type="ioport" value="7000(size=4)" />
+      <resource type="ioport" value="7c00(size=16)" />
+     </resources>
+    </node>
+    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+     <description>PCI bridge</description>
+     <product>AMD-8131 PCI-X Bridge [1022:7450]</product>
+     <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
+     <physid>1f</physid>
+     <businfo>pci@0000:00:1f.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">66000000</clock>
+     <capabilities>
+      <capability id="pci" />
+      <capability id="pcix" >PCI-X</capability>
+      <capability id="ht" >HyperTransport</capability>
+      <capability id="normal_decode" />
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="ioport" value="100000(size=1048576)" />
+      <resource type="memory" value="10080000000-100bfffffff" />
+     </resources>
+    </node>
+  </node>
+</node>
+</list>

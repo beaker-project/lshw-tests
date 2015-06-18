@@ -31,6 +31,12 @@ cp /proc/net/dev "$1/proc/net/dev"
 mkdir -p "$1/proc/sys"
 cp -dR /proc/sys/kernel /proc/sys/abi "$1/proc/sys/"
 
+# /proc/device-tree
+if [ -e /proc/device-tree ] ; then
+    mkdir -p "$1/proc"
+    cp -dR /proc/device-tree "$1/proc/device-tree"
+fi
+
 # /sys/devices
 mkdir -p "$1/sys"
 cp -dR /sys/devices "$1/sys/devices"

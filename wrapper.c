@@ -37,9 +37,7 @@ static char *redirected_path(const char *pathname) {
     } else {
         abs = strdup(pathname);
     }
-    if (strcmp(abs, "/proc/cpuinfo") == 0 ||
-            strcmp(abs, "/proc/sys/abi") == 0 ||
-            strncmp(abs, "/proc/sys/kernel/", 17) == 0 ||
+    if (strncmp(abs, "/proc/", 6) == 0 ||
             strncmp(abs, "/dev/", 5) == 0 ||
             strncmp(abs, "/sys/", 5) == 0) {
         char *redirected = malloc(strlen(test_dir) + strlen(abs) + 2);
