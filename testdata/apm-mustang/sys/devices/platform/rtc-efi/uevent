@@ -1,0 +1,2 @@
+DRIVER=rtc-efi
+MODALIAS=platform:rtc-efi

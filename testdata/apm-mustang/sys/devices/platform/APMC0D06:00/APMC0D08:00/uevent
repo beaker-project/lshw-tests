@@ -1,0 +1,2 @@
+DRIVER=dw-apb-uart
+MODALIAS=acpi:APMC0D08:NS16550:

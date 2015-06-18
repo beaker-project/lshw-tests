@@ -1,0 +1,2 @@
+DRIVER=xgene-msi
+MODALIAS=acpi:APMC0D0E:

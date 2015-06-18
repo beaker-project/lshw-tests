@@ -1,0 +1,2 @@
+DRIVER=arm-pmu
+MODALIAS=platform:arm-pmu

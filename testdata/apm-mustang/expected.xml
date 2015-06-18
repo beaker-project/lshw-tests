@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system" handle="">
+ <description>Computer</description>
+ <width units="bits">64</width>
+  <node id="core" claimed="true" class="bus" handle="">
+   <description>Motherboard</description>
+   <physid>0</physid>
+    <node id="memory" claimed="true" class="memory" handle="">
+     <description>System memory</description>
+     <physid>1</physid>
+     <size units="bytes">14971961344</size>
+    </node>
+    <node id="cpu" claimed="true" class="processor" handle="">
+     <physid>2</physid>
+     <businfo>cpu@0</businfo>
+    </node>
+    <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+     <description>PCI bridge</description>
+     <product>X-Gene PCIe bridge [10E8:E004]</product>
+     <vendor>Applied Micro Circuits Corp. [10E8]</vendor>
+     <physid>0</physid>
+     <businfo>pci@0000:00:00.0</businfo>
+     <version>04</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="pcieport" />
+     </configuration>
+     <capabilities>
+      <capability id="pci" />
+      <capability id="pciexpress" >PCI Express</capability>
+      <capability id="pm" >Power Management</capability>
+      <capability id="normal_decode" />
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="132" />
+     </resources>
+    </node>
+  </node>
+  <node id="usbhost:0" claimed="true" class="bus" handle="USB:4:1">
+   <product>xHCI Host Controller [1D6B:3]</product>
+   <vendor>Linux 3.19.0-0.79.aa7a.aarch64 xhci-hcd [1D6B]</vendor>
+   <physid>1</physid>
+   <businfo>usb@4</businfo>
+   <logicalname>usb4</logicalname>
+   <version>3.19</version>
+   <configuration>
+    <setting id="driver" value="hub" />
+    <setting id="slots" value="1" />
+    <setting id="speed" value="5000Mbit/s" />
+   </configuration>
+   <capabilities>
+    <capability id="usb-3.00" />
+   </capabilities>
+  </node>
+  <node id="usbhost:1" claimed="true" class="bus" handle="USB:3:1">
+   <product>xHCI Host Controller [1D6B:2]</product>
+   <vendor>Linux 3.19.0-0.79.aa7a.aarch64 xhci-hcd [1D6B]</vendor>
+   <physid>2</physid>
+   <businfo>usb@3</businfo>
+   <logicalname>usb3</logicalname>
+   <version>3.19</version>
+   <configuration>
+    <setting id="driver" value="hub" />
+    <setting id="slots" value="1" />
+    <setting id="speed" value="480Mbit/s" />
+   </configuration>
+   <capabilities>
+    <capability id="usb-2.00" >USB 2.0</capability>
+   </capabilities>
+  </node>
+  <node id="usbhost:2" claimed="true" class="bus" handle="USB:2:1">
+   <product>xHCI Host Controller [1D6B:3]</product>
+   <vendor>Linux 3.19.0-0.79.aa7a.aarch64 xhci-hcd [1D6B]</vendor>
+   <physid>3</physid>
+   <businfo>usb@2</businfo>
+   <logicalname>usb2</logicalname>
+   <version>3.19</version>
+   <configuration>
+    <setting id="driver" value="hub" />
+    <setting id="slots" value="1" />
+    <setting id="speed" value="5000Mbit/s" />
+   </configuration>
+   <capabilities>
+    <capability id="usb-3.00" />
+   </capabilities>
+  </node>
+  <node id="usbhost:3" claimed="true" class="bus" handle="USB:1:1">
+   <product>xHCI Host Controller [1D6B:2]</product>
+   <vendor>Linux 3.19.0-0.79.aa7a.aarch64 xhci-hcd [1D6B]</vendor>
+   <physid>4</physid>
+   <businfo>usb@1</businfo>
+   <logicalname>usb1</logicalname>
+   <version>3.19</version>
+   <configuration>
+    <setting id="driver" value="hub" />
+    <setting id="slots" value="1" />
+    <setting id="speed" value="480Mbit/s" />
+   </configuration>
+   <capabilities>
+    <capability id="usb-2.00" >USB 2.0</capability>
+   </capabilities>
+  </node>
+</node>
+</list>

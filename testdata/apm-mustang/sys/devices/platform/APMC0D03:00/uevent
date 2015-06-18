@@ -1,0 +1,2 @@
+DRIVER=xhci-hcd
+MODALIAS=acpi:APMC0D03:PNP0D10:

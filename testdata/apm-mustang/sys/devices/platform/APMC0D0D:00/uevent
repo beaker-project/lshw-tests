@@ -1,0 +1,2 @@
+DRIVER=xgene-ahci
+MODALIAS=acpi:APMC0D0D:
