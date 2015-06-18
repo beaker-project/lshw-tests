@@ -1,0 +1,8 @@
+PRODUCT=11/2/a/0
+NAME="TPPS/2 IBM TrackPoint"
+PHYS="synaptics-pt/serio0/input0"
+PROP==0
+EV==7
+KEY==70000 0 0 0 0 0 0 0 0
+REL==3
+MODALIAS=input:b0011v0002p000Ae0000-e0,1,2,k110,111,112,r0,1,amlsfw

@@ -1,0 +1,2 @@
+DRIVER=video
+MODALIAS=acpi:LNXVIDEO:

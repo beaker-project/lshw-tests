@@ -1,0 +1,2 @@
+INTERFACE=virbr0-nic
+IFINDEX=5

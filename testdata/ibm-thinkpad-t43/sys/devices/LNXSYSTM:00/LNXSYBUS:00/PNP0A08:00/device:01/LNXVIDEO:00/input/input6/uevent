@@ -1,0 +1,7 @@
+PRODUCT=19/0/6/0
+NAME="Video Bus"
+PHYS="LNXVIDEO/video/input0"
+PROP==0
+EV==3
+KEY==3e000b 0 0 0 0 0 0 0
+MODALIAS=input:b0019v0000p0006e0000-e0,1,kE0,E1,E3,F1,F2,F3,F4,F5,ramlsfw

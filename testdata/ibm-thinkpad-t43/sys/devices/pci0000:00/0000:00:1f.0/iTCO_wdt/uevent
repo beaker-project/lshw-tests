@@ -1,0 +1,2 @@
+DRIVER=iTCO_wdt
+MODALIAS=platform:iTCO_wdt

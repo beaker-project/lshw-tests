@@ -1,0 +1,18 @@
+Dependent: 00 - Priority acceptable
+  port 0x3bc-0x3bc, align 0x0, size 0x3, 16-bit address decoding
+  irq 7 High-Edge
+Dependent: 01 - Priority acceptable
+  port 0x378-0x378, align 0x0, size 0x8, 16-bit address decoding
+  irq 7 High-Edge
+Dependent: 02 - Priority acceptable
+  port 0x278-0x278, align 0x0, size 0x8, 16-bit address decoding
+  irq 5 High-Edge
+Dependent: 03 - Priority acceptable
+  port 0x3bc-0x3bc, align 0x0, size 0x3, 16-bit address decoding
+  irq 5 High-Edge
+Dependent: 04 - Priority acceptable
+  port 0x378-0x378, align 0x0, size 0x8, 16-bit address decoding
+  irq 5 High-Edge
+Dependent: 05 - Priority acceptable
+  port 0x278-0x278, align 0x0, size 0x8, 16-bit address decoding
+  irq 7 High-Edge
