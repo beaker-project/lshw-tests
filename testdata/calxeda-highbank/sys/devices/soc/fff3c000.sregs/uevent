@@ -1,0 +1,5 @@
+OF_NAME=sregs
+OF_FULLNAME=/soc/sregs@fff3c000
+OF_COMPATIBLE_0=calxeda,hb-sregs
+OF_COMPATIBLE_N=1
+MODALIAS=of:NsregsT<NULL>Ccalxeda,hb-sregs

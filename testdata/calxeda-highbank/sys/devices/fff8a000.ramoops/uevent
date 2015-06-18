@@ -1,0 +1,5 @@
+OF_NAME=ramoops
+OF_FULLNAME=/ramoops
+OF_COMPATIBLE_0=ramoops
+OF_COMPATIBLE_N=1
+MODALIAS=of:NramoopsT<NULL>Cramoops

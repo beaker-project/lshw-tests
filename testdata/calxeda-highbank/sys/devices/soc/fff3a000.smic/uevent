@@ -1,0 +1,6 @@
+OF_NAME=smic
+OF_FULLNAME=/soc/smic@fff3a000
+OF_TYPE=ipmi
+OF_COMPATIBLE_0=ipmi-smic
+OF_COMPATIBLE_N=1
+MODALIAS=of:NsmicTipmiCipmi-smic

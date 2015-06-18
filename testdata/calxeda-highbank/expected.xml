@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system" handle="">
+ <description>Computer</description>
+ <product>Calxeda Highbank</product>
+ <vendor>Calxeda</vendor>
+ <serial>[REMOVED]</serial>
+ <width units="bits">32</width>
+  <node id="core" claimed="true" class="bus" handle="">
+   <description>Motherboard</description>
+   <physid>0</physid>
+   <capabilities>
+    <capability id="calxeda_highbank" />
+   </capabilities>
+    <node id="memory" claimed="true" class="memory" handle="">
+     <description>System memory</description>
+     <physid>0</physid>
+     <size units="bytes">4232372224</size>
+      <node id="bank" claimed="true" class="memory" handle="">
+       <description>DDR3L</description>
+       <product>1067</product>
+       <physid>0</physid>
+       <version>0000,00 00,00</version>
+       <slot>SLOT_0</slot>
+       <size units="bytes">37119</size>
+      </node>
+    </node>
+    <node id="cpu:0" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>1</physid>
+     <businfo>cpu@0</businfo>
+    </node>
+    <node id="cpu:1" disabled="true" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>2</physid>
+     <businfo>cpu@1</businfo>
+    </node>
+    <node id="cpu:2" disabled="true" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>3</physid>
+     <businfo>cpu@2</businfo>
+    </node>
+    <node id="cpu:3" disabled="true" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>4</physid>
+     <businfo>cpu@3</businfo>
+    </node>
+  </node>
+</node>
+</list>

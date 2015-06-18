@@ -1,0 +1,5 @@
+OF_NAME=combo-phy
+OF_FULLNAME=/soc/combo-phy@fff58000
+OF_COMPATIBLE_0=calxeda,hb-combophy
+OF_COMPATIBLE_N=1
+MODALIAS=of:Ncombo-phyT<NULL>Ccalxeda,hb-combophy

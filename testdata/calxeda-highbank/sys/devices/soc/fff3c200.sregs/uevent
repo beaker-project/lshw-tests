@@ -1,0 +1,6 @@
+DRIVER=hb_l2_edac
+OF_NAME=sregs
+OF_FULLNAME=/soc/sregs@fff3c200
+OF_COMPATIBLE_0=calxeda,hb-sregs-l2-ecc
+OF_COMPATIBLE_N=1
+MODALIAS=of:NsregsT<NULL>Ccalxeda,hb-sregs-l2-ecc

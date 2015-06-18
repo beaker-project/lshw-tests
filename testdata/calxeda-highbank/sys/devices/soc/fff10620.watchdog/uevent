@@ -1,0 +1,5 @@
+OF_NAME=watchdog
+OF_FULLNAME=/soc/watchdog@fff10620
+OF_COMPATIBLE_0=arm,cortex-a9-twd-wdt
+OF_COMPATIBLE_N=1
+MODALIAS=of:NwatchdogT<NULL>Carm,cortex-a9-twd-wdt

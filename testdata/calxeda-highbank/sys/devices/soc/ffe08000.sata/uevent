@@ -1,0 +1,6 @@
+DRIVER=highbank-ahci
+OF_NAME=sata
+OF_FULLNAME=/soc/sata@ffe08000
+OF_COMPATIBLE_0=calxeda,hb-ahci
+OF_COMPATIBLE_N=1
+MODALIAS=of:NsataT<NULL>Ccalxeda,hb-ahci

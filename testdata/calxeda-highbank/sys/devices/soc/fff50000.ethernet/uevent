@@ -1,0 +1,6 @@
+DRIVER=calxedaxgmac
+OF_NAME=ethernet
+OF_FULLNAME=/soc/ethernet@fff50000
+OF_COMPATIBLE_0=calxeda,hb-xgmac
+OF_COMPATIBLE_N=1
+MODALIAS=of:NethernetT<NULL>Ccalxeda,hb-xgmac

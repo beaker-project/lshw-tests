@@ -1,0 +1,6 @@
+OF_NAME=timer
+OF_FULLNAME=/soc/timer@fff10600
+OF_COMPATIBLE_0=arm,cortex-a9-twd-timer
+OF_COMPATIBLE_1=arm,smp-twd
+OF_COMPATIBLE_N=2
+MODALIAS=of:NtimerT<NULL>Carm,cortex-a9-twd-timerCarm,smp-twd
