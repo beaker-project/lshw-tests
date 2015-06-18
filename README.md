@@ -36,3 +36,8 @@ it reads from are readable only by root.
 
 Note that the script will emit many errors when it runs, due to attempting to 
 read from various ``/sys`` special files that are not actually readable.
+
+On pre-systemd distros it may be necessary to manually mount debugfs (TODO 
+check if we can just grab ``/proc/bus/usb/devices`` instead):
+
+    sudo mount -t debugfs none /sys/kernel/debug
