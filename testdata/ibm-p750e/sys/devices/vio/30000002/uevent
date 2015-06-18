@@ -1,0 +1,7 @@
+DRIVER=ibmvscsi
+OF_NAME=v-scsi
+OF_FULLNAME=/vdevice/v-scsi@30000002
+OF_TYPE=vscsi
+OF_COMPATIBLE_0=IBM,v-scsi
+OF_COMPATIBLE_N=1
+MODALIAS=vio:TvscsiSIBM,v-scsi

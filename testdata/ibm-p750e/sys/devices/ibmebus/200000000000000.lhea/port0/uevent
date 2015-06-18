@@ -1,0 +1,6 @@
+OF_NAME=ethernet
+OF_FULLNAME=/lhea@200000000000000/ethernet@200000000000012
+OF_TYPE=network
+OF_COMPATIBLE_0=IBM,lhea-ethernet
+OF_COMPATIBLE_N=1
+MODALIAS=of:NethernetTnetworkCIBM,lhea-ethernet
