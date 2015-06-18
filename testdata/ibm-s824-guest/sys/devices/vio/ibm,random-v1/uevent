@@ -1,0 +1,6 @@
+DRIVER=pseries-rng
+OF_NAME=ibm,random-v1
+OF_FULLNAME=/ibm,platform-facilities/ibm,random-v1
+OF_COMPATIBLE_0=ibm,random
+OF_COMPATIBLE_N=1
+MODALIAS=vio:Tibm,random-v1Sibm,random

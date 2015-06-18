@@ -1,0 +1,7 @@
+DRIVER=ibmveth
+OF_NAME=l-lan
+OF_FULLNAME=/vdevice/l-lan@30000004
+OF_TYPE=network
+OF_COMPATIBLE_0=IBM,l-lan
+OF_COMPATIBLE_N=1
+MODALIAS=vio:TnetworkSIBM,l-lan

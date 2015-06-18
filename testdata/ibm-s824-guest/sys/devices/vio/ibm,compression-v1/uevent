@@ -1,0 +1,5 @@
+OF_NAME=ibm,compression-v1
+OF_FULLNAME=/ibm,platform-facilities/ibm,compression-v1
+OF_COMPATIBLE_0=ibm,compression
+OF_COMPATIBLE_N=1
+MODALIAS=vio:Tibm,compression-v1Sibm,compression

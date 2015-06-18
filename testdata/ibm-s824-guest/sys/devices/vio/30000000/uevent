@@ -1,0 +1,7 @@
+DRIVER=hvc_console
+OF_NAME=vty
+OF_FULLNAME=/vdevice/vty@30000000
+OF_TYPE=serial
+OF_COMPATIBLE_0=hvterm1
+OF_COMPATIBLE_N=1
+MODALIAS=vio:TserialShvterm1

@@ -1,0 +1,5 @@
+OF_NAME=ibm,sym-encryption-v1
+OF_FULLNAME=/ibm,platform-facilities/ibm,sym-encryption-v1
+OF_COMPATIBLE_0=ibm,sym-encryption
+OF_COMPATIBLE_N=1
+MODALIAS=vio:Tibm,sym-encryption-v1Sibm,sym-encryption

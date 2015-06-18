@@ -1,0 +1,29 @@
+Node 0 MemTotal:              0 kB
+Node 0 MemFree:               0 kB
+Node 0 MemUsed:               0 kB
+Node 0 Active:                0 kB
+Node 0 Inactive:              0 kB
+Node 0 Active(anon):          0 kB
+Node 0 Inactive(anon):        0 kB
+Node 0 Active(file):          0 kB
+Node 0 Inactive(file):        0 kB
+Node 0 Unevictable:           0 kB
+Node 0 Mlocked:               0 kB
+Node 0 Dirty:                 0 kB
+Node 0 Writeback:             0 kB
+Node 0 FilePages:             0 kB
+Node 0 Mapped:                0 kB
+Node 0 AnonPages:             0 kB
+Node 0 Shmem:                 0 kB
+Node 0 KernelStack:           0 kB
+Node 0 PageTables:            0 kB
+Node 0 NFS_Unstable:          0 kB
+Node 0 Bounce:                0 kB
+Node 0 WritebackTmp:          0 kB
+Node 0 Slab:                  0 kB
+Node 0 SReclaimable:          0 kB
+Node 0 SUnreclaim:            0 kB
+Node 0 AnonHugePages:         0 kB
+Node 0 HugePages_Total:     0
+Node 0 HugePages_Free:      0
+Node 0 HugePages_Surp:      0
