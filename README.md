@@ -25,6 +25,16 @@ If you have built lshw from source, pass the binary's path in ``LSHW``:
     LSHW=../lshw/src/lshw ./run-tests.sh
 
 
+Status of the tests
+-------------------
+
+These tests are expected to pass with the latest published release of lshw, 
+B.02.17.
+
+However, note that if you run them all on your x86_64 workstation some failures 
+are expected due to compile-time differences in lshw across platforms.
+
+
 Collecting new hardware samples
 -------------------------------
 
