@@ -4,6 +4,7 @@
  <description>Computer</description>
  <width units="bits">64</width>
  <capabilities>
+  <capability id="smp" >Symmetric Multi-Processing</capability>
   <capability id="vsyscall64" >64-bit processes</capability>
   <capability id="vsyscall32" >32-bit processes</capability>
  </capabilities>
