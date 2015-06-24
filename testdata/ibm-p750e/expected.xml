@@ -2,9 +2,13 @@
 <list>
 <node id="computer" claimed="true" class="system" handle="">
  <description>Computer</description>
- <product>IBM,8233-E8B</product>
+ <product>Power 750 Express</product>
+ <vendor>IBM</vendor>
  <serial>[REMOVED]</serial>
  <width units="bits">64</width>
+ <configuration>
+  <setting id="chassis" value="rackmount" />
+ </configuration>
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
