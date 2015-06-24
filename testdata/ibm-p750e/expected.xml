@@ -8,9 +8,6 @@
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
-   <capabilities>
-    <capability id="ibm_8233-e8b" />
-   </capabilities>
     <node id="firmware" claimed="true" class="memory" handle="">
      <product>IBM,AL710_119</product>
      <physid>0</physid>

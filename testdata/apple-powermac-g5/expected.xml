@@ -9,11 +9,6 @@
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
-   <capabilities>
-    <capability id="powermac11_2" />
-    <capability id="macrisc4" />
-    <capability id="power_macintosh" />
-   </capabilities>
     <node id="firmware" claimed="true" class="memory" handle="">
      <product>OpenFirmware 4</product>
      <physid>0</physid>
