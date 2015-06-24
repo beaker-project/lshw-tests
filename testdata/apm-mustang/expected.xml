@@ -3,6 +3,9 @@
 <node id="computer" claimed="true" class="system" handle="">
  <description>Computer</description>
  <width units="bits">64</width>
+ <capabilities>
+  <capability id="smp" >Symmetric Multi-Processing</capability>
+ </capabilities>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>

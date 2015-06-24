@@ -6,6 +6,9 @@
  <vendor>Copyright 1983-2005 Apple Computer, Inc. All Rights Reserved</vendor>
  <serial>[REMOVED]</serial>
  <width units="bits">64</width>
+ <capabilities>
+  <capability id="smp" >Symmetric Multi-Processing</capability>
+ </capabilities>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
