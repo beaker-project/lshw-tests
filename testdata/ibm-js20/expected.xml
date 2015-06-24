@@ -2,9 +2,13 @@
 <list>
 <node id="computer" claimed="true" class="system" handle="">
  <description>Computer</description>
- <product>IBM,8842-P3A</product>
+ <product>BladeCenter JS20</product>
+ <vendor>IBM</vendor>
  <serial>[REMOVED]</serial>
  <width units="bits">64</width>
+ <configuration>
+  <setting id="chassis" value="blade" />
+ </configuration>
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
