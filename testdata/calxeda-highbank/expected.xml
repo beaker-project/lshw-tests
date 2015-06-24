@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
 <node id="computer" claimed="true" class="system" handle="">
- <description>Computer</description>
+ <description>ARMv7 Processor rev 0 (v7l)</description>
  <product>Calxeda Highbank</product>
  <vendor>Calxeda</vendor>
  <serial>[REMOVED]</serial>
@@ -27,24 +27,72 @@
      <product>cpu</product>
      <physid>1</physid>
      <businfo>cpu@0</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
     </node>
-    <node id="cpu:1" disabled="true" claimed="true" class="processor" handle="">
+    <node id="cpu:1" claimed="true" class="processor" handle="">
      <description>CPU</description>
      <product>cpu</product>
      <physid>2</physid>
      <businfo>cpu@1</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
     </node>
-    <node id="cpu:2" disabled="true" claimed="true" class="processor" handle="">
+    <node id="cpu:2" claimed="true" class="processor" handle="">
      <description>CPU</description>
      <product>cpu</product>
      <physid>3</physid>
      <businfo>cpu@2</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
     </node>
-    <node id="cpu:3" disabled="true" claimed="true" class="processor" handle="">
+    <node id="cpu:3" claimed="true" class="processor" handle="">
      <description>CPU</description>
      <product>cpu</product>
      <physid>4</physid>
      <businfo>cpu@3</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
     </node>
   </node>
 </node>
