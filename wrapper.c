@@ -13,6 +13,39 @@
 #include <fcntl.h>
 #include <dlfcn.h>
 
+static void info(const char *format, ...)
+    __attribute__ ((format(printf, 1, 2)));
+static void die(const char *format, ...)
+    __attribute__ ((format(printf, 1, 2)));
+
+static void info(const char *format, ...) {
+    static bool verbose = false;
+    static bool verbose_checked = false;
+    if (!verbose_checked) {
+        const char *env_value = getenv("LSHW_TEST_WRAPPER_VERBOSE");
+        verbose = (env_value != NULL && strlen(env_value) > 0);
+        verbose_checked = true;
+    }
+    if (!verbose)
+        return;
+    fprintf(stderr, __FILE__ ": ");
+    va_list args;
+    va_start(args, format);
+    vfprintf(stderr, format, args);
+    va_end(args);
+    fprintf(stderr, "\n");
+}
+
+static void die(const char *format, ...) {
+    fprintf(stderr, __FILE__ ": ");
+    va_list args;
+    va_start(args, format);
+    vfprintf(stderr, format, args);
+    va_end(args);
+    fprintf(stderr, "\n");
+    abort();
+}
+
 static char *get_test_dir(void) {
     static char *d = NULL;
     if (d == NULL) {
@@ -73,14 +106,12 @@ int chdir(const char *path) {
     static int (*real_func)(const char *);
     if (real_func == NULL) {
         real_func = dlsym(RTLD_NEXT, "chdir");
-        if (real_func == NULL) {
-            fprintf(stderr, "wrapper.so: failed to load real 'chdir': %s\n", dlerror());
-            abort();
-        }
+        if (real_func == NULL)
+            die("failed to load real 'chdir': %s", dlerror());
     }
     char *p = redirected_path(path);
     if (p != NULL) {
-        fprintf(stderr, "wrapper.so: chdir() redirected to %s\n", p);
+        info("chdir() redirected to %s", p);
         int result = real_func(p);
         free(p);
         return result;
@@ -93,14 +124,12 @@ int access(const char *pathname, int mode) {
     static int (*real_func)(const char *, int);
     if (real_func == NULL) {
         real_func = dlsym(RTLD_NEXT, "access");
-        if (real_func == NULL) {
-            fprintf(stderr, "wrapper.so: failed to load real 'access': %s\n", dlerror());
-            abort();
-        }
+        if (real_func == NULL)
+            die("failed to load real 'access': %s", dlerror());
     }
     char *p = redirected_path(pathname);
     if (p != NULL) {
-        fprintf(stderr, "wrapper.so: access() redirected to %s\n", p);
+        info("access() redirected to %s", p);
         int result = real_func(p, mode);
         free(p);
         return result;
@@ -117,22 +146,19 @@ int open(const char *pathname, int flags, ... /* mode_t mode */) {
     static int (*real_func)(const char *, int, mode_t);
     if (real_func == NULL) {
         real_func = dlsym(RTLD_NEXT, "open");
-        if (real_func == NULL) {
-            fprintf(stderr, "wrapper.so: failed to load real 'open': %s\n", dlerror());
-            abort();
-        }
+        if (real_func == NULL)
+            die("failed to load real 'open': %s", dlerror());
     }
     char *p = redirected_path(pathname);
     if (p != NULL) {
         // Reject any write attempts
         if ((flags & O_WRONLY) != 0 || (flags & O_RDWR) != 0 ||
                 (flags & O_APPEND) != 0 || (flags & O_CREAT) != 0) {
-            fprintf(stderr, "wrapper.so: open() denied write access to "
-                    "redirected path %s\n", p);
+            info("open() denied write access to redirected path %s", p);
             errno = EROFS;
             return -1;
         }
-        fprintf(stderr, "wrapper.so: open() redirected to %s\n", p);
+        info("open() redirected to %s", p);
         int result = real_func(p, flags, 0);
         free(p);
         return result;
@@ -145,21 +171,18 @@ FILE *fopen(const char *path, const char *mode) {
     static FILE *(*real_func)(const char *, const char *);
     if (real_func == NULL) {
         real_func = dlsym(RTLD_NEXT, "fopen");
-        if (real_func == NULL) {
-            fprintf(stderr, "wrapper.so: failed to load real 'fopen': %s\n", dlerror());
-            abort();
-        }
+        if (real_func == NULL)
+            die("failed to load real 'fopen': %s", dlerror());
     }
     char *p = redirected_path(path);
     if (p != NULL) {
         // Reject any write attempts
         if (strcmp(mode, "r") != 0) {
-            fprintf(stderr, "wrapper.so: fopen() denied write access to "
-                    "redirected path %s\n", p);
+            info("fopen() denied write access to redirected path %s", p);
             errno = EROFS;
             return NULL;
         }
-        fprintf(stderr, "wrapper.so: fopen() redirected to %s\n", p);
+        info("fopen() redirected to %s", p);
         FILE *result = real_func(p, mode);
         free(p);
         return result;
@@ -172,26 +195,19 @@ long sysconf(int name) {
     static long (*real_func)(int);
     if (real_func == NULL) {
         real_func = dlsym(RTLD_NEXT, "sysconf");
-        if (real_func == NULL) {
-            fprintf(stderr, "wrapper.so: failed to load real 'sysconf': %s\n", dlerror());
-            abort();
-        }
+        if (real_func == NULL)
+            die("failed to load real 'sysconf': %s", dlerror());
     }
     char *p = redirected_sysconf_path(name);
     if (p != NULL) {
         FILE *f = fopen(p, "r");
-        if (f == NULL) {
-            fprintf(stderr, "wrapper.so: failed to fopen %s\n", p);
-            abort();
-        }
+        if (f == NULL)
+            die("failed to fopen %s", p);
         long value;
-        if (fscanf(f, "%ld", &value) != 1) {
-            fprintf(stderr, "wrapper.so: failed to read value from %s\n", p);
-            abort();
-        }
+        if (fscanf(f, "%ld", &value) != 1)
+            die("failed to read value from %s", p);
         fclose(f);
-        fprintf(stderr, "wrapper.so: sysconf() returning value %ld from %s\n",
-                value, p);
+        info("sysconf() returning value %ld from %s", value, p);
         free(p);
         return value;
     } else {
@@ -203,28 +219,21 @@ int uname(struct utsname *name) {
     static int (*real_func)(struct utsname *);
     if (real_func == NULL) {
         real_func = dlsym(RTLD_NEXT, "uname");
-        if (real_func == NULL) {
-            fprintf(stderr, "wrapper.so: failed to load real 'uname': %s\n", dlerror());
-            abort();
-        }
+        if (real_func == NULL)
+            die("failed to load real 'uname': %s", dlerror());
     }
     char *p = redirected_arch_path();
     if (p != NULL) {
         FILE *f = fopen(p, "r");
-        if (f == NULL) {
-            fprintf(stderr, "wrapper.so: failed to fopen %s\n", p);
-            abort();
-        }
+        if (f == NULL)
+            die("failed to fopen %s", p);
         char *arch;
-        if (fscanf(f, "%ms", &arch) != 1) {
-            fprintf(stderr, "wrapper.so: failed to read arch from %s\n", p);
-            abort();
-        }
+        if (fscanf(f, "%ms", &arch) != 1)
+            die("failed to read arch from %s", p);
         fclose(f);
         int result = real_func(name);
         if (result == 0) {
-            fprintf(stderr, "wrapper.so: uname() overriding arch to %s from %s\n",
-                    arch, p);
+            info("uname() overriding arch to %s from %s", arch, p);
             strncpy(name->machine, arch, sizeof(name->machine));
         }
         free(p);
