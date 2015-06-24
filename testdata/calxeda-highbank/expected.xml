@@ -9,9 +9,6 @@
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
-   <capabilities>
-    <capability id="calxeda_highbank" />
-   </capabilities>
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
      <physid>0</physid>
