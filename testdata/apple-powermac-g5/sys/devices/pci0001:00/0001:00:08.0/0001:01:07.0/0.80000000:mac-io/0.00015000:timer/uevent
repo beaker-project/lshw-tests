@@ -1,0 +1,6 @@
+OF_NAME=timer
+OF_FULLNAME=/ht@0,f2000000/pci@8/mac-io@7/timer@15000
+OF_TYPE=timer
+OF_COMPATIBLE_0=keywest-timer
+OF_COMPATIBLE_N=1
+MODALIAS=of:NtimerTtimerCkeywest-timer

@@ -1,0 +1,2 @@
+DRIVER=rtc-generic
+MODALIAS=platform:rtc-generic

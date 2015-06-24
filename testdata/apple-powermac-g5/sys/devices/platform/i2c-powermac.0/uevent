@@ -1,0 +1,6 @@
+OF_NAME=i2c-bus
+OF_FULLNAME=/smu@0,0/smu-i2c-control@0/i2c-bus@e
+OF_TYPE=i2c-bus
+OF_COMPATIBLE_0=i2c-bus
+OF_COMPATIBLE_N=1
+MODALIAS=of:Ni2c-busTi2c-busCi2c-bus

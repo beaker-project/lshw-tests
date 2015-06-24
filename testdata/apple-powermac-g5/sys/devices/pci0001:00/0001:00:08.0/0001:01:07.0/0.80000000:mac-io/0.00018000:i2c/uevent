@@ -1,0 +1,8 @@
+OF_NAME=i2c
+OF_FULLNAME=/ht@0,f2000000/pci@8/mac-io@7/i2c@18000
+OF_TYPE=i2c
+OF_COMPATIBLE_0=mac-io-i2c-control
+OF_COMPATIBLE_1=k2-i2c
+OF_COMPATIBLE_2=keywest-i2c
+OF_COMPATIBLE_N=3
+MODALIAS=of:Ni2cTi2cCmac-io-i2c-controlCk2-i2cCkeywest-i2c

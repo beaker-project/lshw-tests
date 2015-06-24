@@ -1,0 +1,6 @@
+OF_NAME=escc
+OF_FULLNAME=/ht@0,f2000000/pci@8/mac-io@7/escc@13000
+OF_TYPE=escc
+OF_COMPATIBLE_0=chrp,es0
+OF_COMPATIBLE_N=1
+MODALIAS=of:NesccTesccCchrp,es0

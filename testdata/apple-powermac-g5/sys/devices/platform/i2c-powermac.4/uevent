@@ -1,0 +1,6 @@
+OF_NAME=i2c-bus
+OF_FULLNAME=/u4@0,f8000000/i2c@f8001000/i2c-bus@1
+OF_TYPE=i2c-bus
+OF_COMPATIBLE_0=i2c-bus
+OF_COMPATIBLE_N=1
+MODALIAS=of:Ni2c-busTi2c-busCi2c-bus

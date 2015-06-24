@@ -1,0 +1,6 @@
+OF_NAME=mac-io
+OF_FULLNAME=/ht@0,f2000000/pci@8/mac-io@7
+OF_TYPE=mac-io
+OF_COMPATIBLE_0=K2-Keylargo
+OF_COMPATIBLE_N=1
+MODALIAS=of:Nmac-ioTmac-ioCK2-Keylargo

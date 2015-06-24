@@ -1,0 +1,4 @@
+MAJOR=8
+MINOR=5
+DEVNAME=sda5
+DEVTYPE=partition

@@ -1,0 +1,678 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system" handle="">
+ <description>Computer</description>
+ <product>PowerMac G5</product>
+ <vendor>Copyright 1983-2005 Apple Computer, Inc. All Rights Reserved</vendor>
+ <serial>[REMOVED]</serial>
+ <width units="bits">64</width>
+  <node id="core" claimed="true" class="bus" handle="">
+   <description>Motherboard</description>
+   <physid>0</physid>
+   <capabilities>
+    <capability id="powermac11_2" />
+    <capability id="macrisc4" />
+    <capability id="power_macintosh" />
+   </capabilities>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <product>OpenFirmware 4</product>
+     <physid>0</physid>
+     <logicalname>/proc/device-tree</logicalname>
+     <capabilities>
+      <capability id="bootinfo" />
+     </capabilities>
+    </node>
+    <node id="cpu:0" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>PPC970MP, altivec supported</product>
+     <physid>1</physid>
+     <businfo>cpu@0</businfo>
+     <version>1.1 (pvr 0044 0101)</version>
+     <size units="Hz">2500000000</size>
+     <capacity units="Hz">2500000000</capacity>
+     <capabilities>
+      <capability id="altivec" />
+      <capability id="performance-monitor" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>PPC970MP, altivec supported</product>
+     <physid>2</physid>
+     <businfo>cpu@1</businfo>
+     <version>1.1 (pvr 0044 0101)</version>
+     <size units="Hz">2500000000</size>
+     <capacity units="Hz">2500000000</capacity>
+     <capabilities>
+      <capability id="altivec" />
+      <capability id="performance-monitor" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+    </node>
+    <node id="cpu:2" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>PPC970MP, altivec supported</product>
+     <physid>3</physid>
+     <businfo>cpu@2</businfo>
+     <version>1.1 (pvr 0044 0101)</version>
+     <size units="Hz">2500000000</size>
+     <capacity units="Hz">2500000000</capacity>
+     <capabilities>
+      <capability id="altivec" />
+      <capability id="performance-monitor" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+    </node>
+    <node id="cpu:3" claimed="true" class="processor" handle="">
+     <description>CPU</description>
+     <product>PPC970MP, altivec supported</product>
+     <physid>4</physid>
+     <businfo>cpu@3</businfo>
+     <version>1.1 (pvr 0044 0101)</version>
+     <size units="Hz">2500000000</size>
+     <capacity units="Hz">2500000000</capacity>
+     <capabilities>
+      <capability id="altivec" />
+      <capability id="performance-monitor" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+    </node>
+    <node id="memory" claimed="true" class="memory" handle="">
+     <description>System memory</description>
+     <physid>5</physid>
+     <size units="bytes">1020788736</size>
+    </node>
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:0a">
+     <description>PCI bridge</description>
+     <product>CPC945 PCIe Bridge [106B:5B]</product>
+     <vendor>Apple Inc. [106B]</vendor>
+     <physid>b</physid>
+     <businfo>pci@0000:00:0b.0</businfo>
+     <version>00</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <capabilities>
+      <capability id="pci" />
+      <capability id="pm" >Power Management</capability>
+      <capability id="pciexpress" >PCI Express</capability>
+      <capability id="normal_decode" />
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="ioport" value="0(size=65536)" />
+      <resource type="memory" value="90000000-afffffff" />
+      <resource type="ioport" value="f1000000(size=1048576)" />
+     </resources>
+      <node id="display" class="display" handle="PCI:0000:0a:00.0">
+       <description>VGA compatible controller</description>
+       <product>NV43 [GeForce 6600] [10DE:141]</product>
+       <vendor>NVIDIA Corporation [10DE]</vendor>
+       <physid>0</physid>
+       <businfo>pci@0000:0a:00.0</businfo>
+       <version>a2</version>
+       <width units="bits">64</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="latency" value="0" />
+       </configuration>
+       <capabilities>
+        <capability id="pm" >Power Management</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="vga_controller" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="memory" value="a1000000-a1ffffff" />
+        <resource type="memory" value="90000000-9fffffff" />
+        <resource type="memory" value="a0000000-a0ffffff" />
+        <resource type="memory" value="a2000000-a201ffff" />
+       </resources>
+      </node>
+    </node>
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:00">
+     <description>Host bridge</description>
+     <product>U4 HT Bridge [106B:74]</product>
+     <vendor>Apple Inc. [106B]</vendor>
+     <physid>100</physid>
+     <businfo>pci@0001:00:00.0</businfo>
+     <version>00</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0001:04">
+       <description>PCI bridge</description>
+       <product>BCM5780 [HT2000] PCI-X bridge [1166:130]</product>
+       <vendor>Broadcom [1166]</vendor>
+       <physid>1</physid>
+       <businfo>pci@0001:00:01.0</businfo>
+       <version>a3</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pcix" >PCI-X</capability>
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+      </node>
+      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:05">
+       <description>PCI bridge</description>
+       <product>BCM5780 [HT2000] PCI-X bridge [1166:130]</product>
+       <vendor>Broadcom [1166]</vendor>
+       <physid>2</physid>
+       <businfo>pci@0001:00:02.0</businfo>
+       <version>a3</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pcix" >PCI-X</capability>
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="memory" value="fa500000-fa5fffff" />
+       </resources>
+        <node id="network:0" claimed="true" class="network" handle="PCI:0001:05:04.0">
+         <description>Ethernet controller</description>
+         <product>NetXtreme BCM5780 Gigabit Ethernet [14E4:166A]</product>
+         <vendor>Broadcom Corporation [14E4]</vendor>
+         <physid>4</physid>
+         <businfo>pci@0001:05:04.0</businfo>
+         <version>03</version>
+         <width units="bits">64</width>
+         <clock units="Hz">66000000</clock>
+         <configuration>
+          <setting id="driver" value="tg3" />
+          <setting id="latency" value="16" />
+          <setting id="mingnt" value="64" />
+         </configuration>
+         <capabilities>
+          <capability id="pcix" >PCI-X</capability>
+          <capability id="pm" >Power Management</capability>
+          <capability id="vpd" >Vital Product Data</capability>
+          <capability id="msi" >Message Signalled Interrupts</capability>
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="25" />
+          <resource type="memory" value="fa530000-fa53ffff" />
+          <resource type="memory" value="fa520000-fa52ffff" />
+         </resources>
+        </node>
+        <node id="network:1" claimed="true" class="network" handle="PCI:0001:05:04.1">
+         <description>Ethernet controller</description>
+         <product>NetXtreme BCM5780 Gigabit Ethernet [14E4:166A]</product>
+         <vendor>Broadcom Corporation [14E4]</vendor>
+         <physid>4.1</physid>
+         <businfo>pci@0001:05:04.1</businfo>
+         <version>03</version>
+         <width units="bits">64</width>
+         <clock units="Hz">66000000</clock>
+         <configuration>
+          <setting id="driver" value="tg3" />
+          <setting id="latency" value="16" />
+          <setting id="mingnt" value="64" />
+         </configuration>
+         <capabilities>
+          <capability id="pcix" >PCI-X</capability>
+          <capability id="pm" >Power Management</capability>
+          <capability id="vpd" >Vital Product Data</capability>
+          <capability id="msi" >Message Signalled Interrupts</capability>
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="26" />
+          <resource type="memory" value="fa510000-fa51ffff" />
+          <resource type="memory" value="fa500000-fa50ffff" />
+         </resources>
+        </node>
+      </node>
+      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0001:06">
+       <description>PCI bridge</description>
+       <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
+       <vendor>Broadcom [1166]</vendor>
+       <physid>3</physid>
+       <businfo>pci@0001:00:03.0</businfo>
+       <version>a3</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="ioport" value="0(size=4096)" />
+        <resource type="memory" value="80100000-8fffffff" />
+       </resources>
+        <node id="display" class="display" handle="PCI:0001:06:00.0">
+         <description>VGA compatible controller</description>
+         <product>GK208 [GeForce GT 630 Rev. 2] [10DE:1284]</product>
+         <vendor>NVIDIA Corporation [10DE]</vendor>
+         <physid>0</physid>
+         <businfo>pci@0001:06:00.0</businfo>
+         <version>a1</version>
+         <width units="bits">64</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="latency" value="0" />
+         </configuration>
+         <capabilities>
+          <capability id="pm" >Power Management</capability>
+          <capability id="msi" >Message Signalled Interrupts</capability>
+          <capability id="pciexpress" >PCI Express</capability>
+          <capability id="vga_controller" />
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="memory" value="81000000-81ffffff" />
+          <resource type="memory" value="88000000-8fffffff" />
+          <resource type="memory" value="82000000-83ffffff" />
+          <resource type="ioport" value="0(size=128)" />
+          <resource type="memory" value="80180000-801fffff" />
+         </resources>
+        </node>
+        <node id="multimedia" class="multimedia" handle="PCI:0001:06:00.1">
+         <description>Audio device</description>
+         <product>GK208 HDMI/DP Audio Controller [10DE:E0F]</product>
+         <vendor>NVIDIA Corporation [10DE]</vendor>
+         <physid>0.1</physid>
+         <businfo>pci@0001:06:00.1</businfo>
+         <version>a1</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="latency" value="0" />
+         </configuration>
+         <capabilities>
+          <capability id="pm" >Power Management</capability>
+          <capability id="msi" >Message Signalled Interrupts</capability>
+          <capability id="pciexpress" >PCI Express</capability>
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="memory" value="80100000-80103fff" />
+         </resources>
+        </node>
+      </node>
+      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0001:07">
+       <description>PCI bridge</description>
+       <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
+       <vendor>Broadcom [1166]</vendor>
+       <physid>4</physid>
+       <businfo>pci@0001:00:04.0</businfo>
+       <version>a3</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+      </node>
+      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0001:08">
+       <description>PCI bridge</description>
+       <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
+       <vendor>Broadcom [1166]</vendor>
+       <physid>5</physid>
+       <businfo>pci@0001:00:05.0</businfo>
+       <version>a3</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+      </node>
+      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0001:09">
+       <description>PCI bridge</description>
+       <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
+       <vendor>Broadcom [1166]</vendor>
+       <physid>6</physid>
+       <businfo>pci@0001:00:06.0</businfo>
+       <version>a3</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+      </node>
+      <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0001:02">
+       <description>PCI bridge</description>
+       <product>Shasta PCI Bridge [106B:53]</product>
+       <vendor>Apple Inc. [106B]</vendor>
+       <physid>7</physid>
+       <businfo>pci@0001:00:07.0</businfo>
+       <version>00</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="memory" value="fa000000-fa3fffff" />
+       </resources>
+      </node>
+      <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0001:01">
+       <description>PCI bridge</description>
+       <product>Shasta PCI Bridge [106B:54]</product>
+       <vendor>Apple Inc. [106B]</vendor>
+       <physid>8</physid>
+       <businfo>pci@0001:00:08.0</businfo>
+       <version>00</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="memory" value="80000000-800fffff" />
+       </resources>
+        <node id="generic" claimed="true" class="generic" handle="PCI:0001:01:07.0">
+         <description>Unassigned class</description>
+         <product>Shasta Mac I/O [106B:4F]</product>
+         <vendor>Apple Inc. [106B]</vendor>
+         <physid>7</physid>
+         <businfo>pci@0001:01:07.0</businfo>
+         <version>00</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="driver" value="macio" />
+          <setting id="latency" value="16" />
+         </configuration>
+         <capabilities>
+          <capability id="bus_master" >bus mastering</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="0" />
+          <resource type="memory" value="80000000-8007ffff" />
+         </resources>
+        </node>
+        <node id="usb:0" claimed="true" class="bus" handle="PCI:0001:01:0b.0">
+         <description>USB controller</description>
+         <product>OHCI USB Controller [1033:35]</product>
+         <vendor>NEC Corporation [1033]</vendor>
+         <physid>b</physid>
+         <businfo>pci@0001:01:0b.0</businfo>
+         <version>43</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="driver" value="ohci-pci" />
+          <setting id="latency" value="16" />
+          <setting id="maxlatency" value="42" />
+          <setting id="mingnt" value="1" />
+         </configuration>
+         <capabilities>
+          <capability id="pm" >Power Management</capability>
+          <capability id="ohci" >Open Host Controller Interface</capability>
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="70" />
+          <resource type="memory" value="80082000-80082fff" />
+         </resources>
+          <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
+           <product>OHCI PCI host controller [1D6B:1]</product>
+           <vendor>Linux 3.19.0-0.rc3.git0.1.fc22.ppc64 ohci_hcd [1D6B]</vendor>
+           <physid>1</physid>
+           <businfo>usb@2</businfo>
+           <logicalname>usb2</logicalname>
+           <version>3.19</version>
+           <configuration>
+            <setting id="driver" value="hub" />
+            <setting id="slots" value="3" />
+            <setting id="speed" value="12Mbit/s" />
+           </configuration>
+           <capabilities>
+            <capability id="usb-1.10" >USB 1.1</capability>
+           </capabilities>
+            <node id="usb" claimed="true" class="input" handle="USB:2:2">
+             <description>Keyboard</description>
+             <product>IBM 73P5832 [624:296]</product>
+             <vendor>Avocent [624]</vendor>
+             <physid>2</physid>
+             <businfo>usb@2:2</businfo>
+             <version>1.00</version>
+             <configuration>
+              <setting id="driver" value="usbhid" />
+              <setting id="maxpower" value="100mA" />
+              <setting id="speed" value="2Mbit/s" />
+             </configuration>
+             <capabilities>
+              <capability id="usb-1.10" >USB 1.1</capability>
+             </capabilities>
+            </node>
+          </node>
+        </node>
+        <node id="usb:1" claimed="true" class="bus" handle="PCI:0001:01:0b.1">
+         <description>USB controller</description>
+         <product>OHCI USB Controller [1033:35]</product>
+         <vendor>NEC Corporation [1033]</vendor>
+         <physid>b.1</physid>
+         <businfo>pci@0001:01:0b.1</businfo>
+         <version>43</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="driver" value="ohci-pci" />
+          <setting id="latency" value="16" />
+          <setting id="maxlatency" value="42" />
+          <setting id="mingnt" value="1" />
+         </configuration>
+         <capabilities>
+          <capability id="pm" >Power Management</capability>
+          <capability id="ohci" >Open Host Controller Interface</capability>
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="70" />
+          <resource type="memory" value="80081000-80081fff" />
+         </resources>
+          <node id="usbhost" claimed="true" class="bus" handle="USB:3:1">
+           <product>OHCI PCI host controller [1D6B:1]</product>
+           <vendor>Linux 3.19.0-0.rc3.git0.1.fc22.ppc64 ohci_hcd [1D6B]</vendor>
+           <physid>1</physid>
+           <businfo>usb@3</businfo>
+           <logicalname>usb3</logicalname>
+           <version>3.19</version>
+           <configuration>
+            <setting id="driver" value="hub" />
+            <setting id="slots" value="2" />
+            <setting id="speed" value="12Mbit/s" />
+           </configuration>
+           <capabilities>
+            <capability id="usb-1.10" >USB 1.1</capability>
+           </capabilities>
+            <node id="usb" claimed="true" class="input" handle="USB:3:2">
+             <description>Keyboard</description>
+             <product>IBM 73P5832 [624:296]</product>
+             <vendor>Avocent [624]</vendor>
+             <physid>2</physid>
+             <businfo>usb@3:2</businfo>
+             <version>1.00</version>
+             <configuration>
+              <setting id="driver" value="usbhid" />
+              <setting id="maxpower" value="100mA" />
+              <setting id="speed" value="2Mbit/s" />
+             </configuration>
+             <capabilities>
+              <capability id="usb-1.10" >USB 1.1</capability>
+             </capabilities>
+            </node>
+          </node>
+        </node>
+        <node id="usb:2" claimed="true" class="bus" handle="PCI:0001:01:0b.2">
+         <description>USB controller</description>
+         <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
+         <vendor>NEC Corporation [1033]</vendor>
+         <physid>b.2</physid>
+         <businfo>pci@0001:01:0b.2</businfo>
+         <version>04</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="driver" value="ehci-pci" />
+          <setting id="latency" value="16" />
+          <setting id="maxlatency" value="34" />
+          <setting id="mingnt" value="16" />
+         </configuration>
+         <capabilities>
+          <capability id="pm" >Power Management</capability>
+          <capability id="ehci" >Enhanced Host Controller Interface (USB2)</capability>
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="70" />
+          <resource type="memory" value="80080000-800800ff" />
+         </resources>
+          <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
+           <product>EHCI Host Controller [1D6B:2]</product>
+           <vendor>Linux 3.19.0-0.rc3.git0.1.fc22.ppc64 ehci_hcd [1D6B]</vendor>
+           <physid>1</physid>
+           <businfo>usb@1</businfo>
+           <logicalname>usb1</logicalname>
+           <version>3.19</version>
+           <configuration>
+            <setting id="driver" value="hub" />
+            <setting id="slots" value="5" />
+            <setting id="speed" value="480Mbit/s" />
+           </configuration>
+           <capabilities>
+            <capability id="usb-2.00" >USB 2.0</capability>
+           </capabilities>
+          </node>
+        </node>
+      </node>
+      <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0001:03">
+       <description>PCI bridge</description>
+       <product>Shasta PCI Bridge [106B:55]</product>
+       <vendor>Apple Inc. [106B]</vendor>
+       <physid>9</physid>
+       <businfo>pci@0001:00:09.0</businfo>
+       <version>00</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="ht" >HyperTransport</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="memory" value="fa400000-fa4fffff" />
+       </resources>
+        <node id="ide" claimed="true" class="storage" handle="PCI:0001:03:0c.0">
+         <description>IDE interface</description>
+         <product>K2 SATA [1166:240]</product>
+         <vendor>Broadcom [1166]</vendor>
+         <physid>c</physid>
+         <businfo>pci@0001:03:0c.0</businfo>
+         <version>00</version>
+         <width units="bits">32</width>
+         <clock units="Hz">66000000</clock>
+         <configuration>
+          <setting id="driver" value="sata_svw" />
+          <setting id="latency" value="16" />
+         </configuration>
+         <capabilities>
+          <capability id="ide" />
+          <capability id="bus_master" >bus mastering</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="18" />
+          <resource type="memory" value="fa402000-fa403fff" />
+         </resources>
+        </node>
+        <node id="generic" claimed="true" class="generic" handle="PCI:0001:03:0d.0">
+         <description>Unassigned class</description>
+         <product>Shasta IDE [106B:50]</product>
+         <vendor>Apple Inc. [106B]</vendor>
+         <physid>d</physid>
+         <businfo>pci@0001:03:0d.0</businfo>
+         <version>00</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="driver" value="pata-pci-macio" />
+          <setting id="latency" value="32" />
+         </configuration>
+         <capabilities>
+          <capability id="bus_master" >bus mastering</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="38" />
+          <resource type="memory" value="fa404000-fa407fff" />
+         </resources>
+        </node>
+        <node id="firewire" claimed="true" class="bus" handle="PCI:0001:03:0e.0">
+         <description>FireWire (IEEE 1394)</description>
+         <product>Shasta Firewire [106B:52]</product>
+         <vendor>Apple Inc. [106B]</vendor>
+         <physid>e</physid>
+         <businfo>pci@0001:03:0e.0</businfo>
+         <version>00</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="driver" value="firewire_ohci" />
+          <setting id="latency" value="248" />
+          <setting id="maxlatency" value="24" />
+          <setting id="mingnt" value="12" />
+         </configuration>
+         <capabilities>
+          <capability id="pm" >Power Management</capability>
+          <capability id="ohci" >Open Host Controller Interface</capability>
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="39" />
+          <resource type="memory" value="fa400000-fa400fff" />
+         </resources>
+        </node>
+      </node>
+    </node>
+  </node>
+</node>
+</list>

@@ -1,0 +1,6 @@
+OF_NAME=gpio
+OF_FULLNAME=/ht@0,f2000000/pci@8/mac-io@7/gpio@50
+OF_TYPE=gpio
+OF_COMPATIBLE_0=mac-io-gpio
+OF_COMPATIBLE_N=1
+MODALIAS=of:NgpioTgpioCmac-io-gpio

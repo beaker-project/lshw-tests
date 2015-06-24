@@ -1,0 +1,7 @@
+DRIVER=pmac_zilog
+OF_NAME=ch-b
+OF_FULLNAME=/ht@0,f2000000/pci@8/mac-io@7/escc@13000/ch-b@13000
+OF_TYPE=serial
+OF_COMPATIBLE_0=chrp,es3
+OF_COMPATIBLE_N=1
+MODALIAS=of:Nch-bTserialCchrp,es3

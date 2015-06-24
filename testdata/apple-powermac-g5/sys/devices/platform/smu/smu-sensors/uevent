@@ -1,0 +1,6 @@
+OF_NAME=sensors
+OF_FULLNAME=/smu@0,0/sensors@d800
+OF_TYPE=sensors
+OF_COMPATIBLE_0=smu-sensors
+OF_COMPATIBLE_N=1
+MODALIAS=of:NsensorsTsensorsCsmu-sensors

@@ -1,0 +1,7 @@
+OF_NAME=i2c-bus
+OF_FULLNAME=/ht@0,f2000000/pci@8/mac-io@7/i2c@18000/i2c-bus@0
+OF_TYPE=i2c-bus
+OF_COMPATIBLE_0=i2c-bus
+OF_COMPATIBLE_1=keywest-i2c-bus
+OF_COMPATIBLE_N=2
+MODALIAS=of:Ni2c-busTi2c-busCi2c-busCkeywest-i2c-bus
