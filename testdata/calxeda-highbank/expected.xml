@@ -15,14 +15,22 @@
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
      <physid>0</physid>
-     <size units="bytes">4232372224</size>
+     <size units="bytes">4287627264</size>
       <node id="bank" claimed="true" class="memory" handle="">
        <description>DDR3L</description>
        <product>1067</product>
        <physid>0</physid>
-       <version>0000,00 00,00</version>
+       <version>0000,11 50,01</version>
+       <serial>[REMOVED]</serial>
        <slot>SLOT_0</slot>
-       <size units="bytes">37119</size>
+       <size units="bytes">4287627264</size>
+       <configuration>
+        <setting id="errordetection" value="ecc" />
+       </configuration>
+       <capabilities>
+        <capability id="ecc" />
+        <capability id="spd-1.1" />
+       </capabilities>
       </node>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">

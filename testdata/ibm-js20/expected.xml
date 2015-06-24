@@ -11,6 +11,7 @@
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
+   <clock units="Hz">1097312280</clock>
     <node id="firmware" claimed="true" class="memory" handle="">
      <product>IBM,2b405_131</product>
      <physid>1</physid>
@@ -23,9 +24,20 @@
      <businfo>cpu@0</businfo>
      <version>3.0 (pvr 003c 0300)</version>
      <size units="Hz">2194624561</size>
+     <clock units="Hz">1097312280</clock>
      <capabilities>
       <capability id="performance-monitor" />
      </capabilities>
+      <node id="cache:0" claimed="true" class="memory" handle="">
+       <description>L1 Cache</description>
+       <physid>0</physid>
+       <size units="bytes">32768</size>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="">
+       <description>L2 Cache (unified)</description>
+       <physid>1</physid>
+       <size units="bytes">524288</size>
+      </node>
     </node>
     <node id="cpu:1" claimed="true" class="processor" handle="">
      <description>CPU</description>
@@ -34,9 +46,20 @@
      <businfo>cpu@1</businfo>
      <version>3.0 (pvr 003c 0300)</version>
      <size units="Hz">2194624561</size>
+     <clock units="Hz">1097312280</clock>
      <capabilities>
       <capability id="performance-monitor" />
      </capabilities>
+      <node id="cache:0" claimed="true" class="memory" handle="">
+       <description>L1 Cache</description>
+       <physid>0</physid>
+       <size units="bytes">32768</size>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="">
+       <description>L2 Cache (unified)</description>
+       <physid>1</physid>
+       <size units="bytes">524288</size>
+      </node>
     </node>
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
