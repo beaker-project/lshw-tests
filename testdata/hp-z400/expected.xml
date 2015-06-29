@@ -980,7 +980,7 @@
         <resource type="irq" value="0" />
        </resources>
       </node>
-      <node id="storage" claimed="true" class="storage" handle="PCI:0000:00:1f.2">
+      <node id="raid" claimed="true" class="storage" handle="PCI:0000:00:1f.2">
        <description>RAID bus controller</description>
        <product>SATA Controller [RAID mode] [8086:2822]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -996,7 +996,7 @@
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
-        <capability id="storage" />
+        <capability id="raid" />
         <capability id="msi" >Message Signalled Interrupts</capability>
         <capability id="pm" >Power Management</capability>
         <capability id="bus_master" >bus mastering</capability>

@@ -362,7 +362,7 @@
           <resource type="memory" value="fc400000-fc5fffff" />
           <resource type="ioport" value="d8000000(size=1048576)" />
          </resources>
-          <node id="storage" claimed="true" class="storage" handle="PCI:0000:02:0e.0">
+          <node id="raid" claimed="true" class="storage" handle="PCI:0000:02:0e.0">
            <description>RAID bus controller</description>
            <product>PowerEdge Expandable RAID controller 5 [1028:15]</product>
            <vendor>Dell [1028]</vendor>
@@ -379,7 +379,7 @@
             <setting id="mingnt" value="128" />
            </configuration>
            <capabilities>
-            <capability id="storage" />
+            <capability id="raid" />
             <capability id="pm" >Power Management</capability>
             <capability id="msi" >Message Signalled Interrupts</capability>
             <capability id="pcix" >PCI-X</capability>
