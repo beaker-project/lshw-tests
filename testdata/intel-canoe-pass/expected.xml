@@ -303,7 +303,7 @@
             <resource type="memory" value="d0b00000-d0bfffff" />
             <resource type="ioport" value="eb000000(size=10485760)" />
            </resources>
-            <node id="storage" claimed="true" class="storage" handle="PCI:0000:03:00.0">
+            <node id="sas" claimed="true" class="storage" handle="PCI:0000:03:00.0">
              <description>Serial Attached SCSI controller</description>
              <product>C606 chipset Dual 4-Port SATA/SAS Storage Control Unit [8086:1D68]</product>
              <vendor>Intel Corporation [8086]</vendor>
@@ -319,7 +319,7 @@
               <setting id="latency" value="0" />
              </configuration>
              <capabilities>
-              <capability id="storage" />
+              <capability id="sas" />
               <capability id="pm" >Power Management</capability>
               <capability id="pciexpress" >PCI Express</capability>
               <capability id="msix" >MSI-X</capability>
@@ -1478,7 +1478,7 @@
         <resource type="irq" value="0" />
        </resources>
       </node>
-      <node id="storage" claimed="true" class="storage" handle="PCI:0000:00:1f.2">
+      <node id="sata" claimed="true" class="storage" handle="PCI:0000:00:1f.2">
        <description>SATA controller</description>
        <product>C600/X79 series chipset 6-Port SATA AHCI Controller [8086:1D02]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1494,7 +1494,7 @@
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
-        <capability id="storage" />
+        <capability id="sata" />
         <capability id="msi" >Message Signalled Interrupts</capability>
         <capability id="pm" >Power Management</capability>
         <capability id="ahci_1.0" />
