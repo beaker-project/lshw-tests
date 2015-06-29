@@ -11,6 +11,7 @@
 #include <sys/utsname.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <glob.h>
 #include <dlfcn.h>
 
 static void info(const char *format, ...)
@@ -46,19 +47,36 @@ static void die(const char *format, ...) {
     abort();
 }
 
-static char *get_test_dir(void) {
+static const char *get_test_dir(void) {
     static char *d = NULL;
     if (d == NULL) {
         d = getenv("LSHW_TEST_DIR");
         if (d == NULL) return NULL;
         // convert to absolute path, makes things easier below
         d = realpath(d, NULL);
+        // strip trailing slash if any
+        if (d[strlen(d) - 1] == '/')
+            d[strlen(d) - 1] = '\0';
     }
     return d;
 }
 
+static void strip_test_dir_inplace(char *pathname) {
+    const char *prefix = get_test_dir();
+    if (prefix == NULL)
+        return;
+    size_t prefix_len = strlen(prefix);
+    if (strncmp(pathname, prefix, prefix_len) == 0) {
+        size_t i;
+        for (i = prefix_len; pathname[i] != '\0'; i ++) {
+            pathname[i - prefix_len] = pathname[i];
+        }
+        pathname[i - prefix_len] = '\0';
+    }
+}
+
 static char *redirected_path(const char *pathname) {
-    char *test_dir = get_test_dir();
+    const char *test_dir = get_test_dir();
     if (test_dir == NULL || test_dir[0] == '\0')
         return NULL;
     char *abs;
@@ -85,7 +103,7 @@ static char *redirected_path(const char *pathname) {
 }
 
 static char *redirected_sysconf_path(int name) {
-    char *test_dir = get_test_dir();
+    const char *test_dir = get_test_dir();
     if (test_dir == NULL || test_dir[0] == '\0')
         return NULL;
     char *path = malloc(strlen(test_dir) + 12);
@@ -94,7 +112,7 @@ static char *redirected_sysconf_path(int name) {
 }
 
 static char *redirected_arch_path(void) {
-    char *test_dir = get_test_dir();
+    const char *test_dir = get_test_dir();
     if (test_dir == NULL || test_dir[0] == '\0')
         return NULL;
     char *path = malloc(strlen(test_dir) + 6);
@@ -135,6 +153,32 @@ int access(const char *pathname, int mode) {
         return result;
     } else {
         return real_func(pathname, mode);
+    }
+}
+
+int glob(const char *pattern, int flags,
+        int (*errfunc)(const char *epath, int eerrno),
+        glob_t *pglob) {
+    static int (*real_func)(const char *, int,
+            int (*)(const char *, int), glob_t *);
+    if (real_func == NULL) {
+        real_func = dlsym(RTLD_NEXT, "glob");
+        if (real_func == NULL)
+            die("failed to load real 'glob': %s", dlerror());
+    }
+    char *p = redirected_path(pattern);
+    if (p != NULL) {
+        info("glob() redirected to %s", p);
+        int result = real_func(p, flags, errfunc, pglob);
+        free(p);
+        if (result == 0) {
+            // strip off test dir prefix from the returned pathnames
+            for (size_t i = 0; i < pglob->gl_pathc; i ++)
+                strip_test_dir_inplace(pglob->gl_pathv[i]);
+        }
+        return result;
+    } else {
+        return real_func(pattern, flags, errfunc, pglob);
     }
 }
 
