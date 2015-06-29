@@ -1,0 +1,2 @@
+DRIVER=hardware_error_device
+MODALIAS=acpi:PNP0C33:PNP0C01:

@@ -1,0 +1,2 @@
+DRIVER=dcdbas
+MODALIAS=platform:dcdbas

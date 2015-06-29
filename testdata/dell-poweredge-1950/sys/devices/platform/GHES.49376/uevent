@@ -1,0 +1,2 @@
+DRIVER=GHES
+MODALIAS=platform:GHES

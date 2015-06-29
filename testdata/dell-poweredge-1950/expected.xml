@@ -1,0 +1,987 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system" handle="">
+ <description>Computer</description>
+ <width units="bits">64</width>
+ <capabilities>
+  <capability id="vsyscall64" >64-bit processes</capability>
+  <capability id="vsyscall32" >32-bit processes</capability>
+ </capabilities>
+  <node id="core" claimed="true" class="bus" handle="">
+   <description>Motherboard</description>
+   <physid>0</physid>
+    <node id="memory" claimed="true" class="memory" handle="">
+     <description>System memory</description>
+     <physid>0</physid>
+     <size units="bytes">1962782720</size>
+    </node>
+    <node id="cpu:0" claimed="true" class="processor" handle="">
+     <product>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>1</physid>
+     <businfo>cpu@0</businfo>
+     <size units="Hz">1999998000</size>
+     <capacity units="Hz">1999998000</capacity>
+     <width units="bits">64</width>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="vme" >virtual mode extensions</capability>
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pat" >page attribute table</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="dts" >debug trace and EMON store MSRs</capability>
+      <capability id="acpi" >thermal control (ACPI)</capability>
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="ss" >self-snoop</capability>
+      <capability id="ht" >HyperThreading</capability>
+      <capability id="tm" >thermal interrupt and status</capability>
+      <capability id="pbe" >pending break event</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="constant_tsc" />
+      <capability id="arch_perfmon" />
+      <capability id="pebs" />
+      <capability id="bts" />
+      <capability id="rep_good" />
+      <capability id="aperfmperf" />
+      <capability id="pni" />
+      <capability id="dtes64" />
+      <capability id="monitor" />
+      <capability id="ds_cpl" />
+      <capability id="vmx" />
+      <capability id="tm2" />
+      <capability id="ssse3" />
+      <capability id="cx16" />
+      <capability id="xtpr" />
+      <capability id="pdcm" />
+      <capability id="dca" />
+      <capability id="lahf_lm" />
+      <capability id="tpr_shadow" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor" handle="">
+     <product>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>2</physid>
+     <businfo>cpu@1</businfo>
+     <size units="Hz">1999998000</size>
+     <capacity units="Hz">1999998000</capacity>
+     <width units="bits">64</width>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="vme" >virtual mode extensions</capability>
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pat" >page attribute table</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="dts" >debug trace and EMON store MSRs</capability>
+      <capability id="acpi" >thermal control (ACPI)</capability>
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="ss" >self-snoop</capability>
+      <capability id="ht" >HyperThreading</capability>
+      <capability id="tm" >thermal interrupt and status</capability>
+      <capability id="pbe" >pending break event</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="constant_tsc" />
+      <capability id="arch_perfmon" />
+      <capability id="pebs" />
+      <capability id="bts" />
+      <capability id="rep_good" />
+      <capability id="aperfmperf" />
+      <capability id="pni" />
+      <capability id="dtes64" />
+      <capability id="monitor" />
+      <capability id="ds_cpl" />
+      <capability id="vmx" />
+      <capability id="tm2" />
+      <capability id="ssse3" />
+      <capability id="cx16" />
+      <capability id="xtpr" />
+      <capability id="pdcm" />
+      <capability id="dca" />
+      <capability id="lahf_lm" />
+      <capability id="tpr_shadow" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+    </node>
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000X Chipset Memory Controller Hub [8086:25C0]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>100</physid>
+     <businfo>pci@0000:00:00.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:06">
+       <description>PCI bridge</description>
+       <product>5000 Series Chipset PCI Express x4 Port 2 [8086:25E2]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>2</physid>
+       <businfo>pci@0000:00:02.0</businfo>
+       <version>12</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pm" >Power Management</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="88" />
+        <resource type="memory" value="f2000000-f7ffffff" />
+       </resources>
+        <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:07">
+         <description>PCI bridge</description>
+         <product>6311ESB/6321ESB PCI Express Upstream Port [8086:3500]</product>
+         <vendor>Intel Corporation [8086]</vendor>
+         <physid>0</physid>
+         <businfo>pci@0000:06:00.0</businfo>
+         <version>01</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <capabilities>
+          <capability id="pci" />
+          <capability id="pciexpress" >PCI Express</capability>
+          <capability id="pm" >Power Management</capability>
+          <capability id="normal_decode" />
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="memory" value="f4000000-f7ffffff" />
+         </resources>
+          <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:08">
+           <description>PCI bridge</description>
+           <product>6311ESB/6321ESB PCI Express Downstream Port E1 [8086:3510]</product>
+           <vendor>Intel Corporation [8086]</vendor>
+           <physid>0</physid>
+           <businfo>pci@0000:07:00.0</businfo>
+           <version>01</version>
+           <width units="bits">32</width>
+           <clock units="Hz">33000000</clock>
+           <capabilities>
+            <capability id="pci" />
+            <capability id="pciexpress" >PCI Express</capability>
+            <capability id="msi" >Message Signalled Interrupts</capability>
+            <capability id="pm" >Power Management</capability>
+            <capability id="normal_decode" />
+            <capability id="bus_master" >bus mastering</capability>
+            <capability id="cap_list" >PCI capabilities listing</capability>
+           </capabilities>
+           <resources>
+            <resource type="memory" value="f4000000-f7ffffff" />
+           </resources>
+            <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:09">
+             <description>PCI bridge</description>
+             <product>EPB PCI-Express to PCI-X Bridge [1166:103]</product>
+             <vendor>Broadcom [1166]</vendor>
+             <physid>0</physid>
+             <businfo>pci@0000:08:00.0</businfo>
+             <version>c2</version>
+             <width units="bits">32</width>
+             <clock units="Hz">33000000</clock>
+             <capabilities>
+              <capability id="pci" />
+              <capability id="pciexpress" >PCI Express</capability>
+              <capability id="pcix" >PCI-X</capability>
+              <capability id="pm" >Power Management</capability>
+              <capability id="normal_decode" />
+              <capability id="bus_master" >bus mastering</capability>
+              <capability id="cap_list" >PCI capabilities listing</capability>
+             </capabilities>
+             <resources>
+              <resource type="memory" value="f4000000-f7ffffff" />
+             </resources>
+              <node id="network" claimed="true" class="network" handle="PCI:0000:09:00.0">
+               <description>Ethernet controller</description>
+               <product>NetXtreme II BCM5708 Gigabit Ethernet [14E4:164C]</product>
+               <vendor>Broadcom Corporation [14E4]</vendor>
+               <physid>0</physid>
+               <businfo>pci@0000:09:00.0</businfo>
+               <version>11</version>
+               <width units="bits">64</width>
+               <clock units="Hz">66000000</clock>
+               <configuration>
+                <setting id="driver" value="bnx2" />
+                <setting id="latency" value="64" />
+                <setting id="mingnt" value="64" />
+               </configuration>
+               <capabilities>
+                <capability id="pcix" >PCI-X</capability>
+                <capability id="pm" >Power Management</capability>
+                <capability id="vpd" >Vital Product Data</capability>
+                <capability id="msi" >Message Signalled Interrupts</capability>
+                <capability id="bus_master" >bus mastering</capability>
+                <capability id="cap_list" >PCI capabilities listing</capability>
+               </capabilities>
+               <resources>
+                <resource type="irq" value="16" />
+                <resource type="memory" value="f4000000-f5ffffff" />
+               </resources>
+              </node>
+            </node>
+          </node>
+          <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0a">
+           <description>PCI bridge</description>
+           <product>6311ESB/6321ESB PCI Express Downstream Port E2 [8086:3514]</product>
+           <vendor>Intel Corporation [8086]</vendor>
+           <physid>1</physid>
+           <businfo>pci@0000:07:01.0</businfo>
+           <version>01</version>
+           <width units="bits">32</width>
+           <clock units="Hz">33000000</clock>
+           <capabilities>
+            <capability id="pci" />
+            <capability id="pciexpress" >PCI Express</capability>
+            <capability id="msi" >Message Signalled Interrupts</capability>
+            <capability id="pm" >Power Management</capability>
+            <capability id="normal_decode" />
+            <capability id="bus_master" >bus mastering</capability>
+            <capability id="cap_list" >PCI capabilities listing</capability>
+           </capabilities>
+          </node>
+        </node>
+        <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0b">
+         <description>PCI bridge</description>
+         <product>6311ESB/6321ESB PCI Express to PCI-X Bridge [8086:350C]</product>
+         <vendor>Intel Corporation [8086]</vendor>
+         <physid>0.3</physid>
+         <businfo>pci@0000:06:00.3</businfo>
+         <version>01</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <capabilities>
+          <capability id="pci" />
+          <capability id="pciexpress" >PCI Express</capability>
+          <capability id="pm" >Power Management</capability>
+          <capability id="pcix" >PCI-X</capability>
+          <capability id="normal_decode" />
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+        </node>
+      </node>
+      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+       <description>PCI bridge</description>
+       <product>5000 Series Chipset PCI Express x4 Port 3 [8086:25E3]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>3</physid>
+       <businfo>pci@0000:00:03.0</businfo>
+       <version>12</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pm" >Power Management</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="89" />
+        <resource type="memory" value="fc300000-fc5fffff" />
+        <resource type="ioport" value="d8000000(size=1048576)" />
+       </resources>
+        <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:02">
+         <description>PCI bridge</description>
+         <product>80333 Segment-A PCIe Express to PCI-X bridge [8086:370]</product>
+         <vendor>Intel Corporation [8086]</vendor>
+         <physid>0</physid>
+         <businfo>pci@0000:01:00.0</businfo>
+         <version>00</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <capabilities>
+          <capability id="pci" />
+          <capability id="pciexpress" >PCI Express</capability>
+          <capability id="msi" >Message Signalled Interrupts</capability>
+          <capability id="pm" >Power Management</capability>
+          <capability id="pcix" >PCI-X</capability>
+          <capability id="normal_decode" />
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="memory" value="fc400000-fc5fffff" />
+          <resource type="ioport" value="d8000000(size=1048576)" />
+         </resources>
+          <node id="storage" claimed="true" class="storage" handle="PCI:0000:02:0e.0">
+           <description>RAID bus controller</description>
+           <product>PowerEdge Expandable RAID controller 5 [1028:15]</product>
+           <vendor>Dell [1028]</vendor>
+           <physid>e</physid>
+           <businfo>pci@0000:02:0e.0</businfo>
+           <version>00</version>
+           <width units="bits">32</width>
+           <clock units="Hz">66000000</clock>
+           <configuration>
+            <setting id="driver" value="megaraid_sas" />
+            <setting id="latency" value="32" />
+            <setting id="mingnt" value="128" />
+           </configuration>
+           <capabilities>
+            <capability id="storage" />
+            <capability id="pm" >Power Management</capability>
+            <capability id="msi" >Message Signalled Interrupts</capability>
+            <capability id="pcix" >PCI-X</capability>
+            <capability id="bus_master" >bus mastering</capability>
+            <capability id="cap_list" >PCI capabilities listing</capability>
+            <capability id="rom" >extension ROM</capability>
+           </capabilities>
+           <resources>
+            <resource type="irq" value="78" />
+            <resource type="memory" value="d80f0000-d80fffff(prefetchable)" />
+            <resource type="memory" value="fc5c0000-fc5dffff" />
+            <resource type="memory" value="fc400000-fc407fff(prefetchable)" />
+           </resources>
+          </node>
+        </node>
+        <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:03">
+         <description>PCI bridge</description>
+         <product>80333 Segment-B PCIe Express to PCI-X bridge [8086:372]</product>
+         <vendor>Intel Corporation [8086]</vendor>
+         <physid>0.2</physid>
+         <businfo>pci@0000:01:00.2</businfo>
+         <version>00</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <capabilities>
+          <capability id="pci" />
+          <capability id="pciexpress" >PCI Express</capability>
+          <capability id="msi" >Message Signalled Interrupts</capability>
+          <capability id="pm" >Power Management</capability>
+          <capability id="pcix" >PCI-X</capability>
+          <capability id="normal_decode" />
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+        </node>
+      </node>
+      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:0c">
+       <description>PCI bridge</description>
+       <product>5000 Series Chipset PCI Express x8 Port 4-5 [8086:25F8]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>4</physid>
+       <businfo>pci@0000:00:04.0</businfo>
+       <version>12</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pm" >Power Management</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="90" />
+       </resources>
+      </node>
+      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0d">
+       <description>PCI bridge</description>
+       <product>5000 Series Chipset PCI Express x4 Port 5 [8086:25E5]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>5</physid>
+       <businfo>pci@0000:00:05.0</businfo>
+       <version>12</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pm" >Power Management</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="91" />
+       </resources>
+      </node>
+      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:0e">
+       <description>PCI bridge</description>
+       <product>5000 Series Chipset PCI Express x8 Port 6-7 [8086:25F9]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>6</physid>
+       <businfo>pci@0000:00:06.0</businfo>
+       <version>12</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pm" >Power Management</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="92" />
+       </resources>
+      </node>
+      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:0f">
+       <description>PCI bridge</description>
+       <product>5000 Series Chipset PCI Express x4 Port 7 [8086:25E7]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>7</physid>
+       <businfo>pci@0000:00:07.0</businfo>
+       <version>12</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pm" >Power Management</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="93" />
+       </resources>
+      </node>
+      <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:04">
+       <description>PCI bridge</description>
+       <product>631xESB/632xESB/3100 Chipset PCI Express Root Port 1 [8086:2690]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1c</physid>
+       <businfo>pci@0000:00:1c.0</businfo>
+       <version>09</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="pciexpress" >PCI Express</capability>
+        <capability id="msi" >Message Signalled Interrupts</capability>
+        <capability id="pm" >Power Management</capability>
+        <capability id="normal_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="94" />
+        <resource type="memory" value="f8000000-fbffffff" />
+       </resources>
+        <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:05">
+         <description>PCI bridge</description>
+         <product>EPB PCI-Express to PCI-X Bridge [1166:103]</product>
+         <vendor>Broadcom [1166]</vendor>
+         <physid>0</physid>
+         <businfo>pci@0000:04:00.0</businfo>
+         <version>c2</version>
+         <width units="bits">64</width>
+         <clock units="Hz">33000000</clock>
+         <capabilities>
+          <capability id="pci" />
+          <capability id="pciexpress" >PCI Express</capability>
+          <capability id="pcix" >PCI-X</capability>
+          <capability id="pm" >Power Management</capability>
+          <capability id="normal_decode" />
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+         </capabilities>
+         <resources>
+          <resource type="iomemory" value="220001f10-220001f0f" />
+          <resource type="memory" value="f8000000-fbffffff" />
+         </resources>
+          <node id="network" claimed="true" class="network" handle="PCI:0000:05:00.0">
+           <description>Ethernet controller</description>
+           <product>NetXtreme II BCM5708 Gigabit Ethernet [14E4:164C]</product>
+           <vendor>Broadcom Corporation [14E4]</vendor>
+           <physid>0</physid>
+           <businfo>pci@0000:05:00.0</businfo>
+           <version>11</version>
+           <width units="bits">64</width>
+           <clock units="Hz">66000000</clock>
+           <configuration>
+            <setting id="driver" value="bnx2" />
+            <setting id="latency" value="32" />
+            <setting id="mingnt" value="64" />
+           </configuration>
+           <capabilities>
+            <capability id="pcix" >PCI-X</capability>
+            <capability id="pm" >Power Management</capability>
+            <capability id="vpd" >Vital Product Data</capability>
+            <capability id="msi" >Message Signalled Interrupts</capability>
+            <capability id="bus_master" >bus mastering</capability>
+            <capability id="cap_list" >PCI capabilities listing</capability>
+           </capabilities>
+           <resources>
+            <resource type="irq" value="95" />
+            <resource type="memory" value="f8000000-f9ffffff" />
+           </resources>
+          </node>
+        </node>
+      </node>
+      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:1d.0">
+       <description>USB controller</description>
+       <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #1 [8086:2688]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1d</physid>
+       <businfo>pci@0000:00:1d.0</businfo>
+       <version>09</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="uhci_hcd" />
+        <setting id="latency" value="0" />
+       </configuration>
+       <capabilities>
+        <capability id="uhci" >Universal Host Controller Interface (USB1)</capability>
+        <capability id="bus_master" >bus mastering</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="21" />
+        <resource type="ioport" value="dce0(size=32)" />
+       </resources>
+        <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
+         <product>UHCI Host Controller [1D6B:1]</product>
+         <vendor>Linux 2.6.32-504.el6.x86_64 uhci_hcd [1D6B]</vendor>
+         <physid>1</physid>
+         <businfo>usb@2</businfo>
+         <logicalname>usb2</logicalname>
+         <version>2.06</version>
+         <configuration>
+          <setting id="driver" value="hub" />
+          <setting id="slots" value="2" />
+          <setting id="speed" value="12Mbit/s" />
+         </configuration>
+         <capabilities>
+          <capability id="usb-1.10" >USB 1.1</capability>
+         </capabilities>
+        </node>
+      </node>
+      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:1d.1">
+       <description>USB controller</description>
+       <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #2 [8086:2689]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1d.1</physid>
+       <businfo>pci@0000:00:1d.1</businfo>
+       <version>09</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="uhci_hcd" />
+        <setting id="latency" value="0" />
+       </configuration>
+       <capabilities>
+        <capability id="uhci" >Universal Host Controller Interface (USB1)</capability>
+        <capability id="bus_master" >bus mastering</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="20" />
+        <resource type="ioport" value="dcc0(size=32)" />
+       </resources>
+        <node id="usbhost" claimed="true" class="bus" handle="USB:3:1">
+         <product>UHCI Host Controller [1D6B:1]</product>
+         <vendor>Linux 2.6.32-504.el6.x86_64 uhci_hcd [1D6B]</vendor>
+         <physid>1</physid>
+         <businfo>usb@3</businfo>
+         <logicalname>usb3</logicalname>
+         <version>2.06</version>
+         <configuration>
+          <setting id="driver" value="hub" />
+          <setting id="slots" value="2" />
+          <setting id="speed" value="12Mbit/s" />
+         </configuration>
+         <capabilities>
+          <capability id="usb-1.10" >USB 1.1</capability>
+         </capabilities>
+        </node>
+      </node>
+      <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:1d.2">
+       <description>USB controller</description>
+       <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #3 [8086:268A]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1d.2</physid>
+       <businfo>pci@0000:00:1d.2</businfo>
+       <version>09</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="uhci_hcd" />
+        <setting id="latency" value="0" />
+       </configuration>
+       <capabilities>
+        <capability id="uhci" >Universal Host Controller Interface (USB1)</capability>
+        <capability id="bus_master" >bus mastering</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="21" />
+        <resource type="ioport" value="dca0(size=32)" />
+       </resources>
+        <node id="usbhost" claimed="true" class="bus" handle="USB:4:1">
+         <product>UHCI Host Controller [1D6B:1]</product>
+         <vendor>Linux 2.6.32-504.el6.x86_64 uhci_hcd [1D6B]</vendor>
+         <physid>1</physid>
+         <businfo>usb@4</businfo>
+         <logicalname>usb4</logicalname>
+         <version>2.06</version>
+         <configuration>
+          <setting id="driver" value="hub" />
+          <setting id="slots" value="2" />
+          <setting id="speed" value="12Mbit/s" />
+         </configuration>
+         <capabilities>
+          <capability id="usb-1.10" >USB 1.1</capability>
+         </capabilities>
+        </node>
+      </node>
+      <node id="usb:3" claimed="true" class="bus" handle="PCI:0000:00:1d.7">
+       <description>USB controller</description>
+       <product>631xESB/632xESB/3100 Chipset EHCI USB2 Controller [8086:268C]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1d.7</physid>
+       <businfo>pci@0000:00:1d.7</businfo>
+       <version>09</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="ehci_hcd" />
+        <setting id="latency" value="0" />
+       </configuration>
+       <capabilities>
+        <capability id="pm" >Power Management</capability>
+        <capability id="debug" >Debug port</capability>
+        <capability id="ehci" >Enhanced Host Controller Interface (USB2)</capability>
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="21" />
+        <resource type="memory" value="fc600000-fc6003ff" />
+       </resources>
+        <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
+         <product>EHCI Host Controller [1D6B:2]</product>
+         <vendor>Linux 2.6.32-504.el6.x86_64 ehci_hcd [1D6B]</vendor>
+         <physid>1</physid>
+         <businfo>usb@1</businfo>
+         <logicalname>usb1</logicalname>
+         <version>2.06</version>
+         <configuration>
+          <setting id="driver" value="hub" />
+          <setting id="slots" value="6" />
+          <setting id="speed" value="480Mbit/s" />
+         </configuration>
+         <capabilities>
+          <capability id="usb-2.00" >USB 2.0</capability>
+         </capabilities>
+          <node id="usb:0" claimed="true" class="bus" handle="USB:1:2">
+           <description>USB hub</description>
+           <product>Hub [413C:A001]</product>
+           <vendor>Dell Computer Corp. [413C]</vendor>
+           <physid>1</physid>
+           <businfo>usb@1:1</businfo>
+           <version>0.00</version>
+           <configuration>
+            <setting id="driver" value="hub" />
+            <setting id="maxpower" value="100mA" />
+            <setting id="slots" value="2" />
+            <setting id="speed" value="480Mbit/s" />
+           </configuration>
+           <capabilities>
+            <capability id="usb-2.00" >USB 2.0</capability>
+           </capabilities>
+            <node id="usb:0" claimed="true" class="input" handle="USB:1:4">
+             <description>Keyboard</description>
+             <product>DRAC5 [413C:0]</product>
+             <vendor>Dell [413C]</vendor>
+             <physid>1</physid>
+             <businfo>usb@1:1.1</businfo>
+             <version>0.00</version>
+             <serial>[REMOVED]</serial>
+             <configuration>
+              <setting id="driver" value="usbhid" />
+              <setting id="speed" value="12Mbit/s" />
+             </configuration>
+             <capabilities>
+              <capability id="usb-1.10" >USB 1.1</capability>
+             </capabilities>
+            </node>
+            <node id="usb:1" claimed="true" class="storage" handle="USB:1:5">
+             <description>Mass storage device</description>
+             <product>DRAC5 VIRTUAL  MEDIA [413C:1]</product>
+             <vendor>DELL  INC. [413C]</vendor>
+             <physid>2</physid>
+             <businfo>usb@1:1.2</businfo>
+             <version>0.00</version>
+             <serial>[REMOVED]</serial>
+             <configuration>
+              <setting id="driver" value="usb-storage" />
+              <setting id="speed" value="480Mbit/s" />
+             </configuration>
+             <capabilities>
+              <capability id="usb-2.00" >USB 2.0</capability>
+              <capability id="scsi" >SCSI</capability>
+             </capabilities>
+            </node>
+          </node>
+          <node id="usb:1" claimed="true" class="bus" handle="USB:1:3">
+           <description>USB hub</description>
+           <product>CY7C65640 USB-2.0 &quot;TetraHub&quot; [4B4:6560]</product>
+           <vendor>Cypress Semiconductor Corp. [4B4]</vendor>
+           <physid>5</physid>
+           <businfo>usb@1:5</businfo>
+           <version>0.0b</version>
+           <configuration>
+            <setting id="driver" value="hub" />
+            <setting id="maxpower" value="100mA" />
+            <setting id="slots" value="4" />
+            <setting id="speed" value="480Mbit/s" />
+           </configuration>
+           <capabilities>
+            <capability id="usb-2.00" >USB 2.0</capability>
+           </capabilities>
+          </node>
+        </node>
+      </node>
+      <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:10">
+       <description>PCI bridge</description>
+       <product>82801 PCI Bridge [8086:244E]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1e</physid>
+       <businfo>pci@0000:00:1e.0</businfo>
+       <version>d9</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <capabilities>
+        <capability id="pci" />
+        <capability id="subtractive_decode" />
+        <capability id="bus_master" >bus mastering</capability>
+        <capability id="cap_list" >PCI capabilities listing</capability>
+       </capabilities>
+       <resources>
+        <resource type="ioport" value="e000(size=4096)" />
+        <resource type="memory" value="fc100000-fc2fffff" />
+        <resource type="ioport" value="d0000000(size=134217728)" />
+       </resources>
+        <node id="display" claimed="true" class="display" handle="PCI:0000:10:0d.0">
+         <description>VGA compatible controller</description>
+         <product>ES1000 [1002:515E]</product>
+         <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
+         <physid>d</physid>
+         <businfo>pci@0000:10:0d.0</businfo>
+         <version>02</version>
+         <width units="bits">32</width>
+         <clock units="Hz">33000000</clock>
+         <configuration>
+          <setting id="driver" value="radeon" />
+          <setting id="latency" value="32" />
+          <setting id="mingnt" value="8" />
+         </configuration>
+         <capabilities>
+          <capability id="pm" >Power Management</capability>
+          <capability id="vga_controller" />
+          <capability id="bus_master" >bus mastering</capability>
+          <capability id="vga_palette" >VGA palette</capability>
+          <capability id="cap_list" >PCI capabilities listing</capability>
+          <capability id="rom" >extension ROM</capability>
+         </capabilities>
+         <resources>
+          <resource type="irq" value="19" />
+          <resource type="memory" value="d0000000-d7ffffff(prefetchable)" />
+          <resource type="ioport" value="ec00(size=256)" />
+          <resource type="memory" value="fc2d0000-fc2dffff" />
+          <resource type="memory" value="fc100000-fc11ffff(prefetchable)" />
+         </resources>
+        </node>
+      </node>
+      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:1f.0">
+       <description>ISA bridge</description>
+       <product>631xESB/632xESB/3100 Chipset LPC Interface Controller [8086:2670]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1f</physid>
+       <businfo>pci@0000:00:1f.0</businfo>
+       <version>09</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="lpc_ich" />
+        <setting id="latency" value="0" />
+       </configuration>
+       <capabilities>
+        <capability id="isa" />
+        <capability id="bus_master" >bus mastering</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="0" />
+       </resources>
+      </node>
+      <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:1f.1">
+       <description>IDE interface</description>
+       <product>631xESB/632xESB IDE Controller [8086:269E]</product>
+       <vendor>Intel Corporation [8086]</vendor>
+       <physid>1f.1</physid>
+       <businfo>pci@0000:00:1f.1</businfo>
+       <version>09</version>
+       <width units="bits">32</width>
+       <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="ata_piix" />
+        <setting id="latency" value="0" />
+       </configuration>
+       <capabilities>
+        <capability id="ide" />
+        <capability id="bus_master" >bus mastering</capability>
+       </capabilities>
+       <resources>
+        <resource type="irq" value="16" />
+        <resource type="ioport" value="1f0(size=8)" />
+        <resource type="ioport" value="3f6" />
+        <resource type="ioport" value="170(size=8)" />
+        <resource type="ioport" value="376" />
+        <resource type="ioport" value="fc00(size=16)" />
+       </resources>
+      </node>
+    </node>
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>101</physid>
+     <businfo>pci@0000:00:10.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="i5000_edac" />
+     </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
+    </node>
+    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>102</physid>
+     <businfo>pci@0000:00:10.1</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+    </node>
+    <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>103</physid>
+     <businfo>pci@0000:00:10.2</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+    </node>
+    <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000 Series Chipset Reserved Registers [8086:25F1]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>104</physid>
+     <businfo>pci@0000:00:11.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+    </node>
+    <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000 Series Chipset Reserved Registers [8086:25F3]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>105</physid>
+     <businfo>pci@0000:00:13.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+    </node>
+    <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000 Series Chipset FBD Registers [8086:25F5]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>106</physid>
+     <businfo>pci@0000:00:15.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+    </node>
+    <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+     <description>Host bridge</description>
+     <product>5000 Series Chipset FBD Registers [8086:25F6]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>107</physid>
+     <businfo>pci@0000:00:16.0</businfo>
+     <version>12</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+    </node>
+  </node>
+</node>
+</list>

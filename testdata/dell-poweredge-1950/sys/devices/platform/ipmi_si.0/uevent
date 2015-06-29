@@ -1,0 +1,2 @@
+DRIVER=ipmi_si
+MODALIAS=platform:ipmi_si

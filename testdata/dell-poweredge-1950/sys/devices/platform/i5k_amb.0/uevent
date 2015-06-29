@@ -1,0 +1,2 @@
+DRIVER=i5k_amb
+MODALIAS=platform:i5k_amb

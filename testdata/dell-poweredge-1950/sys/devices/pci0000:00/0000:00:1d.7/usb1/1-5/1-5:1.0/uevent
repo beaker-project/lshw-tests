@@ -1,0 +1,7 @@
+DEVTYPE=usb_interface
+DRIVER=hub
+DEVICE=/proc/bus/usb/001/003
+PRODUCT=4b4/6560/b
+TYPE=9/0/2
+INTERFACE=9/0/2
+MODALIAS=usb:v04B4p6560d000Bdc09dsc00dp02ic09isc00ip02

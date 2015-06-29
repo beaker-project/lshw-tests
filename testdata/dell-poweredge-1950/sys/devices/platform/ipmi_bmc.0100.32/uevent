@@ -1,0 +1,2 @@
+DRIVER=ipmi
+MODALIAS=platform:ipmi_bmc.0100

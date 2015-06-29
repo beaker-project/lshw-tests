@@ -1,0 +1,7 @@
+DEVTYPE=usb_interface
+DRIVER=usb-storage
+DEVICE=/proc/bus/usb/001/005
+PRODUCT=413c/1/0
+TYPE=0/0/0
+INTERFACE=8/6/80
+MODALIAS=usb:v413Cp0001d0000dc00dsc00dp00ic08isc06ip50
