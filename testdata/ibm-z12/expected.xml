@@ -15,6 +15,54 @@
      <physid>1</physid>
      <businfo>cpu@0</businfo>
     </node>
+    <node id="disk:0" claimed="true" class="disk" handle="">
+     <description>DASD Device</description>
+     <product>3390/0c</product>
+     <vendor>IBM</vendor>
+     <physid>3</physid>
+     <logicalname>/dev/dasda</logicalname>
+     <size units="bytes">7385333760</size>
+     <configuration>
+      <setting id="logicalsectorsize" value="4096" />
+      <setting id="sectorsize" value="4096" />
+     </configuration>
+    </node>
+    <node id="disk:1" claimed="true" class="disk" handle="">
+     <description>DASD Device</description>
+     <product>3390/0c</product>
+     <vendor>IBM</vendor>
+     <physid>4</physid>
+     <logicalname>/dev/dasdb</logicalname>
+     <size units="bytes">7385333760</size>
+     <configuration>
+      <setting id="logicalsectorsize" value="4096" />
+      <setting id="sectorsize" value="4096" />
+     </configuration>
+    </node>
+    <node id="disk:2" claimed="true" class="disk" handle="">
+     <description>DASD Device</description>
+     <product>3390/0c</product>
+     <vendor>IBM</vendor>
+     <physid>5</physid>
+     <logicalname>/dev/dasdc</logicalname>
+     <size units="bytes">7385333760</size>
+     <configuration>
+      <setting id="logicalsectorsize" value="4096" />
+      <setting id="sectorsize" value="4096" />
+     </configuration>
+    </node>
+    <node id="disk:3" claimed="true" class="disk" handle="">
+     <description>DASD Device</description>
+     <product>3390/0c</product>
+     <vendor>IBM</vendor>
+     <physid>6</physid>
+     <logicalname>/dev/dasdd</logicalname>
+     <size units="bytes">7385333760</size>
+     <configuration>
+      <setting id="logicalsectorsize" value="4096" />
+      <setting id="sectorsize" value="4096" />
+     </configuration>
+    </node>
   </node>
 </node>
 </list>
