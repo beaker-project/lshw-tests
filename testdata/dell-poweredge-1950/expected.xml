@@ -149,6 +149,8 @@
      <product>5000X Chipset Memory Controller Hub [8086:25C0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>100</physid>
+     <subsysproduct>Intel Corporation [8086:8086]</subsysproduct>
+     <subsysvendor>Intel Corporation [8086]</subsysvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>12</version>
      <width units="bits">32</width>
@@ -245,6 +247,8 @@
                <product>NetXtreme II BCM5708 Gigabit Ethernet [14E4:164C]</product>
                <vendor>Broadcom Limited [14E4]</vendor>
                <physid>0</physid>
+               <subsysproduct>Dell [1028:1B3]</subsysproduct>
+               <subsysvendor>Dell [1028]</subsysvendor>
                <businfo>pci@0000:09:00.0</businfo>
                <version>11</version>
                <width units="bits">64</width>
@@ -363,6 +367,8 @@
            <product>PowerEdge Expandable RAID controller 5 [1028:15]</product>
            <vendor>Dell [1028]</vendor>
            <physid>e</physid>
+           <subsysproduct>Dell [1028:1F03]</subsysproduct>
+           <subsysvendor>Dell [1028]</subsysvendor>
            <businfo>pci@0000:02:0e.0</businfo>
            <version>00</version>
            <width units="bits">32</width>
@@ -562,6 +568,8 @@
            <product>NetXtreme II BCM5708 Gigabit Ethernet [14E4:164C]</product>
            <vendor>Broadcom Limited [14E4]</vendor>
            <physid>0</physid>
+           <subsysproduct>Dell [1028:1B3]</subsysproduct>
+           <subsysvendor>Dell [1028]</subsysvendor>
            <businfo>pci@0000:05:00.0</businfo>
            <version>11</version>
            <width units="bits">64</width>
@@ -591,6 +599,8 @@
        <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #1 [8086:2688]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d</physid>
+       <subsysproduct>Dell [1028:1B3]</subsysproduct>
+       <subsysvendor>Dell [1028]</subsysvendor>
        <businfo>pci@0000:00:1d.0</businfo>
        <version>09</version>
        <width units="bits">32</width>
@@ -629,6 +639,8 @@
        <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #2 [8086:2689]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.1</physid>
+       <subsysproduct>Dell [1028:1B3]</subsysproduct>
+       <subsysvendor>Dell [1028]</subsysvendor>
        <businfo>pci@0000:00:1d.1</businfo>
        <version>09</version>
        <width units="bits">32</width>
@@ -667,6 +679,8 @@
        <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #3 [8086:268A]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.2</physid>
+       <subsysproduct>Dell [1028:1B3]</subsysproduct>
+       <subsysvendor>Dell [1028]</subsysvendor>
        <businfo>pci@0000:00:1d.2</businfo>
        <version>09</version>
        <width units="bits">32</width>
@@ -705,6 +719,8 @@
        <product>631xESB/632xESB/3100 Chipset EHCI USB2 Controller [8086:268C]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.7</physid>
+       <subsysproduct>Dell [1028:1B3]</subsysproduct>
+       <subsysvendor>Dell [1028]</subsysvendor>
        <businfo>pci@0000:00:1d.7</businfo>
        <version>09</version>
        <width units="bits">32</width>
@@ -833,6 +849,8 @@
          <product>ES1000 [1002:515E]</product>
          <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
          <physid>d</physid>
+         <subsysproduct>Dell [1028:1B3]</subsysproduct>
+         <subsysvendor>Dell [1028]</subsysvendor>
          <businfo>pci@0000:10:0d.0</businfo>
          <version>02</version>
          <width units="bits">32</width>
@@ -885,6 +903,8 @@
        <product>631xESB/632xESB IDE Controller [8086:269E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f.1</physid>
+       <subsysproduct>Dell [1028:1B3]</subsysproduct>
+       <subsysvendor>Dell [1028]</subsysvendor>
        <businfo>pci@0000:00:1f.1</businfo>
        <version>09</version>
        <width units="bits">32</width>
@@ -912,6 +932,8 @@
      <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>101</physid>
+     <subsysproduct>Dell [1028:1B3]</subsysproduct>
+     <subsysvendor>Dell [1028]</subsysvendor>
      <businfo>pci@0000:00:10.0</businfo>
      <version>12</version>
      <width units="bits">32</width>
@@ -928,6 +950,8 @@
      <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>102</physid>
+     <subsysproduct>Dell [1028:1B3]</subsysproduct>
+     <subsysvendor>Dell [1028]</subsysvendor>
      <businfo>pci@0000:00:10.1</businfo>
      <version>12</version>
      <width units="bits">32</width>
@@ -938,6 +962,8 @@
      <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>103</physid>
+     <subsysproduct>Dell [1028:1B3]</subsysproduct>
+     <subsysvendor>Dell [1028]</subsysvendor>
      <businfo>pci@0000:00:10.2</businfo>
      <version>12</version>
      <width units="bits">32</width>
@@ -948,6 +974,8 @@
      <product>5000 Series Chipset Reserved Registers [8086:25F1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>104</physid>
+     <subsysproduct>Intel Corporation [8086:8086]</subsysproduct>
+     <subsysvendor>Intel Corporation [8086]</subsysvendor>
      <businfo>pci@0000:00:11.0</businfo>
      <version>12</version>
      <width units="bits">32</width>
@@ -958,6 +986,8 @@
      <product>5000 Series Chipset Reserved Registers [8086:25F3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>105</physid>
+     <subsysproduct>Intel Corporation [8086:8086]</subsysproduct>
+     <subsysvendor>Intel Corporation [8086]</subsysvendor>
      <businfo>pci@0000:00:13.0</businfo>
      <version>12</version>
      <width units="bits">32</width>
@@ -968,6 +998,8 @@
      <product>5000 Series Chipset FBD Registers [8086:25F5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>106</physid>
+     <subsysproduct>Intel Corporation [8086:8086]</subsysproduct>
+     <subsysvendor>Intel Corporation [8086]</subsysvendor>
      <businfo>pci@0000:00:15.0</businfo>
      <version>12</version>
      <width units="bits">32</width>
@@ -978,6 +1010,8 @@
      <product>5000 Series Chipset FBD Registers [8086:25F6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>107</physid>
+     <subsysproduct>Intel Corporation [8086:8086]</subsysproduct>
+     <subsysvendor>Intel Corporation [8086]</subsysvendor>
      <businfo>pci@0000:00:16.0</businfo>
      <version>12</version>
      <width units="bits">32</width>

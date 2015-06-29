@@ -24,6 +24,8 @@
      <product>NV11GL [Quadro2 MXR/EX/Go] [10DE:113]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>0</physid>
+     <subsysproduct>NVIDIA Corporation [10DE:70]</subsysproduct>
+     <subsysvendor>NVIDIA Corporation [10DE]</subsysvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>b2</version>
      <width units="bits">32</width>
@@ -52,6 +54,8 @@
      <product>OHCI USB Controller [1033:35]</product>
      <vendor>NEC Corporation [1033]</vendor>
      <physid>6</physid>
+     <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
+     <subsysvendor>NEC Corporation [1033]</subsysvendor>
      <businfo>pci@0000:a0:01.0</businfo>
      <version>41</version>
      <width units="bits">32</width>
@@ -94,6 +98,8 @@
      <product>OHCI USB Controller [1033:35]</product>
      <vendor>NEC Corporation [1033]</vendor>
      <physid>1.1</physid>
+     <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
+     <subsysvendor>NEC Corporation [1033]</subsysvendor>
      <businfo>pci@0000:a0:01.1</businfo>
      <version>41</version>
      <width units="bits">32</width>
@@ -136,6 +142,8 @@
      <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
      <vendor>NEC Corporation [1033]</vendor>
      <physid>1.2</physid>
+     <subsysproduct>uPD72010x USB 2.0 Controller [1033:E0]</subsysproduct>
+     <subsysvendor>NEC Corporation [1033]</subsysvendor>
      <businfo>pci@0000:a0:01.2</businfo>
      <version>02</version>
      <width units="bits">32</width>
@@ -178,6 +186,8 @@
      <product>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</product>
      <vendor>Silicon Image, Inc. [1095]</vendor>
      <physid>2</physid>
+     <subsysproduct>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</subsysproduct>
+     <subsysvendor>Silicon Image, Inc. [1095]</subsysvendor>
      <businfo>pci@0000:a0:02.0</businfo>
      <version>02</version>
      <width units="bits">32</width>
@@ -208,6 +218,8 @@
      <product>82540EM Gigabit Ethernet Controller [8086:100E]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>3</physid>
+     <subsysproduct>Hewlett-Packard Company [103C:1274]</subsysproduct>
+     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
      <businfo>pci@0000:a0:03.0</businfo>
      <version>02</version>
      <width units="bits">32</width>
@@ -235,6 +247,8 @@
      <product>Xwave QS3000A [FM801] [1319:801]</product>
      <vendor>Fortemedia, Inc [1319]</vendor>
      <physid>4</physid>
+     <subsysproduct>Fortemedia, Inc [1319:1319]</subsysproduct>
+     <subsysvendor>Fortemedia, Inc [1319]</subsysvendor>
      <businfo>pci@0000:a0:04.0</businfo>
      <version>b2</version>
      <width units="bits">32</width>
@@ -260,6 +274,8 @@
      <product>Xwave QS3000A [FM801 game port] [1319:802]</product>
      <vendor>Fortemedia, Inc [1319]</vendor>
      <physid>4.1</physid>
+     <subsysproduct>Fortemedia, Inc [1319:1319]</subsysproduct>
+     <subsysvendor>Fortemedia, Inc [1319]</subsysvendor>
      <businfo>pci@0000:a0:04.1</businfo>
      <version>b2</version>
      <width units="bits">32</width>
@@ -285,6 +301,8 @@
      <product>53c1010 66MHz  Ultra3 SCSI Adapter [1000:21]</product>
      <vendor>LSI Logic / Symbios Logic [1000]</vendor>
      <physid>7</physid>
+     <subsysproduct>Hewlett-Packard Company [103C:1330]</subsysproduct>
+     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
      <businfo>pci@0000:c0:01.0</businfo>
      <version>01</version>
      <width units="bits">64</width>
