@@ -5,7 +5,7 @@ model		: 26
 model name	: Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz
 stepping	: 5
 microcode	: 0x11
-cpu MHz		: 1862.000
+cpu MHz		: 2128.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -32,7 +32,7 @@ model		: 26
 model name	: Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz
 stepping	: 5
 microcode	: 0x11
-cpu MHz		: 1862.000
+cpu MHz		: 2128.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -59,7 +59,7 @@ model		: 26
 model name	: Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz
 stepping	: 5
 microcode	: 0x11
-cpu MHz		: 1596.000
+cpu MHz		: 1862.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -113,7 +113,7 @@ model		: 26
 model name	: Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz
 stepping	: 5
 microcode	: 0x11
-cpu MHz		: 1729.000
+cpu MHz		: 3060.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -140,7 +140,7 @@ model		: 26
 model name	: Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz
 stepping	: 5
 microcode	: 0x11
-cpu MHz		: 1596.000
+cpu MHz		: 2261.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -167,7 +167,7 @@ model		: 26
 model name	: Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz
 stepping	: 5
 microcode	: 0x11
-cpu MHz		: 1729.000
+cpu MHz		: 2128.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -194,7 +194,7 @@ model		: 26
 model name	: Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz
 stepping	: 5
 microcode	: 0x11
-cpu MHz		: 1729.000
+cpu MHz		: 1862.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
