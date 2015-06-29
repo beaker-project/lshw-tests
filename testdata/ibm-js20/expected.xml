@@ -96,6 +96,8 @@
        <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
        <vendor>Broadcom Corporation [14E4]</vendor>
        <physid>1</physid>
+       <subsysproduct>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</subsysproduct>
+       <subsysvendor>Broadcom Corporation [14E4]</subsysvendor>
        <businfo>pci@0000:11:01.0</businfo>
        <version>03</version>
        <width units="bits">64</width>
@@ -124,6 +126,8 @@
        <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
        <vendor>Broadcom Corporation [14E4]</vendor>
        <physid>1.1</physid>
+       <subsysproduct>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</subsysproduct>
+       <subsysvendor>Broadcom Corporation [14E4]</subsysvendor>
        <businfo>pci@0000:11:01.1</businfo>
        <version>03</version>
        <width units="bits">64</width>

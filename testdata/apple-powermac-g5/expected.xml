@@ -157,6 +157,8 @@
        <product>NV43 [GeForce 6600] [10DE:141]</product>
        <vendor>NVIDIA Corporation [10DE]</vendor>
        <physid>0</physid>
+       <subsysproduct>NVIDIA Corporation [10DE:10]</subsysproduct>
+       <subsysvendor>NVIDIA Corporation [10DE]</subsysvendor>
        <businfo>pci@0000:0a:00.0</businfo>
        <version>a2</version>
        <width units="bits">64</width>
@@ -232,6 +234,8 @@
          <product>NetXtreme BCM5780 Gigabit Ethernet [14E4:166A]</product>
          <vendor>Broadcom Corporation [14E4]</vendor>
          <physid>4</physid>
+         <subsysproduct>Apple Inc. [106B:85]</subsysproduct>
+         <subsysvendor>Apple Inc. [106B]</subsysvendor>
          <businfo>pci@0001:05:04.0</businfo>
          <version>03</version>
          <width units="bits">64</width>
@@ -260,6 +264,8 @@
          <product>NetXtreme BCM5780 Gigabit Ethernet [14E4:166A]</product>
          <vendor>Broadcom Corporation [14E4]</vendor>
          <physid>4.1</physid>
+         <subsysproduct>Apple Inc. [106B:85]</subsysproduct>
+         <subsysvendor>Apple Inc. [106B]</subsysvendor>
          <businfo>pci@0001:05:04.1</businfo>
          <version>03</version>
          <width units="bits">64</width>
@@ -310,6 +316,8 @@
          <product>GK208 [GeForce GT 630 Rev. 2] [10DE:1284]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
          <physid>0</physid>
+         <subsysproduct>Gigabyte Technology Co., Ltd [1458:3602]</subsysproduct>
+         <subsysvendor>Gigabyte Technology Co., Ltd [1458]</subsysvendor>
          <businfo>pci@0001:06:00.0</businfo>
          <version>a1</version>
          <width units="bits">64</width>
@@ -338,6 +346,8 @@
          <product>GK208 HDMI/DP Audio Controller [10DE:E0F]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
          <physid>0.1</physid>
+         <subsysproduct>Gigabyte Technology Co., Ltd [1458:3602]</subsysproduct>
+         <subsysvendor>Gigabyte Technology Co., Ltd [1458]</subsysvendor>
          <businfo>pci@0001:06:00.1</businfo>
          <version>a1</version>
          <width units="bits">32</width>
@@ -476,6 +486,8 @@
          <product>OHCI USB Controller [1033:35]</product>
          <vendor>NEC Corporation [1033]</vendor>
          <physid>b</physid>
+         <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
+         <subsysvendor>NEC Corporation [1033]</subsysvendor>
          <businfo>pci@0001:01:0b.0</businfo>
          <version>43</version>
          <width units="bits">32</width>
@@ -534,6 +546,8 @@
          <product>OHCI USB Controller [1033:35]</product>
          <vendor>NEC Corporation [1033]</vendor>
          <physid>b.1</physid>
+         <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
+         <subsysvendor>NEC Corporation [1033]</subsysvendor>
          <businfo>pci@0001:01:0b.1</businfo>
          <version>43</version>
          <width units="bits">32</width>
@@ -592,6 +606,8 @@
          <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
          <vendor>NEC Corporation [1033]</vendor>
          <physid>b.2</physid>
+         <subsysproduct>uPD72010x USB 2.0 Controller [1033:E0]</subsysproduct>
+         <subsysvendor>NEC Corporation [1033]</subsysvendor>
          <businfo>pci@0001:01:0b.2</businfo>
          <version>04</version>
          <width units="bits">32</width>
@@ -654,6 +670,8 @@
          <product>K2 SATA [1166:240]</product>
          <vendor>Broadcom [1166]</vendor>
          <physid>c</physid>
+         <subsysproduct>K2 SATA [1166:240]</subsysproduct>
+         <subsysvendor>Broadcom [1166]</subsysvendor>
          <businfo>pci@0001:03:0c.0</businfo>
          <version>00</version>
          <width units="bits">32</width>
@@ -697,6 +715,8 @@
          <product>Shasta Firewire [106B:52]</product>
          <vendor>Apple Inc. [106B]</vendor>
          <physid>e</physid>
+         <subsysproduct>Apple Inc. [106B:5811]</subsysproduct>
+         <subsysvendor>Apple Inc. [106B]</subsysvendor>
          <businfo>pci@0001:03:0e.0</businfo>
          <version>00</version>
          <width units="bits">32</width>
