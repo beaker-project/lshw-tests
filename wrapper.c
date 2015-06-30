@@ -23,6 +23,20 @@ static void info(const char *format, ...)
 static void die(const char *format, ...)
     __attribute__ ((format(printf, 1, 2)));
 
+/******************* REAL VERSIONS OF WRAPPED FUNCTIONS *******************/
+
+static ssize_t real_readlink(const char *path, char *buf, size_t bufsize) {
+    static ssize_t (*real_func)(const char *, char *, size_t);
+    if (real_func == NULL) {
+        real_func = dlsym(RTLD_NEXT, "readlink");
+        if (real_func == NULL)
+            die("failed to load real 'readlink': %s", dlerror());
+    }
+    return real_func(path, buf, bufsize);
+}
+
+/*************************** UTILITY FUNCTIONS ****************************/
+
 static void info(const char *format, ...) {
     static bool verbose = false;
     static bool verbose_checked = false;
@@ -158,12 +172,14 @@ static char *path_for_fd(int fd) {
     char proc_pathname[22];
     sprintf(proc_pathname, "/proc/self/fd/%d", fd);
     char *fd_pathname = (char *)malloc(2048);
-    ssize_t fd_pathname_len = readlink(proc_pathname, fd_pathname, 2048);
+    ssize_t fd_pathname_len = real_readlink(proc_pathname, fd_pathname, 2048);
     if (fd_pathname_len < 0 || fd_pathname_len >= 2048)
         die("failed to read symlink %s", proc_pathname);
     fd_pathname[fd_pathname_len] = '\0';
     return fd_pathname;
 }
+
+/************************** WRAPPER FUNCTIONS ****************************/
 
 int chdir(const char *path) {
     static int (*real_func)(const char *);
@@ -224,6 +240,18 @@ int glob(const char *pattern, int flags,
         return result;
     } else {
         return real_func(pattern, flags, errfunc, pglob);
+    }
+}
+
+ssize_t readlink(const char *path, char *buf, size_t bufsize) {
+    char *p = redirected_path(path);
+    if (p != NULL) {
+        info("readlink() redirected to %s", p);
+        ssize_t result = real_readlink(p, buf, bufsize);
+        free(p);
+        return result;
+    } else {
+        return real_readlink(path, buf, bufsize);
     }
 }
 
