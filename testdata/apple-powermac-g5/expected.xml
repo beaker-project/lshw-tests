@@ -9,10 +9,16 @@
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
+ <hints>
+  <hint name="icon" value="powermacg5" />
+ </hints>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
    <clock units="Hz">1250000000</clock>
+   <hints>
+    <hint name="icon" value="board" />
+   </hints>
     <node id="firmware" claimed="true" class="memory" handle="">
      <product>OpenFirmware 4</product>
      <physid>0</physid>
@@ -35,6 +41,10 @@
       <capability id="performance-monitor" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
       <node id="cache:0" claimed="true" class="memory" handle="">
        <description>L1 Cache</description>
        <physid>0</physid>
@@ -61,6 +71,10 @@
       <capability id="performance-monitor" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
       <node id="cache:0" claimed="true" class="memory" handle="">
        <description>L1 Cache</description>
        <physid>0</physid>
@@ -87,6 +101,10 @@
       <capability id="performance-monitor" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
       <node id="cache:0" claimed="true" class="memory" handle="">
        <description>L1 Cache</description>
        <physid>0</physid>
@@ -113,6 +131,10 @@
       <capability id="performance-monitor" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
       <node id="cache:0" claimed="true" class="memory" handle="">
        <description>L1 Cache</description>
        <physid>0</physid>
@@ -129,6 +151,9 @@
      <description>System memory</description>
      <physid>5</physid>
      <size units="bytes">1020788736</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:0a">
      <description>PCI bridge</description>
@@ -152,6 +177,11 @@
       <resource type="memory" value="90000000-afffffff" />
       <resource type="ioport" value="f1000000(size=1048576)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5B" />
+      <hint name="pci.vendor" value="0x106B" />
+     </hints>
       <node id="display" class="display" handle="PCI:0000:0a:00.0">
        <description>VGA compatible controller</description>
        <product>NV43 [GeForce 6600] [10DE:141]</product>
@@ -180,6 +210,14 @@
         <resource type="memory" value="a0000000-a0ffffff" />
         <resource type="memory" value="a2000000-a201ffff" />
        </resources>
+       <hints>
+        <hint name="icon" value="display" />
+        <hint name="pci.class" value="0x300" />
+        <hint name="pci.device" value="0x141" />
+        <hint name="pci.subdevice" value="0x10" />
+        <hint name="pci.subvendor" value="0x10DE" />
+        <hint name="pci.vendor" value="0x10DE" />
+       </hints>
       </node>
     </node>
     <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:00">
@@ -191,6 +229,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x74" />
+      <hint name="pci.vendor" value="0x106B" />
+     </hints>
       <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0001:04">
        <description>PCI bridge</description>
        <product>BCM5780 [HT2000] PCI-X bridge [1166:130]</product>
@@ -208,6 +251,11 @@
         <capability id="bus_master" >bus mastering</capability>
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x130" />
+        <hint name="pci.vendor" value="0x1166" />
+       </hints>
       </node>
       <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:05">
        <description>PCI bridge</description>
@@ -229,6 +277,11 @@
        <resources>
         <resource type="memory" value="fa500000-fa5fffff" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x130" />
+        <hint name="pci.vendor" value="0x1166" />
+       </hints>
         <node id="network:0" claimed="true" class="network" handle="PCI:0001:05:04.0">
          <description>Ethernet controller</description>
          <product>NetXtreme BCM5780 Gigabit Ethernet [14E4:166A]</product>
@@ -258,6 +311,14 @@
           <resource type="memory" value="fa530000-fa53ffff" />
           <resource type="memory" value="fa520000-fa52ffff" />
          </resources>
+         <hints>
+          <hint name="icon" value="network" />
+          <hint name="pci.class" value="0x200" />
+          <hint name="pci.device" value="0x166A" />
+          <hint name="pci.subdevice" value="0x85" />
+          <hint name="pci.subvendor" value="0x106B" />
+          <hint name="pci.vendor" value="0x14E4" />
+         </hints>
         </node>
         <node id="network:1" claimed="true" class="network" handle="PCI:0001:05:04.1">
          <description>Ethernet controller</description>
@@ -288,6 +349,14 @@
           <resource type="memory" value="fa510000-fa51ffff" />
           <resource type="memory" value="fa500000-fa50ffff" />
          </resources>
+         <hints>
+          <hint name="icon" value="network" />
+          <hint name="pci.class" value="0x200" />
+          <hint name="pci.device" value="0x166A" />
+          <hint name="pci.subdevice" value="0x85" />
+          <hint name="pci.subvendor" value="0x106B" />
+          <hint name="pci.vendor" value="0x14E4" />
+         </hints>
         </node>
       </node>
       <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0001:06">
@@ -311,6 +380,11 @@
         <resource type="ioport" value="0(size=4096)" />
         <resource type="memory" value="80100000-8fffffff" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x132" />
+        <hint name="pci.vendor" value="0x1166" />
+       </hints>
         <node id="display" class="display" handle="PCI:0001:06:00.0">
          <description>VGA compatible controller</description>
          <product>GK208 [GeForce GT 630 Rev. 2] [10DE:1284]</product>
@@ -340,6 +414,14 @@
           <resource type="ioport" value="0(size=128)" />
           <resource type="memory" value="80180000-801fffff" />
          </resources>
+         <hints>
+          <hint name="icon" value="display" />
+          <hint name="pci.class" value="0x300" />
+          <hint name="pci.device" value="0x1284" />
+          <hint name="pci.subdevice" value="0x3602" />
+          <hint name="pci.subvendor" value="0x1458" />
+          <hint name="pci.vendor" value="0x10DE" />
+         </hints>
         </node>
         <node id="multimedia" class="multimedia" handle="PCI:0001:06:00.1">
          <description>Audio device</description>
@@ -365,6 +447,13 @@
          <resources>
           <resource type="memory" value="80100000-80103fff" />
          </resources>
+         <hints>
+          <hint name="pci.class" value="0x403" />
+          <hint name="pci.device" value="0xE0F" />
+          <hint name="pci.subdevice" value="0x3602" />
+          <hint name="pci.subvendor" value="0x1458" />
+          <hint name="pci.vendor" value="0x10DE" />
+         </hints>
         </node>
       </node>
       <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0001:07">
@@ -384,6 +473,11 @@
         <capability id="bus_master" >bus mastering</capability>
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x132" />
+        <hint name="pci.vendor" value="0x1166" />
+       </hints>
       </node>
       <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0001:08">
        <description>PCI bridge</description>
@@ -402,6 +496,11 @@
         <capability id="bus_master" >bus mastering</capability>
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x132" />
+        <hint name="pci.vendor" value="0x1166" />
+       </hints>
       </node>
       <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0001:09">
        <description>PCI bridge</description>
@@ -420,6 +519,11 @@
         <capability id="bus_master" >bus mastering</capability>
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x132" />
+        <hint name="pci.vendor" value="0x1166" />
+       </hints>
       </node>
       <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0001:02">
        <description>PCI bridge</description>
@@ -440,6 +544,11 @@
        <resources>
         <resource type="memory" value="fa000000-fa3fffff" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x53" />
+        <hint name="pci.vendor" value="0x106B" />
+       </hints>
       </node>
       <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0001:01">
        <description>PCI bridge</description>
@@ -460,6 +569,11 @@
        <resources>
         <resource type="memory" value="80000000-800fffff" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x54" />
+        <hint name="pci.vendor" value="0x106B" />
+       </hints>
         <node id="generic" claimed="true" class="generic" handle="PCI:0001:01:07.0">
          <description>Unassigned class</description>
          <product>Shasta Mac I/O [106B:4F]</product>
@@ -480,6 +594,11 @@
           <resource type="irq" value="0" />
           <resource type="memory" value="80000000-8007ffff" />
          </resources>
+         <hints>
+          <hint name="pci.class" value="0xFF00" />
+          <hint name="pci.device" value="0x4F" />
+          <hint name="pci.vendor" value="0x106B" />
+         </hints>
         </node>
         <node id="usb:0" claimed="true" class="bus" handle="PCI:0001:01:0b.0">
          <description>USB controller</description>
@@ -508,6 +627,14 @@
           <resource type="irq" value="70" />
           <resource type="memory" value="80082000-80082fff" />
          </resources>
+         <hints>
+          <hint name="icon" value="usb" />
+          <hint name="pci.class" value="0xC03" />
+          <hint name="pci.device" value="0x35" />
+          <hint name="pci.subdevice" value="0x35" />
+          <hint name="pci.subvendor" value="0x1033" />
+          <hint name="pci.vendor" value="0x1033" />
+         </hints>
           <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
            <product>OHCI PCI host controller [1D6B:1]</product>
            <vendor>Linux 3.19.0-0.rc3.git0.1.fc22.ppc64 ohci_hcd [1D6B]</vendor>
@@ -523,6 +650,14 @@
            <capabilities>
             <capability id="usb-1.10" >USB 1.1</capability>
            </capabilities>
+           <hints>
+            <hint name="bus.icon" value="usb" />
+            <hint name="usb.bDeviceClass" value="0x9" />
+            <hint name="usb.bDeviceProtocol" value="0x0" />
+            <hint name="usb.bDeviceSubClass" value="0x0" />
+            <hint name="usb.idProduct" value="0x1" />
+            <hint name="usb.idVendor" value="0x1D6B" />
+           </hints>
             <node id="usb" claimed="true" class="input" handle="USB:2:2">
              <description>Keyboard</description>
              <product>IBM 73P5832 [624:296]</product>
@@ -538,6 +673,14 @@
              <capabilities>
               <capability id="usb-1.10" >USB 1.1</capability>
              </capabilities>
+             <hints>
+              <hint name="bus.icon" value="usb" />
+              <hint name="usb.bDeviceClass" value="0x0" />
+              <hint name="usb.bDeviceProtocol" value="0x0" />
+              <hint name="usb.bDeviceSubClass" value="0x0" />
+              <hint name="usb.idProduct" value="0x296" />
+              <hint name="usb.idVendor" value="0x624" />
+             </hints>
             </node>
           </node>
         </node>
@@ -568,6 +711,14 @@
           <resource type="irq" value="70" />
           <resource type="memory" value="80081000-80081fff" />
          </resources>
+         <hints>
+          <hint name="icon" value="usb" />
+          <hint name="pci.class" value="0xC03" />
+          <hint name="pci.device" value="0x35" />
+          <hint name="pci.subdevice" value="0x35" />
+          <hint name="pci.subvendor" value="0x1033" />
+          <hint name="pci.vendor" value="0x1033" />
+         </hints>
           <node id="usbhost" claimed="true" class="bus" handle="USB:3:1">
            <product>OHCI PCI host controller [1D6B:1]</product>
            <vendor>Linux 3.19.0-0.rc3.git0.1.fc22.ppc64 ohci_hcd [1D6B]</vendor>
@@ -583,6 +734,14 @@
            <capabilities>
             <capability id="usb-1.10" >USB 1.1</capability>
            </capabilities>
+           <hints>
+            <hint name="bus.icon" value="usb" />
+            <hint name="usb.bDeviceClass" value="0x9" />
+            <hint name="usb.bDeviceProtocol" value="0x0" />
+            <hint name="usb.bDeviceSubClass" value="0x0" />
+            <hint name="usb.idProduct" value="0x1" />
+            <hint name="usb.idVendor" value="0x1D6B" />
+           </hints>
             <node id="usb" claimed="true" class="input" handle="USB:3:2">
              <description>Keyboard</description>
              <product>IBM 73P5832 [624:296]</product>
@@ -598,6 +757,14 @@
              <capabilities>
               <capability id="usb-1.10" >USB 1.1</capability>
              </capabilities>
+             <hints>
+              <hint name="bus.icon" value="usb" />
+              <hint name="usb.bDeviceClass" value="0x0" />
+              <hint name="usb.bDeviceProtocol" value="0x0" />
+              <hint name="usb.bDeviceSubClass" value="0x0" />
+              <hint name="usb.idProduct" value="0x296" />
+              <hint name="usb.idVendor" value="0x624" />
+             </hints>
             </node>
           </node>
         </node>
@@ -628,6 +795,14 @@
           <resource type="irq" value="70" />
           <resource type="memory" value="80080000-800800ff" />
          </resources>
+         <hints>
+          <hint name="icon" value="usb" />
+          <hint name="pci.class" value="0xC03" />
+          <hint name="pci.device" value="0xE0" />
+          <hint name="pci.subdevice" value="0xE0" />
+          <hint name="pci.subvendor" value="0x1033" />
+          <hint name="pci.vendor" value="0x1033" />
+         </hints>
           <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
            <product>EHCI Host Controller [1D6B:2]</product>
            <vendor>Linux 3.19.0-0.rc3.git0.1.fc22.ppc64 ehci_hcd [1D6B]</vendor>
@@ -643,6 +818,14 @@
            <capabilities>
             <capability id="usb-2.00" >USB 2.0</capability>
            </capabilities>
+           <hints>
+            <hint name="bus.icon" value="usb" />
+            <hint name="usb.bDeviceClass" value="0x9" />
+            <hint name="usb.bDeviceProtocol" value="0x0" />
+            <hint name="usb.bDeviceSubClass" value="0x0" />
+            <hint name="usb.idProduct" value="0x2" />
+            <hint name="usb.idVendor" value="0x1D6B" />
+           </hints>
           </node>
         </node>
       </node>
@@ -665,6 +848,11 @@
        <resources>
         <resource type="memory" value="fa400000-fa4fffff" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0x604" />
+        <hint name="pci.device" value="0x55" />
+        <hint name="pci.vendor" value="0x106B" />
+       </hints>
         <node id="ide" claimed="true" class="storage" handle="PCI:0001:03:0c.0">
          <description>IDE interface</description>
          <product>K2 SATA [1166:240]</product>
@@ -688,6 +876,14 @@
           <resource type="irq" value="18" />
           <resource type="memory" value="fa402000-fa403fff" />
          </resources>
+         <hints>
+          <hint name="icon" value="disc" />
+          <hint name="pci.class" value="0x101" />
+          <hint name="pci.device" value="0x240" />
+          <hint name="pci.subdevice" value="0x240" />
+          <hint name="pci.subvendor" value="0x1166" />
+          <hint name="pci.vendor" value="0x1166" />
+         </hints>
         </node>
         <node id="generic" claimed="true" class="generic" handle="PCI:0001:03:0d.0">
          <description>Unassigned class</description>
@@ -709,6 +905,11 @@
           <resource type="irq" value="38" />
           <resource type="memory" value="fa404000-fa407fff" />
          </resources>
+         <hints>
+          <hint name="pci.class" value="0xFF00" />
+          <hint name="pci.device" value="0x50" />
+          <hint name="pci.vendor" value="0x106B" />
+         </hints>
         </node>
         <node id="firewire" claimed="true" class="bus" handle="PCI:0001:03:0e.0">
          <description>FireWire (IEEE 1394)</description>
@@ -737,6 +938,14 @@
           <resource type="irq" value="39" />
           <resource type="memory" value="fa400000-fa400fff" />
          </resources>
+         <hints>
+          <hint name="icon" value="firewire" />
+          <hint name="pci.class" value="0xC00" />
+          <hint name="pci.device" value="0x52" />
+          <hint name="pci.subdevice" value="0x5811" />
+          <hint name="pci.subvendor" value="0x106B" />
+          <hint name="pci.vendor" value="0x106B" />
+         </hints>
         </node>
       </node>
     </node>

@@ -13,6 +13,9 @@
      <description>System memory</description>
      <physid>0</physid>
      <size units="bytes">2093244416</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
      <vendor>IBM/S390</vendor>
@@ -29,6 +32,10 @@
       <capability id="etf3eh" >ETF3 enhancement facility</capability>
       <capability id="highgprs" >support for 64-bit registers for 31-bit programs</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="s390x" />
+     </hints>
     </node>
     <node id="cpu:1" claimed="true" class="processor" handle="">
      <vendor>IBM/S390</vendor>
@@ -45,6 +52,9 @@
       <capability id="etf3eh" >ETF3 enhancement facility</capability>
       <capability id="highgprs" >support for 64-bit registers for 31-bit programs</capability>
      </capabilities>
+     <hints>
+      <hint name="logo" value="s390x" />
+     </hints>
     </node>
     <node id="disk:0" claimed="true" class="disk" handle="">
      <description>DASD Device</description>
@@ -57,6 +67,9 @@
       <setting id="logicalsectorsize" value="4096" />
       <setting id="sectorsize" value="4096" />
      </configuration>
+     <hints>
+      <hint name="icon" value="disc" />
+     </hints>
     </node>
     <node id="disk:1" claimed="true" class="disk" handle="">
      <description>DASD Device</description>
@@ -69,6 +82,9 @@
       <setting id="logicalsectorsize" value="4096" />
       <setting id="sectorsize" value="4096" />
      </configuration>
+     <hints>
+      <hint name="icon" value="disc" />
+     </hints>
     </node>
     <node id="disk:2" claimed="true" class="disk" handle="">
      <description>DASD Device</description>
@@ -81,6 +97,9 @@
       <setting id="logicalsectorsize" value="4096" />
       <setting id="sectorsize" value="4096" />
      </configuration>
+     <hints>
+      <hint name="icon" value="disc" />
+     </hints>
     </node>
     <node id="disk:3" claimed="true" class="disk" handle="">
      <description>DASD Device</description>
@@ -93,6 +112,9 @@
       <setting id="logicalsectorsize" value="4096" />
       <setting id="sectorsize" value="4096" />
      </configuration>
+     <hints>
+      <hint name="icon" value="disc" />
+     </hints>
     </node>
   </node>
 </node>

@@ -12,9 +12,15 @@
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
+ <hints>
+  <hint name="icon" value="" />
+ </hints>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
+   <hints>
+    <hint name="icon" value="board" />
+   </hints>
     <node id="firmware" claimed="true" class="memory" handle="">
      <product>IBM,SV810_896</product>
      <physid>0</physid>
@@ -24,6 +30,9 @@
      <description>System memory</description>
      <physid>1</physid>
      <size units="bytes">16604790784</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -31,6 +40,10 @@
      <businfo>cpu@0</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:1" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -38,6 +51,10 @@
      <businfo>cpu@1</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:2" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -45,6 +62,10 @@
      <businfo>cpu@2</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:3" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -52,6 +73,10 @@
      <businfo>cpu@3</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:4" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -59,6 +84,10 @@
      <businfo>cpu@4</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:5" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -66,6 +95,10 @@
      <businfo>cpu@5</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:6" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -73,6 +106,10 @@
      <businfo>cpu@6</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:7" claimed="true" class="processor" handle="">
      <product>POWER8 (architected), altivec supported</product>
@@ -80,6 +117,10 @@
      <businfo>cpu@7</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
   </node>
 </node>

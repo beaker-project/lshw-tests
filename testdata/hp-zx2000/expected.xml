@@ -10,6 +10,9 @@
      <description>System memory</description>
      <physid>1</physid>
      <size units="bytes">2561605632</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="cpu" claimed="true" class="processor" handle="">
      <product>Itanium 2</product>
@@ -18,6 +21,9 @@
      <businfo>cpu@0</businfo>
      <version>7</version>
      <size units="Hz">900000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="display" class="display" handle="PCI:0000:00:00.0">
      <description>VGA compatible controller</description>
@@ -48,6 +54,14 @@
       <resource type="memory" value="80000000-87ffffff(prefetchable)" />
       <resource type="memory" value="89000000-8900ffff(prefetchable)" />
      </resources>
+     <hints>
+      <hint name="icon" value="display" />
+      <hint name="pci.class" value="0x300" />
+      <hint name="pci.device" value="0x113" />
+      <hint name="pci.subdevice" value="0x70" />
+      <hint name="pci.subvendor" value="0x10DE" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
     </node>
     <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:a0:01.0">
      <description>USB controller</description>
@@ -76,6 +90,14 @@
       <resource type="irq" value="53" />
       <resource type="memory" value="d0022000-d0022fff" />
      </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0x35" />
+      <hint name="pci.subdevice" value="0x35" />
+      <hint name="pci.subvendor" value="0x1033" />
+      <hint name="pci.vendor" value="0x1033" />
+     </hints>
       <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
        <product>OHCI Host Controller [0:0]</product>
        <vendor>Linux 2.6.18-402.el5 ohci_hcd [0]</vendor>
@@ -91,6 +113,12 @@
        <capabilities>
         <capability id="usb-1.10" >USB 1.1</capability>
        </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x0" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+       </hints>
       </node>
     </node>
     <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:a0:01.1">
@@ -120,6 +148,14 @@
       <resource type="irq" value="54" />
       <resource type="memory" value="d0021000-d0021fff" />
      </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0x35" />
+      <hint name="pci.subdevice" value="0x35" />
+      <hint name="pci.subvendor" value="0x1033" />
+      <hint name="pci.vendor" value="0x1033" />
+     </hints>
       <node id="usbhost" claimed="true" class="bus" handle="USB:3:1">
        <product>OHCI Host Controller [0:0]</product>
        <vendor>Linux 2.6.18-402.el5 ohci_hcd [0]</vendor>
@@ -135,6 +171,12 @@
        <capabilities>
         <capability id="usb-1.10" >USB 1.1</capability>
        </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x0" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+       </hints>
       </node>
     </node>
     <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:a0:01.2">
@@ -164,6 +206,14 @@
       <resource type="irq" value="52" />
       <resource type="memory" value="d0020000-d00200ff" />
      </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0xE0" />
+      <hint name="pci.subdevice" value="0xE0" />
+      <hint name="pci.subvendor" value="0x1033" />
+      <hint name="pci.vendor" value="0x1033" />
+     </hints>
       <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
        <product>EHCI Host Controller [0:0]</product>
        <vendor>Linux 2.6.18-402.el5 ehci_hcd [0]</vendor>
@@ -179,6 +229,12 @@
        <capabilities>
         <capability id="usb-2.00" >USB 2.0</capability>
        </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x1" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+       </hints>
       </node>
     </node>
     <node id="ide" claimed="true" class="storage" handle="PCI:0000:a0:02.0">
@@ -212,6 +268,14 @@
       <resource type="ioport" value="a0f0(size=4)" />
       <resource type="ioport" value="a0d0(size=16)" />
      </resources>
+     <hints>
+      <hint name="icon" value="disc" />
+      <hint name="pci.class" value="0x101" />
+      <hint name="pci.device" value="0x649" />
+      <hint name="pci.subdevice" value="0x649" />
+      <hint name="pci.subvendor" value="0x1095" />
+      <hint name="pci.vendor" value="0x1095" />
+     </hints>
     </node>
     <node id="network" claimed="true" class="network" handle="PCI:0000:a0:03.0">
      <description>Ethernet controller</description>
@@ -241,6 +305,14 @@
       <resource type="memory" value="d0000000-d001ffff" />
       <resource type="ioport" value="a080(size=64)" />
      </resources>
+     <hints>
+      <hint name="icon" value="network" />
+      <hint name="pci.class" value="0x200" />
+      <hint name="pci.device" value="0x100E" />
+      <hint name="pci.subdevice" value="0x1274" />
+      <hint name="pci.subvendor" value="0x103C" />
+      <hint name="pci.vendor" value="0x8086" />
+     </hints>
     </node>
     <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:a0:04.0">
      <description>Multimedia audio controller</description>
@@ -268,6 +340,14 @@
       <resource type="irq" value="57" />
       <resource type="ioport" value="a000(size=128)" />
      </resources>
+     <hints>
+      <hint name="icon" value="audio" />
+      <hint name="pci.class" value="0x401" />
+      <hint name="pci.device" value="0x801" />
+      <hint name="pci.subdevice" value="0x1319" />
+      <hint name="pci.subvendor" value="0x1319" />
+      <hint name="pci.vendor" value="0x1319" />
+     </hints>
     </node>
     <node id="input" claimed="true" class="input" handle="PCI:0000:a0:04.1">
      <description>Input device controller</description>
@@ -295,6 +375,13 @@
       <resource type="irq" value="0" />
       <resource type="ioport" value="a0c0(size=16)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x980" />
+      <hint name="pci.device" value="0x802" />
+      <hint name="pci.subdevice" value="0x1319" />
+      <hint name="pci.subvendor" value="0x1319" />
+      <hint name="pci.vendor" value="0x1319" />
+     </hints>
     </node>
     <node id="scsi" claimed="true" class="storage" handle="PCI:0000:c0:01.0">
      <description>SCSI storage controller</description>
@@ -327,6 +414,14 @@
       <resource type="memory" value="e0020000-e0021fff" />
       <resource type="memory" value="e0000000-e001ffff(prefetchable)" />
      </resources>
+     <hints>
+      <hint name="icon" value="scsi" />
+      <hint name="pci.class" value="0x100" />
+      <hint name="pci.device" value="0x21" />
+      <hint name="pci.subdevice" value="0x1330" />
+      <hint name="pci.subvendor" value="0x103C" />
+      <hint name="pci.vendor" value="0x1000" />
+     </hints>
     </node>
   </node>
 </node>

@@ -13,6 +13,9 @@
      <description>System memory</description>
      <physid>1</physid>
      <size units="bytes">14971961344</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
      <physid>2</physid>
@@ -22,6 +25,10 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="cpu:1" claimed="true" class="processor" handle="">
      <physid>3</physid>
@@ -31,6 +38,10 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="cpu:2" claimed="true" class="processor" handle="">
      <physid>4</physid>
@@ -40,6 +51,10 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="cpu:3" claimed="true" class="processor" handle="">
      <physid>5</physid>
@@ -49,6 +64,10 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="cpu:4" claimed="true" class="processor" handle="">
      <physid>6</physid>
@@ -58,6 +77,10 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="cpu:5" claimed="true" class="processor" handle="">
      <physid>7</physid>
@@ -67,6 +90,10 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="cpu:6" claimed="true" class="processor" handle="">
      <physid>8</physid>
@@ -76,6 +103,10 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="cpu:7" claimed="true" class="processor" handle="">
      <physid>9</physid>
@@ -85,6 +116,9 @@
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
      </capabilities>
+     <hints>
+      <hint name="logo" value="aarch64" />
+     </hints>
     </node>
     <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:01">
      <description>PCI bridge</description>
@@ -109,6 +143,11 @@
      <resources>
       <resource type="irq" value="132" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0xE004" />
+      <hint name="pci.vendor" value="0x10E8" />
+     </hints>
     </node>
   </node>
   <node id="usbhost:0" claimed="true" class="bus" handle="USB:4:1">
@@ -126,6 +165,14 @@
    <capabilities>
     <capability id="usb-3.00" />
    </capabilities>
+   <hints>
+    <hint name="bus.icon" value="usb" />
+    <hint name="usb.bDeviceClass" value="0x9" />
+    <hint name="usb.bDeviceProtocol" value="0x3" />
+    <hint name="usb.bDeviceSubClass" value="0x0" />
+    <hint name="usb.idProduct" value="0x3" />
+    <hint name="usb.idVendor" value="0x1D6B" />
+   </hints>
   </node>
   <node id="usbhost:1" claimed="true" class="bus" handle="USB:3:1">
    <product>xHCI Host Controller [1D6B:2]</product>
@@ -142,6 +189,14 @@
    <capabilities>
     <capability id="usb-2.00" >USB 2.0</capability>
    </capabilities>
+   <hints>
+    <hint name="bus.icon" value="usb" />
+    <hint name="usb.bDeviceClass" value="0x9" />
+    <hint name="usb.bDeviceProtocol" value="0x1" />
+    <hint name="usb.bDeviceSubClass" value="0x0" />
+    <hint name="usb.idProduct" value="0x2" />
+    <hint name="usb.idVendor" value="0x1D6B" />
+   </hints>
   </node>
   <node id="usbhost:2" claimed="true" class="bus" handle="USB:2:1">
    <product>xHCI Host Controller [1D6B:3]</product>
@@ -158,6 +213,14 @@
    <capabilities>
     <capability id="usb-3.00" />
    </capabilities>
+   <hints>
+    <hint name="bus.icon" value="usb" />
+    <hint name="usb.bDeviceClass" value="0x9" />
+    <hint name="usb.bDeviceProtocol" value="0x3" />
+    <hint name="usb.bDeviceSubClass" value="0x0" />
+    <hint name="usb.idProduct" value="0x3" />
+    <hint name="usb.idVendor" value="0x1D6B" />
+   </hints>
   </node>
   <node id="usbhost:3" claimed="true" class="bus" handle="USB:1:1">
    <product>xHCI Host Controller [1D6B:2]</product>
@@ -174,6 +237,14 @@
    <capabilities>
     <capability id="usb-2.00" >USB 2.0</capability>
    </capabilities>
+   <hints>
+    <hint name="bus.icon" value="usb" />
+    <hint name="usb.bDeviceClass" value="0x9" />
+    <hint name="usb.bDeviceProtocol" value="0x1" />
+    <hint name="usb.bDeviceSubClass" value="0x0" />
+    <hint name="usb.idProduct" value="0x2" />
+    <hint name="usb.idVendor" value="0x1D6B" />
+   </hints>
   </node>
 </node>
 </list>

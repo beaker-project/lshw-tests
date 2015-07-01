@@ -9,13 +9,22 @@
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
+ <hints>
+  <hint name="icon" value="motherboard" />
+ </hints>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
+   <hints>
+    <hint name="icon" value="board" />
+   </hints>
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
      <physid>0</physid>
      <size units="bytes">4287627264</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
       <node id="bank" claimed="true" class="memory" handle="">
        <description>DDR3L</description>
        <product>1067</product>
@@ -31,6 +40,9 @@
         <capability id="ecc" />
         <capability id="spd-1.1" />
        </capabilities>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
       </node>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
@@ -50,6 +62,10 @@
       <capability id="tls" >TLS register</capability>
       <capability id="vfpd32" >Unknown</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
     </node>
     <node id="cpu:1" claimed="true" class="processor" handle="">
      <description>CPU</description>
@@ -68,6 +84,10 @@
       <capability id="tls" >TLS register</capability>
       <capability id="vfpd32" >Unknown</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
     </node>
     <node id="cpu:2" claimed="true" class="processor" handle="">
      <description>CPU</description>
@@ -86,6 +106,10 @@
       <capability id="tls" >TLS register</capability>
       <capability id="vfpd32" >Unknown</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
     </node>
     <node id="cpu:3" claimed="true" class="processor" handle="">
      <description>CPU</description>
@@ -104,6 +128,10 @@
       <capability id="tls" >TLS register</capability>
       <capability id="vfpd32" >Unknown</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
     </node>
   </node>
 </node>
