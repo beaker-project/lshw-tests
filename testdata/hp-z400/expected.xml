@@ -1670,6 +1670,83 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
+    <node id="pnp00:00" claimed="true" class="system" handle="">
+     <product>AT Real-Time Clock</product>
+     <physid>2</physid>
+     <configuration>
+      <setting id="driver" value="rtc_cmos" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:01" claimed="true" class="input" handle="">
+     <product>PS/2 Port for PS/2-style Mice</product>
+     <physid>3</physid>
+     <configuration>
+      <setting id="driver" value="i8042 aux" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:02" claimed="true" class="input" handle="">
+     <product>IBM Enhanced keyboard controller (101/2-key)</product>
+     <physid>4</physid>
+     <configuration>
+      <setting id="driver" value="i8042 kbd" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:03" claimed="true" class="storage" handle="">
+     <product>PC standard floppy disk controller</product>
+     <physid>5</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:04" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>6</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:05" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>7</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:06" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>8</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:07" claimed="true" class="system" handle="">
+     <product>System Board</product>
+     <physid>9</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
   </node>
 </node>
 </list>

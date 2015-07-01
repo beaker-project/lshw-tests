@@ -1303,6 +1303,112 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
+    <node id="pnp00:00" claimed="true" class="bridge" handle="">
+     <product>PCI Express Root Bridge</product>
+     <physid>108</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:01" claimed="true" class="system" handle="">
+     <product>AT DMA Controller</product>
+     <physid>3</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:02" claimed="true" class="system" handle="">
+     <product>Math Coprocessor</product>
+     <physid>4</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:03" claimed="true" class="system" handle="">
+     <product>System Board</product>
+     <physid>5</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:04" claimed="true" class="system" handle="">
+     <product>AT Real-Time Clock</product>
+     <physid>6</physid>
+     <configuration>
+      <setting id="driver" value="rtc_cmos" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:05" claimed="true" class="storage" handle="">
+     <product>PC standard floppy disk controller</product>
+     <physid>7</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:06" claimed="true" class="communication" handle="">
+     <product>16550A-compatible COM port</product>
+     <physid>8</physid>
+     <configuration>
+      <setting id="driver" value="serial" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:07" claimed="true" class="communication" handle="">
+     <product>16550A-compatible COM port</product>
+     <physid>9</physid>
+     <configuration>
+      <setting id="driver" value="serial" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:08" claimed="true" class="system" handle="">
+     <product>System Board</product>
+     <physid>a</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:09" claimed="true" class="generic" handle="">
+     <product>IPMI Controller</product>
+     <vendor>Intelligent Platform Management Interface (IPMI) forum (Intel, HP, NEC, Dell)</vendor>
+     <physid>b</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:0a" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>c</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:0b" claimed="true" class="system" handle="">
+     <product>High Precision Event Timer</product>
+     <physid>d</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
   </node>
 </node>
 </list>

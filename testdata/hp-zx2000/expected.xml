@@ -423,6 +423,74 @@
       <hint name="pci.vendor" value="0x1000" />
      </hints>
     </node>
+    <node id="pnp00:00" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0001</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>8</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:01" claimed="true" class="generic" handle="">
+     <product>IPMI Controller</product>
+     <vendor>Intelligent Platform Management Interface (IPMI) forum (Intel, HP, NEC, Dell)</vendor>
+     <physid>9</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:02" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0003</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>a</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:03" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0002</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>b</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:04" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0002</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>c</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:05" claimed="true" class="communication" handle="">
+     <product>16550A-compatible COM port</product>
+     <physid>d</physid>
+     <configuration>
+      <setting id="driver" value="serial" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:06" claimed="true" class="communication" handle="">
+     <product>16550A-compatible COM port</product>
+     <physid>e</physid>
+     <configuration>
+      <setting id="driver" value="serial" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:07" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0002</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>f</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
   </node>
 </node>
 </list>
