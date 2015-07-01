@@ -1,0 +1,315 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system" handle="">
+ <description>Computer</description>
+ <width units="bits">64</width>
+  <node id="core" claimed="true" class="bus" handle="">
+   <description>Motherboard</description>
+   <physid>0</physid>
+    <node id="memory" claimed="true" class="memory" handle="">
+     <description>System memory</description>
+     <physid>1</physid>
+     <size units="bytes">2561605632</size>
+    </node>
+    <node id="cpu" claimed="true" class="processor" handle="">
+     <product>Itanium 2</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>5</physid>
+     <businfo>cpu@0</businfo>
+     <version>7</version>
+     <size units="Hz">900000000</size>
+    </node>
+    <node id="display" class="display" handle="PCI:0000:00:00.0">
+     <description>VGA compatible controller</description>
+     <product>NV11GL [Quadro2 MXR/EX/Go] [10DE:113]</product>
+     <vendor>NVIDIA Corporation [10DE]</vendor>
+     <physid>0</physid>
+     <businfo>pci@0000:00:00.0</businfo>
+     <version>b2</version>
+     <width units="bits">32</width>
+     <clock units="Hz">66000000</clock>
+     <configuration>
+      <setting id="latency" value="192" />
+      <setting id="maxlatency" value="1" />
+      <setting id="mingnt" value="5" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="agp" >AGP</capability>
+      <capability id="agp-2.0" >AGP 2.0</capability>
+      <capability id="vga_controller" />
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="memory" value="88000000-88ffffff" />
+      <resource type="memory" value="80000000-87ffffff(prefetchable)" />
+      <resource type="memory" value="89000000-8900ffff(prefetchable)" />
+     </resources>
+    </node>
+    <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:a0:01.0">
+     <description>USB controller</description>
+     <product>OHCI USB Controller [1033:35]</product>
+     <vendor>NEC Corporation [1033]</vendor>
+     <physid>6</physid>
+     <businfo>pci@0000:a0:01.0</businfo>
+     <version>41</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="ohci_hcd" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="42" />
+      <setting id="mingnt" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="ohci" >Open Host Controller Interface</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="53" />
+      <resource type="memory" value="d0022000-d0022fff" />
+     </resources>
+      <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
+       <product>OHCI Host Controller [0:0]</product>
+       <vendor>Linux 2.6.18-402.el5 ohci_hcd [0]</vendor>
+       <physid>1</physid>
+       <businfo>usb@2</businfo>
+       <logicalname>usb2</logicalname>
+       <version>2.06</version>
+       <configuration>
+        <setting id="driver" value="hub" />
+        <setting id="slots" value="3" />
+        <setting id="speed" value="12Mbit/s" />
+       </configuration>
+       <capabilities>
+        <capability id="usb-1.10" >USB 1.1</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:a0:01.1">
+     <description>USB controller</description>
+     <product>OHCI USB Controller [1033:35]</product>
+     <vendor>NEC Corporation [1033]</vendor>
+     <physid>1.1</physid>
+     <businfo>pci@0000:a0:01.1</businfo>
+     <version>41</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="ohci_hcd" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="42" />
+      <setting id="mingnt" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="ohci" >Open Host Controller Interface</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="54" />
+      <resource type="memory" value="d0021000-d0021fff" />
+     </resources>
+      <node id="usbhost" claimed="true" class="bus" handle="USB:3:1">
+       <product>OHCI Host Controller [0:0]</product>
+       <vendor>Linux 2.6.18-402.el5 ohci_hcd [0]</vendor>
+       <physid>1</physid>
+       <businfo>usb@3</businfo>
+       <logicalname>usb3</logicalname>
+       <version>2.06</version>
+       <configuration>
+        <setting id="driver" value="hub" />
+        <setting id="slots" value="2" />
+        <setting id="speed" value="12Mbit/s" />
+       </configuration>
+       <capabilities>
+        <capability id="usb-1.10" >USB 1.1</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:a0:01.2">
+     <description>USB controller</description>
+     <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
+     <vendor>NEC Corporation [1033]</vendor>
+     <physid>1.2</physid>
+     <businfo>pci@0000:a0:01.2</businfo>
+     <version>02</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="ehci_hcd" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="34" />
+      <setting id="mingnt" value="16" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="ehci" >Enhanced Host Controller Interface (USB2)</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="52" />
+      <resource type="memory" value="d0020000-d00200ff" />
+     </resources>
+      <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
+       <product>EHCI Host Controller [0:0]</product>
+       <vendor>Linux 2.6.18-402.el5 ehci_hcd [0]</vendor>
+       <physid>1</physid>
+       <businfo>usb@1</businfo>
+       <logicalname>usb1</logicalname>
+       <version>2.06</version>
+       <configuration>
+        <setting id="driver" value="hub" />
+        <setting id="slots" value="5" />
+        <setting id="speed" value="480Mbit/s" />
+       </configuration>
+       <capabilities>
+        <capability id="usb-2.00" >USB 2.0</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="ide" claimed="true" class="storage" handle="PCI:0000:a0:02.0">
+     <description>IDE interface</description>
+     <product>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</product>
+     <vendor>Silicon Image, Inc. [1095]</vendor>
+     <physid>2</physid>
+     <businfo>pci@0000:a0:02.0</businfo>
+     <version>02</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="CMD64x_IDE" />
+      <setting id="latency" value="64" />
+      <setting id="maxlatency" value="4" />
+      <setting id="mingnt" value="2" />
+     </configuration>
+     <capabilities>
+      <capability id="ide" />
+      <capability id="pm" >Power Management</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="51" />
+      <resource type="ioport" value="a0e8(size=8)" />
+      <resource type="ioport" value="a0f4(size=4)" />
+      <resource type="ioport" value="a0e0(size=8)" />
+      <resource type="ioport" value="a0f0(size=4)" />
+      <resource type="ioport" value="a0d0(size=16)" />
+     </resources>
+    </node>
+    <node id="network" claimed="true" class="network" handle="PCI:0000:a0:03.0">
+     <description>Ethernet controller</description>
+     <product>82540EM Gigabit Ethernet Controller [8086:100E]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>3</physid>
+     <businfo>pci@0000:a0:03.0</businfo>
+     <version>02</version>
+     <width units="bits">32</width>
+     <clock units="Hz">66000000</clock>
+     <configuration>
+      <setting id="driver" value="e1000" />
+      <setting id="latency" value="128" />
+      <setting id="mingnt" value="255" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="pcix" >PCI-X</capability>
+      <capability id="msi" >Message Signalled Interrupts</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="56" />
+      <resource type="memory" value="d0000000-d001ffff" />
+      <resource type="ioport" value="a080(size=64)" />
+     </resources>
+    </node>
+    <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:a0:04.0">
+     <description>Multimedia audio controller</description>
+     <product>Xwave QS3000A [FM801] [1319:801]</product>
+     <vendor>Fortemedia, Inc [1319]</vendor>
+     <physid>4</physid>
+     <businfo>pci@0000:a0:04.0</businfo>
+     <version>b2</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="FM801" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="40" />
+      <setting id="mingnt" value="4" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="57" />
+      <resource type="ioport" value="a000(size=128)" />
+     </resources>
+    </node>
+    <node id="input" claimed="true" class="input" handle="PCI:0000:a0:04.1">
+     <description>Input device controller</description>
+     <product>Xwave QS3000A [FM801 game port] [1319:802]</product>
+     <vendor>Fortemedia, Inc [1319]</vendor>
+     <physid>4.1</physid>
+     <businfo>pci@0000:a0:04.1</businfo>
+     <version>b2</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="FM801_gameport" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="40" />
+      <setting id="mingnt" value="4" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+      <resource type="ioport" value="a0c0(size=16)" />
+     </resources>
+    </node>
+    <node id="scsi" claimed="true" class="storage" handle="PCI:0000:c0:01.0">
+     <description>SCSI storage controller</description>
+     <product>53c1010 66MHz  Ultra3 SCSI Adapter [1000:21]</product>
+     <vendor>LSI Logic / Symbios Logic [1000]</vendor>
+     <physid>7</physid>
+     <businfo>pci@0000:c0:01.0</businfo>
+     <version>01</version>
+     <width units="bits">64</width>
+     <clock units="Hz">66000000</clock>
+     <configuration>
+      <setting id="driver" value="sym53c8xx" />
+      <setting id="latency" value="192" />
+      <setting id="maxlatency" value="18" />
+      <setting id="mingnt" value="17" />
+     </configuration>
+     <capabilities>
+      <capability id="scsi" />
+      <capability id="pm" >Power Management</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+      <capability id="rom" >extension ROM</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="55" />
+      <resource type="ioport" value="c000(size=256)" />
+      <resource type="memory" value="e0022000-e00223ff" />
+      <resource type="memory" value="e0020000-e0021fff" />
+      <resource type="memory" value="e0000000-e001ffff(prefetchable)" />
+     </resources>
+    </node>
+  </node>
+</node>
+</list>
