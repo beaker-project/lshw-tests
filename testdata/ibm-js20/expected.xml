@@ -12,10 +12,16 @@
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
+ <hints>
+  <hint name="icon" value="" />
+ </hints>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
    <clock units="Hz">1097312280</clock>
+   <hints>
+    <hint name="icon" value="board" />
+   </hints>
     <node id="firmware" claimed="true" class="memory" handle="">
      <product>IBM,2b405_131</product>
      <physid>1</physid>
@@ -32,6 +38,10 @@
      <capabilities>
       <capability id="performance-monitor" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
       <node id="cache:0" claimed="true" class="memory" handle="">
        <description>L1 Cache</description>
        <physid>0</physid>
@@ -54,6 +64,10 @@
      <capabilities>
       <capability id="performance-monitor" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
       <node id="cache:0" claimed="true" class="memory" handle="">
        <description>L1 Cache</description>
        <physid>0</physid>
@@ -69,6 +83,9 @@
      <description>System memory</description>
      <physid>5</physid>
      <size units="bytes">2048720896</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:11">
      <description>PCI bridge</description>
@@ -91,6 +108,11 @@
       <resource type="ioport" value="200000(size=2097152)" />
       <resource type="memory" value="100c0000000-100dfffffff" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x7450" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:11:01.0">
        <description>Ethernet controller</description>
        <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
@@ -120,6 +142,14 @@
         <resource type="memory" value="100c0030000-100c003ffff" />
         <resource type="memory" value="100c0020000-100c002ffff" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x16A8" />
+        <hint name="pci.subdevice" value="0x16A8" />
+        <hint name="pci.subvendor" value="0x14E4" />
+        <hint name="pci.vendor" value="0x14E4" />
+       </hints>
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:11:01.1">
        <description>Ethernet controller</description>
@@ -150,6 +180,14 @@
         <resource type="memory" value="100c0010000-100c001ffff" />
         <resource type="memory" value="100c0000000-100c000ffff" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x16A8" />
+        <hint name="pci.subdevice" value="0x16A8" />
+        <hint name="pci.subvendor" value="0x14E4" />
+        <hint name="pci.vendor" value="0x14E4" />
+       </hints>
       </node>
     </node>
     <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:21">
@@ -172,6 +210,11 @@
       <resource type="ioport" value="8000(size=32768)" />
       <resource type="memory" value="100e0000000-100ebffffff" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x7460" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
       <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:21:00.0">
        <description>USB controller</description>
        <product>AMD-8111 USB OHCI [1022:7464]</product>
@@ -194,6 +237,12 @@
         <resource type="irq" value="19" />
         <resource type="memory" value="100e0001000-100e0001fff" />
        </resources>
+       <hints>
+        <hint name="icon" value="usb" />
+        <hint name="pci.class" value="0xC03" />
+        <hint name="pci.device" value="0x7464" />
+        <hint name="pci.vendor" value="0x1022" />
+       </hints>
         <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
          <product>OHCI Host Controller [1D6B:1]</product>
          <vendor>Linux 2.6.32-504.el6.ppc64 ohci_hcd [1D6B]</vendor>
@@ -209,6 +258,14 @@
          <capabilities>
           <capability id="usb-1.10" >USB 1.1</capability>
          </capabilities>
+         <hints>
+          <hint name="bus.icon" value="usb" />
+          <hint name="usb.bDeviceClass" value="0x9" />
+          <hint name="usb.bDeviceProtocol" value="0x0" />
+          <hint name="usb.bDeviceSubClass" value="0x0" />
+          <hint name="usb.idProduct" value="0x1" />
+          <hint name="usb.idVendor" value="0x1D6B" />
+         </hints>
         </node>
       </node>
       <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:21:00.1">
@@ -233,6 +290,12 @@
         <resource type="irq" value="19" />
         <resource type="memory" value="100e0000000-100e0000fff" />
        </resources>
+       <hints>
+        <hint name="icon" value="usb" />
+        <hint name="pci.class" value="0xC03" />
+        <hint name="pci.device" value="0x7464" />
+        <hint name="pci.vendor" value="0x1022" />
+       </hints>
         <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
          <product>OHCI Host Controller [1D6B:1]</product>
          <vendor>Linux 2.6.32-504.el6.ppc64 ohci_hcd [1D6B]</vendor>
@@ -248,6 +311,14 @@
          <capabilities>
           <capability id="usb-1.10" >USB 1.1</capability>
          </capabilities>
+         <hints>
+          <hint name="bus.icon" value="usb" />
+          <hint name="usb.bDeviceClass" value="0x9" />
+          <hint name="usb.bDeviceProtocol" value="0x0" />
+          <hint name="usb.bDeviceSubClass" value="0x0" />
+          <hint name="usb.idProduct" value="0x1" />
+          <hint name="usb.idVendor" value="0x1D6B" />
+         </hints>
         </node>
       </node>
     </node>
@@ -276,6 +347,12 @@
       <resource type="ioport" value="7000(size=4)" />
       <resource type="ioport" value="7c00(size=16)" />
      </resources>
+     <hints>
+      <hint name="icon" value="disc" />
+      <hint name="pci.class" value="0x101" />
+      <hint name="pci.device" value="0x7469" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:01">
      <description>PCI bridge</description>
@@ -298,6 +375,11 @@
       <resource type="ioport" value="100000(size=1048576)" />
       <resource type="memory" value="10080000000-100bfffffff" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x7450" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
   </node>
 </node>

@@ -12,9 +12,15 @@
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
+ <hints>
+  <hint name="icon" value="" />
+ </hints>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
+   <hints>
+    <hint name="icon" value="board" />
+   </hints>
     <node id="firmware" claimed="true" class="memory" handle="">
      <product>IBM,AL710_119</product>
      <physid>0</physid>
@@ -24,6 +30,9 @@
      <description>System memory</description>
      <physid>1</physid>
      <size units="bytes">8015773696</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
      <product>POWER7 (architected), altivec supported</product>
@@ -31,6 +40,10 @@
      <businfo>cpu@0</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:1" claimed="true" class="processor" handle="">
      <product>POWER7 (architected), altivec supported</product>
@@ -38,6 +51,10 @@
      <businfo>cpu@1</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:2" claimed="true" class="processor" handle="">
      <product>POWER7 (architected), altivec supported</product>
@@ -45,6 +62,10 @@
      <businfo>cpu@2</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
     <node id="cpu:3" claimed="true" class="processor" handle="">
      <product>POWER7 (architected), altivec supported</product>
@@ -52,6 +73,10 @@
      <businfo>cpu@3</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
     </node>
   </node>
 </node>

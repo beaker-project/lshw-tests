@@ -14,6 +14,9 @@
      <description>System memory</description>
      <physid>0</physid>
      <size units="bytes">2097709056</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -56,6 +59,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="cpu:1" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -98,6 +104,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="cpu:2" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -140,6 +149,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="cpu:3" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -182,6 +194,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="cpu:4" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -224,6 +239,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="cpu:5" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -266,6 +284,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="cpu:6" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -308,6 +329,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="cpu:7" claimed="true" class="processor" handle="">
      <product>QEMU Virtual CPU version 2.1.3</product>
@@ -350,6 +374,9 @@
       <capability id="hypervisor" />
       <capability id="lahf_lm" />
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
     </node>
     <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -362,6 +389,13 @@
      <version>02</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1237" />
+      <hint name="pci.subdevice" value="0x1100" />
+      <hint name="pci.subvendor" value="0x1AF4" />
+      <hint name="pci.vendor" value="0x8086" />
+     </hints>
       <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:01.0">
        <description>ISA bridge</description>
        <product>82371SB PIIX3 ISA [Natoma/Triton II] [8086:7000]</product>
@@ -379,6 +413,13 @@
        <capabilities>
         <capability id="isa" />
        </capabilities>
+       <hints>
+        <hint name="pci.class" value="0x601" />
+        <hint name="pci.device" value="0x7000" />
+        <hint name="pci.subdevice" value="0x1100" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:01.1">
        <description>IDE interface</description>
@@ -407,6 +448,14 @@
         <resource type="ioport" value="376" />
         <resource type="ioport" value="c5e0(size=16)" />
        </resources>
+       <hints>
+        <hint name="icon" value="disc" />
+        <hint name="pci.class" value="0x101" />
+        <hint name="pci.device" value="0x7010" />
+        <hint name="pci.subdevice" value="0x1100" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="usb" claimed="true" class="bus" handle="PCI:0000:00:01.2">
        <description>USB controller</description>
@@ -431,6 +480,14 @@
         <resource type="irq" value="11" />
         <resource type="ioport" value="c580(size=32)" />
        </resources>
+       <hints>
+        <hint name="icon" value="usb" />
+        <hint name="pci.class" value="0xC03" />
+        <hint name="pci.device" value="0x7020" />
+        <hint name="pci.subdevice" value="0x1100" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
         <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
          <product>UHCI Host Controller [1D6B:1]</product>
          <vendor>Linux 4.2.0-0.rc1.git0.1.fc23.x86_64 uhci_hcd [1D6B]</vendor>
@@ -446,6 +503,14 @@
          <capabilities>
           <capability id="usb-1.10" >USB 1.1</capability>
          </capabilities>
+         <hints>
+          <hint name="bus.icon" value="usb" />
+          <hint name="usb.bDeviceClass" value="0x9" />
+          <hint name="usb.bDeviceProtocol" value="0x0" />
+          <hint name="usb.bDeviceSubClass" value="0x0" />
+          <hint name="usb.idProduct" value="0x1" />
+          <hint name="usb.idVendor" value="0x1D6B" />
+         </hints>
           <node id="usb" claimed="true" class="input" handle="USB:1:2">
            <description>Mouse</description>
            <product>QEMU USB Tablet [627:1]</product>
@@ -462,6 +527,14 @@
            <capabilities>
             <capability id="usb-2.00" >USB 2.0</capability>
            </capabilities>
+           <hints>
+            <hint name="bus.icon" value="usb" />
+            <hint name="usb.bDeviceClass" value="0x0" />
+            <hint name="usb.bDeviceProtocol" value="0x0" />
+            <hint name="usb.bDeviceSubClass" value="0x0" />
+            <hint name="usb.idProduct" value="0x1" />
+            <hint name="usb.idVendor" value="0x627" />
+           </hints>
           </node>
         </node>
       </node>
@@ -486,6 +559,13 @@
        <resources>
         <resource type="irq" value="9" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0x680" />
+        <hint name="pci.device" value="0x7113" />
+        <hint name="pci.subdevice" value="0x1100" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="display" claimed="true" class="display" handle="PCI:0000:00:02.0">
        <description>VGA compatible controller</description>
@@ -512,6 +592,14 @@
         <resource type="memory" value="febd0000-febd0fff" />
         <resource type="memory" value="febc0000-febcffff" />
        </resources>
+       <hints>
+        <hint name="icon" value="display" />
+        <hint name="pci.class" value="0x300" />
+        <hint name="pci.device" value="0xB8" />
+        <hint name="pci.subdevice" value="0x1100" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x1013" />
+       </hints>
       </node>
       <node id="network" claimed="true" class="network" handle="PCI:0000:00:03.0">
        <description>Ethernet controller</description>
@@ -540,6 +628,14 @@
         <resource type="memory" value="febd1000-febd1fff" />
         <resource type="memory" value="feb80000-febbffff" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x1000" />
+        <hint name="pci.subdevice" value="0x1" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x1AF4" />
+       </hints>
       </node>
       <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:04.0">
        <description>Multimedia audio controller</description>
@@ -564,6 +660,14 @@
         <resource type="ioport" value="c000(size=1024)" />
         <resource type="ioport" value="c400(size=256)" />
        </resources>
+       <hints>
+        <hint name="icon" value="audio" />
+        <hint name="pci.class" value="0x401" />
+        <hint name="pci.device" value="0x2415" />
+        <hint name="pci.subdevice" value="0x1100" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="scsi:0" claimed="true" class="storage" handle="PCI:0000:00:05.0">
        <description>SCSI storage controller</description>
@@ -591,6 +695,14 @@
         <resource type="ioport" value="c500(size=64)" />
         <resource type="memory" value="febd2000-febd2fff" />
        </resources>
+       <hints>
+        <hint name="icon" value="scsi" />
+        <hint name="pci.class" value="0x100" />
+        <hint name="pci.device" value="0x1001" />
+        <hint name="pci.subdevice" value="0x2" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x1AF4" />
+       </hints>
       </node>
       <node id="generic" claimed="true" class="generic" handle="PCI:0000:00:06.0">
        <description>Unclassified device</description>
@@ -614,6 +726,13 @@
         <resource type="irq" value="11" />
         <resource type="ioport" value="c5c0(size=32)" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0xFF" />
+        <hint name="pci.device" value="0x1002" />
+        <hint name="pci.subdevice" value="0x5" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x1AF4" />
+       </hints>
       </node>
       <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:00:07.0">
        <description>SCSI storage controller</description>
@@ -641,6 +760,14 @@
         <resource type="ioport" value="c540(size=64)" />
         <resource type="memory" value="febd3000-febd3fff" />
        </resources>
+       <hints>
+        <hint name="icon" value="scsi" />
+        <hint name="pci.class" value="0x100" />
+        <hint name="pci.device" value="0x1001" />
+        <hint name="pci.subdevice" value="0x2" />
+        <hint name="pci.subvendor" value="0x1AF4" />
+        <hint name="pci.vendor" value="0x1AF4" />
+       </hints>
       </node>
     </node>
   </node>
