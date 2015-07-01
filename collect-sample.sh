@@ -37,6 +37,9 @@ if [ -e /proc/device-tree ] ; then
     cp -dR /proc/device-tree "$1/proc/device-tree"
 fi
 
+# /proc/bus
+cp -dR /proc/bus "$1/proc/"
+
 # /sys
 mkdir -p "$1/sys"
 cp -dR /sys/{devices,class,bus,block,firmware,power} "$1/sys/"
