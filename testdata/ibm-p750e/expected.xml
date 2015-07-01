@@ -19,7 +19,7 @@
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
      <physid>1</physid>
-     <size units="bytes">8016101376</size>
+     <size units="bytes">8015773696</size>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
      <product>POWER7 (architected), altivec supported</product>

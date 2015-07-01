@@ -9,7 +9,7 @@
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
      <physid>0</physid>
-     <size units="bytes">1054167040</size>
+     <size units="bytes">1054093312</size>
     </node>
     <node id="cpu" claimed="true" class="processor" handle="">
      <product>Intel(R) Pentium(R) M processor 1.86GHz</product>
@@ -227,7 +227,7 @@
        </resources>
         <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
          <product>UHCI Host Controller [1D6B:1]</product>
-         <vendor>Linux 2.6.32-504.16.2.el6.i686 uhci_hcd [1D6B]</vendor>
+         <vendor>Linux 2.6.32-570.el6.i686 uhci_hcd [1D6B]</vendor>
          <physid>1</physid>
          <businfo>usb@2</businfo>
          <logicalname>usb2</logicalname>
@@ -265,7 +265,7 @@
        </resources>
         <node id="usbhost" claimed="true" class="bus" handle="USB:3:1">
          <product>UHCI Host Controller [1D6B:1]</product>
-         <vendor>Linux 2.6.32-504.16.2.el6.i686 uhci_hcd [1D6B]</vendor>
+         <vendor>Linux 2.6.32-570.el6.i686 uhci_hcd [1D6B]</vendor>
          <physid>1</physid>
          <businfo>usb@3</businfo>
          <logicalname>usb3</logicalname>
@@ -303,7 +303,7 @@
        </resources>
         <node id="usbhost" claimed="true" class="bus" handle="USB:4:1">
          <product>UHCI Host Controller [1D6B:1]</product>
-         <vendor>Linux 2.6.32-504.16.2.el6.i686 uhci_hcd [1D6B]</vendor>
+         <vendor>Linux 2.6.32-570.el6.i686 uhci_hcd [1D6B]</vendor>
          <physid>1</physid>
          <businfo>usb@4</businfo>
          <logicalname>usb4</logicalname>
@@ -341,7 +341,7 @@
        </resources>
         <node id="usbhost" claimed="true" class="bus" handle="USB:5:1">
          <product>UHCI Host Controller [1D6B:1]</product>
-         <vendor>Linux 2.6.32-504.16.2.el6.i686 uhci_hcd [1D6B]</vendor>
+         <vendor>Linux 2.6.32-570.el6.i686 uhci_hcd [1D6B]</vendor>
          <physid>1</physid>
          <businfo>usb@5</businfo>
          <logicalname>usb5</logicalname>
@@ -382,7 +382,7 @@
        </resources>
         <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
          <product>EHCI Host Controller [1D6B:2]</product>
-         <vendor>Linux 2.6.32-504.16.2.el6.i686 ehci_hcd [1D6B]</vendor>
+         <vendor>Linux 2.6.32-570.el6.i686 ehci_hcd [1D6B]</vendor>
          <physid>1</physid>
          <businfo>usb@1</businfo>
          <logicalname>usb1</logicalname>

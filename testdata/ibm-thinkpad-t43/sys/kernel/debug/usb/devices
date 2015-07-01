@@ -3,7 +3,7 @@ T:  Bus=05 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
 B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
 D:  Ver= 1.10 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
 P:  Vendor=1d6b ProdID=0001 Rev= 2.06
-S:  Manufacturer=Linux 2.6.32-504.16.2.el6.i686 uhci_hcd
+S:  Manufacturer=Linux 2.6.32-570.el6.i686 uhci_hcd
 S:  Product=UHCI Host Controller
 S:  SerialNumber=0000:00:1d.3
 C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA
@@ -14,7 +14,7 @@ T:  Bus=04 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
 B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
 D:  Ver= 1.10 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
 P:  Vendor=1d6b ProdID=0001 Rev= 2.06
-S:  Manufacturer=Linux 2.6.32-504.16.2.el6.i686 uhci_hcd
+S:  Manufacturer=Linux 2.6.32-570.el6.i686 uhci_hcd
 S:  Product=UHCI Host Controller
 S:  SerialNumber=0000:00:1d.2
 C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA
@@ -25,7 +25,7 @@ T:  Bus=03 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
 B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
 D:  Ver= 1.10 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
 P:  Vendor=1d6b ProdID=0001 Rev= 2.06
-S:  Manufacturer=Linux 2.6.32-504.16.2.el6.i686 uhci_hcd
+S:  Manufacturer=Linux 2.6.32-570.el6.i686 uhci_hcd
 S:  Product=UHCI Host Controller
 S:  SerialNumber=0000:00:1d.1
 C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA
@@ -36,7 +36,7 @@ T:  Bus=02 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
 B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
 D:  Ver= 1.10 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
 P:  Vendor=1d6b ProdID=0001 Rev= 2.06
-S:  Manufacturer=Linux 2.6.32-504.16.2.el6.i686 uhci_hcd
+S:  Manufacturer=Linux 2.6.32-570.el6.i686 uhci_hcd
 S:  Product=UHCI Host Controller
 S:  SerialNumber=0000:00:1d.0
 C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA
@@ -47,7 +47,7 @@ T:  Bus=01 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=480  MxCh= 8
 B:  Alloc=  0/800 us ( 0%), #Int=  0, #Iso=  0
 D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
 P:  Vendor=1d6b ProdID=0002 Rev= 2.06
-S:  Manufacturer=Linux 2.6.32-504.16.2.el6.i686 ehci_hcd
+S:  Manufacturer=Linux 2.6.32-570.el6.i686 ehci_hcd
 S:  Product=EHCI Host Controller
 S:  SerialNumber=0000:00:1d.7
 C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA
