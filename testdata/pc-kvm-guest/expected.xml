@@ -816,6 +816,53 @@
         </node>
       </node>
     </node>
+    <node id="pnp00:00" claimed="true" class="system" handle="">
+     <product>AT Real-Time Clock</product>
+     <physid>9</physid>
+     <configuration>
+      <setting id="driver" value="rtc_cmos" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:01" claimed="true" class="input" handle="">
+     <product>IBM Enhanced keyboard controller (101/2-key)</product>
+     <physid>a</physid>
+     <configuration>
+      <setting id="driver" value="i8042 kbd" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:02" claimed="true" class="input" handle="">
+     <product>PS/2 Port for PS/2-style Mice</product>
+     <physid>b</physid>
+     <configuration>
+      <setting id="driver" value="i8042 aux" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:03" claimed="true" class="storage" handle="">
+     <product>PC standard floppy disk controller</product>
+     <physid>c</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:04" claimed="true" class="communication" handle="">
+     <product>16550A-compatible COM port</product>
+     <physid>d</physid>
+     <configuration>
+      <setting id="driver" value="serial" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
   </node>
 </node>
 </list>
