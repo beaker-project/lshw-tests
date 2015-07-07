@@ -1,0 +1,8 @@
+PRODUCT=11/2/13/5868
+NAME="VirtualPS/2 VMware VMMouse"
+PHYS="isa0060/serio1/input0"
+PROP=1
+EV=7
+KEY=30000 0 0 0 0
+REL=103
+MODALIAS=input:b0011v0002p0013e5868-e0,1,2,k110,111,r0,1,8,amlsfw

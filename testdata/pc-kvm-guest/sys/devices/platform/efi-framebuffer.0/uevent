@@ -1,0 +1,2 @@
+DRIVER=efi-framebuffer
+MODALIAS=platform:efi-framebuffer

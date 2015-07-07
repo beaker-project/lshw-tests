@@ -1,0 +1,2 @@
+DRIVER=virtio_balloon
+MODALIAS=virtio:d00000005v00001AF4

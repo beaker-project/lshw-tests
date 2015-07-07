@@ -1,0 +1,21 @@
+
+T:  Bus=01 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
+B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
+D:  Ver= 1.10 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=1d6b ProdID=0001 Rev= 4.02
+S:  Manufacturer=Linux 4.2.0-0.rc1.git0.1.fc23.x86_64 uhci_hcd
+S:  Product=UHCI Host Controller
+S:  SerialNumber=0000:00:01.2
+C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=hub
+E:  Ad=81(I) Atr=03(Int.) MxPS=   2 Ivl=255ms
+
+T:  Bus=01 Lev=01 Prnt=01 Port=00 Cnt=01 Dev#=  2 Spd=12   MxCh= 0
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+P:  Vendor=0627 ProdID=0001 Rev= 0.00
+S:  Manufacturer=QEMU
+S:  Product=QEMU USB Tablet
+S:  SerialNumber=42
+C:* #Ifs= 1 Cfg#= 1 Atr=a0 MxPwr=100mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=03(HID  ) Sub=00 Prot=02 Driver=usbhid
+E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=10ms

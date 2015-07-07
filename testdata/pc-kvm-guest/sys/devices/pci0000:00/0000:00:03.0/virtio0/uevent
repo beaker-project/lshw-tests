@@ -1,0 +1,2 @@
+DRIVER=virtio_net
+MODALIAS=virtio:d00000001v00001AF4
