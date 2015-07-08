@@ -35,6 +35,19 @@ static ssize_t real_readlink(const char *path, char *buf, size_t bufsize) {
     return real_func(path, buf, bufsize);
 }
 
+static char *real_realpath(const char *path, char *resolved_path) {
+    static char *(*real_func)(const char *, char *);
+    if (real_func == NULL) {
+        // glibc realpath is versioned, we want the latest version
+        // (there is no way to request the latest version of the symbol except 
+        // for hardcoding it, unfortunately)
+        real_func = dlvsym(RTLD_NEXT, "realpath", "GLIBC_2.3");
+        if (real_func == NULL)
+            die("failed to load real 'realpath': %s", dlerror());
+    }
+    return real_func(path, resolved_path);
+}
+
 /*************************** UTILITY FUNCTIONS ****************************/
 
 static void info(const char *format, ...) {
@@ -72,7 +85,7 @@ static const char *get_test_dir(void) {
         if (d == NULL || d[0] == '\0')
             die("LSHW_TEST_DIR environment variable not set");
         // convert to absolute path, makes things easier below
-        d = realpath(d, NULL);
+        d = real_realpath(d, NULL);
         // strip trailing slash if any
         if (d[strlen(d) - 1] == '/')
             d[strlen(d) - 1] = '\0';
@@ -252,6 +265,27 @@ ssize_t readlink(const char *path, char *buf, size_t bufsize) {
         return result;
     } else {
         return real_readlink(path, buf, bufsize);
+    }
+}
+
+char *realpath(const char *path, char *resolved_path) {
+    char *p = redirected_path(path);
+    if (p != NULL) {
+        info("realpath() redirected to %s", p);
+        char *result = real_realpath(p, NULL);
+        free(p);
+        if (result != NULL) {
+            // strip off test dir prefix from the resolved path
+            strip_test_dir_inplace(result);
+            if (resolved_path != NULL) {
+                memcpy(resolved_path, result, PATH_MAX);
+                free(result);
+                result = resolved_path;
+            }
+        }
+        return result;
+    } else {
+        return real_realpath(path, resolved_path);
     }
 }
 
