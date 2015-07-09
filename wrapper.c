@@ -309,11 +309,7 @@ char *realpath(const char *path, char *resolved_path) {
     }
 }
 
-int open(const char *pathname, int flags, ... /* mode_t mode */) {
-    va_list args;
-    va_start(args, flags);
-    mode_t mode = va_arg(args, mode_t);
-    va_end(args);
+static int _open(const char *pathname, int flags, mode_t mode) {
     static int (*real_func)(const char *, int, mode_t);
     if (real_func == NULL) {
         real_func = dlsym(RTLD_NEXT, "open");
@@ -336,6 +332,24 @@ int open(const char *pathname, int flags, ... /* mode_t mode */) {
     } else {
         return real_func(pathname, flags, mode);
     }
+}
+
+int open(const char *pathname, int flags, ... /* mode_t mode */) {
+    va_list args;
+    va_start(args, flags);
+    mode_t mode = va_arg(args, mode_t);
+    va_end(args);
+    return _open(pathname, flags, mode);
+}
+
+// When a program is compiled with "large file support" it might reference open64 instead.
+// XXX I think this is wrong on 32-bit platforms?
+int open64(const char *pathname, int flags, ... /* mode_t mode */) {
+    va_list args;
+    va_start(args, flags);
+    mode_t mode = va_arg(args, mode_t);
+    va_end(args);
+    return _open(pathname, flags, mode);
 }
 
 FILE *fopen(const char *path, const char *mode) {
