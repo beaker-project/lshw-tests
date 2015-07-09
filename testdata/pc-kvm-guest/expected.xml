@@ -636,6 +636,14 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
+        <node id="virtio0" class="network" handle="">
+         <description>Virtual I/O device</description>
+         <physid>0</physid>
+         <businfo>virtio@0</businfo>
+         <configuration>
+          <setting id="driver" value="virtio_net" />
+         </configuration>
+        </node>
       </node>
       <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:04.0">
        <description>Multimedia audio controller</description>
@@ -703,6 +711,21 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
+        <node id="virtio1" claimed="true" class="storage" handle="">
+         <description>Virtual I/O device</description>
+         <physid>0</physid>
+         <businfo>virtio@1</businfo>
+         <logicalname>/dev/vda</logicalname>
+         <size units="bytes">17179869184</size>
+         <configuration>
+          <setting id="driver" value="virtio_blk" />
+          <setting id="logicalsectorsize" value="512" />
+          <setting id="sectorsize" value="512" />
+         </configuration>
+         <hints>
+          <hint name="icon" value="disc" />
+         </hints>
+        </node>
       </node>
       <node id="generic" claimed="true" class="generic" handle="PCI:0000:00:06.0">
        <description>Unclassified device</description>
@@ -733,6 +756,14 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
+        <node id="virtio2" class="generic" handle="">
+         <description>Virtual I/O device</description>
+         <physid>0</physid>
+         <businfo>virtio@2</businfo>
+         <configuration>
+          <setting id="driver" value="virtio_balloon" />
+         </configuration>
+        </node>
       </node>
       <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:00:07.0">
        <description>SCSI storage controller</description>
@@ -768,6 +799,21 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
+        <node id="virtio3" claimed="true" class="storage" handle="">
+         <description>Virtual I/O device</description>
+         <physid>0</physid>
+         <businfo>virtio@3</businfo>
+         <logicalname>/dev/vdb</logicalname>
+         <size units="bytes">2147483648</size>
+         <configuration>
+          <setting id="driver" value="virtio_blk" />
+          <setting id="logicalsectorsize" value="512" />
+          <setting id="sectorsize" value="512" />
+         </configuration>
+         <hints>
+          <hint name="icon" value="disc" />
+         </hints>
+        </node>
       </node>
     </node>
   </node>
