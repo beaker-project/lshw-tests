@@ -212,6 +212,26 @@ int chdir(const char *path) {
     }
 }
 
+// glibc doesn't export "stat", it's an inline which indirects to __xstat with 
+// a version number argument, sigh...
+int __xstat(int ver, const char *pathname, struct stat *buf) {
+    static int (*real_func)(int, const char *, struct stat *);
+    if (real_func == NULL) {
+        real_func = dlsym(RTLD_NEXT, "__xstat");
+        if (real_func == NULL)
+            die("failed to load real '__xstat': %s", dlerror());
+    }
+    char *p = redirected_path(pathname);
+    if (p != NULL) {
+        info("__xstat() redirected to %s", p);
+        int result = real_func(ver, p, buf);
+        free(p);
+        return result;
+    } else {
+        return real_func(ver, pathname, buf);
+    }
+}
+
 int access(const char *pathname, int mode) {
     static int (*real_func)(const char *, int);
     if (real_func == NULL) {
