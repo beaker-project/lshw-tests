@@ -123,5 +123,77 @@
      </hints>
     </node>
   </node>
+  <node id="vty" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (vty)</description>
+   <physid>1</physid>
+   <businfo>vio@30000000</businfo>
+   <logicalname>/proc/device-tree/vdevice/vty@30000000</logicalname>
+   <configuration>
+    <setting id="driver" value="hvc_console" />
+   </configuration>
+  </node>
+  <node id="v-scsi" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (v-scsi)</description>
+   <physid>2</physid>
+   <businfo>vio@30000002</businfo>
+   <logicalname>/proc/device-tree/vdevice/v-scsi@30000002</logicalname>
+   <configuration>
+    <setting id="driver" value="ibmvscsi" />
+   </configuration>
+  </node>
+  <node id="l-lan" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (l-lan)</description>
+   <physid>3</physid>
+   <businfo>vio@30000004</businfo>
+   <logicalname>/proc/device-tree/vdevice/l-lan@30000004</logicalname>
+   <configuration>
+    <setting id="driver" value="ibmveth" />
+   </configuration>
+  </node>
+  <node id="ibm_sp" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (IBM,sp)</description>
+   <physid>4</physid>
+   <businfo>vio@4000</businfo>
+   <logicalname>/proc/device-tree/vdevice/IBM,sp@4000</logicalname>
+  </node>
+  <node id="rtc" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (rtc)</description>
+   <physid>5</physid>
+   <businfo>vio@4001</businfo>
+   <logicalname>/proc/device-tree/vdevice/rtc@4001</logicalname>
+  </node>
+  <node id="nvram" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (nvram)</description>
+   <physid>6</physid>
+   <businfo>vio@4002</businfo>
+   <logicalname>/proc/device-tree/vdevice/nvram@4002</logicalname>
+  </node>
+  <node id="gscsi" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (gscsi)</description>
+   <physid>7</physid>
+   <businfo>vio@4004</businfo>
+   <logicalname>/proc/device-tree/vdevice/gscsi@4004</logicalname>
+  </node>
+  <node id="ibm_compression-v1" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (ibm,compression-v1)</description>
+   <physid>8</physid>
+   <businfo>vio@ibm,compression-v1</businfo>
+   <logicalname>/proc/device-tree/ibm,platform-facilities/ibm,compression-v1</logicalname>
+  </node>
+  <node id="ibm_random-v1" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (ibm,random-v1)</description>
+   <physid>9</physid>
+   <businfo>vio@ibm,random-v1</businfo>
+   <logicalname>/proc/device-tree/ibm,platform-facilities/ibm,random-v1</logicalname>
+   <configuration>
+    <setting id="driver" value="pseries-rng" />
+   </configuration>
+  </node>
+  <node id="ibm_sym-encryption-v1" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (ibm,sym-encryption-v1)</description>
+   <physid>a</physid>
+   <businfo>vio@ibm,sym-encryption-v1</businfo>
+   <logicalname>/proc/device-tree/ibm,platform-facilities/ibm,sym-encryption-v1</logicalname>
+  </node>
 </node>
 </list>

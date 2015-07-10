@@ -79,5 +79,47 @@
      </hints>
     </node>
   </node>
+  <node id="vty" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (vty)</description>
+   <physid>1</physid>
+   <businfo>vio@30000000</businfo>
+   <logicalname>/proc/device-tree/vdevice/vty@30000000</logicalname>
+   <configuration>
+    <setting id="driver" value="hvc_console" />
+   </configuration>
+  </node>
+  <node id="v-scsi" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (v-scsi)</description>
+   <physid>2</physid>
+   <businfo>vio@30000002</businfo>
+   <logicalname>/proc/device-tree/vdevice/v-scsi@30000002</logicalname>
+   <configuration>
+    <setting id="driver" value="ibmvscsi" />
+   </configuration>
+  </node>
+  <node id="ibm_sp" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (IBM,sp)</description>
+   <physid>3</physid>
+   <businfo>vio@4000</businfo>
+   <logicalname>/proc/device-tree/vdevice/IBM,sp@4000</logicalname>
+  </node>
+  <node id="rtc" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (rtc)</description>
+   <physid>4</physid>
+   <businfo>vio@4001</businfo>
+   <logicalname>/proc/device-tree/vdevice/rtc@4001</logicalname>
+  </node>
+  <node id="nvram" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (nvram)</description>
+   <physid>5</physid>
+   <businfo>vio@4002</businfo>
+   <logicalname>/proc/device-tree/vdevice/nvram@4002</logicalname>
+  </node>
+  <node id="gscsi" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (gscsi)</description>
+   <physid>6</physid>
+   <businfo>vio@4004</businfo>
+   <logicalname>/proc/device-tree/vdevice/gscsi@4004</logicalname>
+  </node>
 </node>
 </list>
