@@ -382,5 +382,26 @@
      </hints>
     </node>
   </node>
+  <node id="vty" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (vty)</description>
+   <physid>1</physid>
+   <businfo>vio@0</businfo>
+   <logicalname>/proc/device-tree/vdevice/vty@0</logicalname>
+   <configuration>
+    <setting id="driver" value="hvc_console" />
+   </configuration>
+  </node>
+  <node id="ibm_sp" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (IBM,sp)</description>
+   <physid>2</physid>
+   <businfo>vio@4000</businfo>
+   <logicalname>/proc/device-tree/vdevice/IBM,sp@4000</logicalname>
+  </node>
+  <node id="rtc" claimed="true" class="generic" handle="">
+   <description>Virtual I/O device (rtc)</description>
+   <physid>3</physid>
+   <businfo>vio@4001</businfo>
+   <logicalname>/proc/device-tree/vdevice/rtc@4001</logicalname>
+  </node>
 </node>
 </list>
