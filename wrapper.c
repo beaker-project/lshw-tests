@@ -132,23 +132,30 @@ static char *redirected_path(const char *pathname) {
 
 static char *redirected_sysconf_path(int name) {
     const char *test_dir = get_test_dir();
-    char *path = malloc(strlen(test_dir) + 12);
-    sprintf(path, "%s/sysconf/%d", test_dir, name);
+    size_t pathlen = strlen(test_dir) + 13;
+    char *path = malloc(pathlen);
+    if (snprintf(path, pathlen, "%s/sysconf/%d", test_dir, name) > pathlen)
+        die("redirected_sysconf_path too long");
     return path;
 }
 
 static char *redirected_arch_path(void) {
     const char *test_dir = get_test_dir();
-    char *path = malloc(strlen(test_dir) + 6);
-    sprintf(path, "%s/arch", test_dir);
+    size_t pathlen = strlen(test_dir) + 6;
+    char *path = malloc(pathlen);
+    if (snprintf(path, pathlen, "%s/arch", test_dir) > pathlen)
+        die("redirected_arch_path too long");
     return path;
 }
 
 // For now, assumes block devices!
 static char *redirected_sysfs_attr_path(const char *dev, const char *attr) {
     const char *test_dir = get_test_dir();
-    char *path = malloc(strlen(test_dir) + strlen(dev) + strlen(attr) + 13);
-    sprintf(path, "%s/sys/block/%s/%s", test_dir, basename(dev), attr);
+    size_t pathlen = strlen(test_dir) + strlen(dev) + strlen(attr) + 13;
+    char *path = malloc(pathlen);
+    if (snprintf(path, pathlen, "%s/sys/block/%s/%s", test_dir,
+            basename(dev), attr) > pathlen)
+        die("redirected_sysfs_attr_path too long");
     return path;
 }
 
@@ -183,7 +190,8 @@ static uint64_t load_sysfs_attr_uint(const char *dev, const char *attr) {
 
 static char *path_for_fd(int fd) {
     char proc_pathname[22];
-    sprintf(proc_pathname, "/proc/self/fd/%d", fd);
+    if (snprintf(proc_pathname, 22, "/proc/self/fd/%d", fd) > 22)
+        die("path_for_fd(%d) too long", fd);
     char *fd_pathname = (char *)malloc(2048);
     ssize_t fd_pathname_len = real_readlink(proc_pathname, fd_pathname, 2048);
     if (fd_pathname_len < 0 || fd_pathname_len >= 2048)
