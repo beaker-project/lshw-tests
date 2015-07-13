@@ -13,7 +13,7 @@
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
      <physid>0</physid>
-     <size units="bytes">2097709056</size>
+     <size units="bytes">2147483648</size>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
