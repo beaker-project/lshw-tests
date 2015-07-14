@@ -1,35 +1,118 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
+<node id="computer" claimed="true" class="system" handle="DMI:0001">
  <description>Computer</description>
+ <product>workstation zx2000</product>
+ <vendor>hp</vendor>
+ <serial>[REMOVED]</serial>
  <width units="bits">64</width>
+ <configuration>
+  <setting id="uuid" value="[REMOVED]" />
+ </configuration>
+ <capabilities>
+  <capability id="smbios-2.3" >SMBIOS version 2.3</capability>
+  <capability id="dmi-2.3" >DMI version 2.3</capability>
+ </capabilities>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
-    <node id="memory" claimed="true" class="memory" handle="">
-     <description>System memory</description>
-     <physid>1</physid>
-     <size units="bytes">2561605632</size>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <description>BIOS</description>
+     <vendor>HP</vendor>
+     <physid>0</physid>
+     <version>02.31</version>
+     <date>03/11/2004</date>
+     <size units="bytes">1048576</size>
+     <capacity units="bytes">8323072</capacity>
      <hints>
-      <hint name="icon" value="memory" />
+      <hint name="icon" value="chip" />
      </hints>
     </node>
-    <node id="cpu" claimed="true" class="processor" handle="">
+    <node id="cpu:0" claimed="true" class="processor" handle="DMI:0002">
+     <description>CPU</description>
      <product>Itanium 2</product>
      <vendor>Intel Corp.</vendor>
-     <physid>5</physid>
+     <physid>1</physid>
      <businfo>cpu@0</businfo>
      <version>7</version>
+     <serial>[REMOVED]</serial>
+     <slot>cpu socket 0</slot>
      <size units="Hz">900000000</size>
+     <capacity units="Hz">900000000</capacity>
+     <clock units="Hz">200000000</clock>
      <hints>
       <hint name="icon" value="cpu" />
      </hints>
+    </node>
+    <node id="cpu:1" disabled="true" claimed="true" class="processor" handle="DMI:0003">
+     <description>CPU [empty]</description>
+     <physid>2</physid>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="memory" claimed="true" class="memory" handle="DMI:0004">
+     <description>System Memory</description>
+     <physid>3</physid>
+     <slot>System board or motherboard</slot>
+     <size units="bytes">2684354560</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
+      <node id="bank:0" claimed="true" class="memory" handle="DMI:0005">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>0</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 0A</slot>
+       <size units="bytes">268435456</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:1" claimed="true" class="memory" handle="DMI:0006">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>1</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 0B</slot>
+       <size units="bytes">268435456</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:2" claimed="true" class="memory" handle="DMI:0007">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>2</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 1A</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:3" claimed="true" class="memory" handle="DMI:0008">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>3</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 1B</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
     </node>
     <node id="display" class="display" handle="PCI:0000:00:00.0">
      <description>VGA compatible controller</description>
      <product>NV11GL [Quadro2 MXR/EX/Go] [10DE:113]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
-     <physid>0</physid>
+     <physid>4</physid>
      <subsysproduct>NVIDIA Corporation [10DE:70]</subsysproduct>
      <subsysvendor>NVIDIA Corporation [10DE]</subsysvendor>
      <businfo>pci@0000:00:00.0</businfo>
@@ -67,7 +150,7 @@
      <description>USB controller</description>
      <product>OHCI USB Controller [1033:35]</product>
      <vendor>NEC Corporation [1033]</vendor>
-     <physid>6</physid>
+     <physid>5</physid>
      <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
      <subsysvendor>NEC Corporation [1033]</subsysvendor>
      <businfo>pci@0000:a0:01.0</businfo>
@@ -241,7 +324,7 @@
      <description>IDE interface</description>
      <product>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</product>
      <vendor>Silicon Image, Inc. [1095]</vendor>
-     <physid>2</physid>
+     <physid>6</physid>
      <subsysproduct>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</subsysproduct>
      <subsysvendor>Silicon Image, Inc. [1095]</subsysvendor>
      <businfo>pci@0000:a0:02.0</businfo>
@@ -281,7 +364,7 @@
      <description>Ethernet controller</description>
      <product>82540EM Gigabit Ethernet Controller [8086:100E]</product>
      <vendor>Intel Corporation [8086]</vendor>
-     <physid>3</physid>
+     <physid>7</physid>
      <subsysproduct>Hewlett-Packard Company [103C:1274]</subsysproduct>
      <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
      <businfo>pci@0000:a0:03.0</businfo>
@@ -318,7 +401,7 @@
      <description>Multimedia audio controller</description>
      <product>Xwave QS3000A [FM801] [1319:801]</product>
      <vendor>Fortemedia, Inc [1319]</vendor>
-     <physid>4</physid>
+     <physid>8</physid>
      <subsysproduct>Fortemedia, Inc [1319:1319]</subsysproduct>
      <subsysvendor>Fortemedia, Inc [1319]</subsysvendor>
      <businfo>pci@0000:a0:04.0</businfo>
@@ -387,7 +470,7 @@
      <description>SCSI storage controller</description>
      <product>53c1010 66MHz  Ultra3 SCSI Adapter [1000:21]</product>
      <vendor>LSI Logic / Symbios Logic [1000]</vendor>
-     <physid>7</physid>
+     <physid>9</physid>
      <subsysproduct>Hewlett-Packard Company [103C:1330]</subsysproduct>
      <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
      <businfo>pci@0000:c0:01.0</businfo>
@@ -426,7 +509,7 @@
     <node id="pnp00:00" claimed="true" class="generic" handle="">
      <product>PnP device HWP0001</product>
      <vendor>Hewlett Packard</vendor>
-     <physid>8</physid>
+     <physid>a</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
@@ -434,7 +517,7 @@
     <node id="pnp00:01" claimed="true" class="generic" handle="">
      <product>IPMI Controller</product>
      <vendor>Intelligent Platform Management Interface (IPMI) forum (Intel, HP, NEC, Dell)</vendor>
-     <physid>9</physid>
+     <physid>b</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
@@ -442,7 +525,7 @@
     <node id="pnp00:02" claimed="true" class="generic" handle="">
      <product>PnP device HWP0003</product>
      <vendor>Hewlett Packard</vendor>
-     <physid>a</physid>
+     <physid>c</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
@@ -450,7 +533,7 @@
     <node id="pnp00:03" claimed="true" class="generic" handle="">
      <product>PnP device HWP0002</product>
      <vendor>Hewlett Packard</vendor>
-     <physid>b</physid>
+     <physid>d</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
@@ -458,14 +541,14 @@
     <node id="pnp00:04" claimed="true" class="generic" handle="">
      <product>PnP device HWP0002</product>
      <vendor>Hewlett Packard</vendor>
-     <physid>c</physid>
+     <physid>e</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:05" claimed="true" class="communication" handle="">
      <product>16550A-compatible COM port</product>
-     <physid>d</physid>
+     <physid>f</physid>
      <configuration>
       <setting id="driver" value="serial" />
      </configuration>
@@ -475,7 +558,7 @@
     </node>
     <node id="pnp00:06" claimed="true" class="communication" handle="">
      <product>16550A-compatible COM port</product>
-     <physid>e</physid>
+     <physid>10</physid>
      <configuration>
       <setting id="driver" value="serial" />
      </configuration>
@@ -486,7 +569,7 @@
     <node id="pnp00:07" claimed="true" class="generic" handle="">
      <product>PnP device HWP0002</product>
      <vendor>Hewlett Packard</vendor>
-     <physid>f</physid>
+     <physid>11</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>

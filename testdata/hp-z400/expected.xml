@@ -1,32 +1,89 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
- <description>Computer</description>
+<node id="computer" claimed="true" class="system" handle="DMI:0002">
+ <description>Mini Tower Computer</description>
+ <product>HP Z400 Workstation (VS933AV)</product>
+ <vendor>Hewlett-Packard</vendor>
+ <serial>[REMOVED]</serial>
  <width units="bits">64</width>
+ <configuration>
+  <setting id="boot" value="normal" />
+  <setting id="chassis" value="mini-tower" />
+  <setting id="family" value="103C_53335X" />
+  <setting id="sku" value="VS933AV" />
+  <setting id="uuid" value="[REMOVED]" />
+ </configuration>
  <capabilities>
+  <capability id="smbios-2.6" >SMBIOS version 2.6</capability>
+  <capability id="dmi-2.6" >DMI version 2.6</capability>
   <capability id="smp" >Symmetric Multi-Processing</capability>
   <capability id="vsyscall32" >32-bit processes</capability>
  </capabilities>
-  <node id="core" claimed="true" class="bus" handle="">
+ <hints>
+  <hint name="icon" value="towercomputer" />
+ </hints>
+  <node id="core" claimed="true" class="bus" handle="DMI:0003">
    <description>Motherboard</description>
+   <product>0B4Ch</product>
+   <vendor>Hewlett-Packard</vendor>
    <physid>0</physid>
-    <node id="memory" claimed="true" class="memory" handle="">
-     <description>System memory</description>
-     <physid>0</physid>
-     <size units="bytes">25769803776</size>
+   <version>D</version>
+   <serial>[REMOVED]</serial>
+   <hints>
+    <hint name="icon" value="motherboard" />
+   </hints>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <description>BIOS</description>
+     <vendor>Hewlett-Packard</vendor>
+     <physid>1</physid>
+     <version>786G3 v03.20</version>
+     <date>06/10/2011</date>
+     <size units="bytes">131072</size>
+     <capacity units="bytes">2031616</capacity>
+     <capabilities>
+      <capability id="pci" >PCI bus</capability>
+      <capability id="pnp" >Plug-and-Play</capability>
+      <capability id="upgrade" >BIOS EEPROM can be upgraded</capability>
+      <capability id="shadowing" >BIOS shadowing</capability>
+      <capability id="cdboot" >Booting from CD-ROM/DVD</capability>
+      <capability id="bootselect" >Selectable boot path</capability>
+      <capability id="edd" >Enhanced Disk Drive extensions</capability>
+      <capability id="int13floppytoshiba" >Toshiba floppy</capability>
+      <capability id="int13floppy720" >3.5&quot; 720KB floppy</capability>
+      <capability id="int5printscreen" >Print Screen key</capability>
+      <capability id="int9keyboard" >i8042 keyboard controller</capability>
+      <capability id="int14serial" >INT14 serial line control</capability>
+      <capability id="int17printer" >INT17 printer control</capability>
+      <capability id="acpi" >ACPI</capability>
+      <capability id="usb" >USB legacy emulation</capability>
+      <capability id="ls120boot" >Booting from LS-120</capability>
+      <capability id="zipboot" >Booting from ATAPI ZIP</capability>
+      <capability id="biosbootspecification" >BIOS boot specification</capability>
+      <capability id="netboot" >Function-key initiated network service boot</capability>
+     </capabilities>
      <hints>
-      <hint name="icon" value="memory" />
+      <hint name="icon" value="chip" />
      </hints>
     </node>
-    <node id="cpu" claimed="true" class="processor" handle="">
+    <node id="cpu" claimed="true" class="processor" handle="DMI:0005">
+     <description>CPU</description>
      <product>Intel(R) Xeon(R) CPU           W3550  @ 3.07GHz</product>
      <vendor>Intel Corp.</vendor>
-     <physid>1</physid>
+     <physid>5</physid>
      <businfo>cpu@0</businfo>
+     <version>Intel(R) Xeon(R) CPU W3550 @ 3.07GHz</version>
+     <slot>CPU0 PROCESSOR</slot>
      <size units="Hz">2261000000</size>
      <capacity units="Hz">3060000000</capacity>
      <width units="bits">64</width>
+     <clock units="Hz">505032704</clock>
+     <configuration>
+      <setting id="cores" value="4" />
+      <setting id="enabledcores" value="4" />
+      <setting id="threads" value="8" />
+     </configuration>
      <capabilities>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
       <capability id="fpu" >mathematical co-processor</capability>
       <capability id="fpu_exception" >FPU exceptions reporting</capability>
       <capability id="wp" />
@@ -60,7 +117,6 @@
       <capability id="syscall" >fast system calls</capability>
       <capability id="nx" >no-execute bit (NX)</capability>
       <capability id="rdtscp" />
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
       <capability id="constant_tsc" />
       <capability id="arch_perfmon" />
       <capability id="pebs" />
@@ -98,6 +154,159 @@
      <hints>
       <hint name="icon" value="cpu" />
      </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:0006">
+       <description>L1 cache</description>
+       <physid>6</physid>
+       <slot>L1 Cache</slot>
+       <size units="bytes">262144</size>
+       <capacity units="bytes">262144</capacity>
+       <capabilities>
+        <capability id="burst" >Burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-through" >Write-trough</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:0007">
+       <description>L2 cache</description>
+       <physid>7</physid>
+       <slot>L2 Cache</slot>
+       <size units="bytes">1048576</size>
+       <capacity units="bytes">1048576</capacity>
+       <capabilities>
+        <capability id="burst" >Burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:2" claimed="true" class="memory" handle="DMI:0008">
+       <description>L3 cache</description>
+       <physid>8</physid>
+       <slot>L3 Cache</slot>
+       <size units="bytes">8388608</size>
+       <capacity units="bytes">8388608</capacity>
+       <capabilities>
+        <capability id="burst" >Burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="memory:0" claimed="true" class="memory" handle="DMI:0035">
+     <description>System Memory</description>
+     <physid>35</physid>
+     <slot>System board or motherboard</slot>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
+      <node id="bank:0" claimed="true" class="memory" handle="DMI:0037">
+       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <product>9965525-010.A00LF</product>
+       <vendor>JEDEC ID:01 98</vendor>
+       <physid>0</physid>
+       <serial>[REMOVED]</serial>
+       <slot>CPU0 DIMM1</slot>
+       <size units="bytes">4294967296</size>
+       <width units="bits">64</width>
+       <clock units="Hz">1333000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:1" claimed="true" class="memory" handle="DMI:0038">
+       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <product>9965525-010.A00LF</product>
+       <vendor>JEDEC ID:01 98</vendor>
+       <physid>1</physid>
+       <serial>[REMOVED]</serial>
+       <slot>CPU0 DIMM2</slot>
+       <size units="bytes">4294967296</size>
+       <width units="bits">64</width>
+       <clock units="Hz">1333000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:2" claimed="true" class="memory" handle="DMI:0039">
+       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <product>9965525-010.A00LF</product>
+       <vendor>JEDEC ID:01 98</vendor>
+       <physid>2</physid>
+       <serial>[REMOVED]</serial>
+       <slot>CPU0 DIMM3</slot>
+       <size units="bytes">4294967296</size>
+       <width units="bits">64</width>
+       <clock units="Hz">1333000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:3" claimed="true" class="memory" handle="DMI:003A">
+       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <product>9965525-010.A00LF</product>
+       <vendor>JEDEC ID:01 98</vendor>
+       <physid>3</physid>
+       <serial>[REMOVED]</serial>
+       <slot>CPU0 DIMM4</slot>
+       <size units="bytes">4294967296</size>
+       <width units="bits">64</width>
+       <clock units="Hz">1333000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:4" claimed="true" class="memory" handle="DMI:003B">
+       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <product>9965525-010.A00LF</product>
+       <vendor>JEDEC ID:01 98</vendor>
+       <physid>4</physid>
+       <serial>[REMOVED]</serial>
+       <slot>CPU0 DIMM5</slot>
+       <size units="bytes">4294967296</size>
+       <width units="bits">64</width>
+       <clock units="Hz">1333000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:5" claimed="true" class="memory" handle="DMI:003C">
+       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <product>9965525-010.A00LF</product>
+       <vendor>JEDEC ID:01 98</vendor>
+       <physid>5</physid>
+       <serial>[REMOVED]</serial>
+       <slot>CPU0 DIMM6</slot>
+       <size units="bytes">4294967296</size>
+       <width units="bits">64</width>
+       <clock units="Hz">1333000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+    </node>
+    <node id="memory:1" class="memory" handle="DMI:0036">
+     <description>Flash Memory</description>
+     <physid>36</physid>
+     <slot>System board or motherboard</slot>
+     <capacity units="bytes">2097152</capacity>
+      <node id="bank" class="memory" handle="DMI:003E">
+       <description>Chip FLASH Non-volatile</description>
+       <physid>0</physid>
+       <slot>SYSTEM ROM</slot>
+       <size units="bytes">2097152</size>
+       <width units="bits">2</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+    </node>
+    <node id="memory:2" class="memory" handle="">
+     <physid>0</physid>
+    </node>
+    <node id="memory:3" class="memory" handle="">
+     <physid>2</physid>
     </node>
     <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -1672,7 +1881,7 @@
     </node>
     <node id="pnp00:00" claimed="true" class="system" handle="">
      <product>AT Real-Time Clock</product>
-     <physid>2</physid>
+     <physid>3</physid>
      <configuration>
       <setting id="driver" value="rtc_cmos" />
      </configuration>
@@ -1682,7 +1891,7 @@
     </node>
     <node id="pnp00:01" claimed="true" class="input" handle="">
      <product>PS/2 Port for PS/2-style Mice</product>
-     <physid>3</physid>
+     <physid>4</physid>
      <configuration>
       <setting id="driver" value="i8042 aux" />
      </configuration>
@@ -1692,7 +1901,7 @@
     </node>
     <node id="pnp00:02" claimed="true" class="input" handle="">
      <product>IBM Enhanced keyboard controller (101/2-key)</product>
-     <physid>4</physid>
+     <physid>6</physid>
      <configuration>
       <setting id="driver" value="i8042 kbd" />
      </configuration>
@@ -1702,32 +1911,12 @@
     </node>
     <node id="pnp00:03" claimed="true" class="storage" handle="">
      <product>PC standard floppy disk controller</product>
-     <physid>5</physid>
+     <physid>7</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:04" claimed="true" class="system" handle="">
-     <product>Motherboard registers</product>
-     <physid>6</physid>
-     <configuration>
-      <setting id="driver" value="system" />
-     </configuration>
-     <capabilities>
-      <capability id="pnp" />
-     </capabilities>
-    </node>
-    <node id="pnp00:05" claimed="true" class="system" handle="">
-     <product>Motherboard registers</product>
-     <physid>7</physid>
-     <configuration>
-      <setting id="driver" value="system" />
-     </configuration>
-     <capabilities>
-      <capability id="pnp" />
-     </capabilities>
-    </node>
-    <node id="pnp00:06" claimed="true" class="system" handle="">
      <product>Motherboard registers</product>
      <physid>8</physid>
      <configuration>
@@ -1737,9 +1926,29 @@
       <capability id="pnp" />
      </capabilities>
     </node>
+    <node id="pnp00:05" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>9</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:06" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>a</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
     <node id="pnp00:07" claimed="true" class="system" handle="">
      <product>System Board</product>
-     <physid>9</physid>
+     <physid>b</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
