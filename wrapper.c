@@ -370,7 +370,7 @@ FILE *fopen(const char *path, const char *mode) {
     char *p = redirected_path(path);
     if (p != NULL) {
         // Reject any write attempts
-        if (strcmp(mode, "r") != 0) {
+        if (strncmp(mode, "r", 1) != 0) {
             info("fopen() denied write access to redirected path %s", p);
             errno = EROFS;
             return NULL;
