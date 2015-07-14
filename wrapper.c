@@ -384,6 +384,10 @@ FILE *fopen(const char *path, const char *mode) {
     }
 }
 
+FILE *fopen64(const char *path, const char *mode) {
+    return fopen(path, mode);
+}
+
 int ioctl(int d, unsigned long request, ...) {
     va_list args;
     va_start(args, request);
