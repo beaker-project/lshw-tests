@@ -1,382 +1,477 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
+<node id="computer" claimed="true" class="system" handle="DMI:0100">
  <description>Computer</description>
+ <product>Standard PC (i440FX + PIIX, 1996)</product>
+ <vendor>QEMU</vendor>
+ <version>pc-i440fx-2.1</version>
  <width units="bits">64</width>
+ <configuration>
+  <setting id="boot" value="normal" />
+  <setting id="uuid" value="[REMOVED]" />
+ </configuration>
  <capabilities>
+  <capability id="smbios-2.8" >SMBIOS version 2.8</capability>
+  <capability id="dmi-2.8" >DMI version 2.8</capability>
   <capability id="smp" >Symmetric Multi-Processing</capability>
   <capability id="vsyscall32" >32-bit processes</capability>
  </capabilities>
   <node id="core" claimed="true" class="bus" handle="">
    <description>Motherboard</description>
    <physid>0</physid>
-    <node id="memory" claimed="true" class="memory" handle="">
-     <description>System memory</description>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <description>BIOS</description>
+     <vendor>SeaBIOS</vendor>
      <physid>0</physid>
+     <version>1.7.5-20140709_153950-</version>
+     <date>04/01/2014</date>
+     <size units="bytes">98304</size>
+     <hints>
+      <hint name="icon" value="chip" />
+     </hints>
+    </node>
+    <node id="cpu:0" claimed="true" class="processor" handle="DMI:0400">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>400</physid>
+     <businfo>cpu@0</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 0</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor" handle="DMI:0401">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>401</physid>
+     <businfo>cpu@1</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 1</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:2" claimed="true" class="processor" handle="DMI:0402">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>402</physid>
+     <businfo>cpu@2</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 2</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:3" claimed="true" class="processor" handle="DMI:0403">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>403</physid>
+     <businfo>cpu@3</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 3</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:4" claimed="true" class="processor" handle="DMI:0404">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>404</physid>
+     <businfo>cpu@4</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 4</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:5" claimed="true" class="processor" handle="DMI:0405">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>405</physid>
+     <businfo>cpu@5</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 5</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:6" claimed="true" class="processor" handle="DMI:0406">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>406</physid>
+     <businfo>cpu@6</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 6</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:7" claimed="true" class="processor" handle="DMI:0407">
+     <description>CPU</description>
+     <product>QEMU Virtual CPU version 2.1.3</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>407</physid>
+     <businfo>cpu@7</businfo>
+     <version>pc-i440fx-2.1</version>
+     <slot>CPU 7</slot>
+     <width units="bits">64</width>
+     <configuration>
+      <setting id="cores" value="1" />
+      <setting id="enabledcores" value="1" />
+      <setting id="threads" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="rep_good" />
+      <capability id="nopl" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="x2apic" />
+      <capability id="popcnt" />
+      <capability id="hypervisor" />
+      <capability id="lahf_lm" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="memory" claimed="true" class="memory" handle="DMI:1000">
+     <description>System Memory</description>
+     <physid>1000</physid>
      <size units="bytes">2147483648</size>
+     <capacity units="bytes">2147483648</capacity>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
-    </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>1</physid>
-     <businfo>cpu@0</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>2</physid>
-     <businfo>cpu@1</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:2" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>3</physid>
-     <businfo>cpu@2</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:3" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>4</physid>
-     <businfo>cpu@3</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:4" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>5</physid>
-     <businfo>cpu@4</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:5" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>6</physid>
-     <businfo>cpu@5</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:6" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>7</physid>
-     <businfo>cpu@6</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:7" claimed="true" class="processor" handle="">
-     <product>QEMU Virtual CPU version 2.1.3</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>8</physid>
-     <businfo>cpu@7</businfo>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="rep_good" />
-      <capability id="nopl" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="x2apic" />
-      <capability id="popcnt" />
-      <capability id="hypervisor" />
-      <capability id="lahf_lm" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
+      <node id="bank" claimed="true" class="memory" handle="DMI:1100">
+       <description>DIMM RAM</description>
+       <vendor>QEMU</vendor>
+       <physid>0</physid>
+       <slot>DIMM 0</slot>
+       <size units="bytes">2147483648</size>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
     </node>
     <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -818,7 +913,7 @@
     </node>
     <node id="pnp00:00" claimed="true" class="system" handle="">
      <product>AT Real-Time Clock</product>
-     <physid>9</physid>
+     <physid>1</physid>
      <configuration>
       <setting id="driver" value="rtc_cmos" />
      </configuration>
@@ -828,7 +923,7 @@
     </node>
     <node id="pnp00:01" claimed="true" class="input" handle="">
      <product>IBM Enhanced keyboard controller (101/2-key)</product>
-     <physid>a</physid>
+     <physid>2</physid>
      <configuration>
       <setting id="driver" value="i8042 kbd" />
      </configuration>
@@ -838,7 +933,7 @@
     </node>
     <node id="pnp00:02" claimed="true" class="input" handle="">
      <product>PS/2 Port for PS/2-style Mice</product>
-     <physid>b</physid>
+     <physid>3</physid>
      <configuration>
       <setting id="driver" value="i8042 aux" />
      </configuration>
@@ -848,14 +943,14 @@
     </node>
     <node id="pnp00:03" claimed="true" class="storage" handle="">
      <product>PC standard floppy disk controller</product>
-     <physid>c</physid>
+     <physid>4</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:04" claimed="true" class="communication" handle="">
      <product>16550A-compatible COM port</product>
-     <physid>d</physid>
+     <physid>5</physid>
      <configuration>
       <setting id="driver" value="serial" />
      </configuration>

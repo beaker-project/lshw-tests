@@ -1,27 +1,83 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
- <description>Computer</description>
+<node id="computer" claimed="true" class="system" handle="DMI:0001">
+ <description>Notebook</description>
+ <product>266884M</product>
+ <vendor>IBM</vendor>
+ <version>ThinkPad T43</version>
+ <serial>[REMOVED]</serial>
  <width units="bits">32</width>
-  <node id="core" claimed="true" class="bus" handle="">
+ <configuration>
+  <setting id="administrator_password" value="disabled" />
+  <setting id="boot" value="normal" />
+  <setting id="chassis" value="notebook" />
+  <setting id="frontpanel_password" value="unknown" />
+  <setting id="keyboard_password" value="disabled" />
+  <setting id="power-on_password" value="disabled" />
+  <setting id="uuid" value="[REMOVED]" />
+ </configuration>
+ <capabilities>
+  <capability id="smbios-2.33" >SMBIOS version 2.33</capability>
+  <capability id="dmi-2.33" >DMI version 2.33</capability>
+ </capabilities>
+ <hints>
+  <hint name="icon" value="laptop" />
+ </hints>
+  <node id="core" claimed="true" class="bus" handle="DMI:0002">
    <description>Motherboard</description>
+   <product>266884M</product>
+   <vendor>IBM</vendor>
    <physid>0</physid>
-    <node id="memory" claimed="true" class="memory" handle="">
-     <description>System memory</description>
+   <version>Not Available</version>
+   <serial>[REMOVED]</serial>
+   <hints>
+    <hint name="icon" value="motherboard" />
+   </hints>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <description>BIOS</description>
+     <vendor>IBM</vendor>
      <physid>0</physid>
-     <size units="bytes">1054093312</size>
+     <version>1YET62WW (1.27 )</version>
+     <date>05/18/2006</date>
+     <size units="bytes">147456</size>
+     <capacity units="bytes">983040</capacity>
+     <capabilities>
+      <capability id="pci" >PCI bus</capability>
+      <capability id="pcmcia" >PCMCIA/PCCard</capability>
+      <capability id="pnp" >Plug-and-Play</capability>
+      <capability id="apm" >Advanced Power Management</capability>
+      <capability id="upgrade" >BIOS EEPROM can be upgraded</capability>
+      <capability id="shadowing" >BIOS shadowing</capability>
+      <capability id="escd" >ESCD</capability>
+      <capability id="cdboot" >Booting from CD-ROM/DVD</capability>
+      <capability id="bootselect" >Selectable boot path</capability>
+      <capability id="edd" >Enhanced Disk Drive extensions</capability>
+      <capability id="int13floppy720" >3.5&quot; 720KB floppy</capability>
+      <capability id="int5printscreen" >Print Screen key</capability>
+      <capability id="int9keyboard" >i8042 keyboard controller</capability>
+      <capability id="int14serial" >INT14 serial line control</capability>
+      <capability id="int17printer" >INT17 printer control</capability>
+      <capability id="int10video" >INT10 CGA/Mono video</capability>
+      <capability id="acpi" >ACPI</capability>
+      <capability id="usb" >USB legacy emulation</capability>
+      <capability id="biosbootspecification" >BIOS boot specification</capability>
+     </capabilities>
      <hints>
-      <hint name="icon" value="memory" />
+      <hint name="icon" value="chip" />
      </hints>
     </node>
-    <node id="cpu" claimed="true" class="processor" handle="">
+    <node id="cpu" claimed="true" class="processor" handle="DMI:0006">
+     <description>CPU</description>
      <product>Intel(R) Pentium(R) M processor 1.86GHz</product>
      <vendor>Intel Corp.</vendor>
-     <physid>1</physid>
+     <physid>6</physid>
      <businfo>cpu@0</businfo>
+     <version>Intel(R) Pentium(R) M processor</version>
+     <slot>None</slot>
      <size units="Hz">1866000000</size>
      <capacity units="Hz">1866000000</capacity>
      <width units="bits">32</width>
+     <clock units="Hz">533000000</clock>
      <capabilities>
       <capability id="fpu" >mathematical co-processor</capability>
       <capability id="fpu_exception" >FPU exceptions reporting</capability>
@@ -60,6 +116,62 @@
      <hints>
       <hint name="icon" value="cpu" />
      </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:000A">
+       <description>L1 cache</description>
+       <physid>a</physid>
+       <slot>Internal L1 Cache</slot>
+       <size units="bytes">32768</size>
+       <capacity units="bytes">32768</capacity>
+       <capabilities>
+        <capability id="synchronous" >Synchronous</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="data" >Data cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:000B">
+       <description>L2 cache</description>
+       <physid>b</physid>
+       <slot>Internal L2 Cache</slot>
+       <size units="bytes">2097152</size>
+       <capacity units="bytes">2097152</capacity>
+       <capabilities>
+        <capability id="burst" >Burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="memory" claimed="true" class="memory" handle="DMI:002C">
+     <description>System Memory</description>
+     <physid>2c</physid>
+     <slot>System board or motherboard</slot>
+     <size units="bytes">1073741824</size>
+     <capacity units="bytes">1073741824</capacity>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
+      <node id="bank:0" claimed="true" class="memory" handle="DMI:002D">
+       <description>SODIMM DDR Synchronous</description>
+       <physid>0</physid>
+       <slot>DIMM 1</slot>
+       <size units="bytes">536870912</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:1" claimed="true" class="memory" handle="DMI:002E">
+       <description>SODIMM DDR Synchronous</description>
+       <physid>1</physid>
+       <slot>DIMM 2</slot>
+       <size units="bytes">536870912</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
     </node>
     <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -806,7 +918,7 @@
     </node>
     <node id="pnp00:00" claimed="true" class="system" handle="">
      <product>System Board</product>
-     <physid>2</physid>
+     <physid>1</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -823,7 +935,7 @@
     </node>
     <node id="pnp00:02" claimed="true" class="system" handle="">
      <product>Motherboard registers</product>
-     <physid>3</physid>
+     <physid>2</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -833,21 +945,21 @@
     </node>
     <node id="pnp00:03" claimed="true" class="system" handle="">
      <product>AT DMA Controller</product>
-     <physid>4</physid>
+     <physid>3</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:04" claimed="true" class="system" handle="">
      <product>AT standard speaker sound</product>
-     <physid>5</physid>
+     <physid>4</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:05" claimed="true" class="system" handle="">
      <product>Math Coprocessor</product>
-     <physid>6</physid>
+     <physid>5</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>

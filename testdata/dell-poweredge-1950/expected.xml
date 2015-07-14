@@ -1,157 +1,359 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
- <description>Computer</description>
+<node id="computer" claimed="true" class="system" handle="DMI:0100">
+ <description>Rack Mount Chassis</description>
+ <product>PowerEdge 1950</product>
+ <vendor>Dell Inc.</vendor>
+ <serial>[REMOVED]</serial>
  <width units="bits">64</width>
+ <configuration>
+  <setting id="boot" value="normal" />
+  <setting id="chassis" value="rackmount" />
+  <setting id="uuid" value="[REMOVED]" />
+ </configuration>
  <capabilities>
+  <capability id="smbios-2.5" >SMBIOS version 2.5</capability>
+  <capability id="dmi-2.5" >DMI version 2.5</capability>
   <capability id="smp" >Symmetric Multi-Processing</capability>
   <capability id="vsyscall64" >64-bit processes</capability>
   <capability id="vsyscall32" >32-bit processes</capability>
  </capabilities>
-  <node id="core" claimed="true" class="bus" handle="">
+ <hints>
+  <hint name="icon" value="rackmount" />
+ </hints>
+  <node id="core" claimed="true" class="bus" handle="DMI:0200">
    <description>Motherboard</description>
+   <product>0NK937</product>
+   <vendor>Dell Inc.</vendor>
    <physid>0</physid>
-    <node id="memory" claimed="true" class="memory" handle="">
-     <description>System memory</description>
+   <version>A00</version>
+   <serial>[REMOVED]</serial>
+   <hints>
+    <hint name="icon" value="motherboard" />
+   </hints>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <description>BIOS</description>
+     <vendor>Dell Inc.</vendor>
      <physid>0</physid>
-     <size units="bytes">1962782720</size>
+     <version>2.6.1</version>
+     <date>04/20/2009</date>
+     <size units="bytes">65536</size>
+     <capacity units="bytes">983040</capacity>
+     <capabilities>
+      <capability id="isa" >ISA bus</capability>
+      <capability id="pci" >PCI bus</capability>
+      <capability id="pnp" >Plug-and-Play</capability>
+      <capability id="upgrade" >BIOS EEPROM can be upgraded</capability>
+      <capability id="shadowing" >BIOS shadowing</capability>
+      <capability id="escd" >ESCD</capability>
+      <capability id="cdboot" >Booting from CD-ROM/DVD</capability>
+      <capability id="bootselect" >Selectable boot path</capability>
+      <capability id="edd" >Enhanced Disk Drive extensions</capability>
+      <capability id="int13floppytoshiba" >Toshiba floppy</capability>
+      <capability id="int13floppy360" >5.25&quot; 360KB floppy</capability>
+      <capability id="int13floppy1200" >5.25&quot; 1.2MB floppy</capability>
+      <capability id="int13floppy720" >3.5&quot; 720KB floppy</capability>
+      <capability id="int5printscreen" >Print Screen key</capability>
+      <capability id="int9keyboard" >i8042 keyboard controller</capability>
+      <capability id="int14serial" >INT14 serial line control</capability>
+      <capability id="int17printer" >INT17 printer control</capability>
+      <capability id="int10video" >INT10 CGA/Mono video</capability>
+      <capability id="acpi" >ACPI</capability>
+      <capability id="usb" >USB legacy emulation</capability>
+      <capability id="biosbootspecification" >BIOS boot specification</capability>
+      <capability id="netboot" >Function-key initiated network service boot</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="chip" />
+     </hints>
+    </node>
+    <node id="cpu:0" claimed="true" class="processor" handle="DMI:0400">
+     <description>CPU</description>
+     <product>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>400</physid>
+     <businfo>cpu@0</businfo>
+     <version>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</version>
+     <slot>CPU1</slot>
+     <size units="Hz">1999998000</size>
+     <capacity units="Hz">3600000000</capacity>
+     <width units="bits">64</width>
+     <clock units="Hz">1333000000</clock>
+     <configuration>
+      <setting id="cores" value="2" />
+      <setting id="enabledcores" value="2" />
+      <setting id="threads" value="2" />
+     </configuration>
+     <capabilities>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="vme" >virtual mode extensions</capability>
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pat" >page attribute table</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="dts" >debug trace and EMON store MSRs</capability>
+      <capability id="acpi" >thermal control (ACPI)</capability>
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="ss" >self-snoop</capability>
+      <capability id="ht" >HyperThreading</capability>
+      <capability id="tm" >thermal interrupt and status</capability>
+      <capability id="pbe" >pending break event</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="constant_tsc" />
+      <capability id="arch_perfmon" />
+      <capability id="pebs" />
+      <capability id="bts" />
+      <capability id="rep_good" />
+      <capability id="aperfmperf" />
+      <capability id="pni" />
+      <capability id="dtes64" />
+      <capability id="monitor" />
+      <capability id="ds_cpl" />
+      <capability id="vmx" />
+      <capability id="tm2" />
+      <capability id="ssse3" />
+      <capability id="cx16" />
+      <capability id="xtpr" />
+      <capability id="pdcm" />
+      <capability id="dca" />
+      <capability id="lahf_lm" />
+      <capability id="tpr_shadow" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:0700">
+       <description>L1 cache</description>
+       <physid>700</physid>
+       <size units="bytes">65536</size>
+       <capacity units="bytes">65536</capacity>
+       <capabilities>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="data" >Data cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:0701">
+       <description>L2 cache</description>
+       <physid>701</physid>
+       <size units="bytes">4194304</size>
+       <capacity units="bytes">4194304</capacity>
+       <capabilities>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor" handle="DMI:0401">
+     <description>CPU</description>
+     <product>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>401</physid>
+     <businfo>cpu@1</businfo>
+     <version>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</version>
+     <slot>CPU2</slot>
+     <size units="Hz">1999998000</size>
+     <capacity units="Hz">3600000000</capacity>
+     <width units="bits">64</width>
+     <clock units="Hz">1333000000</clock>
+     <configuration>
+      <setting id="cores" value="2" />
+      <setting id="enabledcores" value="2" />
+      <setting id="threads" value="2" />
+     </configuration>
+     <capabilities>
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="vme" >virtual mode extensions</capability>
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pat" >page attribute table</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="dts" >debug trace and EMON store MSRs</capability>
+      <capability id="acpi" >thermal control (ACPI)</capability>
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="ss" >self-snoop</capability>
+      <capability id="ht" >HyperThreading</capability>
+      <capability id="tm" >thermal interrupt and status</capability>
+      <capability id="pbe" >pending break event</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="constant_tsc" />
+      <capability id="arch_perfmon" />
+      <capability id="pebs" />
+      <capability id="bts" />
+      <capability id="rep_good" />
+      <capability id="aperfmperf" />
+      <capability id="pni" />
+      <capability id="dtes64" />
+      <capability id="monitor" />
+      <capability id="ds_cpl" />
+      <capability id="vmx" />
+      <capability id="tm2" />
+      <capability id="ssse3" />
+      <capability id="cx16" />
+      <capability id="xtpr" />
+      <capability id="pdcm" />
+      <capability id="dca" />
+      <capability id="lahf_lm" />
+      <capability id="tpr_shadow" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:0703">
+       <description>L1 cache</description>
+       <physid>703</physid>
+       <size units="bytes">65536</size>
+       <capacity units="bytes">65536</capacity>
+       <capabilities>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="data" >Data cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:0704">
+       <description>L2 cache</description>
+       <physid>704</physid>
+       <size units="bytes">4194304</size>
+       <capacity units="bytes">4194304</capacity>
+       <capabilities>
+        <capability id="internal" >Internal</capability>
+        <capability id="write-back" >Write-back</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="memory" claimed="true" class="memory" handle="DMI:1000">
+     <description>System Memory</description>
+     <physid>1000</physid>
+     <slot>System board or motherboard</slot>
+     <size units="bytes">2147483648</size>
+     <capacity units="bytes">4026531840</capacity>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
-    </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="">
-     <product>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>1</physid>
-     <businfo>cpu@0</businfo>
-     <size units="Hz">1999998000</size>
-     <capacity units="Hz">1999998000</capacity>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="vme" >virtual mode extensions</capability>
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pat" >page attribute table</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="dts" >debug trace and EMON store MSRs</capability>
-      <capability id="acpi" >thermal control (ACPI)</capability>
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="ss" >self-snoop</capability>
-      <capability id="ht" >HyperThreading</capability>
-      <capability id="tm" >thermal interrupt and status</capability>
-      <capability id="pbe" >pending break event</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="constant_tsc" />
-      <capability id="arch_perfmon" />
-      <capability id="pebs" />
-      <capability id="bts" />
-      <capability id="rep_good" />
-      <capability id="aperfmperf" />
-      <capability id="pni" />
-      <capability id="dtes64" />
-      <capability id="monitor" />
-      <capability id="ds_cpl" />
-      <capability id="vmx" />
-      <capability id="tm2" />
-      <capability id="ssse3" />
-      <capability id="cx16" />
-      <capability id="xtpr" />
-      <capability id="pdcm" />
-      <capability id="dca" />
-      <capability id="lahf_lm" />
-      <capability id="tpr_shadow" />
-      <capability id="cpufreq" >CPU Frequency scaling</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
-    </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
-     <product>Intel(R) Xeon(R) CPU            5130  @ 2.00GHz</product>
-     <vendor>Intel Corp.</vendor>
-     <physid>2</physid>
-     <businfo>cpu@1</businfo>
-     <size units="Hz">1999998000</size>
-     <capacity units="Hz">1999998000</capacity>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="vme" >virtual mode extensions</capability>
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pat" >page attribute table</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="dts" >debug trace and EMON store MSRs</capability>
-      <capability id="acpi" >thermal control (ACPI)</capability>
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="ss" >self-snoop</capability>
-      <capability id="ht" >HyperThreading</capability>
-      <capability id="tm" >thermal interrupt and status</capability>
-      <capability id="pbe" >pending break event</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="constant_tsc" />
-      <capability id="arch_perfmon" />
-      <capability id="pebs" />
-      <capability id="bts" />
-      <capability id="rep_good" />
-      <capability id="aperfmperf" />
-      <capability id="pni" />
-      <capability id="dtes64" />
-      <capability id="monitor" />
-      <capability id="ds_cpl" />
-      <capability id="vmx" />
-      <capability id="tm2" />
-      <capability id="ssse3" />
-      <capability id="cx16" />
-      <capability id="xtpr" />
-      <capability id="pdcm" />
-      <capability id="dca" />
-      <capability id="lahf_lm" />
-      <capability id="tpr_shadow" />
-      <capability id="cpufreq" >CPU Frequency scaling</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-     </hints>
+      <node id="bank:0" claimed="true" class="memory" handle="DMI:1100">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous 667 MHz (1.5 ns)</description>
+       <product>HYMP512F72BP8N2-Y5</product>
+       <vendor>Hynix Semiconductor (Hyundai Electronics)</vendor>
+       <physid>0</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM1</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <clock units="Hz">667000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:1" claimed="true" class="memory" handle="DMI:1101">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous 667 MHz (1.5 ns)</description>
+       <product>HYMP512F72BP8N2-Y5</product>
+       <vendor>Hynix Semiconductor (Hyundai Electronics)</vendor>
+       <physid>1</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM2</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <clock units="Hz">667000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:2" claimed="true" class="memory" handle="DMI:1102">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous [empty]</description>
+       <physid>2</physid>
+       <slot>DIMM3</slot>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:3" claimed="true" class="memory" handle="DMI:1103">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous [empty]</description>
+       <physid>3</physid>
+       <slot>DIMM4</slot>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:4" claimed="true" class="memory" handle="DMI:1104">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous [empty]</description>
+       <physid>4</physid>
+       <slot>DIMM5</slot>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:5" claimed="true" class="memory" handle="DMI:1105">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous [empty]</description>
+       <physid>5</physid>
+       <slot>DIMM6</slot>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:6" claimed="true" class="memory" handle="DMI:1106">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous [empty]</description>
+       <physid>6</physid>
+       <slot>DIMM7</slot>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:7" claimed="true" class="memory" handle="DMI:1107">
+       <description>FB-DIMM DDR2 FB-DIMM Synchronous [empty]</description>
+       <physid>7</physid>
+       <slot>DIMM8</slot>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
     </node>
     <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -1312,21 +1514,21 @@
     </node>
     <node id="pnp00:01" claimed="true" class="system" handle="">
      <product>AT DMA Controller</product>
-     <physid>3</physid>
+     <physid>1</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:02" claimed="true" class="system" handle="">
      <product>Math Coprocessor</product>
-     <physid>4</physid>
+     <physid>2</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:03" claimed="true" class="system" handle="">
      <product>System Board</product>
-     <physid>5</physid>
+     <physid>3</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -1336,7 +1538,7 @@
     </node>
     <node id="pnp00:04" claimed="true" class="system" handle="">
      <product>AT Real-Time Clock</product>
-     <physid>6</physid>
+     <physid>4</physid>
      <configuration>
       <setting id="driver" value="rtc_cmos" />
      </configuration>
@@ -1346,14 +1548,14 @@
     </node>
     <node id="pnp00:05" claimed="true" class="storage" handle="">
      <product>PC standard floppy disk controller</product>
-     <physid>7</physid>
+     <physid>5</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:06" claimed="true" class="communication" handle="">
      <product>16550A-compatible COM port</product>
-     <physid>8</physid>
+     <physid>6</physid>
      <configuration>
       <setting id="driver" value="serial" />
      </configuration>
@@ -1363,7 +1565,7 @@
     </node>
     <node id="pnp00:07" claimed="true" class="communication" handle="">
      <product>16550A-compatible COM port</product>
-     <physid>9</physid>
+     <physid>7</physid>
      <configuration>
       <setting id="driver" value="serial" />
      </configuration>
@@ -1373,7 +1575,7 @@
     </node>
     <node id="pnp00:08" claimed="true" class="system" handle="">
      <product>System Board</product>
-     <physid>a</physid>
+     <physid>8</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -1384,7 +1586,7 @@
     <node id="pnp00:09" claimed="true" class="generic" handle="">
      <product>IPMI Controller</product>
      <vendor>Intelligent Platform Management Interface (IPMI) forum (Intel, HP, NEC, Dell)</vendor>
-     <physid>b</physid>
+     <physid>9</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -1394,7 +1596,7 @@
     </node>
     <node id="pnp00:0a" claimed="true" class="system" handle="">
      <product>Motherboard registers</product>
-     <physid>c</physid>
+     <physid>a</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -1404,7 +1606,7 @@
     </node>
     <node id="pnp00:0b" claimed="true" class="system" handle="">
      <product>High Precision Event Timer</product>
-     <physid>d</physid>
+     <physid>b</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
