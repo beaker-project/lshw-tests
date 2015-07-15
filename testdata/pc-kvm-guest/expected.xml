@@ -459,6 +459,12 @@
      <physid>1000</physid>
      <size units="bytes">2147483648</size>
      <capacity units="bytes">2147483648</capacity>
+     <configuration>
+      <setting id="errordetection" value="multi-bit-ecc" />
+     </configuration>
+     <capabilities>
+      <capability id="ecc" >Multi-bit error-correcting code (ECC)</capability>
+     </capabilities>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
