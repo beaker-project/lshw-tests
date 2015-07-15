@@ -83,7 +83,7 @@
       <setting id="threads" value="8" />
      </configuration>
      <capabilities>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="lm" >64bits extensions (x86-64)</capability>
       <capability id="fpu" >mathematical co-processor</capability>
       <capability id="fpu_exception" >FPU exceptions reporting</capability>
       <capability id="wp" />
@@ -117,6 +117,7 @@
       <capability id="syscall" >fast system calls</capability>
       <capability id="nx" >no-execute bit (NX)</capability>
       <capability id="rdtscp" />
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
       <capability id="constant_tsc" />
       <capability id="arch_perfmon" />
       <capability id="pebs" />
