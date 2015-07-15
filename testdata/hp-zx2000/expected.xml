@@ -56,6 +56,12 @@
      <physid>3</physid>
      <slot>System board or motherboard</slot>
      <size units="bytes">2684354560</size>
+     <configuration>
+      <setting id="errordetection" value="multi-bit-ecc" />
+     </configuration>
+     <capabilities>
+      <capability id="ecc" >Multi-bit error-correcting code (ECC)</capability>
+     </capabilities>
      <hints>
       <hint name="icon" value="memory" />
      </hints>

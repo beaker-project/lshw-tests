@@ -198,11 +198,17 @@
      <description>System Memory</description>
      <physid>35</physid>
      <slot>System board or motherboard</slot>
+     <configuration>
+      <setting id="errordetection" value="multi-bit-ecc" />
+     </configuration>
+     <capabilities>
+      <capability id="ecc" >Multi-bit error-correcting code (ECC)</capability>
+     </capabilities>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
       <node id="bank:0" claimed="true" class="memory" handle="DMI:0037">
-       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <description>DIMM DDR3 Synchronous Unbuffered (Unregistered) 1333 MHz (0.8 ns)</description>
        <product>9965525-010.A00LF</product>
        <vendor>JEDEC ID:01 98</vendor>
        <physid>0</physid>
@@ -216,7 +222,7 @@
        </hints>
       </node>
       <node id="bank:1" claimed="true" class="memory" handle="DMI:0038">
-       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <description>DIMM DDR3 Synchronous Unbuffered (Unregistered) 1333 MHz (0.8 ns)</description>
        <product>9965525-010.A00LF</product>
        <vendor>JEDEC ID:01 98</vendor>
        <physid>1</physid>
@@ -230,7 +236,7 @@
        </hints>
       </node>
       <node id="bank:2" claimed="true" class="memory" handle="DMI:0039">
-       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <description>DIMM DDR3 Synchronous Unbuffered (Unregistered) 1333 MHz (0.8 ns)</description>
        <product>9965525-010.A00LF</product>
        <vendor>JEDEC ID:01 98</vendor>
        <physid>2</physid>
@@ -244,7 +250,7 @@
        </hints>
       </node>
       <node id="bank:3" claimed="true" class="memory" handle="DMI:003A">
-       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <description>DIMM DDR3 Synchronous Unbuffered (Unregistered) 1333 MHz (0.8 ns)</description>
        <product>9965525-010.A00LF</product>
        <vendor>JEDEC ID:01 98</vendor>
        <physid>3</physid>
@@ -258,7 +264,7 @@
        </hints>
       </node>
       <node id="bank:4" claimed="true" class="memory" handle="DMI:003B">
-       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <description>DIMM DDR3 Synchronous Unbuffered (Unregistered) 1333 MHz (0.8 ns)</description>
        <product>9965525-010.A00LF</product>
        <vendor>JEDEC ID:01 98</vendor>
        <physid>4</physid>
@@ -272,7 +278,7 @@
        </hints>
       </node>
       <node id="bank:5" claimed="true" class="memory" handle="DMI:003C">
-       <description>DIMM DDR3 Synchronous 1333 MHz (0.8 ns)</description>
+       <description>DIMM DDR3 Synchronous Unbuffered (Unregistered) 1333 MHz (0.8 ns)</description>
        <product>9965525-010.A00LF</product>
        <vendor>JEDEC ID:01 98</vendor>
        <physid>5</physid>
