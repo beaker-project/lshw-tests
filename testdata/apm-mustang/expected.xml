@@ -54,7 +54,7 @@
       <hint name="icon" value="chip" />
      </hints>
     </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="DMI:0004">
+    <node id="cpu" claimed="true" class="processor" handle="DMI:0004">
      <description>CPU</description>
      <product>ARM (APM88XXXX)</product>
      <vendor>AppliedMicro</vendor>
@@ -70,13 +70,9 @@
      </configuration>
      <capabilities>
       <capability id="lm" >64-bit capable</capability>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
      </capabilities>
      <hints>
       <hint name="icon" value="cpu" />
-      <hint name="logo" value="aarch64" />
      </hints>
     </node>
     <node id="memory:0" claimed="true" class="memory" handle="DMI:000F">
@@ -108,96 +104,6 @@
     </node>
     <node id="memory:3" class="memory" handle="">
      <physid>3</physid>
-    </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
-     <physid>5</physid>
-     <businfo>cpu@1</businfo>
-     <capabilities>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="aarch64" />
-     </hints>
-    </node>
-    <node id="cpu:2" claimed="true" class="processor" handle="">
-     <physid>6</physid>
-     <businfo>cpu@2</businfo>
-     <capabilities>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="aarch64" />
-     </hints>
-    </node>
-    <node id="cpu:3" claimed="true" class="processor" handle="">
-     <physid>7</physid>
-     <businfo>cpu@3</businfo>
-     <capabilities>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="aarch64" />
-     </hints>
-    </node>
-    <node id="cpu:4" claimed="true" class="processor" handle="">
-     <physid>8</physid>
-     <businfo>cpu@4</businfo>
-     <capabilities>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="aarch64" />
-     </hints>
-    </node>
-    <node id="cpu:5" claimed="true" class="processor" handle="">
-     <physid>9</physid>
-     <businfo>cpu@5</businfo>
-     <capabilities>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="aarch64" />
-     </hints>
-    </node>
-    <node id="cpu:6" claimed="true" class="processor" handle="">
-     <physid>a</physid>
-     <businfo>cpu@6</businfo>
-     <capabilities>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="aarch64" />
-     </hints>
-    </node>
-    <node id="cpu:7" claimed="true" class="processor" handle="">
-     <physid>b</physid>
-     <businfo>cpu@7</businfo>
-     <capabilities>
-      <capability id="fp" >Floating point instructions</capability>
-      <capability id="asimd" >Advanced SIMD</capability>
-      <capability id="evtstrm" >Event stream</capability>
-     </capabilities>
-     <hints>
-      <hint name="logo" value="aarch64" />
-     </hints>
     </node>
     <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:01">
      <description>PCI bridge</description>
