@@ -69,7 +69,7 @@
       <setting id="enabledcores" value="8" />
      </configuration>
      <capabilities>
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="lm" >64-bit capable</capability>
       <capability id="fp" >Floating point instructions</capability>
       <capability id="asimd" >Advanced SIMD</capability>
       <capability id="evtstrm" >Event stream</capability>
