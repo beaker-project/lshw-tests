@@ -195,10 +195,11 @@
        </capabilities>
       </node>
     </node>
-    <node id="memory:0" claimed="true" class="memory" handle="DMI:0035">
+    <node id="memory" claimed="true" class="memory" handle="DMI:0035">
      <description>System Memory</description>
      <physid>35</physid>
      <slot>System board or motherboard</slot>
+     <size units="bytes">25769803776</size>
      <configuration>
       <setting id="errordetection" value="multi-bit-ecc" />
      </configuration>
@@ -293,7 +294,7 @@
        </hints>
       </node>
     </node>
-    <node id="memory:1" class="memory" handle="DMI:0036">
+    <node id="flash" class="memory" handle="DMI:0036">
      <description>Flash Memory</description>
      <physid>36</physid>
      <slot>System board or motherboard</slot>
@@ -308,12 +309,6 @@
         <hint name="icon" value="memory" />
        </hints>
       </node>
-    </node>
-    <node id="memory:2" class="memory" handle="">
-     <physid>0</physid>
-    </node>
-    <node id="memory:3" class="memory" handle="">
-     <physid>2</physid>
     </node>
     <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -1888,7 +1883,7 @@
     </node>
     <node id="pnp00:00" claimed="true" class="system" handle="">
      <product>AT Real-Time Clock</product>
-     <physid>3</physid>
+     <physid>0</physid>
      <configuration>
       <setting id="driver" value="rtc_cmos" />
      </configuration>
@@ -1898,7 +1893,7 @@
     </node>
     <node id="pnp00:01" claimed="true" class="input" handle="">
      <product>PS/2 Port for PS/2-style Mice</product>
-     <physid>4</physid>
+     <physid>2</physid>
      <configuration>
       <setting id="driver" value="i8042 aux" />
      </configuration>
@@ -1908,7 +1903,7 @@
     </node>
     <node id="pnp00:02" claimed="true" class="input" handle="">
      <product>IBM Enhanced keyboard controller (101/2-key)</product>
-     <physid>6</physid>
+     <physid>3</physid>
      <configuration>
       <setting id="driver" value="i8042 kbd" />
      </configuration>
@@ -1918,14 +1913,14 @@
     </node>
     <node id="pnp00:03" claimed="true" class="storage" handle="">
      <product>PC standard floppy disk controller</product>
-     <physid>7</physid>
+     <physid>4</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
     <node id="pnp00:04" claimed="true" class="system" handle="">
      <product>Motherboard registers</product>
-     <physid>8</physid>
+     <physid>6</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -1935,7 +1930,7 @@
     </node>
     <node id="pnp00:05" claimed="true" class="system" handle="">
      <product>Motherboard registers</product>
-     <physid>9</physid>
+     <physid>7</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -1945,7 +1940,7 @@
     </node>
     <node id="pnp00:06" claimed="true" class="system" handle="">
      <product>Motherboard registers</product>
-     <physid>a</physid>
+     <physid>8</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>
@@ -1955,7 +1950,7 @@
     </node>
     <node id="pnp00:07" claimed="true" class="system" handle="">
      <product>System Board</product>
-     <physid>b</physid>
+     <physid>9</physid>
      <configuration>
       <setting id="driver" value="system" />
      </configuration>

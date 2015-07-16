@@ -75,21 +75,16 @@
       <hint name="icon" value="cpu" />
      </hints>
     </node>
-    <node id="memory:0" claimed="true" class="memory" handle="DMI:000F">
+    <node id="memory" claimed="true" class="memory" handle="DMI:000F">
      <description>System Memory</description>
      <physid>f</physid>
      <slot>System board or motherboard</slot>
+     <size units="bytes">14971961344</size>
      <capacity units="bytes">34359738368</capacity>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
-    </node>
-    <node id="memory:1" class="memory" handle="">
-     <physid>1</physid>
-     <hints>
-      <hint name="icon" value="memory" />
-     </hints>
-      <node id="bank" class="memory" handle="DMI:0010">
+      <node id="bank" claimed="true" class="memory" handle="DMI:0010">
        <description>DRAM [empty]</description>
        <vendor>Unknown</vendor>
        <physid>0</physid>
@@ -98,12 +93,6 @@
         <hint name="icon" value="memory" />
        </hints>
       </node>
-    </node>
-    <node id="memory:2" class="memory" handle="">
-     <physid>2</physid>
-    </node>
-    <node id="memory:3" class="memory" handle="">
-     <physid>3</physid>
     </node>
     <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:01">
      <description>PCI bridge</description>
