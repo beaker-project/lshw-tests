@@ -1,3 +1,2 @@
 state = active
-io 0x70-0x77
-irq 8
+mem 0xfed40000-0xfed44fff

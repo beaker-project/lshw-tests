@@ -1,0 +1,2 @@
+DEVTYPE=mfd_device
+MODALIAS=platform:iTCO_wdt

@@ -1,2 +1,1 @@
-DRIVER=container
 MODALIAS=acpi:ACPI0004:

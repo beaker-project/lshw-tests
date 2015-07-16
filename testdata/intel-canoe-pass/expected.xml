@@ -12,15 +12,15 @@
     <node id="memory" claimed="true" class="memory" handle="">
      <description>System memory</description>
      <physid>0</physid>
-     <size units="bytes">101322891264</size>
+     <size units="bytes">33612656640</size>
     </node>
     <node id="cpu:0" claimed="true" class="processor" handle="">
      <product>Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz</product>
      <vendor>Intel Corp.</vendor>
      <physid>1</physid>
      <businfo>cpu@0</businfo>
-     <size units="Hz">1200000000</size>
-     <capacity units="Hz">2701000000</capacity>
+     <size units="Hz">1199917000</size>
+     <capacity units="Hz">3500000000</capacity>
      <width units="bits">64</width>
      <capabilities>
       <capability id="fpu" >mathematical co-processor</capability>
@@ -63,9 +63,11 @@
       <capability id="pebs" />
       <capability id="bts" />
       <capability id="rep_good" />
+      <capability id="nopl" />
       <capability id="xtopology" />
       <capability id="nonstop_tsc" />
       <capability id="aperfmperf" />
+      <capability id="eagerfpu" />
       <capability id="pni" />
       <capability id="pclmulqdq" />
       <capability id="dtes64" />
@@ -95,9 +97,9 @@
       <capability id="ida" />
       <capability id="arat" />
       <capability id="epb" />
-      <capability id="xsaveopt" />
       <capability id="pln" />
       <capability id="pts" />
+      <capability id="dtherm" />
       <capability id="tpr_shadow" />
       <capability id="vnmi" />
       <capability id="flexpriority" />
@@ -106,6 +108,7 @@
       <capability id="fsgsbase" />
       <capability id="smep" />
       <capability id="erms" />
+      <capability id="xsaveopt" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
     </node>
@@ -114,8 +117,8 @@
      <vendor>Intel Corp.</vendor>
      <physid>3</physid>
      <businfo>cpu@1</businfo>
-     <size units="Hz">1200000000</size>
-     <capacity units="Hz">2701000000</capacity>
+     <size units="Hz">1206351000</size>
+     <capacity units="Hz">3500000000</capacity>
      <width units="bits">64</width>
      <capabilities>
       <capability id="fpu" >mathematical co-processor</capability>
@@ -158,9 +161,11 @@
       <capability id="pebs" />
       <capability id="bts" />
       <capability id="rep_good" />
+      <capability id="nopl" />
       <capability id="xtopology" />
       <capability id="nonstop_tsc" />
       <capability id="aperfmperf" />
+      <capability id="eagerfpu" />
       <capability id="pni" />
       <capability id="pclmulqdq" />
       <capability id="dtes64" />
@@ -190,9 +195,9 @@
       <capability id="ida" />
       <capability id="arat" />
       <capability id="epb" />
-      <capability id="xsaveopt" />
       <capability id="pln" />
       <capability id="pts" />
+      <capability id="dtherm" />
       <capability id="tpr_shadow" />
       <capability id="vnmi" />
       <capability id="flexpriority" />
@@ -201,6 +206,7 @@
       <capability id="fsgsbase" />
       <capability id="smep" />
       <capability id="erms" />
+      <capability id="xsaveopt" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
     </node>
@@ -235,7 +241,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
-        <resource type="irq" value="79" />
+        <resource type="irq" value="25" />
         <resource type="ioport" value="3000(size=4096)" />
         <resource type="memory" value="d0b00000-d0cfffff" />
         <resource type="ioport" value="eb000000(size=10485760)" />
@@ -261,7 +267,7 @@
           <capability id="cap_list" >PCI capabilities listing</capability>
          </capabilities>
          <resources>
-          <resource type="irq" value="26" />
+          <resource type="irq" value="31" />
           <resource type="memory" value="d0c00000-d0c03fff" />
           <resource type="ioport" value="3000(size=4096)" />
           <resource type="memory" value="d0b00000-d0bfffff" />
@@ -289,7 +295,7 @@
             <capability id="cap_list" >PCI capabilities listing</capability>
            </capabilities>
            <resources>
-            <resource type="irq" value="85" />
+            <resource type="irq" value="32" />
             <resource type="ioport" value="3000(size=4096)" />
             <resource type="memory" value="d0b00000-d0bfffff" />
             <resource type="ioport" value="eb000000(size=10485760)" />
@@ -316,12 +322,12 @@
               <capability id="cap_list" >PCI capabilities listing</capability>
              </capabilities>
              <resources>
-              <resource type="irq" value="26" />
-              <resource type="memory" value="eb800000-eb807fff(prefetchable)" />
-              <resource type="memory" value="eb000000-eb7fffff(prefetchable)" />
+              <resource type="irq" value="31" />
+              <resource type="memory" value="eb800000-eb807fff" />
+              <resource type="memory" value="eb000000-eb7fffff" />
               <resource type="ioport" value="3100(size=256)" />
               <resource type="ioport" value="3000(size=256)" />
-              <resource type="memory" value="eb808000-eb8fffff(prefetchable)" />
+              <resource type="memory" value="eb810000-eb907fff" />
              </resources>
             </node>
             <node id="serial:0" claimed="true" class="bus" handle="PCI:0000:03:00.3">
@@ -345,7 +351,7 @@
               <capability id="cap_list" >PCI capabilities listing</capability>
              </capabilities>
              <resources>
-              <resource type="irq" value="29" />
+              <resource type="irq" value="40" />
               <resource type="memory" value="d0b10000-d0b10fff" />
               <resource type="ioport" value="3220(size=32)" />
              </resources>
@@ -371,7 +377,7 @@
               <capability id="cap_list" >PCI capabilities listing</capability>
              </capabilities>
              <resources>
-              <resource type="irq" value="29" />
+              <resource type="irq" value="40" />
               <resource type="memory" value="d0b00000-d0b00fff" />
               <resource type="ioport" value="3200(size=32)" />
              </resources>
@@ -401,7 +407,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
-        <resource type="irq" value="80" />
+        <resource type="irq" value="26" />
        </resources>
       </node>
       <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:05">
@@ -426,7 +432,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
-        <resource type="irq" value="81" />
+        <resource type="irq" value="27" />
        </resources>
       </node>
       <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:06">
@@ -451,7 +457,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
-        <resource type="irq" value="82" />
+        <resource type="irq" value="28" />
        </resources>
       </node>
       <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:07">
@@ -476,7 +482,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
-        <resource type="irq" value="83" />
+        <resource type="irq" value="29" />
        </resources>
       </node>
       <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:08">
@@ -501,10 +507,10 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
-        <resource type="irq" value="84" />
+        <resource type="irq" value="30" />
        </resources>
       </node>
-      <node id="generic:0" class="generic" handle="PCI:0000:00:04.0">
+      <node id="generic:0" claimed="true" class="generic" handle="PCI:0000:00:04.0">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -514,6 +520,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -524,10 +531,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="41" />
         <resource type="memory" value="ebf90000-ebf93fff" />
        </resources>
       </node>
-      <node id="generic:1" class="generic" handle="PCI:0000:00:04.1">
+      <node id="generic:1" claimed="true" class="generic" handle="PCI:0000:00:04.1">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -537,6 +545,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -547,10 +556,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="43" />
         <resource type="memory" value="ebf80000-ebf83fff" />
        </resources>
       </node>
-      <node id="generic:2" class="generic" handle="PCI:0000:00:04.2">
+      <node id="generic:2" claimed="true" class="generic" handle="PCI:0000:00:04.2">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -560,6 +570,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -570,10 +581,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="41" />
         <resource type="memory" value="ebf70000-ebf73fff" />
        </resources>
       </node>
-      <node id="generic:3" class="generic" handle="PCI:0000:00:04.3">
+      <node id="generic:3" claimed="true" class="generic" handle="PCI:0000:00:04.3">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -583,6 +595,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -593,10 +606,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="43" />
         <resource type="memory" value="ebf60000-ebf63fff" />
        </resources>
       </node>
-      <node id="generic:4" class="generic" handle="PCI:0000:00:04.4">
+      <node id="generic:4" claimed="true" class="generic" handle="PCI:0000:00:04.4">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -606,6 +620,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -616,10 +631,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="41" />
         <resource type="memory" value="ebf50000-ebf53fff" />
        </resources>
       </node>
-      <node id="generic:5" class="generic" handle="PCI:0000:00:04.5">
+      <node id="generic:5" claimed="true" class="generic" handle="PCI:0000:00:04.5">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -629,6 +645,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -639,10 +656,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="43" />
         <resource type="memory" value="ebf40000-ebf43fff" />
        </resources>
       </node>
-      <node id="generic:6" class="generic" handle="PCI:0000:00:04.6">
+      <node id="generic:6" claimed="true" class="generic" handle="PCI:0000:00:04.6">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -652,6 +670,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -662,10 +681,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="41" />
         <resource type="memory" value="ebf30000-ebf33fff" />
        </resources>
       </node>
-      <node id="generic:7" class="generic" handle="PCI:0000:00:04.7">
+      <node id="generic:7" claimed="true" class="generic" handle="PCI:0000:00:04.7">
        <description>System peripheral</description>
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -675,6 +695,7 @@
        <width units="bits">64</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ioatdma" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -685,6 +706,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="43" />
         <resource type="memory" value="ebf20000-ebf23fff" />
        </resources>
       </node>
@@ -763,7 +785,7 @@
         <resource type="memory" value="d0d60000-d0d60fff" />
        </resources>
       </node>
-      <node id="generic:12" class="generic" handle="PCI:0000:00:05.6">
+      <node id="generic:12" claimed="true" class="generic" handle="PCI:0000:00:05.6">
        <description>Performance counters</description>
        <product>Intel Corporation [8086:E39]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -773,12 +795,16 @@
        <width units="bits">32</width>
        <clock units="Hz">33000000</clock>
        <configuration>
+        <setting id="driver" value="ivbep_uncore" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
         <capability id="pciexpress" >PCI Express</capability>
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
+       <resources>
+        <resource type="irq" value="0" />
+       </resources>
       </node>
       <node id="generic:13" class="generic" handle="PCI:0000:00:06.0">
        <description>System peripheral</description>
@@ -1011,7 +1037,7 @@
        <width units="bits">32</width>
        <clock units="Hz">33000000</clock>
        <configuration>
-        <setting id="driver" value="ehci_hcd" />
+        <setting id="driver" value="ehci-pci" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -1027,11 +1053,11 @@
        </resources>
         <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
          <product>EHCI Host Controller [1D6B:2]</product>
-         <vendor>Linux 2.6.32-431.el6.x86_64 ehci_hcd [1D6B]</vendor>
+         <vendor>Linux 4.2.0-0.rc2.git1.1.fc23.x86_64 ehci_hcd [1D6B]</vendor>
          <physid>1</physid>
          <businfo>usb@1</businfo>
          <logicalname>usb1</logicalname>
-         <version>2.06</version>
+         <version>4.02</version>
          <configuration>
           <setting id="driver" value="hub" />
           <setting id="slots" value="2" />
@@ -1067,6 +1093,9 @@
        <version>b6</version>
        <width units="bits">32</width>
        <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
        <capabilities>
         <capability id="pci" />
         <capability id="pciexpress" >PCI Express</capability>
@@ -1077,6 +1106,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="16" />
         <resource type="ioport" value="2000(size=4096)" />
         <resource type="memory" value="d0900000-d0afffff" />
        </resources>
@@ -1107,8 +1137,8 @@
           <resource type="memory" value="d0960000-d097ffff" />
           <resource type="ioport" value="2060(size=32)" />
           <resource type="memory" value="d09b0000-d09b3fff" />
-          <resource type="memory" value="d09b4000-d09d3fff" />
-          <resource type="memory" value="d09d4000-d09f3fff" />
+          <resource type="memory" value="d0aa0000-d0abffff" />
+          <resource type="memory" value="d0a80000-d0a9ffff" />
          </resources>
         </node>
         <node id="network:1" claimed="true" class="network" handle="PCI:0000:09:00.1">
@@ -1138,8 +1168,8 @@
           <resource type="memory" value="d0940000-d095ffff" />
           <resource type="ioport" value="2040(size=32)" />
           <resource type="memory" value="d09a0000-d09a3fff" />
-          <resource type="memory" value="d09f4000-d0a13fff" />
-          <resource type="memory" value="d0a14000-d0a33fff" />
+          <resource type="memory" value="d0a60000-d0a7ffff" />
+          <resource type="memory" value="d0a40000-d0a5ffff" />
          </resources>
         </node>
         <node id="network:2" claimed="true" class="network" handle="PCI:0000:09:00.2">
@@ -1169,8 +1199,8 @@
           <resource type="memory" value="d0920000-d093ffff" />
           <resource type="ioport" value="2020(size=32)" />
           <resource type="memory" value="d0990000-d0993fff" />
-          <resource type="memory" value="d0a34000-d0a53fff" />
-          <resource type="memory" value="d0a54000-d0a73fff" />
+          <resource type="memory" value="d0a20000-d0a3ffff" />
+          <resource type="memory" value="d0a00000-d0a1ffff" />
          </resources>
         </node>
         <node id="network:3" claimed="true" class="network" handle="PCI:0000:09:00.3">
@@ -1200,8 +1230,8 @@
           <resource type="memory" value="d0900000-d091ffff" />
           <resource type="ioport" value="2000(size=32)" />
           <resource type="memory" value="d0980000-d0983fff" />
-          <resource type="memory" value="d0a74000-d0a93fff" />
-          <resource type="memory" value="d0a94000-d0ab3fff" />
+          <resource type="memory" value="d09e0000-d09fffff" />
+          <resource type="memory" value="d09c0000-d09dffff" />
          </resources>
         </node>
       </node>
@@ -1214,6 +1244,9 @@
        <version>b6</version>
        <width units="bits">32</width>
        <clock units="Hz">33000000</clock>
+       <configuration>
+        <setting id="driver" value="pcieport" />
+       </configuration>
        <capabilities>
         <capability id="pci" />
         <capability id="pciexpress" >PCI Express</capability>
@@ -1224,10 +1257,11 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
+        <resource type="irq" value="19" />
         <resource type="memory" value="d0000000-d08fffff" />
         <resource type="ioport" value="ea000000(size=16777216)" />
        </resources>
-        <node id="display" class="display" handle="PCI:0000:0b:00.0">
+        <node id="display" claimed="true" class="display" handle="PCI:0000:0b:00.0">
          <description>VGA compatible controller</description>
          <product>MGA G200e [Pilot] ServerEngines (SEP1) [102B:522]</product>
          <vendor>Matrox Electronics Systems Ltd. [102B]</vendor>
@@ -1237,6 +1271,7 @@
          <width units="bits">32</width>
          <clock units="Hz">33000000</clock>
          <configuration>
+          <setting id="driver" value="mgag200" />
           <setting id="latency" value="0" />
          </configuration>
          <capabilities>
@@ -1246,12 +1281,14 @@
           <capability id="vga_controller" />
           <capability id="bus_master" >bus mastering</capability>
           <capability id="cap_list" >PCI capabilities listing</capability>
+          <capability id="rom" >extension ROM</capability>
          </capabilities>
          <resources>
-          <resource type="memory" value="ea000000-eaffffff(prefetchable)" />
+          <resource type="irq" value="19" />
+          <resource type="memory" value="ea000000-eaffffff" />
           <resource type="memory" value="d0810000-d0813fff" />
           <resource type="memory" value="d0000000-d07fffff" />
-          <resource type="memory" value="d0800000-d080ffff(prefetchable)" />
+          <resource type="memory" value="d0800000-d080ffff" />
          </resources>
         </node>
       </node>
@@ -1265,7 +1302,7 @@
        <width units="bits">32</width>
        <clock units="Hz">33000000</clock>
        <configuration>
-        <setting id="driver" value="ehci_hcd" />
+        <setting id="driver" value="ehci-pci" />
         <setting id="latency" value="0" />
        </configuration>
        <capabilities>
@@ -1281,11 +1318,11 @@
        </resources>
         <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
          <product>EHCI Host Controller [1D6B:2]</product>
-         <vendor>Linux 2.6.32-431.el6.x86_64 ehci_hcd [1D6B]</vendor>
+         <vendor>Linux 4.2.0-0.rc2.git1.1.fc23.x86_64 ehci_hcd [1D6B]</vendor>
          <physid>1</physid>
          <businfo>usb@2</businfo>
          <logicalname>usb2</logicalname>
-         <version>2.06</version>
+         <version>4.02</version>
          <configuration>
           <setting id="driver" value="hub" />
           <setting id="slots" value="2" />
@@ -1388,7 +1425,7 @@
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
        <resources>
-        <resource type="irq" value="91" />
+        <resource type="irq" value="35" />
         <resource type="ioport" value="4070(size=8)" />
         <resource type="ioport" value="4060(size=4)" />
         <resource type="ioport" value="4050(size=8)" />
@@ -1449,7 +1486,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:1" class="generic" handle="PCI:0000:7f:08.2">
+    <node id="generic:1" claimed="true" class="generic" handle="PCI:0000:7f:08.2">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1459,8 +1496,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:2" class="generic" handle="PCI:0000:7f:08.3">
      <description>System peripheral</description>
@@ -1513,7 +1554,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:5" class="generic" handle="PCI:0000:7f:08.6">
+    <node id="generic:5" claimed="true" class="generic" handle="PCI:0000:7f:08.6">
      <description>System peripheral</description>
      <product>Intel Corporation [8086:E86]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1523,12 +1564,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:6" class="generic" handle="PCI:0000:7f:08.7">
      <description>System peripheral</description>
@@ -1560,7 +1605,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:8" class="generic" handle="PCI:0000:7f:09.2">
+    <node id="generic:8" claimed="true" class="generic" handle="PCI:0000:7f:09.2">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1570,8 +1615,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:9" class="generic" handle="PCI:0000:7f:09.3">
      <description>System peripheral</description>
@@ -1624,7 +1673,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:12" class="generic" handle="PCI:0000:7f:09.6">
+    <node id="generic:12" claimed="true" class="generic" handle="PCI:0000:7f:09.6">
      <description>System peripheral</description>
      <product>Intel Corporation [8086:E96]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1634,12 +1683,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:13" class="generic" handle="PCI:0000:7f:0a.0">
      <description>System peripheral</description>
@@ -1953,7 +2006,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:37" class="generic" handle="PCI:0000:7f:0e.1">
+    <node id="generic:37" claimed="true" class="generic" handle="PCI:0000:7f:0e.1">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1963,8 +2016,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:38" class="generic" handle="PCI:0000:7f:0e.2">
      <description>System peripheral</description>
@@ -1979,7 +2036,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:39" class="generic" handle="PCI:0000:7f:0f.0">
+    <node id="generic:39" claimed="true" class="generic" handle="PCI:0000:7f:0f.0">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [8086:EA8]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1989,12 +2046,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="sbridge_edac" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:40" class="generic" handle="PCI:0000:7f:0f.1">
      <description>System peripheral</description>
@@ -2081,7 +2142,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:45" class="generic" handle="PCI:0000:7f:10.0">
+    <node id="generic:45" claimed="true" class="generic" handle="PCI:0000:7f:10.0">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2091,14 +2152,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:46" class="generic" handle="PCI:0000:7f:10.1">
+    <node id="generic:46" claimed="true" class="generic" handle="PCI:0000:7f:10.1">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2108,12 +2173,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:47" class="generic" handle="PCI:0000:7f:10.2">
      <description>System peripheral</description>
@@ -2149,7 +2218,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:49" class="generic" handle="PCI:0000:7f:10.4">
+    <node id="generic:49" claimed="true" class="generic" handle="PCI:0000:7f:10.4">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2159,14 +2228,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:50" class="generic" handle="PCI:0000:7f:10.5">
+    <node id="generic:50" claimed="true" class="generic" handle="PCI:0000:7f:10.5">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2176,12 +2249,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:51" class="generic" handle="PCI:0000:7f:10.6">
      <description>System peripheral</description>
@@ -2315,7 +2392,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:59" class="generic" handle="PCI:0000:7f:13.1">
+    <node id="generic:59" claimed="true" class="generic" handle="PCI:0000:7f:13.1">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2325,8 +2402,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:60" class="generic" handle="PCI:0000:7f:13.4">
      <description>System peripheral</description>
@@ -2341,7 +2422,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:61" class="generic" handle="PCI:0000:7f:13.5">
+    <node id="generic:61" claimed="true" class="generic" handle="PCI:0000:7f:13.5">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2351,10 +2432,14 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:62" class="generic" handle="PCI:0000:7f:13.6">
+    <node id="generic:62" claimed="true" class="generic" handle="PCI:0000:7f:13.6">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2364,8 +2449,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:63" class="generic" handle="PCI:0000:7f:16.0">
      <description>System peripheral</description>
@@ -2419,7 +2508,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:67" class="generic" handle="PCI:0000:7f:1c.1">
+    <node id="generic:67" claimed="true" class="generic" handle="PCI:0000:7f:1c.1">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 1 [8086:E38]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2429,8 +2518,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:68" class="generic" handle="PCI:0000:7f:1c.2">
      <description>System peripheral</description>
@@ -2547,7 +2640,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:75" class="generic" handle="PCI:0000:7f:1e.0">
+    <node id="generic:75" claimed="true" class="generic" handle="PCI:0000:7f:1e.0">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 0 [8086:EF0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2557,14 +2650,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:76" class="generic" handle="PCI:0000:7f:1e.1">
+    <node id="generic:76" claimed="true" class="generic" handle="PCI:0000:7f:1e.1">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 1 [8086:EF1]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2574,12 +2671,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:77" class="generic" handle="PCI:0000:7f:1e.2">
      <description>System peripheral</description>
@@ -2615,7 +2716,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:79" class="generic" handle="PCI:0000:7f:1e.4">
+    <node id="generic:79" claimed="true" class="generic" handle="PCI:0000:7f:1e.4">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 2 [8086:EF4]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2625,14 +2726,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:80" class="generic" handle="PCI:0000:7f:1e.5">
+    <node id="generic:80" claimed="true" class="generic" handle="PCI:0000:7f:1e.5">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 3 [8086:EF5]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2642,12 +2747,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:81" class="generic" handle="PCI:0000:7f:1e.6">
      <description>System peripheral</description>
@@ -2773,10 +2882,10 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
-      <resource type="irq" value="86" />
+      <resource type="irq" value="34" />
      </resources>
     </node>
-    <node id="generic:87" class="generic" handle="PCI:0000:80:04.0">
+    <node id="generic:87" claimed="true" class="generic" handle="PCI:0000:80:04.0">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2786,6 +2895,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2796,10 +2906,11 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="51" />
       <resource type="memory" value="fbf70000-fbf73fff" />
      </resources>
     </node>
-    <node id="generic:88" class="generic" handle="PCI:0000:80:04.1">
+    <node id="generic:88" claimed="true" class="generic" handle="PCI:0000:80:04.1">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2809,6 +2920,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2819,10 +2931,11 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="53" />
       <resource type="memory" value="fbf60000-fbf63fff" />
      </resources>
     </node>
-    <node id="generic:89" class="generic" handle="PCI:0000:80:04.2">
+    <node id="generic:89" claimed="true" class="generic" handle="PCI:0000:80:04.2">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2832,6 +2945,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2842,10 +2956,11 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="51" />
       <resource type="memory" value="fbf50000-fbf53fff" />
      </resources>
     </node>
-    <node id="generic:90" class="generic" handle="PCI:0000:80:04.3">
+    <node id="generic:90" claimed="true" class="generic" handle="PCI:0000:80:04.3">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2855,6 +2970,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2865,10 +2981,11 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="53" />
       <resource type="memory" value="fbf40000-fbf43fff" />
      </resources>
     </node>
-    <node id="generic:91" class="generic" handle="PCI:0000:80:04.4">
+    <node id="generic:91" claimed="true" class="generic" handle="PCI:0000:80:04.4">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2878,6 +2995,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2888,10 +3006,11 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="51" />
       <resource type="memory" value="fbf30000-fbf33fff" />
      </resources>
     </node>
-    <node id="generic:92" class="generic" handle="PCI:0000:80:04.5">
+    <node id="generic:92" claimed="true" class="generic" handle="PCI:0000:80:04.5">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2901,6 +3020,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2911,10 +3031,11 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="53" />
       <resource type="memory" value="fbf20000-fbf23fff" />
      </resources>
     </node>
-    <node id="generic:93" class="generic" handle="PCI:0000:80:04.6">
+    <node id="generic:93" claimed="true" class="generic" handle="PCI:0000:80:04.6">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2924,6 +3045,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2934,10 +3056,11 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="51" />
       <resource type="memory" value="fbf10000-fbf13fff" />
      </resources>
     </node>
-    <node id="generic:94" class="generic" handle="PCI:0000:80:04.7">
+    <node id="generic:94" claimed="true" class="generic" handle="PCI:0000:80:04.7">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -2947,6 +3070,7 @@
      <width units="bits">64</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ioatdma" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
@@ -2957,6 +3081,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
      <resources>
+      <resource type="irq" value="53" />
       <resource type="memory" value="fbf00000-fbf03fff" />
      </resources>
     </node>
@@ -3035,7 +3160,7 @@
       <resource type="memory" value="ec000000-ec000fff" />
      </resources>
     </node>
-    <node id="generic:99" class="generic" handle="PCI:0000:80:05.6">
+    <node id="generic:99" claimed="true" class="generic" handle="PCI:0000:80:05.6">
      <description>Performance counters</description>
      <product>Intel Corporation [8086:E39]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3045,12 +3170,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:100" class="generic" handle="PCI:0000:80:06.0">
      <description>System peripheral</description>
@@ -3286,7 +3415,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:114" class="generic" handle="PCI:0000:ff:08.2">
+    <node id="generic:114" claimed="true" class="generic" handle="PCI:0000:ff:08.2">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3296,8 +3425,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:115" class="generic" handle="PCI:0000:ff:08.3">
      <description>System peripheral</description>
@@ -3350,7 +3483,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:118" class="generic" handle="PCI:0000:ff:08.6">
+    <node id="generic:118" claimed="true" class="generic" handle="PCI:0000:ff:08.6">
      <description>System peripheral</description>
      <product>Intel Corporation [8086:E86]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3360,12 +3493,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:119" class="generic" handle="PCI:0000:ff:08.7">
      <description>System peripheral</description>
@@ -3397,7 +3534,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:121" class="generic" handle="PCI:0000:ff:09.2">
+    <node id="generic:121" claimed="true" class="generic" handle="PCI:0000:ff:09.2">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3407,8 +3544,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:122" class="generic" handle="PCI:0000:ff:09.3">
      <description>System peripheral</description>
@@ -3461,7 +3602,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:125" class="generic" handle="PCI:0000:ff:09.6">
+    <node id="generic:125" claimed="true" class="generic" handle="PCI:0000:ff:09.6">
      <description>System peripheral</description>
      <product>Intel Corporation [8086:E96]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3471,12 +3612,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:126" class="generic" handle="PCI:0000:ff:0a.0">
      <description>System peripheral</description>
@@ -3790,7 +3935,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:150" class="generic" handle="PCI:0000:ff:0e.1">
+    <node id="generic:150" claimed="true" class="generic" handle="PCI:0000:ff:0e.1">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3800,8 +3945,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:151" class="generic" handle="PCI:0000:ff:0e.2">
      <description>System peripheral</description>
@@ -3918,7 +4067,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:158" class="generic" handle="PCI:0000:ff:10.0">
+    <node id="generic:158" claimed="true" class="generic" handle="PCI:0000:ff:10.0">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3928,14 +4077,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:159" class="generic" handle="PCI:0000:ff:10.1">
+    <node id="generic:159" claimed="true" class="generic" handle="PCI:0000:ff:10.1">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3945,12 +4098,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:160" class="generic" handle="PCI:0000:ff:10.2">
      <description>System peripheral</description>
@@ -3986,7 +4143,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:162" class="generic" handle="PCI:0000:ff:10.4">
+    <node id="generic:162" claimed="true" class="generic" handle="PCI:0000:ff:10.4">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -3996,14 +4153,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:163" class="generic" handle="PCI:0000:ff:10.5">
+    <node id="generic:163" claimed="true" class="generic" handle="PCI:0000:ff:10.5">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4013,12 +4174,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:164" class="generic" handle="PCI:0000:ff:10.6">
      <description>System peripheral</description>
@@ -4152,7 +4317,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:172" class="generic" handle="PCI:0000:ff:13.1">
+    <node id="generic:172" claimed="true" class="generic" handle="PCI:0000:ff:13.1">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4162,8 +4327,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:173" class="generic" handle="PCI:0000:ff:13.4">
      <description>System peripheral</description>
@@ -4178,7 +4347,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:174" class="generic" handle="PCI:0000:ff:13.5">
+    <node id="generic:174" claimed="true" class="generic" handle="PCI:0000:ff:13.5">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4188,10 +4357,14 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:175" class="generic" handle="PCI:0000:ff:13.6">
+    <node id="generic:175" claimed="true" class="generic" handle="PCI:0000:ff:13.6">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4201,8 +4374,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:176" class="generic" handle="PCI:0000:ff:16.0">
      <description>System peripheral</description>
@@ -4256,7 +4433,7 @@
       <setting id="latency" value="0" />
      </configuration>
     </node>
-    <node id="generic:180" class="generic" handle="PCI:0000:ff:1c.1">
+    <node id="generic:180" claimed="true" class="generic" handle="PCI:0000:ff:1c.1">
      <description>Performance counters</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 1 [8086:E38]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4266,8 +4443,12 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:181" class="generic" handle="PCI:0000:ff:1c.2">
      <description>System peripheral</description>
@@ -4384,7 +4565,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:188" class="generic" handle="PCI:0000:ff:1e.0">
+    <node id="generic:188" claimed="true" class="generic" handle="PCI:0000:ff:1e.0">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 0 [8086:EF0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4394,14 +4575,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:189" class="generic" handle="PCI:0000:ff:1e.1">
+    <node id="generic:189" claimed="true" class="generic" handle="PCI:0000:ff:1e.1">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 1 [8086:EF1]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4411,12 +4596,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:190" class="generic" handle="PCI:0000:ff:1e.2">
      <description>System peripheral</description>
@@ -4452,7 +4641,7 @@
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
     </node>
-    <node id="generic:192" class="generic" handle="PCI:0000:ff:1e.4">
+    <node id="generic:192" claimed="true" class="generic" handle="PCI:0000:ff:1e.4">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 2 [8086:EF4]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4462,14 +4651,18 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
-    <node id="generic:193" class="generic" handle="PCI:0000:ff:1e.5">
+    <node id="generic:193" claimed="true" class="generic" handle="PCI:0000:ff:1e.5">
      <description>System peripheral</description>
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 3 [8086:EF5]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -4479,12 +4672,16 @@
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
      <configuration>
+      <setting id="driver" value="ivbep_uncore" />
       <setting id="latency" value="0" />
      </configuration>
      <capabilities>
       <capability id="pciexpress" >PCI Express</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <resources>
+      <resource type="irq" value="0" />
+     </resources>
     </node>
     <node id="generic:194" class="generic" handle="PCI:0000:ff:1e.6">
      <description>System peripheral</description>

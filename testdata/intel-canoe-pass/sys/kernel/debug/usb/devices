@@ -2,8 +2,8 @@
 T:  Bus=02 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=480  MxCh= 2
 B:  Alloc=  0/800 us ( 0%), #Int=  2, #Iso=  0
 D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
-P:  Vendor=1d6b ProdID=0002 Rev= 2.06
-S:  Manufacturer=Linux 2.6.32-431.el6.x86_64 ehci_hcd
+P:  Vendor=1d6b ProdID=0002 Rev= 4.02
+S:  Manufacturer=Linux 4.2.0-0.rc2.git1.1.fc23.x86_64 ehci_hcd
 S:  Product=EHCI Host Controller
 S:  SerialNumber=0000:00:1d.0
 C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA
@@ -32,8 +32,8 @@ E:  Ad=82(I) Atr=03(Int.) MxPS=   8 Ivl=1ms
 T:  Bus=01 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=480  MxCh= 2
 B:  Alloc=  0/800 us ( 0%), #Int=  0, #Iso=  0
 D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
-P:  Vendor=1d6b ProdID=0002 Rev= 2.06
-S:  Manufacturer=Linux 2.6.32-431.el6.x86_64 ehci_hcd
+P:  Vendor=1d6b ProdID=0002 Rev= 4.02
+S:  Manufacturer=Linux 4.2.0-0.rc2.git1.1.fc23.x86_64 ehci_hcd
 S:  Product=EHCI Host Controller
 S:  SerialNumber=0000:00:1a.0
 C:* #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=  0mA

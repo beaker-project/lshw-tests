@@ -1,9 +1,0 @@
-PRODUCT=3/46b/ff10/110
-NAME="American Megatrends Inc. Virtual Keyboard and Mouse"
-PHYS="usb-0000:00:1d.0-1.4/input0"
-UNIQ="serial"
-EV==120013
-KEY==e080ffdf01cfffff fffffffffffffffe
-MSC==10
-LED==1f
-MODALIAS=input:b0003v046BpFF10e0110-e0,1,4,11,14,k77,7D,7E,7F,ram4,l0,1,2,3,4,sfw

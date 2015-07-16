@@ -1,1 +1,1 @@
-DRIVER=system
+DRIVER=ipmi_si
