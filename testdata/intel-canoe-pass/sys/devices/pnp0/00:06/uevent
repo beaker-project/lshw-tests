@@ -1,1 +1,1 @@
-DRIVER=rtc_cmos
+DRIVER=tpm_tis

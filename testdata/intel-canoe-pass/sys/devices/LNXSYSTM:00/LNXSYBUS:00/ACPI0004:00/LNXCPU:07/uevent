@@ -1,2 +1,1 @@
-DRIVER=processor
 MODALIAS=acpi:LNXCPU:

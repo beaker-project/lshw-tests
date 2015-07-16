@@ -1,4 +1,2 @@
 state = active
-io 0x2f8-0x2ff
-irq 3
-dma disabled
+mem 0xfbffe000-0xfbffffff
