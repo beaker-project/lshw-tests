@@ -161,6 +161,9 @@
        <slot>L1 Cache</slot>
        <size units="bytes">262144</size>
        <capacity units="bytes">262144</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
        <capabilities>
         <capability id="burst" >Burst</capability>
         <capability id="internal" >Internal</capability>
@@ -174,6 +177,9 @@
        <slot>L2 Cache</slot>
        <size units="bytes">1048576</size>
        <capacity units="bytes">1048576</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
        <capabilities>
         <capability id="burst" >Burst</capability>
         <capability id="internal" >Internal</capability>
@@ -187,6 +193,9 @@
        <slot>L3 Cache</slot>
        <size units="bytes">8388608</size>
        <capacity units="bytes">8388608</capacity>
+       <configuration>
+        <setting id="level" value="3" />
+       </configuration>
        <capabilities>
         <capability id="burst" >Burst</capability>
         <capability id="internal" >Internal</capability>

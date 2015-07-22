@@ -122,6 +122,9 @@
        <slot>Internal L1 Cache</slot>
        <size units="bytes">32768</size>
        <capacity units="bytes">32768</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
        <capabilities>
         <capability id="synchronous" >Synchronous</capability>
         <capability id="internal" >Internal</capability>
@@ -135,6 +138,9 @@
        <slot>Internal L2 Cache</slot>
        <size units="bytes">2097152</size>
        <capacity units="bytes">2097152</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
        <capabilities>
         <capability id="burst" >Burst</capability>
         <capability id="internal" >Internal</capability>
