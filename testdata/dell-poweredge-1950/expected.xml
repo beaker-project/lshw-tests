@@ -148,6 +148,9 @@
        <physid>700</physid>
        <size units="bytes">65536</size>
        <capacity units="bytes">65536</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="write-back" >Write-back</capability>
@@ -159,6 +162,9 @@
        <physid>701</physid>
        <size units="bytes">4194304</size>
        <capacity units="bytes">4194304</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="write-back" >Write-back</capability>
@@ -247,6 +253,9 @@
        <physid>703</physid>
        <size units="bytes">65536</size>
        <capacity units="bytes">65536</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="write-back" >Write-back</capability>
@@ -258,6 +267,9 @@
        <physid>704</physid>
        <size units="bytes">4194304</size>
        <capacity units="bytes">4194304</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="write-back" >Write-back</capability>

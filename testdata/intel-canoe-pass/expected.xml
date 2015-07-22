@@ -181,6 +181,9 @@
        <slot>L1-Cache</slot>
        <size units="bytes">32768</size>
        <capacity units="bytes">32768</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="write-back" >Write-back</capability>
@@ -193,6 +196,9 @@
        <slot>L2-Cache</slot>
        <size units="bytes">262144</size>
        <capacity units="bytes">262144</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="varies" >Varies With Memory Address</capability>
@@ -205,6 +211,9 @@
        <slot>L3-Cache</slot>
        <size units="bytes">31457280</size>
        <capacity units="bytes">31457280</capacity>
+       <configuration>
+        <setting id="level" value="3" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="varies" >Varies With Memory Address</capability>
@@ -329,6 +338,9 @@
        <slot>L1-Cache</slot>
        <size units="bytes">32768</size>
        <capacity units="bytes">32768</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="write-back" >Write-back</capability>
@@ -341,6 +353,9 @@
        <slot>L2-Cache</slot>
        <size units="bytes">262144</size>
        <capacity units="bytes">262144</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="varies" >Varies With Memory Address</capability>
@@ -353,6 +368,9 @@
        <slot>L3-Cache</slot>
        <size units="bytes">31457280</size>
        <capacity units="bytes">31457280</capacity>
+       <configuration>
+        <setting id="level" value="3" />
+       </configuration>
        <capabilities>
         <capability id="internal" >Internal</capability>
         <capability id="varies" >Varies With Memory Address</capability>
