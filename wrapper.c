@@ -317,6 +317,12 @@ char *realpath(const char *path, char *resolved_path) {
     }
 }
 
+// glibc has an inline which redirects to this implementation of realpath with 
+// buffer size checking
+char *__realpath_chk(const char *path, char *resolved_path, size_t resolved_len) {
+    return realpath(path, resolved_path);
+}
+
 static int _open(const char *pathname, int flags, mode_t mode) {
     static int (*real_func)(const char *, int, mode_t);
     if (real_func == NULL) {
