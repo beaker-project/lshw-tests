@@ -105,7 +105,7 @@
     <setting id="driver" value="ctcm" />
    </configuration>
   </node>
-  <node id="device:6" disabled="true" claimed="true" class="storage" handle="">
+  <node id="device:6" disabled="true" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>7</physid>
@@ -114,7 +114,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:7" disabled="true" claimed="true" class="storage" handle="">
+  <node id="device:7" disabled="true" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>8</physid>
@@ -123,7 +123,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:8" disabled="true" claimed="true" class="storage" handle="">
+  <node id="device:8" disabled="true" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>9</physid>
@@ -132,7 +132,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:9" disabled="true" claimed="true" class="storage" handle="">
+  <node id="device:9" disabled="true" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>a</physid>
@@ -141,7 +141,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:10" disabled="true" claimed="true" class="storage" handle="">
+  <node id="device:10" disabled="true" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>b</physid>
@@ -150,7 +150,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:11" claimed="true" class="storage" handle="">
+  <node id="device:11" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -167,7 +167,7 @@
     <hint name="icon" value="disc" />
    </hints>
   </node>
-  <node id="device:12" claimed="true" class="storage" handle="">
+  <node id="device:12" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -184,7 +184,7 @@
     <hint name="icon" value="disc" />
    </hints>
   </node>
-  <node id="device:13" claimed="true" class="storage" handle="">
+  <node id="device:13" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -201,7 +201,7 @@
     <hint name="icon" value="disc" />
    </hints>
   </node>
-  <node id="device:14" claimed="true" class="storage" handle="">
+  <node id="device:14" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -272,7 +272,7 @@
     <setting id="driver" value="qeth" />
    </configuration>
   </node>
-  <node id="device:21" disabled="true" claimed="true" class="storage" handle="">
+  <node id="device:21" disabled="true" claimed="true" class="disk" handle="">
    <description>Direct attached storage device (FBA mode)</description>
    <product>9336/10</product>
    <physid>16</physid>
