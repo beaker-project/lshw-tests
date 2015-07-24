@@ -812,7 +812,7 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
-        <node id="virtio1" claimed="true" class="storage" handle="">
+        <node id="virtio1" claimed="true" class="disk" handle="">
          <description>Virtual I/O device</description>
          <physid>0</physid>
          <businfo>virtio@1</businfo>
@@ -900,7 +900,7 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
-        <node id="virtio3" claimed="true" class="storage" handle="">
+        <node id="virtio3" claimed="true" class="disk" handle="">
          <description>Virtual I/O device</description>
          <physid>0</physid>
          <businfo>virtio@3</businfo>
