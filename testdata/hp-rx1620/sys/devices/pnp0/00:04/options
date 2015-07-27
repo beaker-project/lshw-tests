@@ -1,0 +1,2 @@
+irq 34 Low-Level
+Memory 0xff5e0000-0xff5e0000, align 0x0, size 0x8, writeable, 8-bit

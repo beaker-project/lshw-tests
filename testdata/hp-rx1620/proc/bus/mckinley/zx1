@@ -1,0 +1,5 @@
+Hewlett Packard zx1 IOC rev 2.3
+IOVA size       : 1024 MB
+IOVA page size  : 16 kb
+PDIR size       : 65536 entries
+PDIR used       : 36 entries

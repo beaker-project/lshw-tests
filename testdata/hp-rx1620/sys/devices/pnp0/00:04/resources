@@ -1,0 +1,3 @@
+state = active
+mem 0xff5e0000-0xff5e0007
+irq 49
