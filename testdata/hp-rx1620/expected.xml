@@ -1,0 +1,613 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system" handle="DMI:0001">
+ <description>Computer</description>
+ <product>server rx1620</product>
+ <vendor>hp</vendor>
+ <serial>[REMOVED]</serial>
+ <width units="bits">64</width>
+ <configuration>
+  <setting id="uuid" value="[REMOVED]" />
+ </configuration>
+ <capabilities>
+  <capability id="smbios-2.3" >SMBIOS version 2.3</capability>
+  <capability id="dmi-2.3" >DMI version 2.3</capability>
+ </capabilities>
+  <node id="core" claimed="true" class="bus" handle="">
+   <description>Motherboard</description>
+   <physid>0</physid>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <description>BIOS</description>
+     <vendor>HP</vendor>
+     <physid>0</physid>
+     <version>02.18</version>
+     <date>03/15/2005</date>
+     <size units="bytes">1048576</size>
+     <capacity units="bytes">8323072</capacity>
+     <hints>
+      <hint name="icon" value="chip" />
+     </hints>
+    </node>
+    <node id="cpu:0" claimed="true" class="processor" handle="DMI:0002">
+     <description>CPU</description>
+     <product>Itanium 2</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>1</physid>
+     <businfo>cpu@0</businfo>
+     <version>1</version>
+     <serial>[REMOVED]</serial>
+     <slot>cpu socket 0</slot>
+     <size units="Hz">1299000000</size>
+     <capacity units="Hz">1300000000</capacity>
+     <clock units="Hz">199000000</clock>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor" handle="DMI:0003">
+     <description>CPU</description>
+     <product>Itanium 2</product>
+     <vendor>Intel Corp.</vendor>
+     <physid>3</physid>
+     <businfo>cpu@1</businfo>
+     <version>1</version>
+     <serial>[REMOVED]</serial>
+     <slot>cpu socket 1</slot>
+     <size units="Hz">1299000000</size>
+     <capacity units="Hz">1300000000</capacity>
+     <clock units="Hz">199000000</clock>
+     <capabilities>
+      <capability id="emulated" />
+      <capability id="hyperthreading" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+    </node>
+    <node id="memory" claimed="true" class="memory" handle="DMI:0004">
+     <description>System Memory</description>
+     <physid>4</physid>
+     <slot>System board or motherboard</slot>
+     <size units="bytes">6442450944</size>
+     <configuration>
+      <setting id="errordetection" value="multi-bit-ecc" />
+     </configuration>
+     <capabilities>
+      <capability id="ecc" >Multi-bit error-correcting code (ECC)</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
+      <node id="bank:0" claimed="true" class="memory" handle="DMI:0005">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>0</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 0A</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:1" claimed="true" class="memory" handle="DMI:0006">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>1</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 0B</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:2" claimed="true" class="memory" handle="DMI:0007">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>2</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 1A</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:3" claimed="true" class="memory" handle="DMI:0008">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>3</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 1B</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:4" claimed="true" class="memory" handle="DMI:0009">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>4</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 2A</slot>
+       <size units="bytes">536870912</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:5" claimed="true" class="memory" handle="DMI:000A">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>5</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 2B</slot>
+       <size units="bytes">536870912</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:6" claimed="true" class="memory" handle="DMI:000B">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>6</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 3A</slot>
+       <size units="bytes">536870912</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+      <node id="bank:7" claimed="true" class="memory" handle="DMI:000C">
+       <description>DIMM DDR Fast-paged Synchronous</description>
+       <vendor>HP</vendor>
+       <physid>7</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM 3B</slot>
+       <size units="bytes">536870912</size>
+       <width units="bits">64</width>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+      </node>
+    </node>
+    <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:01.0">
+     <description>USB controller</description>
+     <product>OHCI USB Controller [1033:35]</product>
+     <vendor>NEC Corporation [1033]</vendor>
+     <physid>5</physid>
+     <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
+     <subsysvendor>NEC Corporation [1033]</subsysvendor>
+     <businfo>pci@0000:00:01.0</businfo>
+     <version>41</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="ohci_hcd" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="42" />
+      <setting id="mingnt" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="ohci" >Open Host Controller Interface</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="52" />
+      <resource type="memory" value="80002000-80002fff" />
+     </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0x35" />
+      <hint name="pci.subdevice" value="0x35" />
+      <hint name="pci.subvendor" value="0x1033" />
+      <hint name="pci.vendor" value="0x1033" />
+     </hints>
+      <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
+       <product>OHCI Host Controller [0:0]</product>
+       <vendor>Linux 2.6.18-398.el5 ohci_hcd [0]</vendor>
+       <physid>1</physid>
+       <businfo>usb@2</businfo>
+       <logicalname>usb2</logicalname>
+       <version>2.06</version>
+       <configuration>
+        <setting id="driver" value="hub" />
+        <setting id="slots" value="3" />
+        <setting id="speed" value="12Mbit/s" />
+       </configuration>
+       <capabilities>
+        <capability id="usb-1.10" >USB 1.1</capability>
+       </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x0" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+       </hints>
+      </node>
+    </node>
+    <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:01.1">
+     <description>USB controller</description>
+     <product>OHCI USB Controller [1033:35]</product>
+     <vendor>NEC Corporation [1033]</vendor>
+     <physid>6</physid>
+     <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
+     <subsysvendor>NEC Corporation [1033]</subsysvendor>
+     <businfo>pci@0000:00:01.1</businfo>
+     <version>41</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="ohci_hcd" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="42" />
+      <setting id="mingnt" value="1" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="ohci" >Open Host Controller Interface</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="53" />
+      <resource type="memory" value="80001000-80001fff" />
+     </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0x35" />
+      <hint name="pci.subdevice" value="0x35" />
+      <hint name="pci.subvendor" value="0x1033" />
+      <hint name="pci.vendor" value="0x1033" />
+     </hints>
+      <node id="usbhost" claimed="true" class="bus" handle="USB:3:1">
+       <product>OHCI Host Controller [0:0]</product>
+       <vendor>Linux 2.6.18-398.el5 ohci_hcd [0]</vendor>
+       <physid>1</physid>
+       <businfo>usb@3</businfo>
+       <logicalname>usb3</logicalname>
+       <version>2.06</version>
+       <configuration>
+        <setting id="driver" value="hub" />
+        <setting id="slots" value="2" />
+        <setting id="speed" value="12Mbit/s" />
+       </configuration>
+       <capabilities>
+        <capability id="usb-1.10" >USB 1.1</capability>
+       </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x0" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+       </hints>
+      </node>
+    </node>
+    <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:01.2">
+     <description>USB controller</description>
+     <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
+     <vendor>NEC Corporation [1033]</vendor>
+     <physid>1.2</physid>
+     <subsysproduct>uPD72010x USB 2.0 Controller [1033:E0]</subsysproduct>
+     <subsysvendor>NEC Corporation [1033]</subsysvendor>
+     <businfo>pci@0000:00:01.2</businfo>
+     <version>02</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="ehci_hcd" />
+      <setting id="latency" value="128" />
+      <setting id="maxlatency" value="34" />
+      <setting id="mingnt" value="16" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="ehci" >Enhanced Host Controller Interface (USB2)</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="51" />
+      <resource type="memory" value="80000000-800000ff" />
+     </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0xE0" />
+      <hint name="pci.subdevice" value="0xE0" />
+      <hint name="pci.subvendor" value="0x1033" />
+      <hint name="pci.vendor" value="0x1033" />
+     </hints>
+      <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
+       <product>EHCI Host Controller [0:0]</product>
+       <vendor>Linux 2.6.18-398.el5 ehci_hcd [0]</vendor>
+       <physid>1</physid>
+       <businfo>usb@1</businfo>
+       <logicalname>usb1</logicalname>
+       <version>2.06</version>
+       <configuration>
+        <setting id="driver" value="hub" />
+        <setting id="slots" value="5" />
+        <setting id="speed" value="480Mbit/s" />
+       </configuration>
+       <capabilities>
+        <capability id="usb-2.00" >USB 2.0</capability>
+       </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x1" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+       </hints>
+      </node>
+    </node>
+    <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:02.0">
+     <description>IDE interface</description>
+     <product>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</product>
+     <vendor>Silicon Image, Inc. [1095]</vendor>
+     <physid>7</physid>
+     <subsysproduct>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</subsysproduct>
+     <subsysvendor>Silicon Image, Inc. [1095]</subsysvendor>
+     <businfo>pci@0000:00:02.0</businfo>
+     <version>02</version>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="CMD64x_IDE" />
+      <setting id="latency" value="64" />
+      <setting id="maxlatency" value="4" />
+      <setting id="mingnt" value="2" />
+     </configuration>
+     <capabilities>
+      <capability id="ide" />
+      <capability id="pm" >Power Management</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="50" />
+      <resource type="ioport" value="d18(size=8)" />
+      <resource type="ioport" value="d24(size=4)" />
+      <resource type="ioport" value="d10(size=8)" />
+      <resource type="ioport" value="d20(size=4)" />
+      <resource type="ioport" value="d00(size=16)" />
+     </resources>
+     <hints>
+      <hint name="icon" value="disc" />
+      <hint name="pci.class" value="0x101" />
+      <hint name="pci.device" value="0x649" />
+      <hint name="pci.subdevice" value="0x649" />
+      <hint name="pci.subvendor" value="0x1095" />
+      <hint name="pci.vendor" value="0x1095" />
+     </hints>
+    </node>
+    <node id="scsi:0" claimed="true" class="storage" handle="PCI:0000:20:01.0">
+     <description>SCSI storage controller</description>
+     <product>53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI [1000:30]</product>
+     <vendor>LSI Logic / Symbios Logic [1000]</vendor>
+     <physid>8</physid>
+     <subsysproduct>Hewlett-Packard Company [103C:1326]</subsysproduct>
+     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <businfo>pci@0000:20:01.0</businfo>
+     <version>08</version>
+     <width units="bits">64</width>
+     <clock units="Hz">66000000</clock>
+     <configuration>
+      <setting id="driver" value="mptspi" />
+      <setting id="latency" value="64" />
+      <setting id="maxlatency" value="18" />
+      <setting id="mingnt" value="17" />
+     </configuration>
+     <capabilities>
+      <capability id="scsi" />
+      <capability id="pm" >Power Management</capability>
+      <capability id="msi" >Message Signalled Interrupts</capability>
+      <capability id="pcix" >PCI-X</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+      <capability id="rom" >extension ROM</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="54" />
+      <resource type="ioport" value="2100(size=256)" />
+      <resource type="memory" value="903a0000-903bffff" />
+      <resource type="memory" value="90380000-9039ffff" />
+      <resource type="memory" value="90100000-901fffff(prefetchable)" />
+     </resources>
+     <hints>
+      <hint name="icon" value="scsi" />
+      <hint name="pci.class" value="0x100" />
+      <hint name="pci.device" value="0x30" />
+      <hint name="pci.subdevice" value="0x1326" />
+      <hint name="pci.subvendor" value="0x103C" />
+      <hint name="pci.vendor" value="0x1000" />
+     </hints>
+    </node>
+    <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:20:01.1">
+     <description>SCSI storage controller</description>
+     <product>53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI [1000:30]</product>
+     <vendor>LSI Logic / Symbios Logic [1000]</vendor>
+     <physid>9</physid>
+     <subsysproduct>Hewlett-Packard Company [103C:1326]</subsysproduct>
+     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <businfo>pci@0000:20:01.1</businfo>
+     <version>08</version>
+     <width units="bits">64</width>
+     <clock units="Hz">66000000</clock>
+     <configuration>
+      <setting id="driver" value="mptspi" />
+      <setting id="latency" value="64" />
+      <setting id="maxlatency" value="18" />
+      <setting id="mingnt" value="17" />
+     </configuration>
+     <capabilities>
+      <capability id="scsi" />
+      <capability id="pm" >Power Management</capability>
+      <capability id="msi" >Message Signalled Interrupts</capability>
+      <capability id="pcix" >PCI-X</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+      <capability id="rom" >extension ROM</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="55" />
+      <resource type="ioport" value="2000(size=256)" />
+      <resource type="memory" value="90360000-9037ffff" />
+      <resource type="memory" value="90340000-9035ffff" />
+      <resource type="memory" value="90000000-900fffff(prefetchable)" />
+     </resources>
+     <hints>
+      <hint name="icon" value="scsi" />
+      <hint name="pci.class" value="0x100" />
+      <hint name="pci.device" value="0x30" />
+      <hint name="pci.subdevice" value="0x1326" />
+      <hint name="pci.subvendor" value="0x103C" />
+      <hint name="pci.vendor" value="0x1000" />
+     </hints>
+    </node>
+    <node id="network:0" claimed="true" class="network" handle="PCI:0000:20:02.0">
+     <description>Ethernet controller</description>
+     <product>82546GB Gigabit Ethernet Controller [8086:1079]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>2</physid>
+     <subsysproduct>Hewlett-Packard Company [103C:12C6]</subsysproduct>
+     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <businfo>pci@0000:20:02.0</businfo>
+     <version>03</version>
+     <width units="bits">64</width>
+     <clock units="Hz">66000000</clock>
+     <configuration>
+      <setting id="driver" value="e1000" />
+      <setting id="latency" value="64" />
+      <setting id="mingnt" value="255" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="pcix" >PCI-X</capability>
+      <capability id="msi" >Message Signalled Interrupts</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+      <capability id="rom" >extension ROM</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="56" />
+      <resource type="memory" value="90320000-9033ffff" />
+      <resource type="memory" value="90280000-902fffff" />
+      <resource type="ioport" value="2240(size=64)" />
+      <resource type="memory" value="90200000-9027ffff(prefetchable)" />
+     </resources>
+     <hints>
+      <hint name="icon" value="network" />
+      <hint name="pci.class" value="0x200" />
+      <hint name="pci.device" value="0x1079" />
+      <hint name="pci.subdevice" value="0x12C6" />
+      <hint name="pci.subvendor" value="0x103C" />
+      <hint name="pci.vendor" value="0x8086" />
+     </hints>
+    </node>
+    <node id="network:1" claimed="true" class="network" handle="PCI:0000:20:02.1">
+     <description>Ethernet controller</description>
+     <product>82546GB Gigabit Ethernet Controller [8086:1079]</product>
+     <vendor>Intel Corporation [8086]</vendor>
+     <physid>2.1</physid>
+     <subsysproduct>Hewlett-Packard Company [103C:12C6]</subsysproduct>
+     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <businfo>pci@0000:20:02.1</businfo>
+     <version>03</version>
+     <width units="bits">64</width>
+     <clock units="Hz">66000000</clock>
+     <configuration>
+      <setting id="driver" value="e1000" />
+      <setting id="latency" value="64" />
+      <setting id="mingnt" value="255" />
+     </configuration>
+     <capabilities>
+      <capability id="pm" >Power Management</capability>
+      <capability id="pcix" >PCI-X</capability>
+      <capability id="msi" >Message Signalled Interrupts</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="57" />
+      <resource type="memory" value="90300000-9031ffff" />
+      <resource type="ioport" value="2200(size=64)" />
+     </resources>
+     <hints>
+      <hint name="icon" value="network" />
+      <hint name="pci.class" value="0x200" />
+      <hint name="pci.device" value="0x1079" />
+      <hint name="pci.subdevice" value="0x12C6" />
+      <hint name="pci.subvendor" value="0x103C" />
+      <hint name="pci.vendor" value="0x8086" />
+     </hints>
+    </node>
+    <node id="pnp00:00" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0001</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>a</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:01" claimed="true" class="generic" handle="">
+     <product>IPMI Controller</product>
+     <vendor>Intelligent Platform Management Interface (IPMI) forum (Intel, HP, NEC, Dell)</vendor>
+     <physid>b</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:02" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0002</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>c</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:03" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0002</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>d</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:04" claimed="true" class="communication" handle="">
+     <product>16550A-compatible COM port</product>
+     <physid>e</physid>
+     <configuration>
+      <setting id="driver" value="serial" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:05" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0002</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>f</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:06" claimed="true" class="generic" handle="">
+     <product>PnP device HWP0002</product>
+     <vendor>Hewlett Packard</vendor>
+     <physid>10</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+  </node>
+</node>
+</list>
