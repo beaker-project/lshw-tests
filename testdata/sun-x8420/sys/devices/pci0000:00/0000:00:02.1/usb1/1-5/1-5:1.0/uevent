@@ -1,0 +1,7 @@
+DEVTYPE=usb_interface
+DRIVER=usb-storage
+DEVICE=/proc/bus/usb/001/004
+PRODUCT=46b/ff42/100
+TYPE=0/0/0
+INTERFACE=8/4/80
+MODALIAS=usb:v046BpFF42d0100dc00dsc00dp00ic08isc04ip50

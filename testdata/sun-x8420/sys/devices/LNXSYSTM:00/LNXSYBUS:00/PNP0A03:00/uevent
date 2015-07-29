@@ -1,0 +1,2 @@
+DRIVER=pci_root
+MODALIAS=acpi:PNP0A03:
