@@ -1,0 +1,29 @@
+
+Node 3 MemTotal:        2097152 kB
+Node 3 MemFree:         1895420 kB
+Node 3 MemUsed:          201732 kB
+Node 3 Active:            64852 kB
+Node 3 Inactive:          69348 kB
+Node 3 Active(anon):       5656 kB
+Node 3 Inactive(anon):        0 kB
+Node 3 Active(file):      59196 kB
+Node 3 Inactive(file):    69348 kB
+Node 3 Unevictable:           0 kB
+Node 3 Mlocked:               0 kB
+Node 3 Dirty:              3444 kB
+Node 3 Writeback:             0 kB
+Node 3 FilePages:        128480 kB
+Node 3 Mapped:             2180 kB
+Node 3 AnonPages:          5708 kB
+Node 3 Shmem:                52 kB
+Node 3 KernelStack:         160 kB
+Node 3 PageTables:          816 kB
+Node 3 NFS_Unstable:          0 kB
+Node 3 Bounce:                0 kB
+Node 3 WritebackTmp:          0 kB
+Node 3 Slab:              19976 kB
+Node 3 SReclaimable:      12604 kB
+Node 3 SUnreclaim:         7372 kB
+Node 3 HugePages_Total:     0
+Node 3 HugePages_Free:      0
+Node 3 HugePages_Surp:      0

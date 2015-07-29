@@ -1,0 +1,3 @@
+state = active
+io 0xf0-0xff
+irq 13

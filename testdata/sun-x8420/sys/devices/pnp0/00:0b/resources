@@ -1,0 +1,3 @@
+state = active
+io disabled
+io 0x680-0x6ff

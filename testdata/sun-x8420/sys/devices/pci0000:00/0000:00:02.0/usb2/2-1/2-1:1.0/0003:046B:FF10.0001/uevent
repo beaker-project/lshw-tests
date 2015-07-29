@@ -1,0 +1,6 @@
+DRIVER=generic-usb
+HID_ID=0003:0000046B:0000FF10
+HID_NAME=American Megatrends Inc. Virtual Keyboard and Mouse
+HID_PHYS=usb-0000:00:02.0-1/input0
+HID_UNIQ=
+MODALIAS=hid:b0003g0001v0000046Bp0000FF10

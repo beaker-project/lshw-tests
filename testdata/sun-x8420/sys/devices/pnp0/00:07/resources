@@ -1,0 +1,4 @@
+state = active
+mem disabled
+mem disabled
+mem 0xfee01000-0xfef00fff
