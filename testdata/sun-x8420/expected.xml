@@ -1,136 +1,90 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
- <description>Computer</description>
+<node id="computer" claimed="true" class="system" handle="DMI:0001">
+ <description>Desktop Computer</description>
+ <product>Sun Blade X8420 Server Module (602-0000-00)</product>
+ <vendor>Sun Microsystems</vendor>
+ <version>Not Available</version>
+ <serial>[REMOVED]</serial>
  <width units="bits">64</width>
+ <configuration>
+  <setting id="boot" value="normal" />
+  <setting id="chassis" value="desktop" />
+  <setting id="family" value="NULL" />
+  <setting id="sku" value="602-0000-00" />
+  <setting id="uuid" value="[REMOVED]" />
+ </configuration>
  <capabilities>
+  <capability id="smbios-2.3" >SMBIOS version 2.3</capability>
+  <capability id="dmi-2.3" >DMI version 2.3</capability>
+  <capability id="smp" >Symmetric Multi-Processing</capability>
   <capability id="vsyscall64" >64-bit processes</capability>
   <capability id="vsyscall32" >32-bit processes</capability>
  </capabilities>
-  <node id="core" claimed="true" class="bus" handle="">
+ <hints>
+  <hint name="icon" value="desktopcomputer" />
+ </hints>
+  <node id="core" claimed="true" class="bus" handle="DMI:0002">
    <description>Motherboard</description>
+   <product>Sun Blade X8420 Server Module</product>
+   <vendor>Sun Microsystems</vendor>
    <physid>0</physid>
-    <node id="memory:0" claimed="true" class="memory" handle="">
-     <description>System memory</description>
-     <physid>0</physid>
-     <size units="bytes">8253734912</size>
-    </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="">
-     <product>Dual-Core AMD Opteron(tm) Processor 8220 SE</product>
-     <vendor>Advanced Micro Devices [AMD]</vendor>
+   <version>NULL</version>
+   <serial>[REMOVED]</serial>
+   <slot>NULL</slot>
+   <hints>
+    <hint name="icon" value="motherboard" />
+   </hints>
+    <node id="firmware" claimed="true" class="memory" handle="">
+     <description>BIOS</description>
+     <vendor>American Megatrends Inc.</vendor>
      <physid>1</physid>
-     <businfo>cpu@0</businfo>
-     <size units="Hz">1000000000</size>
-     <capacity units="Hz">2800000000</capacity>
-     <width units="bits">64</width>
+     <version>02041000</version>
+     <date>11/29/2007</date>
+     <size units="bytes">65536</size>
+     <capacity units="bytes">983040</capacity>
      <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="vme" >virtual mode extensions</capability>
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pat" >page attribute table</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="ht" >HyperThreading</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="mmxext" >multimedia extensions (MMXExt)</capability>
-      <capability id="fxsr_opt" />
-      <capability id="rdtscp" />
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="3dnowext" >multimedia extensions (3DNow!Ext)</capability>
-      <capability id="3dnow" >multimedia extensions (3DNow!)</capability>
-      <capability id="rep_good" />
-      <capability id="extd_apicid" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="lahf_lm" />
-      <capability id="cmp_legacy" />
-      <capability id="svm" />
-      <capability id="extapic" />
-      <capability id="cr8_legacy" />
-      <capability id="cpufreq" >CPU Frequency scaling</capability>
+      <capability id="pci" >PCI bus</capability>
+      <capability id="pnp" >Plug-and-Play</capability>
+      <capability id="upgrade" >BIOS EEPROM can be upgraded</capability>
+      <capability id="shadowing" >BIOS shadowing</capability>
+      <capability id="escd" >ESCD</capability>
+      <capability id="cdboot" >Booting from CD-ROM/DVD</capability>
+      <capability id="bootselect" >Selectable boot path</capability>
+      <capability id="socketedrom" >BIOS ROM is socketed</capability>
+      <capability id="edd" >Enhanced Disk Drive extensions</capability>
+      <capability id="int13floppy1200" >5.25&quot; 1.2MB floppy</capability>
+      <capability id="int13floppy720" >3.5&quot; 720KB floppy</capability>
+      <capability id="int13floppy2880" >3.5&quot; 2.88MB floppy</capability>
+      <capability id="int5printscreen" >Print Screen key</capability>
+      <capability id="int9keyboard" >i8042 keyboard controller</capability>
+      <capability id="int14serial" >INT14 serial line control</capability>
+      <capability id="int17printer" >INT17 printer control</capability>
+      <capability id="int10video" >INT10 CGA/Mono video</capability>
+      <capability id="acpi" >ACPI</capability>
+      <capability id="usb" >USB legacy emulation</capability>
+      <capability id="ls120boot" >Booting from LS-120</capability>
+      <capability id="zipboot" >Booting from ATAPI ZIP</capability>
+      <capability id="biosbootspecification" >BIOS boot specification</capability>
+      <capability id="netboot" >Function-key initiated network service boot</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="chip" />
+     </hints>
     </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
-     <product>Dual-Core AMD Opteron(tm) Processor 8220 SE</product>
-     <vendor>Advanced Micro Devices [AMD]</vendor>
-     <physid>3</physid>
-     <businfo>cpu@1</businfo>
-     <size units="Hz">1000000000</size>
-     <capacity units="Hz">2800000000</capacity>
-     <width units="bits">64</width>
-     <capabilities>
-      <capability id="fpu" >mathematical co-processor</capability>
-      <capability id="fpu_exception" >FPU exceptions reporting</capability>
-      <capability id="wp" />
-      <capability id="vme" >virtual mode extensions</capability>
-      <capability id="de" >debugging extensions</capability>
-      <capability id="pse" >page size extensions</capability>
-      <capability id="tsc" >time stamp counter</capability>
-      <capability id="msr" >model-specific registers</capability>
-      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
-      <capability id="mce" >machine check exceptions</capability>
-      <capability id="cx8" >compare and exchange 8-byte</capability>
-      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
-      <capability id="sep" >fast system calls</capability>
-      <capability id="mtrr" >memory type range registers</capability>
-      <capability id="pge" >page global enable</capability>
-      <capability id="mca" >machine check architecture</capability>
-      <capability id="cmov" >conditional move instruction</capability>
-      <capability id="pat" >page attribute table</capability>
-      <capability id="pse36" >36-bit page size extensions</capability>
-      <capability id="clflush" />
-      <capability id="mmx" >multimedia extensions (MMX)</capability>
-      <capability id="fxsr" >fast floating point save/restore</capability>
-      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
-      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
-      <capability id="ht" >HyperThreading</capability>
-      <capability id="syscall" >fast system calls</capability>
-      <capability id="nx" >no-execute bit (NX)</capability>
-      <capability id="mmxext" >multimedia extensions (MMXExt)</capability>
-      <capability id="fxsr_opt" />
-      <capability id="rdtscp" />
-      <capability id="x86-64" >64bits extensions (x86-64)</capability>
-      <capability id="3dnowext" >multimedia extensions (3DNow!Ext)</capability>
-      <capability id="3dnow" >multimedia extensions (3DNow!)</capability>
-      <capability id="rep_good" />
-      <capability id="extd_apicid" />
-      <capability id="pni" />
-      <capability id="cx16" />
-      <capability id="lahf_lm" />
-      <capability id="cmp_legacy" />
-      <capability id="svm" />
-      <capability id="extapic" />
-      <capability id="cr8_legacy" />
-      <capability id="cpufreq" >CPU Frequency scaling</capability>
-     </capabilities>
-    </node>
-    <node id="cpu:2" claimed="true" class="processor" handle="">
+    <node id="cpu:0" claimed="true" class="processor" handle="DMI:0004">
+     <description>CPU</description>
      <product>Dual-Core AMD Opteron(tm) Processor 8220 SE</product>
      <vendor>Advanced Micro Devices [AMD]</vendor>
      <physid>4</physid>
-     <businfo>cpu@2</businfo>
+     <businfo>cpu@0</businfo>
+     <version>Dual-Core AMD Opteron(tm) Processor 8220 SE</version>
+     <serial>[REMOVED]</serial>
+     <slot>CPU 0</slot>
      <size units="Hz">1000000000</size>
      <capacity units="Hz">2800000000</capacity>
      <width units="bits">64</width>
+     <clock units="Hz">200000000</clock>
      <capabilities>
       <capability id="fpu" >mathematical co-processor</capability>
       <capability id="fpu_exception" >FPU exceptions reporting</capability>
@@ -176,15 +130,55 @@
       <capability id="cr8_legacy" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:0005">
+       <description>L1 cache</description>
+       <physid>5</physid>
+       <slot>L1-Cache</slot>
+       <size units="bytes">262144</size>
+       <capacity units="bytes">262144</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="data" >Data cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:0006">
+       <description>L2 cache</description>
+       <physid>6</physid>
+       <slot>L2-Cache</slot>
+       <size units="bytes">2097152</size>
+       <capacity units="bytes">2097152</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
     </node>
-    <node id="cpu:3" claimed="true" class="processor" handle="">
+    <node id="cpu:1" claimed="true" class="processor" handle="DMI:0008">
+     <description>CPU</description>
      <product>Dual-Core AMD Opteron(tm) Processor 8220 SE</product>
      <vendor>Advanced Micro Devices [AMD]</vendor>
-     <physid>5</physid>
-     <businfo>cpu@3</businfo>
+     <physid>8</physid>
+     <businfo>cpu@1</businfo>
+     <version>Dual-Core AMD Opteron(tm) Processor 8220 SE</version>
+     <serial>[REMOVED]</serial>
+     <slot>CPU 1</slot>
      <size units="Hz">1000000000</size>
      <capacity units="Hz">2800000000</capacity>
      <width units="bits">64</width>
+     <clock units="Hz">200000000</clock>
      <capabilities>
       <capability id="fpu" >mathematical co-processor</capability>
       <capability id="fpu_exception" >FPU exceptions reporting</capability>
@@ -230,12 +224,446 @@
       <capability id="cr8_legacy" />
       <capability id="cpufreq" >CPU Frequency scaling</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:0009">
+       <description>L1 cache</description>
+       <physid>9</physid>
+       <slot>L1-Cache</slot>
+       <size units="bytes">262144</size>
+       <capacity units="bytes">262144</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="data" >Data cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:000A">
+       <description>L2 cache</description>
+       <physid>a</physid>
+       <slot>L2-Cache</slot>
+       <size units="bytes">2097152</size>
+       <capacity units="bytes">2097152</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="cpu:2" claimed="true" class="processor" handle="DMI:000C">
+     <description>CPU</description>
+     <product>Dual-Core AMD Opteron(tm) Processor 8220 SE</product>
+     <vendor>Advanced Micro Devices [AMD]</vendor>
+     <physid>3</physid>
+     <businfo>cpu@2</businfo>
+     <version>Dual-Core AMD Opteron(tm) Processor 8220 SE</version>
+     <serial>[REMOVED]</serial>
+     <slot>CPU 2</slot>
+     <size units="Hz">1000000000</size>
+     <capacity units="Hz">2800000000</capacity>
+     <width units="bits">64</width>
+     <clock units="Hz">200000000</clock>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="vme" >virtual mode extensions</capability>
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pat" >page attribute table</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="ht" >HyperThreading</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="mmxext" >multimedia extensions (MMXExt)</capability>
+      <capability id="fxsr_opt" />
+      <capability id="rdtscp" />
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="3dnowext" >multimedia extensions (3DNow!Ext)</capability>
+      <capability id="3dnow" >multimedia extensions (3DNow!)</capability>
+      <capability id="rep_good" />
+      <capability id="extd_apicid" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="lahf_lm" />
+      <capability id="cmp_legacy" />
+      <capability id="svm" />
+      <capability id="extapic" />
+      <capability id="cr8_legacy" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:000D">
+       <description>L1 cache</description>
+       <physid>d</physid>
+       <slot>L1-Cache</slot>
+       <size units="bytes">262144</size>
+       <capacity units="bytes">262144</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="data" >Data cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:000E">
+       <description>L2 cache</description>
+       <physid>e</physid>
+       <slot>L2-Cache</slot>
+       <size units="bytes">2097152</size>
+       <capacity units="bytes">2097152</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="cpu:3" claimed="true" class="processor" handle="DMI:0010">
+     <description>CPU</description>
+     <product>Dual-Core AMD Opteron(tm) Processor 8220 SE</product>
+     <vendor>Advanced Micro Devices [AMD]</vendor>
+     <physid>10</physid>
+     <businfo>cpu@3</businfo>
+     <version>Dual-Core AMD Opteron(tm) Processor 8220 SE</version>
+     <serial>[REMOVED]</serial>
+     <slot>CPU 3</slot>
+     <size units="Hz">1000000000</size>
+     <capacity units="Hz">2800000000</capacity>
+     <width units="bits">64</width>
+     <clock units="Hz">200000000</clock>
+     <capabilities>
+      <capability id="fpu" >mathematical co-processor</capability>
+      <capability id="fpu_exception" >FPU exceptions reporting</capability>
+      <capability id="wp" />
+      <capability id="vme" >virtual mode extensions</capability>
+      <capability id="de" >debugging extensions</capability>
+      <capability id="pse" >page size extensions</capability>
+      <capability id="tsc" >time stamp counter</capability>
+      <capability id="msr" >model-specific registers</capability>
+      <capability id="pae" >4GB+ memory addressing (Physical Address Extension)</capability>
+      <capability id="mce" >machine check exceptions</capability>
+      <capability id="cx8" >compare and exchange 8-byte</capability>
+      <capability id="apic" >on-chip advanced programmable interrupt controller (APIC)</capability>
+      <capability id="sep" >fast system calls</capability>
+      <capability id="mtrr" >memory type range registers</capability>
+      <capability id="pge" >page global enable</capability>
+      <capability id="mca" >machine check architecture</capability>
+      <capability id="cmov" >conditional move instruction</capability>
+      <capability id="pat" >page attribute table</capability>
+      <capability id="pse36" >36-bit page size extensions</capability>
+      <capability id="clflush" />
+      <capability id="mmx" >multimedia extensions (MMX)</capability>
+      <capability id="fxsr" >fast floating point save/restore</capability>
+      <capability id="sse" >streaming SIMD extensions (SSE)</capability>
+      <capability id="sse2" >streaming SIMD extensions (SSE2)</capability>
+      <capability id="ht" >HyperThreading</capability>
+      <capability id="syscall" >fast system calls</capability>
+      <capability id="nx" >no-execute bit (NX)</capability>
+      <capability id="mmxext" >multimedia extensions (MMXExt)</capability>
+      <capability id="fxsr_opt" />
+      <capability id="rdtscp" />
+      <capability id="x86-64" >64bits extensions (x86-64)</capability>
+      <capability id="3dnowext" >multimedia extensions (3DNow!Ext)</capability>
+      <capability id="3dnow" >multimedia extensions (3DNow!)</capability>
+      <capability id="rep_good" />
+      <capability id="extd_apicid" />
+      <capability id="pni" />
+      <capability id="cx16" />
+      <capability id="lahf_lm" />
+      <capability id="cmp_legacy" />
+      <capability id="svm" />
+      <capability id="extapic" />
+      <capability id="cr8_legacy" />
+      <capability id="cpufreq" >CPU Frequency scaling</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory" handle="DMI:0011">
+       <description>L1 cache</description>
+       <physid>11</physid>
+       <slot>L1-Cache</slot>
+       <size units="bytes">262144</size>
+       <capacity units="bytes">262144</capacity>
+       <configuration>
+        <setting id="level" value="1" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="data" >Data cache</capability>
+       </capabilities>
+      </node>
+      <node id="cache:1" claimed="true" class="memory" handle="DMI:0012">
+       <description>L2 cache</description>
+       <physid>12</physid>
+       <slot>L2-Cache</slot>
+       <size units="bytes">2097152</size>
+       <capacity units="bytes">2097152</capacity>
+       <configuration>
+        <setting id="level" value="2" />
+       </configuration>
+       <capabilities>
+        <capability id="pipeline-burst" >Pipeline burst</capability>
+        <capability id="internal" >Internal</capability>
+        <capability id="varies" >Varies With Memory Address</capability>
+        <capability id="unified" >Unified cache</capability>
+       </capabilities>
+      </node>
+    </node>
+    <node id="memory:0" claimed="true" class="memory" handle="DMI:0025">
+     <description>System Memory</description>
+     <physid>25</physid>
+     <slot>System board or motherboard</slot>
+     <size units="bytes">8253734912</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
+      <node id="bank:0" claimed="true" class="memory" handle="DMI:0027">
+       <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+       <product>PartNum1</product>
+       <vendor>Manufacturer1</vendor>
+       <physid>0</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM0</slot>
+       <size units="bytes">1073741824</size>
+       <width units="bits">64</width>
+       <clock units="Hz">200000000</clock>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+        <node id="bank:0" claimed="true" class="memory" handle="DMI:0029">
+         <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+         <product>PartNum2</product>
+         <vendor>Manufacturer2</vendor>
+         <physid>0</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM1</slot>
+         <size units="bytes">1073741824</size>
+         <width units="bits">64</width>
+         <clock units="Hz">200000000</clock>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:1" claimed="true" class="memory" handle="DMI:002B">
+         <description>DIMM [empty]</description>
+         <product>PartNum3</product>
+         <vendor>Manufacturer3</vendor>
+         <physid>1</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM2</slot>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:2" claimed="true" class="memory" handle="DMI:002D">
+         <description>DIMM [empty]</description>
+         <product>PartNum4</product>
+         <vendor>Manufacturer4</vendor>
+         <physid>2</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM3</slot>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+      </node>
+      <node id="bank:1" claimed="true" class="memory" handle="DMI:0031">
+       <description>DIMM [empty]</description>
+       <product>PartNum1</product>
+       <vendor>Manufacturer1</vendor>
+       <physid>1</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM0</slot>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+        <node id="bank:0" claimed="true" class="memory" handle="DMI:0033">
+         <description>DIMM [empty]</description>
+         <product>PartNum2</product>
+         <vendor>Manufacturer2</vendor>
+         <physid>0</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM1</slot>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:1" claimed="true" class="memory" handle="DMI:0035">
+         <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+         <product>PartNum3</product>
+         <vendor>Manufacturer3</vendor>
+         <physid>1</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM2</slot>
+         <size units="bytes">1073741824</size>
+         <width units="bits">64</width>
+         <clock units="Hz">200000000</clock>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:2" claimed="true" class="memory" handle="DMI:0037">
+         <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+         <product>PartNum4</product>
+         <vendor>Manufacturer4</vendor>
+         <physid>2</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM3</slot>
+         <size units="bytes">1073741824</size>
+         <width units="bits">64</width>
+         <clock units="Hz">200000000</clock>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+      </node>
+      <node id="bank:2" claimed="true" class="memory" handle="DMI:003B">
+       <description>DIMM [empty]</description>
+       <product>PartNum1</product>
+       <vendor>Manufacturer1</vendor>
+       <physid>2</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM0</slot>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+        <node id="bank:0" claimed="true" class="memory" handle="DMI:003D">
+         <description>DIMM [empty]</description>
+         <product>PartNum2</product>
+         <vendor>Manufacturer2</vendor>
+         <physid>0</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM1</slot>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:1" claimed="true" class="memory" handle="DMI:003F">
+         <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+         <product>PartNum3</product>
+         <vendor>Manufacturer3</vendor>
+         <physid>1</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM2</slot>
+         <size units="bytes">1073741824</size>
+         <width units="bits">64</width>
+         <clock units="Hz">200000000</clock>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:2" claimed="true" class="memory" handle="DMI:0041">
+         <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+         <product>PartNum4</product>
+         <vendor>Manufacturer4</vendor>
+         <physid>2</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM3</slot>
+         <size units="bytes">1073741824</size>
+         <width units="bits">64</width>
+         <clock units="Hz">200000000</clock>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+      </node>
+      <node id="bank:3" claimed="true" class="memory" handle="DMI:0045">
+       <description>DIMM [empty]</description>
+       <product>PartNum1</product>
+       <vendor>Manufacturer1</vendor>
+       <physid>3</physid>
+       <serial>[REMOVED]</serial>
+       <slot>DIMM0</slot>
+       <hints>
+        <hint name="icon" value="memory" />
+       </hints>
+        <node id="bank:0" claimed="true" class="memory" handle="DMI:0047">
+         <description>DIMM [empty]</description>
+         <product>PartNum2</product>
+         <vendor>Manufacturer2</vendor>
+         <physid>0</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM1</slot>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:1" claimed="true" class="memory" handle="DMI:0049">
+         <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+         <product>PartNum3</product>
+         <vendor>Manufacturer3</vendor>
+         <physid>1</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM2</slot>
+         <size units="bytes">1073741824</size>
+         <width units="bits">64</width>
+         <clock units="Hz">200000000</clock>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+        <node id="bank:2" claimed="true" class="memory" handle="DMI:004B">
+         <description>DIMM DDR2 Synchronous 200 MHz (5.0 ns)</description>
+         <product>PartNum4</product>
+         <vendor>Manufacturer4</vendor>
+         <physid>2</physid>
+         <serial>[REMOVED]</serial>
+         <slot>DIMM3</slot>
+         <size units="bytes">1073741824</size>
+         <width units="bits">64</width>
+         <clock units="Hz">200000000</clock>
+         <hints>
+          <hint name="icon" value="memory" />
+         </hints>
+        </node>
+      </node>
     </node>
     <node id="memory:1" class="memory" handle="PCI:0000:00:00.0">
      <description>Memory controller</description>
      <product>CK804 Memory Controller [10DE:5E]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
-     <physid>6</physid>
+     <physid>5</physid>
+     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>a4</version>
      <width units="bits">32</width>
@@ -248,12 +676,22 @@
       <capability id="bus_master" >bus mastering</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="memory" />
+      <hint name="pci.class" value="0x580" />
+      <hint name="pci.device" value="0x5E" />
+      <hint name="pci.subdevice" value="0x4132" />
+      <hint name="pci.subvendor" value="0x108E" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
     </node>
     <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:01.0">
      <description>ISA bridge</description>
      <product>CK804 ISA Bridge [10DE:51]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>100</physid>
+     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
      <businfo>pci@0000:00:01.0</businfo>
      <version>b1</version>
      <width units="bits">32</width>
@@ -265,12 +703,21 @@
       <capability id="isa" />
       <capability id="bus_master" >bus mastering</capability>
      </capabilities>
+     <hints>
+      <hint name="pci.class" value="0x601" />
+      <hint name="pci.device" value="0x51" />
+      <hint name="pci.subdevice" value="0x4132" />
+      <hint name="pci.subvendor" value="0x108E" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
     </node>
     <node id="serial" claimed="true" class="bus" handle="PCI:0000:00:01.1">
      <description>SMBus</description>
      <product>CK804 SMBus [10DE:52]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>1.1</physid>
+     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
      <businfo>pci@0000:00:01.1</businfo>
      <version>a2</version>
      <width units="bits">32</width>
@@ -291,12 +738,21 @@
       <resource type="ioport" value="4c00(size=64)" />
       <resource type="ioport" value="4c40(size=64)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0xC05" />
+      <hint name="pci.device" value="0x52" />
+      <hint name="pci.subdevice" value="0x4132" />
+      <hint name="pci.subvendor" value="0x108E" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
     </node>
     <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:02.0">
      <description>USB controller</description>
      <product>CK804 USB Controller [10DE:5A]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>2</physid>
+     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
      <businfo>pci@0000:00:02.0</businfo>
      <version>a2</version>
      <width units="bits">32</width>
@@ -317,6 +773,14 @@
       <resource type="irq" value="22" />
       <resource type="memory" value="8dcfe000-8dcfefff" />
      </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0x5A" />
+      <hint name="pci.subdevice" value="0x4132" />
+      <hint name="pci.subvendor" value="0x108E" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="usbhost" claimed="true" class="bus" handle="USB:2:1">
        <product>OHCI Host Controller [1D6B:1]</product>
        <vendor>Linux 2.6.32-573.el6.x86_64 ohci_hcd [1D6B]</vendor>
@@ -332,6 +796,14 @@
        <capabilities>
         <capability id="usb-1.10" >USB 1.1</capability>
        </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x0" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+        <hint name="usb.idProduct" value="0x1" />
+        <hint name="usb.idVendor" value="0x1D6B" />
+       </hints>
         <node id="usb" claimed="true" class="input" handle="USB:2:2">
          <description>Keyboard</description>
          <product>Virtual Keyboard and Mouse [46B:FF10]</product>
@@ -346,6 +818,14 @@
          <capabilities>
           <capability id="usb-1.10" >USB 1.1</capability>
          </capabilities>
+         <hints>
+          <hint name="bus.icon" value="usb" />
+          <hint name="usb.bDeviceClass" value="0x0" />
+          <hint name="usb.bDeviceProtocol" value="0x0" />
+          <hint name="usb.bDeviceSubClass" value="0x0" />
+          <hint name="usb.idProduct" value="0xFF10" />
+          <hint name="usb.idVendor" value="0x46B" />
+         </hints>
         </node>
       </node>
     </node>
@@ -354,6 +834,8 @@
      <product>CK804 USB Controller [10DE:5B]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>2.1</physid>
+     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
      <businfo>pci@0000:00:02.1</businfo>
      <version>a4</version>
      <width units="bits">32</width>
@@ -375,6 +857,14 @@
       <resource type="irq" value="21" />
       <resource type="memory" value="8dcffc00-8dcffcff" />
      </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0x5B" />
+      <hint name="pci.subdevice" value="0x4132" />
+      <hint name="pci.subvendor" value="0x108E" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="usbhost" claimed="true" class="bus" handle="USB:1:1">
        <product>EHCI Host Controller [1D6B:2]</product>
        <vendor>Linux 2.6.32-573.el6.x86_64 ehci_hcd [1D6B]</vendor>
@@ -390,6 +880,14 @@
        <capabilities>
         <capability id="usb-2.00" >USB 2.0</capability>
        </capabilities>
+       <hints>
+        <hint name="bus.icon" value="usb" />
+        <hint name="usb.bDeviceClass" value="0x9" />
+        <hint name="usb.bDeviceProtocol" value="0x0" />
+        <hint name="usb.bDeviceSubClass" value="0x0" />
+        <hint name="usb.idProduct" value="0x2" />
+        <hint name="usb.idVendor" value="0x1D6B" />
+       </hints>
         <node id="usb:0" claimed="true" class="storage" handle="USB:1:3">
          <description>Mass storage device</description>
          <product>Virtual Cdrom Device [46B:FF20]</product>
@@ -404,6 +902,14 @@
          <capabilities>
           <capability id="usb-2.00" >USB 2.0</capability>
          </capabilities>
+         <hints>
+          <hint name="bus.icon" value="usb" />
+          <hint name="usb.bDeviceClass" value="0x0" />
+          <hint name="usb.bDeviceProtocol" value="0x0" />
+          <hint name="usb.bDeviceSubClass" value="0x0" />
+          <hint name="usb.idProduct" value="0xFF20" />
+          <hint name="usb.idVendor" value="0x46B" />
+         </hints>
         </node>
         <node id="usb:1" claimed="true" class="storage" handle="USB:1:4">
          <description>Mass storage device</description>
@@ -420,6 +926,14 @@
           <capability id="usb-2.00" >USB 2.0</capability>
           <capability id="floppy" >Floppy (UFI)</capability>
          </capabilities>
+         <hints>
+          <hint name="bus.icon" value="usb" />
+          <hint name="usb.bDeviceClass" value="0x0" />
+          <hint name="usb.bDeviceProtocol" value="0x0" />
+          <hint name="usb.bDeviceSubClass" value="0x0" />
+          <hint name="usb.idProduct" value="0xFF42" />
+          <hint name="usb.idVendor" value="0x46B" />
+         </hints>
         </node>
       </node>
     </node>
@@ -444,11 +958,18 @@
       <resource type="memory" value="81700000-83bfffff" />
       <resource type="memory" value="80000000-802fffff(prefetchable)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5C" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="display" class="display" handle="PCI:0000:01:00.0">
        <description>VGA compatible controller</description>
        <product>Rage XL PCI [1002:4752]</product>
        <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
        <physid>0</physid>
+       <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
        <businfo>pci@0000:01:00.0</businfo>
        <version>27</version>
        <width units="bits">32</width>
@@ -469,12 +990,22 @@
         <resource type="memory" value="83bff000-83bfffff" />
         <resource type="memory" value="80200000-8021ffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="display" />
+        <hint name="pci.class" value="0x300" />
+        <hint name="pci.device" value="0x4752" />
+        <hint name="pci.subdevice" value="0x4132" />
+        <hint name="pci.subvendor" value="0x108E" />
+        <hint name="pci.vendor" value="0x1002" />
+       </hints>
       </node>
       <node id="scsi" claimed="true" class="storage" handle="PCI:0000:01:01.0">
        <description>SCSI storage controller</description>
        <product>SAS1064 PCI-X Fusion-MPT SAS [1000:50]</product>
        <vendor>LSI Logic / Symbios Logic [1000]</vendor>
        <physid>1</physid>
+       <subsysproduct>Oracle/SUN [108E:4131]</subsysproduct>
+       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
        <businfo>pci@0000:01:01.0</businfo>
        <version>02</version>
        <width units="bits">64</width>
@@ -500,6 +1031,14 @@
         <resource type="memory" value="83be0000-83beffff" />
         <resource type="memory" value="80000000-801fffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="scsi" />
+        <hint name="pci.class" value="0x100" />
+        <hint name="pci.device" value="0x50" />
+        <hint name="pci.subdevice" value="0x4131" />
+        <hint name="pci.subvendor" value="0x108E" />
+        <hint name="pci.vendor" value="0x1000" />
+       </hints>
       </node>
     </node>
     <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:02">
@@ -530,11 +1069,18 @@
       <resource type="memory" value="83c00000-85bfffff" />
       <resource type="ioport" value="8dd00000(size=33554432)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5D" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:02:00.0">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:02:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -558,12 +1104,22 @@
         <resource type="ioport" value="8800(size=32)" />
         <resource type="memory" value="85b40000-85b5ffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:02:00.1">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:02:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -587,6 +1143,14 @@
         <resource type="ioport" value="8c00(size=32)" />
         <resource type="memory" value="85ba0000-85bbffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
     </node>
     <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:08">
@@ -617,11 +1181,18 @@
       <resource type="memory" value="85c00000-8bbfffff" />
       <resource type="ioport" value="8fd00000(size=536870912)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5D" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="serial" claimed="true" class="bus" handle="PCI:0000:08:00.0">
        <description>InfiniBand</description>
        <product>MT25208 InfiniHost III Ex (Tavor compatibility mode) [15B3:6278]</product>
        <vendor>Mellanox Technologies [15B3]</vendor>
        <physid>0</physid>
+       <subsysproduct>MT25208 InfiniHost III Ex (Tavor compatibility mode) [15B3:6278]</subsysproduct>
+       <subsysvendor>Mellanox Technologies [15B3]</subsysvendor>
        <businfo>pci@0000:08:00.0</businfo>
        <version>a0</version>
        <width units="bits">64</width>
@@ -645,6 +1216,13 @@
         <resource type="memory" value="af000000-af7fffff(prefetchable)" />
         <resource type="memory" value="90000000-9fffffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="pci.class" value="0xC06" />
+        <hint name="pci.device" value="0x6278" />
+        <hint name="pci.subdevice" value="0x6278" />
+        <hint name="pci.subvendor" value="0x15B3" />
+        <hint name="pci.vendor" value="0x15B3" />
+       </hints>
       </node>
     </node>
     <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0f">
@@ -675,11 +1253,18 @@
       <resource type="memory" value="8bc00000-8dbfffff" />
       <resource type="ioport" value="afd00000(size=33554432)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5D" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:0f:00.0">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:0f:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -703,12 +1288,22 @@
         <resource type="ioport" value="b800(size=32)" />
         <resource type="memory" value="8db40000-8db5ffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:0f:00.1">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:0f:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -732,6 +1327,14 @@
         <resource type="ioport" value="bc00(size=32)" />
         <resource type="memory" value="8dba0000-8dbbffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
     </node>
     <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:00">
@@ -743,6 +1346,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1100" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -753,6 +1361,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1101" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -769,6 +1382,11 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1102" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -785,6 +1403,11 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1103" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -795,6 +1418,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1100" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:9" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -805,6 +1433,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1101" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:10" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -821,6 +1454,11 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1102" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:11" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -837,6 +1475,11 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1103" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:12" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -847,6 +1490,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1100" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:13" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -857,6 +1505,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1101" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:14" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -873,6 +1526,11 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1102" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:15" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -889,6 +1547,11 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1103" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:16" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -899,6 +1562,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1100" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:17" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -909,6 +1577,11 @@
      <version>00</version>
      <width units="bits">32</width>
      <clock units="Hz">33000000</clock>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1101" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:18" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -925,6 +1598,11 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1102" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="pci:19" claimed="true" class="bridge" handle="PCIBUS:0000:00">
      <description>Host bridge</description>
@@ -941,12 +1619,19 @@
      <resources>
       <resource type="irq" value="0" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x600" />
+      <hint name="pci.device" value="0x1103" />
+      <hint name="pci.vendor" value="0x1022" />
+     </hints>
     </node>
     <node id="memory:2" class="memory" handle="PCI:0000:80:00.0">
      <description>Memory controller</description>
      <product>CK804 Memory Controller [10DE:5E]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
-     <physid>7</physid>
+     <physid>0</physid>
+     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
      <businfo>pci@0000:80:00.0</businfo>
      <version>a4</version>
      <width units="bits">32</width>
@@ -959,12 +1644,22 @@
       <capability id="bus_master" >bus mastering</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>
+     <hints>
+      <hint name="icon" value="memory" />
+      <hint name="pci.class" value="0x580" />
+      <hint name="pci.device" value="0x5E" />
+      <hint name="pci.subdevice" value="0x4132" />
+      <hint name="pci.subvendor" value="0x108E" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
     </node>
     <node id="memory:3" class="memory" handle="PCI:0000:80:01.0">
      <description>Memory controller</description>
      <product>CK804 Memory Controller [10DE:D3]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
-     <physid>8</physid>
+     <physid>6</physid>
+     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
+     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
      <businfo>pci@0000:80:01.0</businfo>
      <version>b1</version>
      <width units="bits">32</width>
@@ -978,12 +1673,20 @@
      <resources>
       <resource type="memory" value="bbeff000-bbefffff" />
      </resources>
+     <hints>
+      <hint name="icon" value="memory" />
+      <hint name="pci.class" value="0x580" />
+      <hint name="pci.device" value="0xD3" />
+      <hint name="pci.subdevice" value="0x4132" />
+      <hint name="pci.subvendor" value="0x108E" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
     </node>
     <node id="pci:20" claimed="true" class="bridge" handle="PCIBUS:0000:81">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
-     <physid>114</physid>
+     <physid>c</physid>
      <businfo>pci@0000:80:0c.0</businfo>
      <version>a3</version>
      <width units="bits">32</width>
@@ -1007,11 +1710,18 @@
       <resource type="memory" value="b1e00000-b3dfffff" />
       <resource type="ioport" value="bbf00000(size=33554432)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5D" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:81:00.0">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:81:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1035,12 +1745,22 @@
         <resource type="ioport" value="c800(size=32)" />
         <resource type="memory" value="b3d40000-b3d5ffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:81:00.1">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:81:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1064,13 +1784,21 @@
         <resource type="ioport" value="cc00(size=32)" />
         <resource type="memory" value="b3da0000-b3dbffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
     </node>
     <node id="pci:21" claimed="true" class="bridge" handle="PCIBUS:0000:87">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
-     <physid>115</physid>
+     <physid>114</physid>
      <businfo>pci@0000:80:0d.0</businfo>
      <version>a3</version>
      <width units="bits">32</width>
@@ -1094,11 +1822,18 @@
       <resource type="memory" value="b3e00000-b9dfffff" />
       <resource type="ioport" value="bdf00000(size=536870912)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5D" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:87:00.0">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
+       <subsysproduct>Oracle/SUN [108E:F25E]</subsysproduct>
+       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
        <businfo>pci@0000:87:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1122,12 +1857,22 @@
         <resource type="ioport" value="e800(size=32)" />
         <resource type="memory" value="b9d40000-b9d5ffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0xF25E" />
+        <hint name="pci.subvendor" value="0x108E" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:87:00.1">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
+       <subsysproduct>Oracle/SUN [108E:F25E]</subsysproduct>
+       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
        <businfo>pci@0000:87:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1151,13 +1896,21 @@
         <resource type="ioport" value="ec00(size=32)" />
         <resource type="memory" value="b9da0000-b9dbffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0xF25E" />
+        <hint name="pci.subvendor" value="0x108E" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
     </node>
     <node id="pci:22" claimed="true" class="bridge" handle="PCIBUS:0000:8e">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
-     <physid>116</physid>
+     <physid>115</physid>
      <businfo>pci@0000:80:0e.0</businfo>
      <version>a3</version>
      <width units="bits">32</width>
@@ -1181,11 +1934,18 @@
       <resource type="memory" value="b9e00000-bbdfffff" />
       <resource type="ioport" value="ddf00000(size=33554432)" />
      </resources>
+     <hints>
+      <hint name="pci.class" value="0x604" />
+      <hint name="pci.device" value="0x5D" />
+      <hint name="pci.vendor" value="0x10DE" />
+     </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:8e:00.0">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:8e:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1209,12 +1969,22 @@
         <resource type="ioport" value="f800(size=32)" />
         <resource type="memory" value="bbd40000-bbd5ffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:8e:00.1">
        <description>Ethernet controller</description>
        <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
+       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:8e:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1238,7 +2008,144 @@
         <resource type="ioport" value="fc00(size=32)" />
         <resource type="memory" value="bbda0000-bbdbffff(prefetchable)" />
        </resources>
+       <hints>
+        <hint name="icon" value="network" />
+        <hint name="pci.class" value="0x200" />
+        <hint name="pci.device" value="0x105E" />
+        <hint name="pci.subdevice" value="0x105E" />
+        <hint name="pci.subvendor" value="0x8086" />
+        <hint name="pci.vendor" value="0x8086" />
+       </hints>
       </node>
+    </node>
+    <node id="pnp00:00" claimed="true" class="bridge" handle="">
+     <product>PCI Bus</product>
+     <physid>116</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:01" claimed="true" class="system" handle="">
+     <product>AT DMA Controller</product>
+     <physid>7</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:02" claimed="true" class="system" handle="">
+     <product>AT Real-Time Clock</product>
+     <physid>a</physid>
+     <configuration>
+      <setting id="driver" value="rtc_cmos" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:03" claimed="true" class="system" handle="">
+     <product>AT standard speaker sound</product>
+     <physid>b</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:04" claimed="true" class="system" handle="">
+     <product>Math Coprocessor</product>
+     <physid>d</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:05" claimed="true" class="communication" handle="">
+     <product>16550A-compatible COM port</product>
+     <physid>e</physid>
+     <configuration>
+      <setting id="driver" value="serial" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:06" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>f</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:07" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>11</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:08" claimed="true" class="system" handle="">
+     <product>High Precision Event Timer</product>
+     <physid>12</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:09" claimed="true" class="system" handle="">
+     <product>High Precision Event Timer</product>
+     <physid>13</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:0a" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>14</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:0b" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>15</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:0c" claimed="true" class="system" handle="">
+     <product>Motherboard registers</product>
+     <physid>16</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:0d" claimed="true" class="system" handle="">
+     <product>System Board</product>
+     <physid>17</physid>
+     <configuration>
+      <setting id="driver" value="system" />
+     </configuration>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
+    </node>
+    <node id="pnp00:0e" claimed="true" class="bridge" handle="">
+     <product>PCI Bus</product>
+     <physid>117</physid>
+     <capabilities>
+      <capability id="pnp" />
+     </capabilities>
     </node>
   </node>
 </node>
