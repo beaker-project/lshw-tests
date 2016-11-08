@@ -152,7 +152,7 @@
         <node id="network" claimed="true" class="network" handle="PCI:0000:02:00.0">
          <description>Ethernet controller</description>
          <product>NetXtreme BCM5751M Gigabit Ethernet PCI Express [14E4:167D]</product>
-         <vendor>Broadcom Corporation [14E4]</vendor>
+         <vendor>Broadcom Limited [14E4]</vendor>
          <physid>0</physid>
          <businfo>pci@0000:02:00.0</businfo>
          <version>11</version>

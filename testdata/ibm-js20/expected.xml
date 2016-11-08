@@ -67,7 +67,7 @@
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:11:01.0">
        <description>Ethernet controller</description>
        <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
-       <vendor>Broadcom Corporation [14E4]</vendor>
+       <vendor>Broadcom Limited [14E4]</vendor>
        <physid>1</physid>
        <businfo>pci@0000:11:01.0</businfo>
        <version>03</version>
@@ -95,7 +95,7 @@
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:11:01.1">
        <description>Ethernet controller</description>
        <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
-       <vendor>Broadcom Corporation [14E4]</vendor>
+       <vendor>Broadcom Limited [14E4]</vendor>
        <physid>1.1</physid>
        <businfo>pci@0000:11:01.1</businfo>
        <version>03</version>

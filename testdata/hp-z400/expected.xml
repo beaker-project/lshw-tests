@@ -649,7 +649,7 @@
         <node id="network" claimed="true" class="network" handle="PCI:0000:01:00.0">
          <description>Ethernet controller</description>
          <product>NetXtreme BCM5764M Gigabit Ethernet PCIe [14E4:1684]</product>
-         <vendor>Broadcom Corporation [14E4]</vendor>
+         <vendor>Broadcom Limited [14E4]</vendor>
          <physid>0</physid>
          <businfo>pci@0000:01:00.0</businfo>
          <version>10</version>
