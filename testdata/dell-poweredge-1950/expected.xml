@@ -1366,6 +1366,7 @@
        </configuration>
        <capabilities>
         <capability id="ide" />
+        <capability id="isa_compatibility_mode_controller__supports_both_channels_switched_to_pci_native_mode__supports_bus_mastering" />
         <capability id="bus_master" >bus mastering</capability>
        </capabilities>
        <resources>

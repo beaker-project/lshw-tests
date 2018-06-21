@@ -965,7 +965,7 @@
      </hints>
       <node id="display" class="display" handle="PCI:0000:01:00.0">
        <description>VGA compatible controller</description>
-       <product>Rage XL PCI [1002:4752]</product>
+       <product>Rage 3 [Rage XL PCI] [1002:4752]</product>
        <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
        <physid>0</physid>
        <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
@@ -1076,10 +1076,10 @@
      </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:02:00.0">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:02:00.0</businfo>
        <version>06</version>
@@ -1115,10 +1115,10 @@
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:02:00.1">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:02:00.1</businfo>
        <version>06</version>
@@ -1260,10 +1260,10 @@
      </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:0f:00.0">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:0f:00.0</businfo>
        <version>06</version>
@@ -1299,10 +1299,10 @@
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:0f:00.1">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:0f:00.1</businfo>
        <version>06</version>
@@ -1717,10 +1717,10 @@
      </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:81:00.0">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:81:00.0</businfo>
        <version>06</version>
@@ -1756,10 +1756,10 @@
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:81:00.1">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:81:00.1</businfo>
        <version>06</version>
@@ -1829,7 +1829,7 @@
      </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:87:00.0">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
        <subsysproduct>Oracle/SUN [108E:F25E]</subsysproduct>
@@ -1868,7 +1868,7 @@
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:87:00.1">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
        <subsysproduct>Oracle/SUN [108E:F25E]</subsysproduct>
@@ -1941,10 +1941,10 @@
      </hints>
       <node id="network:0" claimed="true" class="network" handle="PCI:0000:8e:00.0">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:8e:00.0</businfo>
        <version>06</version>
@@ -1980,10 +1980,10 @@
       </node>
       <node id="network:1" claimed="true" class="network" handle="PCI:0000:8e:00.1">
        <description>Ethernet controller</description>
-       <product>82571EB Gigabit Ethernet Controller [8086:105E]</product>
+       <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB Gigabit Ethernet Controller [8086:105E]</subsysproduct>
+       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
        <subsysvendor>Intel Corporation [8086]</subsysvendor>
        <businfo>pci@0000:8e:00.1</businfo>
        <version>06</version>

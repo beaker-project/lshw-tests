@@ -870,6 +870,7 @@
          </configuration>
          <capabilities>
           <capability id="ide" />
+          <capability id="pci_native_mode_controller__supports_both_channels_switched_to_isa_compatibility_mode__supports_bus_mastering" />
           <capability id="bus_master" >bus mastering</capability>
          </capabilities>
          <resources>

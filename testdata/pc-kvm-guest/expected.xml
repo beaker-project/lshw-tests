@@ -484,8 +484,8 @@
      <product>440FX - 82441FX PMC [Natoma] [8086:1237]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>100</physid>
-     <subsysproduct>Red Hat, Inc [1AF4:1100]</subsysproduct>
-     <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+     <subsysproduct>Red Hat, Inc. [1AF4:1100]</subsysproduct>
+     <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>02</version>
      <width units="bits">32</width>
@@ -502,8 +502,8 @@
        <product>82371SB PIIX3 ISA [Natoma/Triton II] [8086:7000]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:1100]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:1100]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:01.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -527,8 +527,8 @@
        <product>82371SB PIIX3 IDE [Natoma/Triton II] [8086:7010]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1.1</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:1100]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:1100]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:01.1</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -539,6 +539,7 @@
        </configuration>
        <capabilities>
         <capability id="ide" />
+        <capability id="isa_compatibility_mode-only_controller__supports_bus_mastering" />
         <capability id="bus_master" >bus mastering</capability>
        </capabilities>
        <resources>
@@ -563,8 +564,8 @@
        <product>82371SB PIIX3 USB [Natoma/Triton II] [8086:7020]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1.2</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:1100]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:1100]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:01.2</businfo>
        <version>01</version>
        <width units="bits">32</width>
@@ -644,8 +645,8 @@
        <product>82371AB/EB/MB PIIX4 ACPI [8086:7113]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1.3</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:1100]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:1100]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:01.3</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -673,8 +674,8 @@
        <product>GD 5446 [1013:B8]</product>
        <vendor>Cirrus Logic [1013]</vendor>
        <physid>2</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:1100]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:1100]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:02.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -705,10 +706,10 @@
       <node id="network" claimed="true" class="network" handle="PCI:0000:00:03.0">
        <description>Ethernet controller</description>
        <product>Virtio network device [1AF4:1000]</product>
-       <vendor>Red Hat, Inc [1AF4]</vendor>
+       <vendor>Red Hat, Inc. [1AF4]</vendor>
        <physid>3</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:1]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:1]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:03.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -751,8 +752,8 @@
        <product>82801AA AC'97 Audio Controller [8086:2415]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:1100]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:1100]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:04.0</businfo>
        <version>01</version>
        <width units="bits">32</width>
@@ -781,10 +782,10 @@
       <node id="scsi:0" claimed="true" class="storage" handle="PCI:0000:00:05.0">
        <description>SCSI storage controller</description>
        <product>Virtio block device [1AF4:1001]</product>
-       <vendor>Red Hat, Inc [1AF4]</vendor>
+       <vendor>Red Hat, Inc. [1AF4]</vendor>
        <physid>5</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:2]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:2]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:05.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -831,10 +832,10 @@
       <node id="generic" claimed="true" class="generic" handle="PCI:0000:00:06.0">
        <description>Unclassified device</description>
        <product>Virtio memory balloon [1AF4:1002]</product>
-       <vendor>Red Hat, Inc [1AF4]</vendor>
+       <vendor>Red Hat, Inc. [1AF4]</vendor>
        <physid>6</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:5]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:5]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:06.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -869,10 +870,10 @@
       <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:00:07.0">
        <description>SCSI storage controller</description>
        <product>Virtio block device [1AF4:1001]</product>
-       <vendor>Red Hat, Inc [1AF4]</vendor>
+       <vendor>Red Hat, Inc. [1AF4]</vendor>
        <physid>7</physid>
-       <subsysproduct>Red Hat, Inc [1AF4:2]</subsysproduct>
-       <subsysvendor>Red Hat, Inc [1AF4]</subsysvendor>
+       <subsysproduct>Red Hat, Inc. [1AF4:2]</subsysproduct>
+       <subsysvendor>Red Hat, Inc. [1AF4]</subsysvendor>
        <businfo>pci@0000:00:07.0</businfo>
        <version>00</version>
        <width units="bits">32</width>

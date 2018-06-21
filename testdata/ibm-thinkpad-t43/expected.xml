@@ -874,6 +874,7 @@
        <capabilities>
         <capability id="ide" />
         <capability id="pm" >Power Management</capability>
+        <capability id="isa_compatibility_mode-only_controller__supports_bus_mastering" />
         <capability id="bus_master" >bus mastering</capability>
         <capability id="cap_list" >PCI capabilities listing</capability>
        </capabilities>
