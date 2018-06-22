@@ -155,7 +155,7 @@
       <hint name="icon" value="memory" />
      </hints>
     </node>
-    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:0a">
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:0a" modalias="pci:v0000106Bd0000005Bsv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>CPC945 PCIe Bridge [106B:5B]</product>
      <vendor>Apple Inc. [106B]</vendor>
@@ -182,7 +182,7 @@
       <hint name="pci.device" value="0x5B" />
       <hint name="pci.vendor" value="0x106B" />
      </hints>
-      <node id="display" class="display" handle="PCI:0000:0a:00.0">
+      <node id="display" class="display" handle="PCI:0000:0a:00.0" modalias="pci:v000010DEd00000141sv000010DEsd00000010bc03sc00i00">
        <description>VGA compatible controller</description>
        <product>NV43 [GeForce 6600] [10DE:141]</product>
        <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -220,7 +220,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:00">
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:00" modalias="pci:v0000106Bd00000074sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>U4 HT Bridge [106B:74]</product>
      <vendor>Apple Inc. [106B]</vendor>
@@ -234,7 +234,7 @@
       <hint name="pci.device" value="0x74" />
       <hint name="pci.vendor" value="0x106B" />
      </hints>
-      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0001:04">
+      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0001:04" modalias="pci:v00001166d00000130sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>BCM5780 [HT2000] PCI-X bridge [1166:130]</product>
        <vendor>Broadcom [1166]</vendor>
@@ -257,7 +257,7 @@
         <hint name="pci.vendor" value="0x1166" />
        </hints>
       </node>
-      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:05">
+      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0001:05" modalias="pci:v00001166d00000130sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>BCM5780 [HT2000] PCI-X bridge [1166:130]</product>
        <vendor>Broadcom [1166]</vendor>
@@ -282,7 +282,7 @@
         <hint name="pci.device" value="0x130" />
         <hint name="pci.vendor" value="0x1166" />
        </hints>
-        <node id="network:0" claimed="true" class="network" handle="PCI:0001:05:04.0">
+        <node id="network:0" claimed="true" class="network" handle="PCI:0001:05:04.0" modalias="pci:v000014E4d0000166Asv0000106Bsd00000085bc02sc00i00">
          <description>Ethernet controller</description>
          <product>NetXtreme BCM5780 Gigabit Ethernet [14E4:166A]</product>
          <vendor>Broadcom Limited [14E4]</vendor>
@@ -320,7 +320,7 @@
           <hint name="pci.vendor" value="0x14E4" />
          </hints>
         </node>
-        <node id="network:1" claimed="true" class="network" handle="PCI:0001:05:04.1">
+        <node id="network:1" claimed="true" class="network" handle="PCI:0001:05:04.1" modalias="pci:v000014E4d0000166Asv0000106Bsd00000085bc02sc00i00">
          <description>Ethernet controller</description>
          <product>NetXtreme BCM5780 Gigabit Ethernet [14E4:166A]</product>
          <vendor>Broadcom Limited [14E4]</vendor>
@@ -359,7 +359,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0001:06">
+      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0001:06" modalias="pci:v00001166d00000132sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
        <vendor>Broadcom [1166]</vendor>
@@ -385,7 +385,7 @@
         <hint name="pci.device" value="0x132" />
         <hint name="pci.vendor" value="0x1166" />
        </hints>
-        <node id="display" class="display" handle="PCI:0001:06:00.0">
+        <node id="display" class="display" handle="PCI:0001:06:00.0" modalias="pci:v000010DEd00001284sv00001458sd00003602bc03sc00i00">
          <description>VGA compatible controller</description>
          <product>GK208 [GeForce GT 630 Rev. 2] [10DE:1284]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -423,7 +423,7 @@
           <hint name="pci.vendor" value="0x10DE" />
          </hints>
         </node>
-        <node id="multimedia" class="multimedia" handle="PCI:0001:06:00.1">
+        <node id="multimedia" class="multimedia" handle="PCI:0001:06:00.1" modalias="pci:v000010DEd00000E0Fsv00001458sd00003602bc04sc03i00">
          <description>Audio device</description>
          <product>GK208 HDMI/DP Audio Controller [10DE:E0F]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -456,7 +456,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0001:07">
+      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0001:07" modalias="pci:v00001166d00000132sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
        <vendor>Broadcom [1166]</vendor>
@@ -479,7 +479,7 @@
         <hint name="pci.vendor" value="0x1166" />
        </hints>
       </node>
-      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0001:08">
+      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0001:08" modalias="pci:v00001166d00000132sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
        <vendor>Broadcom [1166]</vendor>
@@ -502,7 +502,7 @@
         <hint name="pci.vendor" value="0x1166" />
        </hints>
       </node>
-      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0001:09">
+      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0001:09" modalias="pci:v00001166d00000132sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>BCM5780 [HT2000] PCI-Express Bridge [1166:132]</product>
        <vendor>Broadcom [1166]</vendor>
@@ -525,7 +525,7 @@
         <hint name="pci.vendor" value="0x1166" />
        </hints>
       </node>
-      <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0001:02">
+      <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0001:02" modalias="pci:v0000106Bd00000053sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>Shasta PCI Bridge [106B:53]</product>
        <vendor>Apple Inc. [106B]</vendor>
@@ -550,7 +550,7 @@
         <hint name="pci.vendor" value="0x106B" />
        </hints>
       </node>
-      <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0001:01">
+      <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0001:01" modalias="pci:v0000106Bd00000054sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>Shasta PCI Bridge [106B:54]</product>
        <vendor>Apple Inc. [106B]</vendor>
@@ -574,7 +574,7 @@
         <hint name="pci.device" value="0x54" />
         <hint name="pci.vendor" value="0x106B" />
        </hints>
-        <node id="generic" claimed="true" class="generic" handle="PCI:0001:01:07.0">
+        <node id="generic" claimed="true" class="generic" handle="PCI:0001:01:07.0" modalias="pci:v0000106Bd0000004Fsv00000000sd00000000bcFFsc00i00">
          <description>Unassigned class</description>
          <product>Shasta Mac I/O [106B:4F]</product>
          <vendor>Apple Inc. [106B]</vendor>
@@ -600,7 +600,7 @@
           <hint name="pci.vendor" value="0x106B" />
          </hints>
         </node>
-        <node id="usb:0" claimed="true" class="bus" handle="PCI:0001:01:0b.0">
+        <node id="usb:0" claimed="true" class="bus" handle="PCI:0001:01:0b.0" modalias="pci:v00001033d00000035sv00001033sd00000035bc0Csc03i10">
          <description>USB controller</description>
          <product>OHCI USB Controller [1033:35]</product>
          <vendor>NEC Corporation [1033]</vendor>
@@ -684,7 +684,7 @@
             </node>
           </node>
         </node>
-        <node id="usb:1" claimed="true" class="bus" handle="PCI:0001:01:0b.1">
+        <node id="usb:1" claimed="true" class="bus" handle="PCI:0001:01:0b.1" modalias="pci:v00001033d00000035sv00001033sd00000035bc0Csc03i10">
          <description>USB controller</description>
          <product>OHCI USB Controller [1033:35]</product>
          <vendor>NEC Corporation [1033]</vendor>
@@ -768,7 +768,7 @@
             </node>
           </node>
         </node>
-        <node id="usb:2" claimed="true" class="bus" handle="PCI:0001:01:0b.2">
+        <node id="usb:2" claimed="true" class="bus" handle="PCI:0001:01:0b.2" modalias="pci:v00001033d000000E0sv00001033sd000000E0bc0Csc03i20">
          <description>USB controller</description>
          <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
          <vendor>NEC Corporation [1033]</vendor>
@@ -829,7 +829,7 @@
           </node>
         </node>
       </node>
-      <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0001:03">
+      <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0001:03" modalias="pci:v0000106Bd00000055sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>Shasta PCI Bridge [106B:55]</product>
        <vendor>Apple Inc. [106B]</vendor>
@@ -853,7 +853,7 @@
         <hint name="pci.device" value="0x55" />
         <hint name="pci.vendor" value="0x106B" />
        </hints>
-        <node id="ide" claimed="true" class="storage" handle="PCI:0001:03:0c.0">
+        <node id="ide" claimed="true" class="storage" handle="PCI:0001:03:0c.0" modalias="pci:v00001166d00000240sv00001166sd00000240bc01sc01i8F">
          <description>IDE interface</description>
          <product>K2 SATA [1166:240]</product>
          <vendor>Broadcom [1166]</vendor>
@@ -886,7 +886,7 @@
           <hint name="pci.vendor" value="0x1166" />
          </hints>
         </node>
-        <node id="generic" claimed="true" class="generic" handle="PCI:0001:03:0d.0">
+        <node id="generic" claimed="true" class="generic" handle="PCI:0001:03:0d.0" modalias="pci:v0000106Bd00000050sv00000000sd00000000bcFFsc00i00">
          <description>Unassigned class</description>
          <product>Shasta IDE [106B:50]</product>
          <vendor>Apple Inc. [106B]</vendor>
@@ -912,7 +912,7 @@
           <hint name="pci.vendor" value="0x106B" />
          </hints>
         </node>
-        <node id="firewire" claimed="true" class="bus" handle="PCI:0001:03:0e.0">
+        <node id="firewire" claimed="true" class="bus" handle="PCI:0001:03:0e.0" modalias="pci:v0000106Bd00000052sv0000106Bsd00005811bc0Csc00i10">
          <description>FireWire (IEEE 1394)</description>
          <product>Shasta Firewire [106B:52]</product>
          <vendor>Apple Inc. [106B]</vendor>

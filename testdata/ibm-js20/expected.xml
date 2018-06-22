@@ -123,7 +123,7 @@
        <size units="bytes">524288</size>
       </node>
     </node>
-    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:11">
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:11" modalias="pci:v00001022d00007450sv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>AMD-8131 PCI-X Bridge [1022:7450]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -149,7 +149,7 @@
       <hint name="pci.device" value="0x7450" />
       <hint name="pci.vendor" value="0x1022" />
      </hints>
-      <node id="network:0" claimed="true" class="network" handle="PCI:0000:11:01.0">
+      <node id="network:0" claimed="true" class="network" handle="PCI:0000:11:01.0" modalias="pci:v000014E4d000016A8sv000014E4sd000016A8bc02sc00i00">
        <description>Ethernet controller</description>
        <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
        <vendor>Broadcom Limited [14E4]</vendor>
@@ -187,7 +187,7 @@
         <hint name="pci.vendor" value="0x14E4" />
        </hints>
       </node>
-      <node id="network:1" claimed="true" class="network" handle="PCI:0000:11:01.1">
+      <node id="network:1" claimed="true" class="network" handle="PCI:0000:11:01.1" modalias="pci:v000014E4d000016A8sv000014E4sd000016A8bc02sc00i00">
        <description>Ethernet controller</description>
        <product>NetXtreme BCM5704S Gigabit Ethernet [14E4:16A8]</product>
        <vendor>Broadcom Limited [14E4]</vendor>
@@ -226,7 +226,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:21">
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:21" modalias="pci:v00001022d00007460sv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>AMD-8111 PCI [1022:7460]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -251,7 +251,7 @@
       <hint name="pci.device" value="0x7460" />
       <hint name="pci.vendor" value="0x1022" />
      </hints>
-      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:21:00.0">
+      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:21:00.0" modalias="pci:v00001022d00007464sv00000000sd00000000bc0Csc03i10">
        <description>USB controller</description>
        <product>AMD-8111 USB OHCI [1022:7464]</product>
        <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -304,7 +304,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:21:00.1">
+      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:21:00.1" modalias="pci:v00001022d00007464sv00000000sd00000000bc0Csc03i10">
        <description>USB controller</description>
        <product>AMD-8111 USB OHCI [1022:7464]</product>
        <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -358,7 +358,7 @@
         </node>
       </node>
     </node>
-    <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:04.1">
+    <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:04.1" modalias="pci:v00001022d00007469sv00000000sd00000000bc01sc01i8f">
      <description>IDE interface</description>
      <product>AMD-8111 IDE [1022:7469]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -391,7 +391,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:01" modalias="pci:v00001022d00007450sv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>AMD-8131 PCI-X Bridge [1022:7450]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>

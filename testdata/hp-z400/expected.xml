@@ -319,7 +319,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d00003405sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>5520/5500/X58 I/O Hub to ESI Port [8086:3405]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -337,7 +337,7 @@
       <hint name="pci.subvendor" value="0x103C" />
       <hint name="pci.vendor" value="0x8086" />
      </hints>
-      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:03">
+      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:03" modalias="pci:v00008086d00003408sv0000103Csd00001309bc06sc04i00">
        <description>PCI bridge</description>
        <product>5520/5500/X58 I/O Hub PCI Express Root Port 1 [8086:3408]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -368,7 +368,7 @@
         <hint name="pci.device" value="0x3408" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="network" claimed="true" class="network" handle="PCI:0000:03:00.0">
+        <node id="network" claimed="true" class="network" handle="PCI:0000:03:00.0" modalias="pci:v00008086d000010D3sv00008086sd0000A01Fbc02sc00i00">
          <description>Ethernet controller</description>
          <product>82574L Gigabit Network Connection [8086:10D3]</product>
          <vendor>Intel Corporation [8086]</vendor>
@@ -410,7 +410,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0f">
+      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0f" modalias="pci:v00008086d0000340Asv0000103Csd00001309bc06sc04i00">
        <description>PCI bridge</description>
        <product>5520/5500/X58 I/O Hub PCI Express Root Port 3 [8086:340A]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -442,7 +442,7 @@
         <hint name="pci.device" value="0x340A" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="display" claimed="true" class="display" handle="PCI:0000:0f:00.0">
+        <node id="display" claimed="true" class="display" handle="PCI:0000:0f:00.0" modalias="pci:v000010DEd00000DF8sv0000103Csd00000835bc03sc00i00">
          <description>VGA compatible controller</description>
          <product>GF108GL [Quadro 600] [10DE:DF8]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -483,7 +483,7 @@
           <hint name="pci.vendor" value="0x10DE" />
          </hints>
         </node>
-        <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:0f:00.1">
+        <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:0f:00.1" modalias="pci:v000010DEd00000BEAsv0000103Csd00000835bc04sc03i00">
          <description>Audio device</description>
          <product>GF108 High Definition Audio Controller [10DE:BEA]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -518,7 +518,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:28">
+      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:28" modalias="pci:v00008086d0000340Esv0000103Csd00001309bc06sc04i00">
        <description>PCI bridge</description>
        <product>5520/5500/X58 I/O Hub PCI Express Root Port 7 [8086:340E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -548,7 +548,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:0" class="generic" handle="PCI:0000:00:10.0">
+      <node id="generic:0" class="generic" handle="PCI:0000:00:10.0" modalias="pci:v00008086d00003425sv00000000sd00000000bc08sc00i00">
        <description>PIC</description>
        <product>7500/5520/5500/X58 Physical and Link Layer Registers Port 0 [8086:3425]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -570,7 +570,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:1" class="generic" handle="PCI:0000:00:10.1">
+      <node id="generic:1" class="generic" handle="PCI:0000:00:10.1" modalias="pci:v00008086d00003426sv00000000sd00000000bc08sc00i00">
        <description>PIC</description>
        <product>7500/5520/5500/X58 Routing and Protocol Layer Registers Port 0 [8086:3426]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -591,7 +591,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:2" class="generic" handle="PCI:0000:00:11.0">
+      <node id="generic:2" class="generic" handle="PCI:0000:00:11.0" modalias="pci:v00008086d00003427sv00000000sd00000000bc08sc00i00">
        <description>PIC</description>
        <product>7500/5520/5500 Physical and Link Layer Registers Port 1 [8086:3427]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -613,7 +613,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:3" class="generic" handle="PCI:0000:00:11.1">
+      <node id="generic:3" class="generic" handle="PCI:0000:00:11.1" modalias="pci:v00008086d00003428sv00000000sd00000000bc08sc00i00">
        <description>PIC</description>
        <product>7500/5520/5500 Routing &amp; Protocol Layer Register Port 1 [8086:3428]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -634,7 +634,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:4" claimed="true" class="generic" handle="PCI:0000:00:14.0">
+      <node id="generic:4" claimed="true" class="generic" handle="PCI:0000:00:14.0" modalias="pci:v00008086d0000342Esv00000000sd00000000bc08sc00i00">
        <description>PIC</description>
        <product>7500/5520/5500/X58 I/O Hub System Management Registers [8086:342E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -661,7 +661,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:5" class="generic" handle="PCI:0000:00:14.1">
+      <node id="generic:5" class="generic" handle="PCI:0000:00:14.1" modalias="pci:v00008086d00003422sv00000000sd00000000bc08sc00i00">
        <description>PIC</description>
        <product>7500/5520/5500/X58 I/O Hub GPIO and Scratch Pad Registers [8086:3422]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -684,7 +684,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:6" class="generic" handle="PCI:0000:00:14.2">
+      <node id="generic:6" class="generic" handle="PCI:0000:00:14.2" modalias="pci:v00008086d00003423sv00000000sd00000000bc08sc00i00">
        <description>PIC</description>
        <product>7500/5520/5500/X58 I/O Hub Control Status and RAS Registers [8086:3423]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -707,7 +707,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="generic:7" class="generic" handle="PCI:0000:00:15.0">
+      <node id="generic:7" class="generic" handle="PCI:0000:00:15.0" modalias="pci:v00008086d0000342Fsv00000000sd00000000bc08sc00i20">
        <description>PIC</description>
        <product>7500/5520/5500/X58 Trusted Execution Technology Registers [8086:342F]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -728,7 +728,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:1a.0">
+      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:1a.0" modalias="pci:v00008086d00003A37sv0000103Csd00001309bc0Csc03i00">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB UHCI Controller #4 [8086:3A37]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -785,7 +785,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:1a.1">
+      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:1a.1" modalias="pci:v00008086d00003A38sv0000103Csd00001309bc0Csc03i00">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB UHCI Controller #5 [8086:3A38]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -842,7 +842,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:1a.2">
+      <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:1a.2" modalias="pci:v00008086d00003A39sv0000103Csd00001309bc0Csc03i00">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB UHCI Controller #6 [8086:3A39]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -899,7 +899,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:3" claimed="true" class="bus" handle="PCI:0000:00:1a.7">
+      <node id="usb:3" claimed="true" class="bus" handle="PCI:0000:00:1a.7" modalias="pci:v00008086d00003A3Csv0000103Csd00001309bc0Csc03i20">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB2 EHCI Controller #2 [8086:3A3C]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -958,7 +958,7 @@
          </hints>
         </node>
       </node>
-      <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:1b.0">
+      <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:1b.0" modalias="pci:v00008086d00003A3Esv0000103Csd00001309bc04sc03i00">
        <description>Audio device</description>
        <product>82801JI (ICH10 Family) HD Audio Controller [8086:3A3E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -992,7 +992,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:1c">
+      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:1c" modalias="pci:v00008086d00003A40sv0000103Csd00001309bc06sc04i00">
        <description>PCI bridge</description>
        <product>82801JI (ICH10 Family) PCI Express Root Port 1 [8086:3A40]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1025,7 +1025,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:01" modalias="pci:v00008086d00003A4Asv0000103Csd00001309bc06sc04i00">
        <description>PCI bridge</description>
        <product>82801JI (ICH10 Family) PCI Express Root Port 6 [8086:3A4A]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1057,7 +1057,7 @@
         <hint name="pci.device" value="0x3A4A" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="network" claimed="true" class="network" handle="PCI:0000:01:00.0">
+        <node id="network" claimed="true" class="network" handle="PCI:0000:01:00.0" modalias="pci:v000014E4d00001684sv0000103Csd00001309bc02sc00i00">
          <description>Ethernet controller</description>
          <product>NetXtreme BCM5764M Gigabit Ethernet PCIe [14E4:1684]</product>
          <vendor>Broadcom Limited [14E4]</vendor>
@@ -1094,7 +1094,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:4" claimed="true" class="bus" handle="PCI:0000:00:1d.0">
+      <node id="usb:4" claimed="true" class="bus" handle="PCI:0000:00:1d.0" modalias="pci:v00008086d00003A34sv0000103Csd00001309bc0Csc03i00">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB UHCI Controller #1 [8086:3A34]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1151,7 +1151,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:5" claimed="true" class="bus" handle="PCI:0000:00:1d.1">
+      <node id="usb:5" claimed="true" class="bus" handle="PCI:0000:00:1d.1" modalias="pci:v00008086d00003A35sv0000103Csd00001309bc0Csc03i00">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB UHCI Controller #2 [8086:3A35]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1208,7 +1208,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:6" claimed="true" class="bus" handle="PCI:0000:00:1d.2">
+      <node id="usb:6" claimed="true" class="bus" handle="PCI:0000:00:1d.2" modalias="pci:v00008086d00003A36sv0000103Csd00001309bc0Csc03i00">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB UHCI Controller #3 [8086:3A36]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1265,7 +1265,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:7" claimed="true" class="bus" handle="PCI:0000:00:1d.7">
+      <node id="usb:7" claimed="true" class="bus" handle="PCI:0000:00:1d.7" modalias="pci:v00008086d00003A3Asv0000103Csd00001309bc0Csc03i20">
        <description>USB controller</description>
        <product>82801JI (ICH10 Family) USB2 EHCI Controller #1 [8086:3A3A]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1397,7 +1397,7 @@
           </node>
         </node>
       </node>
-      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:37">
+      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:37" modalias="pci:v00008086d0000244Esv0000103Csd00001309bc06sc04i01">
        <description>PCI bridge</description>
        <product>82801 PCI Bridge [8086:244E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1420,7 +1420,7 @@
         <hint name="pci.device" value="0x244E" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="firewire" claimed="true" class="bus" handle="PCI:0000:37:05.0">
+        <node id="firewire" claimed="true" class="bus" handle="PCI:0000:37:05.0" modalias="pci:v000011C1d00005811sv0000103Csd00001309bc0Csc00i10">
          <description>FireWire (IEEE 1394)</description>
          <product>FW322/323 [TrueFire] 1394a Controller [11C1:5811]</product>
          <vendor>LSI Corporation [11C1]</vendor>
@@ -1457,7 +1457,7 @@
          </hints>
         </node>
       </node>
-      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:1f.0">
+      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:1f.0" modalias="pci:v00008086d00003A16sv0000103Csd00001309bc06sc01i00">
        <description>ISA bridge</description>
        <product>82801JIR (ICH10R) LPC Interface Controller [8086:3A16]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1488,7 +1488,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="raid" claimed="true" class="storage" handle="PCI:0000:00:1f.2">
+      <node id="raid" claimed="true" class="storage" handle="PCI:0000:00:1f.2" modalias="pci:v00008086d00002822sv0000103Csd00001309bc01sc04i00">
        <description>RAID bus controller</description>
        <product>SATA Controller [RAID mode] [8086:2822]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1529,7 +1529,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C41sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 QuickPath Architecture Generic Non-Core Registers [8086:2C41]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1548,7 +1548,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C01sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 QuickPath Architecture System Address Decoder [8086:2C01]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1567,7 +1567,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C10sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 QPI Link 0 [8086:2C10]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1586,7 +1586,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C11sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 QPI Physical 0 [8086:2C11]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1605,7 +1605,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C18sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller [8086:2C18]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1624,7 +1624,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C19sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Target Address Decoder [8086:2C19]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1643,7 +1643,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C1Csv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Test Registers [8086:2C1C]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1662,7 +1662,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C20sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Control Registers [8086:2C20]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1681,7 +1681,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:9" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:9" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C21sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Address Registers [8086:2C21]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1700,7 +1700,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:10" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:10" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C22sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Rank Registers [8086:2C22]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1719,7 +1719,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:11" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:11" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C23sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Thermal Control Registers [8086:2C23]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1738,7 +1738,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:12" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:12" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C28sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Control Registers [8086:2C28]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1757,7 +1757,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:13" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:13" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C29sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Address Registers [8086:2C29]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1776,7 +1776,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:14" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:14" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C2Asv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Rank Registers [8086:2C2A]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1795,7 +1795,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:15" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:15" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C2Bsv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Thermal Control Registers [8086:2C2B]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1814,7 +1814,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:16" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:16" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C30sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Control Registers [8086:2C30]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1833,7 +1833,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:17" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:17" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C31sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Address Registers [8086:2C31]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1852,7 +1852,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:18" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:18" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C32sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Rank Registers [8086:2C32]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1871,7 +1871,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:19" claimed="true" class="bridge" handle="PCIBUS:0000:3f">
+    <node id="pci:19" claimed="true" class="bridge" handle="PCIBUS:0000:3f" modalias="pci:v00008086d00002C33sv0000103Csd00001309bc06sc00i00">
      <description>Host bridge</description>
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Thermal Control Registers [8086:2C33]</product>
      <vendor>Intel Corporation [8086]</vendor>

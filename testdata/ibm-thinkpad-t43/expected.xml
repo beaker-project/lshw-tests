@@ -179,7 +179,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d00002590sv00001014sd00000575bc06sc00i00">
      <description>Host bridge</description>
      <product>Mobile 915GM/PM/GMS/910GML Express Processor to DRAM Controller [8086:2590]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -197,7 +197,7 @@
       <hint name="pci.subvendor" value="0x1014" />
       <hint name="pci.vendor" value="0x8086" />
      </hints>
-      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:01" modalias="pci:v00008086d00002591sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>Mobile 915GM/PM Express PCI Express Root Port [8086:2591]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -229,7 +229,7 @@
         <hint name="pci.device" value="0x2591" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="display" claimed="true" class="display" handle="PCI:0000:01:00.0">
+        <node id="display" claimed="true" class="display" handle="PCI:0000:01:00.0" modalias="pci:v00001002d00005460sv00001014sd0000056Ebc03sc00i00">
          <description>VGA compatible controller</description>
          <product>RV370/M22 [Mobility Radeon X300] [1002:5460]</product>
          <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
@@ -270,7 +270,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:02">
+      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:02" modalias="pci:v00008086d00002660sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 1 [8086:2660]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -302,7 +302,7 @@
         <hint name="pci.device" value="0x2660" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="network" claimed="true" class="network" handle="PCI:0000:02:00.0">
+        <node id="network" claimed="true" class="network" handle="PCI:0000:02:00.0" modalias="pci:v000014E4d0000167Dsv00001014sd00000577bc02sc00i00">
          <description>Ethernet controller</description>
          <product>NetXtreme BCM5751M Gigabit Ethernet PCI Express [14E4:167D]</product>
          <vendor>Broadcom Limited [14E4]</vendor>
@@ -339,7 +339,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:03">
+      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:03" modalias="pci:v00008086d00002664sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 3 [8086:2664]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -372,7 +372,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:1d.0">
+      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:1d.0" modalias="pci:v00008086d00002658sv00001014sd00000565bc0Csc03i00">
        <description>USB controller</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #1 [8086:2658]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -428,7 +428,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:1d.1">
+      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:1d.1" modalias="pci:v00008086d00002659sv00001014sd00000565bc0Csc03i00">
        <description>USB controller</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #2 [8086:2659]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -484,7 +484,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:1d.2">
+      <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:1d.2" modalias="pci:v00008086d0000265Asv00001014sd00000565bc0Csc03i00">
        <description>USB controller</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #3 [8086:265A]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -540,7 +540,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:3" claimed="true" class="bus" handle="PCI:0000:00:1d.3">
+      <node id="usb:3" claimed="true" class="bus" handle="PCI:0000:00:1d.3" modalias="pci:v00008086d0000265Bsv00001014sd00000565bc0Csc03i00">
        <description>USB controller</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #4 [8086:265B]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -596,7 +596,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:4" claimed="true" class="bus" handle="PCI:0000:00:1d.7">
+      <node id="usb:4" claimed="true" class="bus" handle="PCI:0000:00:1d.7" modalias="pci:v00008086d0000265Csv00001014sd00000566bc0Csc03i20">
        <description>USB controller</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller [8086:265C]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -655,7 +655,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0b">
+      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0b" modalias="pci:v00008086d00002448sv00000000sd00000000bc06sc04i01">
        <description>PCI bridge</description>
        <product>82801 Mobile PCI Bridge [8086:2448]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -680,7 +680,7 @@
         <hint name="pci.device" value="0x2448" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="pcmcia" claimed="true" class="bridge" handle="PCI:0000:0b:00.0">
+        <node id="pcmcia" claimed="true" class="bridge" handle="PCI:0000:0b:00.0" modalias="pci:v00001180d00000476sv00001014sd0000056Cbc06sc07i00">
          <description>CardBus bridge</description>
          <product>RL5c476 II [1180:476]</product>
          <vendor>Ricoh Co Ltd [1180]</vendor>
@@ -719,7 +719,7 @@
           <hint name="pci.vendor" value="0x1180" />
          </hints>
         </node>
-        <node id="network" claimed="true" class="network" handle="PCI:0000:0b:02.0">
+        <node id="network" claimed="true" class="network" handle="PCI:0000:0b:02.0" modalias="pci:v00008086d00004220sv00008086sd00002712bc02sc80i00">
          <description>Network controller</description>
          <product>PRO/Wireless 2200BG [Calexico2] Network Connection [8086:4220]</product>
          <vendor>Intel Corporation [8086]</vendor>
@@ -755,7 +755,7 @@
          </hints>
         </node>
       </node>
-      <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:1e.2">
+      <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:1e.2" modalias="pci:v00008086d0000266Esv00001014sd00000567bc04sc01i00">
        <description>Multimedia audio controller</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Controller [8086:266E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -791,7 +791,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="communication" claimed="true" class="communication" handle="PCI:0000:00:1e.3">
+      <node id="communication" claimed="true" class="communication" handle="PCI:0000:00:1e.3" modalias="pci:v00008086d0000266Dsv00001014sd00000574bc07sc03i00">
        <description>Modem</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Modem Controller [8086:266D]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -826,7 +826,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:1f.0">
+      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:1f.0" modalias="pci:v00008086d00002641sv00001014sd00000568bc06sc01i00">
        <description>ISA bridge</description>
        <product>82801FBM (ICH6M) LPC Interface Bridge [8086:2641]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -856,7 +856,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:1f.2">
+      <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:1f.2" modalias="pci:v00008086d00002653sv00001014sd0000056Abc01sc01i80">
        <description>IDE interface</description>
        <product>82801FBM (ICH6M) SATA Controller [8086:2653]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -895,7 +895,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="serial" claimed="true" class="bus" handle="PCI:0000:00:1f.3">
+      <node id="serial" claimed="true" class="bus" handle="PCI:0000:00:1f.3" modalias="pci:v00008086d0000266Asv00001014sd0000056Bbc0Csc05i00">
        <description>SMBus</description>
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) SMBus Controller [8086:266A]</product>
        <vendor>Intel Corporation [8086]</vendor>

@@ -375,7 +375,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025C0sv00008086sd00008086bc06sc00i00">
      <description>Host bridge</description>
      <product>5000X Chipset Memory Controller Hub [8086:25C0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -393,7 +393,7 @@
       <hint name="pci.subvendor" value="0x8086" />
       <hint name="pci.vendor" value="0x8086" />
      </hints>
-      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:06">
+      <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:06" modalias="pci:v00008086d000025E2sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>5000 Series Chipset PCI Express x4 Port 2 [8086:25E2]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -423,7 +423,7 @@
         <hint name="pci.device" value="0x25E2" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:07">
+        <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:07" modalias="pci:v00008086d00003500sv00000000sd00000000bc06sc04i00">
          <description>PCI bridge</description>
          <product>6311ESB/6321ESB PCI Express Upstream Port [8086:3500]</product>
          <vendor>Intel Corporation [8086]</vendor>
@@ -448,7 +448,7 @@
           <hint name="pci.device" value="0x3500" />
           <hint name="pci.vendor" value="0x8086" />
          </hints>
-          <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:08">
+          <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:08" modalias="pci:v00008086d00003510sv00000000sd00000000bc06sc04i00">
            <description>PCI bridge</description>
            <product>6311ESB/6321ESB PCI Express Downstream Port E1 [8086:3510]</product>
            <vendor>Intel Corporation [8086]</vendor>
@@ -474,7 +474,7 @@
             <hint name="pci.device" value="0x3510" />
             <hint name="pci.vendor" value="0x8086" />
            </hints>
-            <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:09">
+            <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:09" modalias="pci:v00001166d00000103sv00000000sd00000000bc06sc04i00">
              <description>PCI bridge</description>
              <product>EPB PCI-Express to PCI-X Bridge [1166:103]</product>
              <vendor>Broadcom [1166]</vendor>
@@ -500,7 +500,7 @@
               <hint name="pci.device" value="0x103" />
               <hint name="pci.vendor" value="0x1166" />
              </hints>
-              <node id="network" claimed="true" class="network" handle="PCI:0000:09:00.0">
+              <node id="network" claimed="true" class="network" handle="PCI:0000:09:00.0" modalias="pci:v000014E4d0000164Csv00001028sd000001B3bc02sc00i00">
                <description>Ethernet controller</description>
                <product>NetXtreme II BCM5708 Gigabit Ethernet [14E4:164C]</product>
                <vendor>Broadcom Limited [14E4]</vendor>
@@ -539,7 +539,7 @@
               </node>
             </node>
           </node>
-          <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0a">
+          <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0a" modalias="pci:v00008086d00003514sv00000000sd00000000bc06sc04i00">
            <description>PCI bridge</description>
            <product>6311ESB/6321ESB PCI Express Downstream Port E2 [8086:3514]</product>
            <vendor>Intel Corporation [8086]</vendor>
@@ -564,7 +564,7 @@
            </hints>
           </node>
         </node>
-        <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0b">
+        <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:0b" modalias="pci:v00008086d0000350Csv00000000sd00000000bc06sc04i00">
          <description>PCI bridge</description>
          <product>6311ESB/6321ESB PCI Express to PCI-X Bridge [8086:350C]</product>
          <vendor>Intel Corporation [8086]</vendor>
@@ -589,7 +589,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+      <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:01" modalias="pci:v00008086d000025E3sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>5000 Series Chipset PCI Express x4 Port 3 [8086:25E3]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -620,7 +620,7 @@
         <hint name="pci.device" value="0x25E3" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:02">
+        <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:02" modalias="pci:v00008086d00000370sv00000000sd00000000bc06sc04i00">
          <description>PCI bridge</description>
          <product>80333 Segment-A PCIe Express to PCI-X bridge [8086:370]</product>
          <vendor>Intel Corporation [8086]</vendor>
@@ -648,7 +648,7 @@
           <hint name="pci.device" value="0x370" />
           <hint name="pci.vendor" value="0x8086" />
          </hints>
-          <node id="raid" claimed="true" class="storage" handle="PCI:0000:02:0e.0">
+          <node id="raid" claimed="true" class="storage" handle="PCI:0000:02:0e.0" modalias="pci:v00001028d00000015sv00001028sd00001F03bc01sc04i00">
            <description>RAID bus controller</description>
            <product>PowerEdge Expandable RAID controller 5 [1028:15]</product>
            <vendor>Dell [1028]</vendor>
@@ -689,7 +689,7 @@
            </hints>
           </node>
         </node>
-        <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:03">
+        <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:03" modalias="pci:v00008086d00000372sv00000000sd00000000bc06sc04i00">
          <description>PCI bridge</description>
          <product>80333 Segment-B PCIe Express to PCI-X bridge [8086:372]</product>
          <vendor>Intel Corporation [8086]</vendor>
@@ -715,7 +715,7 @@
          </hints>
         </node>
       </node>
-      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:0c">
+      <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:0c" modalias="pci:v00008086d000025F8sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>5000 Series Chipset PCI Express x8 Port 4-5 [8086:25F8]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -745,7 +745,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0d">
+      <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0d" modalias="pci:v00008086d000025E5sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>5000 Series Chipset PCI Express x4 Port 5 [8086:25E5]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -775,7 +775,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:0e">
+      <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:0e" modalias="pci:v00008086d000025F9sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>5000 Series Chipset PCI Express x8 Port 6-7 [8086:25F9]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -805,7 +805,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:0f">
+      <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:0f" modalias="pci:v00008086d000025E7sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>5000 Series Chipset PCI Express x4 Port 7 [8086:25E7]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -835,7 +835,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:04">
+      <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:04" modalias="pci:v00008086d00002690sv00000000sd00000000bc06sc04i00">
        <description>PCI bridge</description>
        <product>631xESB/632xESB/3100 Chipset PCI Express Root Port 1 [8086:2690]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -865,7 +865,7 @@
         <hint name="pci.device" value="0x2690" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:05">
+        <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:05" modalias="pci:v00001166d00000103sv00000000sd00000000bc06sc04i00">
          <description>PCI bridge</description>
          <product>EPB PCI-Express to PCI-X Bridge [1166:103]</product>
          <vendor>Broadcom [1166]</vendor>
@@ -892,7 +892,7 @@
           <hint name="pci.device" value="0x103" />
           <hint name="pci.vendor" value="0x1166" />
          </hints>
-          <node id="network" claimed="true" class="network" handle="PCI:0000:05:00.0">
+          <node id="network" claimed="true" class="network" handle="PCI:0000:05:00.0" modalias="pci:v000014E4d0000164Csv00001028sd000001B3bc02sc00i00">
            <description>Ethernet controller</description>
            <product>NetXtreme II BCM5708 Gigabit Ethernet [14E4:164C]</product>
            <vendor>Broadcom Limited [14E4]</vendor>
@@ -931,7 +931,7 @@
           </node>
         </node>
       </node>
-      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:1d.0">
+      <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:1d.0" modalias="pci:v00008086d00002688sv00001028sd000001B3bc0Csc03i00">
        <description>USB controller</description>
        <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #1 [8086:2688]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -987,7 +987,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:1d.1">
+      <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:1d.1" modalias="pci:v00008086d00002689sv00001028sd000001B3bc0Csc03i00">
        <description>USB controller</description>
        <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #2 [8086:2689]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1043,7 +1043,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:1d.2">
+      <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:1d.2" modalias="pci:v00008086d0000268Asv00001028sd000001B3bc0Csc03i00">
        <description>USB controller</description>
        <product>631xESB/632xESB/3100 Chipset UHCI USB Controller #3 [8086:268A]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1099,7 +1099,7 @@
          </hints>
         </node>
       </node>
-      <node id="usb:3" claimed="true" class="bus" handle="PCI:0000:00:1d.7">
+      <node id="usb:3" claimed="true" class="bus" handle="PCI:0000:00:1d.7" modalias="pci:v00008086d0000268Csv00001028sd000001B3bc0Csc03i20">
        <description>USB controller</description>
        <product>631xESB/632xESB/3100 Chipset EHCI USB2 Controller [8086:268C]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1257,7 +1257,7 @@
           </node>
         </node>
       </node>
-      <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:10">
+      <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:10" modalias="pci:v00008086d0000244Esv00000000sd00000000bc06sc04i01">
        <description>PCI bridge</description>
        <product>82801 PCI Bridge [8086:244E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1282,7 +1282,7 @@
         <hint name="pci.device" value="0x244E" />
         <hint name="pci.vendor" value="0x8086" />
        </hints>
-        <node id="display" claimed="true" class="display" handle="PCI:0000:10:0d.0">
+        <node id="display" claimed="true" class="display" handle="PCI:0000:10:0d.0" modalias="pci:v00001002d0000515Esv00001028sd000001B3bc03sc00i00">
          <description>VGA compatible controller</description>
          <product>ES1000 [1002:515E]</product>
          <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
@@ -1323,7 +1323,7 @@
          </hints>
         </node>
       </node>
-      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:1f.0">
+      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:1f.0" modalias="pci:v00008086d00002670sv00000000sd00000000bc06sc01i00">
        <description>ISA bridge</description>
        <product>631xESB/632xESB/3100 Chipset LPC Interface Controller [8086:2670]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1349,7 +1349,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:1f.1">
+      <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:1f.1" modalias="pci:v00008086d0000269Esv00001028sd000001B3bc01sc01i8a">
        <description>IDE interface</description>
        <product>631xESB/632xESB IDE Controller [8086:269E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1387,7 +1387,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025F0sv00001028sd000001B3bc06sc00i00">
      <description>Host bridge</description>
      <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1412,7 +1412,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025F0sv00001028sd000001B3bc06sc00i00">
      <description>Host bridge</description>
      <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1431,7 +1431,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025F0sv00001028sd000001B3bc06sc00i00">
      <description>Host bridge</description>
      <product>5000 Series Chipset FSB Registers [8086:25F0]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1450,7 +1450,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025F1sv00008086sd00008086bc06sc00i00">
      <description>Host bridge</description>
      <product>5000 Series Chipset Reserved Registers [8086:25F1]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1469,7 +1469,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025F3sv00008086sd00008086bc06sc00i00">
      <description>Host bridge</description>
      <product>5000 Series Chipset Reserved Registers [8086:25F3]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1488,7 +1488,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025F5sv00008086sd00008086bc06sc00i00">
      <description>Host bridge</description>
      <product>5000 Series Chipset FBD Registers [8086:25F5]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -1507,7 +1507,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d000025F6sv00008086sd00008086bc06sc00i00">
      <description>Host bridge</description>
      <product>5000 Series Chipset FBD Registers [8086:25F6]</product>
      <vendor>Intel Corporation [8086]</vendor>

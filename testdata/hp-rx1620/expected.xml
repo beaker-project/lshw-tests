@@ -175,7 +175,7 @@
        </hints>
       </node>
     </node>
-    <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:01.0">
+    <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:01.0" modalias="pci:v00001033d00000035sv00001033sd00000035bc0Csc03i10">
      <description>USB controller</description>
      <product>OHCI USB Controller [1033:35]</product>
      <vendor>NEC Corporation [1033]</vendor>
@@ -233,7 +233,7 @@
        </hints>
       </node>
     </node>
-    <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:01.1">
+    <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:01.1" modalias="pci:v00001033d00000035sv00001033sd00000035bc0Csc03i10">
      <description>USB controller</description>
      <product>OHCI USB Controller [1033:35]</product>
      <vendor>NEC Corporation [1033]</vendor>
@@ -291,7 +291,7 @@
        </hints>
       </node>
     </node>
-    <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:01.2">
+    <node id="usb:2" claimed="true" class="bus" handle="PCI:0000:00:01.2" modalias="pci:v00001033d000000E0sv00001033sd000000E0bc0Csc03i20">
      <description>USB controller</description>
      <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
      <vendor>NEC Corporation [1033]</vendor>
@@ -349,7 +349,7 @@
        </hints>
       </node>
     </node>
-    <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:02.0">
+    <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:02.0" modalias="pci:v00001095d00000649sv00001095sd00000649bc01sc01i8f">
      <description>IDE interface</description>
      <product>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</product>
      <vendor>Silicon Image, Inc. [1095]</vendor>
@@ -390,7 +390,7 @@
       <hint name="pci.vendor" value="0x1095" />
      </hints>
     </node>
-    <node id="scsi:0" claimed="true" class="storage" handle="PCI:0000:20:01.0">
+    <node id="scsi:0" claimed="true" class="storage" handle="PCI:0000:20:01.0" modalias="pci:v00001000d00000030sv0000103Csd00001326bc01sc00i00">
      <description>SCSI storage controller</description>
      <product>53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI [1000:30]</product>
      <vendor>LSI Logic / Symbios Logic [1000]</vendor>
@@ -432,7 +432,7 @@
       <hint name="pci.vendor" value="0x1000" />
      </hints>
     </node>
-    <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:20:01.1">
+    <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:20:01.1" modalias="pci:v00001000d00000030sv0000103Csd00001326bc01sc00i00">
      <description>SCSI storage controller</description>
      <product>53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI [1000:30]</product>
      <vendor>LSI Logic / Symbios Logic [1000]</vendor>
@@ -474,7 +474,7 @@
       <hint name="pci.vendor" value="0x1000" />
      </hints>
     </node>
-    <node id="network:0" claimed="true" class="network" handle="PCI:0000:20:02.0">
+    <node id="network:0" claimed="true" class="network" handle="PCI:0000:20:02.0" modalias="pci:v00008086d00001079sv0000103Csd000012C6bc02sc00i00">
      <description>Ethernet controller</description>
      <product>82546GB Gigabit Ethernet Controller [8086:1079]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -514,7 +514,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="network:1" claimed="true" class="network" handle="PCI:0000:20:02.1">
+    <node id="network:1" claimed="true" class="network" handle="PCI:0000:20:02.1" modalias="pci:v00008086d00001079sv0000103Csd000012C6bc02sc00i00">
      <description>Ethernet controller</description>
      <product>82546GB Gigabit Ethernet Controller [8086:1079]</product>
      <vendor>Intel Corporation [8086]</vendor>

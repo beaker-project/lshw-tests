@@ -657,7 +657,7 @@
         </node>
       </node>
     </node>
-    <node id="memory:1" class="memory" handle="PCI:0000:00:00.0">
+    <node id="memory:1" class="memory" handle="PCI:0000:00:00.0" modalias="pci:v000010DEd0000005Esv0000108Esd00004132bc05sc80i00">
      <description>Memory controller</description>
      <product>CK804 Memory Controller [10DE:5E]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -685,7 +685,7 @@
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
     </node>
-    <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:01.0">
+    <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:01.0" modalias="pci:v000010DEd00000051sv0000108Esd00004132bc06sc01i00">
      <description>ISA bridge</description>
      <product>CK804 ISA Bridge [10DE:51]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -711,7 +711,7 @@
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
     </node>
-    <node id="serial" claimed="true" class="bus" handle="PCI:0000:00:01.1">
+    <node id="serial" claimed="true" class="bus" handle="PCI:0000:00:01.1" modalias="pci:v000010DEd00000052sv0000108Esd00004132bc0Csc05i00">
      <description>SMBus</description>
      <product>CK804 SMBus [10DE:52]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -746,7 +746,7 @@
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
     </node>
-    <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:02.0">
+    <node id="usb:0" claimed="true" class="bus" handle="PCI:0000:00:02.0" modalias="pci:v000010DEd0000005Asv0000108Esd00004132bc0Csc03i10">
      <description>USB controller</description>
      <product>CK804 USB Controller [10DE:5A]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -829,7 +829,7 @@
         </node>
       </node>
     </node>
-    <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:02.1">
+    <node id="usb:1" claimed="true" class="bus" handle="PCI:0000:00:02.1" modalias="pci:v000010DEd0000005Bsv0000108Esd00004132bc0Csc03i20">
      <description>USB controller</description>
      <product>CK804 USB Controller [10DE:5B]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -937,7 +937,7 @@
         </node>
       </node>
     </node>
-    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+    <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:01" modalias="pci:v000010DEd0000005Csv00000000sd00000000bc06sc04i01">
      <description>PCI bridge</description>
      <product>CK804 PCI Bridge [10DE:5C]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -963,7 +963,7 @@
       <hint name="pci.device" value="0x5C" />
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
-      <node id="display" class="display" handle="PCI:0000:01:00.0">
+      <node id="display" class="display" handle="PCI:0000:01:00.0" modalias="pci:v00001002d00004752sv0000108Esd00004132bc03sc00i00">
        <description>VGA compatible controller</description>
        <product>Rage 3 [Rage XL PCI] [1002:4752]</product>
        <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
@@ -999,7 +999,7 @@
         <hint name="pci.vendor" value="0x1002" />
        </hints>
       </node>
-      <node id="scsi" claimed="true" class="storage" handle="PCI:0000:01:01.0">
+      <node id="scsi" claimed="true" class="storage" handle="PCI:0000:01:01.0" modalias="pci:v00001000d00000050sv0000108Esd00004131bc01sc00i00">
        <description>SCSI storage controller</description>
        <product>SAS1064 PCI-X Fusion-MPT SAS [1000:50]</product>
        <vendor>LSI Logic / Symbios Logic [1000]</vendor>
@@ -1041,7 +1041,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:02">
+    <node id="pci:1" claimed="true" class="bridge" handle="PCIBUS:0000:02" modalias="pci:v000010DEd0000005Dsv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1074,7 +1074,7 @@
       <hint name="pci.device" value="0x5D" />
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
-      <node id="network:0" claimed="true" class="network" handle="PCI:0000:02:00.0">
+      <node id="network:0" claimed="true" class="network" handle="PCI:0000:02:00.0" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1113,7 +1113,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="network:1" claimed="true" class="network" handle="PCI:0000:02:00.1">
+      <node id="network:1" claimed="true" class="network" handle="PCI:0000:02:00.1" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1153,7 +1153,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:08">
+    <node id="pci:2" claimed="true" class="bridge" handle="PCIBUS:0000:08" modalias="pci:v000010DEd0000005Dsv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1186,7 +1186,7 @@
       <hint name="pci.device" value="0x5D" />
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
-      <node id="serial" claimed="true" class="bus" handle="PCI:0000:08:00.0">
+      <node id="serial" claimed="true" class="bus" handle="PCI:0000:08:00.0" modalias="pci:v000015B3d00006278sv000015B3sd00006278bc0Csc06i00">
        <description>InfiniBand</description>
        <product>MT25208 InfiniHost III Ex (Tavor compatibility mode) [15B3:6278]</product>
        <vendor>Mellanox Technologies [15B3]</vendor>
@@ -1225,7 +1225,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0f">
+    <node id="pci:3" claimed="true" class="bridge" handle="PCIBUS:0000:0f" modalias="pci:v000010DEd0000005Dsv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1258,7 +1258,7 @@
       <hint name="pci.device" value="0x5D" />
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
-      <node id="network:0" claimed="true" class="network" handle="PCI:0000:0f:00.0">
+      <node id="network:0" claimed="true" class="network" handle="PCI:0000:0f:00.0" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1297,7 +1297,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="network:1" claimed="true" class="network" handle="PCI:0000:0f:00.1">
+      <node id="network:1" claimed="true" class="network" handle="PCI:0000:0f:00.1" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1337,7 +1337,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:4" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001100sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] HyperTransport Technology Configuration [1022:1100]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1352,7 +1352,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:5" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001101sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Address Map [1022:1101]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1367,7 +1367,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:6" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001102sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] DRAM Controller [1022:1102]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1388,7 +1388,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:7" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001103sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Miscellaneous Control [1022:1103]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1409,7 +1409,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:8" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001100sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] HyperTransport Technology Configuration [1022:1100]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1424,7 +1424,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:9" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:9" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001101sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Address Map [1022:1101]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1439,7 +1439,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:10" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:10" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001102sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] DRAM Controller [1022:1102]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1460,7 +1460,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:11" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:11" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001103sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Miscellaneous Control [1022:1103]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1481,7 +1481,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:12" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:12" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001100sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] HyperTransport Technology Configuration [1022:1100]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1496,7 +1496,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:13" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:13" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001101sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Address Map [1022:1101]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1511,7 +1511,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:14" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:14" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001102sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] DRAM Controller [1022:1102]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1532,7 +1532,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:15" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:15" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001103sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Miscellaneous Control [1022:1103]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1553,7 +1553,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:16" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:16" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001100sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] HyperTransport Technology Configuration [1022:1100]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1568,7 +1568,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:17" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:17" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001101sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Address Map [1022:1101]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1583,7 +1583,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:18" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:18" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001102sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] DRAM Controller [1022:1102]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1604,7 +1604,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="pci:19" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci:19" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00001022d00001103sv00000000sd00000000bc06sc00i00">
      <description>Host bridge</description>
      <product>K8 [Athlon64/Opteron] Miscellaneous Control [1022:1103]</product>
      <vendor>Advanced Micro Devices, Inc. [AMD] [1022]</vendor>
@@ -1625,7 +1625,7 @@
       <hint name="pci.vendor" value="0x1022" />
      </hints>
     </node>
-    <node id="memory:2" class="memory" handle="PCI:0000:80:00.0">
+    <node id="memory:2" class="memory" handle="PCI:0000:80:00.0" modalias="pci:v000010DEd0000005Esv0000108Esd00004132bc05sc80i00">
      <description>Memory controller</description>
      <product>CK804 Memory Controller [10DE:5E]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1653,7 +1653,7 @@
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
     </node>
-    <node id="memory:3" class="memory" handle="PCI:0000:80:01.0">
+    <node id="memory:3" class="memory" handle="PCI:0000:80:01.0" modalias="pci:v000010DEd000000D3sv0000108Esd00004132bc05sc80i00">
      <description>Memory controller</description>
      <product>CK804 Memory Controller [10DE:D3]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1682,7 +1682,7 @@
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
     </node>
-    <node id="pci:20" claimed="true" class="bridge" handle="PCIBUS:0000:81">
+    <node id="pci:20" claimed="true" class="bridge" handle="PCIBUS:0000:81" modalias="pci:v000010DEd0000005Dsv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1715,7 +1715,7 @@
       <hint name="pci.device" value="0x5D" />
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
-      <node id="network:0" claimed="true" class="network" handle="PCI:0000:81:00.0">
+      <node id="network:0" claimed="true" class="network" handle="PCI:0000:81:00.0" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1754,7 +1754,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="network:1" claimed="true" class="network" handle="PCI:0000:81:00.1">
+      <node id="network:1" claimed="true" class="network" handle="PCI:0000:81:00.1" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1794,7 +1794,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:21" claimed="true" class="bridge" handle="PCIBUS:0000:87">
+    <node id="pci:21" claimed="true" class="bridge" handle="PCIBUS:0000:87" modalias="pci:v000010DEd0000005Dsv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1827,7 +1827,7 @@
       <hint name="pci.device" value="0x5D" />
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
-      <node id="network:0" claimed="true" class="network" handle="PCI:0000:87:00.0">
+      <node id="network:0" claimed="true" class="network" handle="PCI:0000:87:00.0" modalias="pci:v00008086d0000105Esv0000108Esd0000F25Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1866,7 +1866,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="network:1" claimed="true" class="network" handle="PCI:0000:87:00.1">
+      <node id="network:1" claimed="true" class="network" handle="PCI:0000:87:00.1" modalias="pci:v00008086d0000105Esv0000108Esd0000F25Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1906,7 +1906,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci:22" claimed="true" class="bridge" handle="PCIBUS:0000:8e">
+    <node id="pci:22" claimed="true" class="bridge" handle="PCIBUS:0000:8e" modalias="pci:v000010DEd0000005Dsv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>CK804 PCIE Bridge [10DE:5D]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
@@ -1939,7 +1939,7 @@
       <hint name="pci.device" value="0x5D" />
       <hint name="pci.vendor" value="0x10DE" />
      </hints>
-      <node id="network:0" claimed="true" class="network" handle="PCI:0000:8e:00.0">
+      <node id="network:0" claimed="true" class="network" handle="PCI:0000:8e:00.0" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -1978,7 +1978,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="network:1" claimed="true" class="network" handle="PCI:0000:8e:00.1">
+      <node id="network:1" claimed="true" class="network" handle="PCI:0000:8e:00.1" modalias="pci:v00008086d0000105Esv00008086sd0000105Ebc02sc00i00">
        <description>Ethernet controller</description>
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>

@@ -94,7 +94,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:01">
+    <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:01" modalias="pci:v000010E8d0000E004sv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
      <product>X-Gene PCIe bridge [10E8:E004]</product>
      <vendor>Applied Micro Circuits Corp. [10E8]</vendor>

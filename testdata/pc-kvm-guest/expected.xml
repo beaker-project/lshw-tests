@@ -479,7 +479,7 @@
        </hints>
       </node>
     </node>
-    <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:00">
+    <node id="pci" claimed="true" class="bridge" handle="PCIBUS:0000:00" modalias="pci:v00008086d00001237sv00001AF4sd00001100bc06sc00i00">
      <description>Host bridge</description>
      <product>440FX - 82441FX PMC [Natoma] [8086:1237]</product>
      <vendor>Intel Corporation [8086]</vendor>
@@ -497,7 +497,7 @@
       <hint name="pci.subvendor" value="0x1AF4" />
       <hint name="pci.vendor" value="0x8086" />
      </hints>
-      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:01.0">
+      <node id="isa" claimed="true" class="bridge" handle="PCI:0000:00:01.0" modalias="pci:v00008086d00007000sv00001AF4sd00001100bc06sc01i00">
        <description>ISA bridge</description>
        <product>82371SB PIIX3 ISA [Natoma/Triton II] [8086:7000]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -522,7 +522,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:01.1">
+      <node id="ide" claimed="true" class="storage" handle="PCI:0000:00:01.1" modalias="pci:v00008086d00007010sv00001AF4sd00001100bc01sc01i80">
        <description>IDE interface</description>
        <product>82371SB PIIX3 IDE [Natoma/Triton II] [8086:7010]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -559,7 +559,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="usb" claimed="true" class="bus" handle="PCI:0000:00:01.2">
+      <node id="usb" claimed="true" class="bus" handle="PCI:0000:00:01.2" modalias="pci:v00008086d00007020sv00001AF4sd00001100bc0Csc03i00">
        <description>USB controller</description>
        <product>82371SB PIIX3 USB [Natoma/Triton II] [8086:7020]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -640,7 +640,7 @@
           </node>
         </node>
       </node>
-      <node id="bridge" claimed="true" class="bridge" handle="PCI:0000:00:01.3">
+      <node id="bridge" claimed="true" class="bridge" handle="PCI:0000:00:01.3" modalias="pci:v00008086d00007113sv00001AF4sd00001100bc06sc80i00">
        <description>Bridge</description>
        <product>82371AB/EB/MB PIIX4 ACPI [8086:7113]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -669,7 +669,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="display" claimed="true" class="display" handle="PCI:0000:00:02.0">
+      <node id="display" claimed="true" class="display" handle="PCI:0000:00:02.0" modalias="pci:v00001013d000000B8sv00001AF4sd00001100bc03sc00i00">
        <description>VGA compatible controller</description>
        <product>GD 5446 [1013:B8]</product>
        <vendor>Cirrus Logic [1013]</vendor>
@@ -703,7 +703,7 @@
         <hint name="pci.vendor" value="0x1013" />
        </hints>
       </node>
-      <node id="network" claimed="true" class="network" handle="PCI:0000:00:03.0">
+      <node id="network" claimed="true" class="network" handle="PCI:0000:00:03.0" modalias="pci:v00001AF4d00001000sv00001AF4sd00000001bc02sc00i00">
        <description>Ethernet controller</description>
        <product>Virtio network device [1AF4:1000]</product>
        <vendor>Red Hat, Inc. [1AF4]</vendor>
@@ -747,7 +747,7 @@
          </configuration>
         </node>
       </node>
-      <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:04.0">
+      <node id="multimedia" claimed="true" class="multimedia" handle="PCI:0000:00:04.0" modalias="pci:v00008086d00002415sv00001AF4sd00001100bc04sc01i00">
        <description>Multimedia audio controller</description>
        <product>82801AA AC'97 Audio Controller [8086:2415]</product>
        <vendor>Intel Corporation [8086]</vendor>
@@ -779,7 +779,7 @@
         <hint name="pci.vendor" value="0x8086" />
        </hints>
       </node>
-      <node id="scsi:0" claimed="true" class="storage" handle="PCI:0000:00:05.0">
+      <node id="scsi:0" claimed="true" class="storage" handle="PCI:0000:00:05.0" modalias="pci:v00001AF4d00001001sv00001AF4sd00000002bc01sc00i00">
        <description>SCSI storage controller</description>
        <product>Virtio block device [1AF4:1001]</product>
        <vendor>Red Hat, Inc. [1AF4]</vendor>
@@ -829,7 +829,7 @@
          </hints>
         </node>
       </node>
-      <node id="generic" claimed="true" class="generic" handle="PCI:0000:00:06.0">
+      <node id="generic" claimed="true" class="generic" handle="PCI:0000:00:06.0" modalias="pci:v00001AF4d00001002sv00001AF4sd00000005bc00scFFi00">
        <description>Unclassified device</description>
        <product>Virtio memory balloon [1AF4:1002]</product>
        <vendor>Red Hat, Inc. [1AF4]</vendor>
@@ -867,7 +867,7 @@
          </configuration>
         </node>
       </node>
-      <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:00:07.0">
+      <node id="scsi:1" claimed="true" class="storage" handle="PCI:0000:00:07.0" modalias="pci:v00001AF4d00001001sv00001AF4sd00000002bc01sc00i00">
        <description>SCSI storage controller</description>
        <product>Virtio block device [1AF4:1001]</product>
        <vendor>Red Hat, Inc. [1AF4]</vendor>
