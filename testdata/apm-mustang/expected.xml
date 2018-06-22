@@ -15,8 +15,8 @@
   <setting id="uuid" value="[REMOVED]" />
  </configuration>
  <capabilities>
-  <capability id="smbios-3.0" >SMBIOS version 3.0</capability>
-  <capability id="dmi-3.0" >DMI version 3.0</capability>
+  <capability id="smbios-3.0.0" >SMBIOS version 3.0.0</capability>
+  <capability id="dmi-3.0.0" >DMI version 3.0.0</capability>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
  <hints>
