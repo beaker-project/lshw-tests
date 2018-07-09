@@ -606,8 +606,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 DMI2 [8086:E00]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>100</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 DMI2 [8086:E00]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 DMI2 [8086:E00]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -720,8 +720,8 @@
              <product>C606 chipset Dual 4-Port SATA/SAS Storage Control Unit [8086:1D68]</product>
              <vendor>Intel Corporation [8086]</vendor>
              <physid>0</physid>
-             <subsysproduct>C606 chipset Dual 4-Port SATA/SAS Storage Control Unit [8086:1D68]</subsysproduct>
-             <subsysvendor>Intel Corporation [8086]</subsysvendor>
+             <subproduct>C606 chipset Dual 4-Port SATA/SAS Storage Control Unit [8086:1D68]</subproduct>
+             <subvendor>Intel Corporation [8086]</subvendor>
              <businfo>pci@0000:03:00.0</businfo>
              <version>06</version>
              <width units="bits">64</width>
@@ -760,8 +760,8 @@
              <product>C600/X79 series chipset SMBus Controller 0 [8086:1D70]</product>
              <vendor>Intel Corporation [8086]</vendor>
              <physid>0.3</physid>
-             <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-             <subsysvendor>Intel Corporation [8086]</subsysvendor>
+             <subproduct>Intel Corporation [8086:0]</subproduct>
+             <subvendor>Intel Corporation [8086]</subvendor>
              <businfo>pci@0000:03:00.3</businfo>
              <version>06</version>
              <width units="bits">32</width>
@@ -795,8 +795,8 @@
              <product>C608/C606/X79 series chipset SMBus Controller 1 [8086:1D71]</product>
              <vendor>Intel Corporation [8086]</vendor>
              <physid>0.4</physid>
-             <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-             <subsysvendor>Intel Corporation [8086]</subsysvendor>
+             <subproduct>Intel Corporation [8086:0]</subproduct>
+             <subvendor>Intel Corporation [8086]</subvendor>
              <businfo>pci@0000:03:00.4</businfo>
              <version>06</version>
              <width units="bits">32</width>
@@ -983,8 +983,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.0</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1017,8 +1017,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4.1</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.1</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1051,8 +1051,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4.2</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.2</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1085,8 +1085,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4.3</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.3</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1119,8 +1119,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4.4</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.4</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1153,8 +1153,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4.5</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.5</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1187,8 +1187,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4.6</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.6</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1221,8 +1221,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>4.7</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:04.7</businfo>
        <version>04</version>
        <width units="bits">64</width>
@@ -1255,8 +1255,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [8086:E28]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>5</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [8086:E28]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [8086:E28]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:05.0</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1304,8 +1304,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [8086:E2A]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>5.2</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [8086:E2A]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [8086:E2A]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:05.2</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1330,8 +1330,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [8086:E2C]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>5.4</physid>
-       <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [8086:E2C]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [8086:E2C]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:05.4</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1362,8 +1362,8 @@
        <product>Intel Corporation [8086:E39]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>5.6</physid>
-       <subsysproduct>Intel Corporation [8086:E39]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:E39]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:05.6</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1392,8 +1392,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E10]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.0</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1418,8 +1418,8 @@
        <product>Intel Corporation [8086:E11]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6.1</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.1</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1444,8 +1444,8 @@
        <product>Intel Corporation [8086:E12]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6.2</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.2</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1470,8 +1470,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E13]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6.3</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.3</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1496,8 +1496,8 @@
        <product>Intel Corporation [8086:E14]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6.4</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.4</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1522,8 +1522,8 @@
        <product>Intel Corporation [8086:E15]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6.5</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.5</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1548,8 +1548,8 @@
        <product>Intel Corporation [8086:E16]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6.6</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.6</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1574,8 +1574,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E17]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>6.7</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:06.7</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1600,8 +1600,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E18]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>7</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:07.0</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1626,8 +1626,8 @@
        <product>Intel Corporation [8086:E19]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>7.1</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:07.1</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1652,8 +1652,8 @@
        <product>Intel Corporation [8086:E1A]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>7.2</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:07.2</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1678,8 +1678,8 @@
        <product>Intel Corporation [8086:E1B]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>7.3</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:07.3</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1704,8 +1704,8 @@
        <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E1C]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>7.4</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:07.4</businfo>
        <version>04</version>
        <width units="bits">32</width>
@@ -1730,8 +1730,8 @@
        <product>C600/X79 series chipset USB2 Enhanced Host Controller #2 [8086:1D2D]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1a</physid>
-       <subsysproduct>Intel Corporation [8086:7270]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:7270]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:1a.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1844,8 +1844,8 @@
          <product>I350 Gigabit Network Connection [8086:1521]</product>
          <vendor>Intel Corporation [8086]</vendor>
          <physid>0</physid>
-         <subsysproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subsysproduct>
-         <subsysvendor>Intel Corporation [8086]</subsysvendor>
+         <subproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subproduct>
+         <subvendor>Intel Corporation [8086]</subvendor>
          <businfo>pci@0000:09:00.0</businfo>
          <version>01</version>
          <width units="bits">32</width>
@@ -1885,8 +1885,8 @@
          <product>I350 Gigabit Network Connection [8086:1521]</product>
          <vendor>Intel Corporation [8086]</vendor>
          <physid>0.1</physid>
-         <subsysproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subsysproduct>
-         <subsysvendor>Intel Corporation [8086]</subsysvendor>
+         <subproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subproduct>
+         <subvendor>Intel Corporation [8086]</subvendor>
          <businfo>pci@0000:09:00.1</businfo>
          <version>01</version>
          <width units="bits">32</width>
@@ -1926,8 +1926,8 @@
          <product>I350 Gigabit Network Connection [8086:1521]</product>
          <vendor>Intel Corporation [8086]</vendor>
          <physid>0.2</physid>
-         <subsysproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subsysproduct>
-         <subsysvendor>Intel Corporation [8086]</subsysvendor>
+         <subproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subproduct>
+         <subvendor>Intel Corporation [8086]</subvendor>
          <businfo>pci@0000:09:00.2</businfo>
          <version>01</version>
          <width units="bits">32</width>
@@ -1967,8 +1967,8 @@
          <product>I350 Gigabit Network Connection [8086:1521]</product>
          <vendor>Intel Corporation [8086]</vendor>
          <physid>0.3</physid>
-         <subsysproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subsysproduct>
-         <subsysvendor>Intel Corporation [8086]</subsysvendor>
+         <subproduct>82852/82855 GM/GME/PM/GMV Processor to I/O Controller [8086:3584]</subproduct>
+         <subvendor>Intel Corporation [8086]</subvendor>
          <businfo>pci@0000:09:00.3</businfo>
          <version>01</version>
          <width units="bits">32</width>
@@ -2040,8 +2040,8 @@
          <product>MGA G200e [Pilot] ServerEngines (SEP1) [102B:522]</product>
          <vendor>Matrox Electronics Systems Ltd. [102B]</vendor>
          <physid>0</physid>
-         <subsysproduct>Intel Corporation [8086:103]</subsysproduct>
-         <subsysvendor>Intel Corporation [8086]</subsysvendor>
+         <subproduct>Intel Corporation [8086:103]</subproduct>
+         <subvendor>Intel Corporation [8086]</subvendor>
          <businfo>pci@0000:0b:00.0</businfo>
          <version>05</version>
          <width units="bits">32</width>
@@ -2081,8 +2081,8 @@
        <product>C600/X79 series chipset USB2 Enhanced Host Controller #1 [8086:1D26]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d</physid>
-       <subsysproduct>Intel Corporation [8086:7270]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:7270]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:1d.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -2209,8 +2209,8 @@
        <product>C600/X79 series chipset LPC Controller [8086:1D41]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f</physid>
-       <subsysproduct>Intel Corporation [8086:7270]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:7270]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:1f.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -2240,8 +2240,8 @@
        <product>C600/X79 series chipset 6-Port SATA AHCI Controller [8086:1D02]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f.2</physid>
-       <subsysproduct>Intel Corporation [8086:7270]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:7270]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:1f.2</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -2281,8 +2281,8 @@
        <product>C600/X79 series chipset SMBus Host Controller [8086:1D22]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f.3</physid>
-       <subsysproduct>Intel Corporation [8086:7270]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:7270]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:1f.3</businfo>
        <version>06</version>
        <width units="bits">64</width>
@@ -2307,8 +2307,8 @@
        <product>C600/X79 series chipset Thermal Management Controller [8086:1D24]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f.6</physid>
-       <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>Intel Corporation [8086:0]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:00:1f.6</businfo>
        <version>06</version>
        <width units="bits">64</width>
@@ -2338,8 +2338,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E80]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E80]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E80]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:08.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2360,8 +2360,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>9</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:08.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2386,8 +2386,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0 [8086:E83]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:08.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2412,8 +2412,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0 [8086:E84]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:08.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2438,8 +2438,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register [8086:E85]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>c</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:08.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2464,8 +2464,8 @@
      <product>Intel Corporation [8086:E86]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>d</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:08.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2494,8 +2494,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Registers [8086:E87]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>e</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:08.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2520,8 +2520,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E90]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>f</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E90]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E90]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:09.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2542,8 +2542,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>10</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:09.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2568,8 +2568,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E93]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>11</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:09.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2594,8 +2594,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 1 [8086:E94]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>12</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:09.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2620,8 +2620,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register [8086:E95]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>13</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:09.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2646,8 +2646,8 @@
      <product>Intel Corporation [8086:E96]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>14</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:09.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2676,8 +2676,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [8086:EC0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>15</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [8086:EC0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [8086:EC0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2698,8 +2698,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [8086:EC1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>16</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [8086:EC1]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [8086:EC1]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2720,8 +2720,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [8086:EC2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>17</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [8086:EC2]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [8086:EC2]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2742,8 +2742,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [8086:EC3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>18</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [8086:EC3]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [8086:EC3]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2764,8 +2764,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 4 [8086:EC4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>19</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2786,8 +2786,8 @@
      <product>Intel Corporation [8086:EC5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>1a</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2808,8 +2808,8 @@
      <product>Intel Corporation [8086:EC6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>1b</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2830,8 +2830,8 @@
      <product>Intel Corporation [8086:EC7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>1c</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0a.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2852,8 +2852,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1E]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>1d</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1E]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1E]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0b.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2874,8 +2874,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E7D]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>1e</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0b.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2896,8 +2896,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1F]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>1f</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1F]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1F]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0b.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2918,8 +2918,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>20</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0c.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2940,8 +2940,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>21</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE2]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE2]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0c.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2962,8 +2962,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>22</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE4]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE4]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0c.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -2984,8 +2984,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>24</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE6]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE6]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0c.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3006,8 +3006,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>25</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0c.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3028,8 +3028,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EEA]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>26</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0c.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3050,8 +3050,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>27</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE1]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE1]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0d.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3072,8 +3072,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>28</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE3]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE3]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0d.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3094,8 +3094,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>29</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE5]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE5]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0d.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3116,8 +3116,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>2a</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE7]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE7]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0d.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3138,8 +3138,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE9]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>2b</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0d.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3160,8 +3160,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EEB]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>2c</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0d.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3182,8 +3182,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:EA0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>2d</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:EA0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:EA0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0e.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3204,8 +3204,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>2e</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0e.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3248,8 +3248,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [8086:EA8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>30</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [8086:EA8]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [8086:EA8]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0f.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3278,8 +3278,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [8086:E71]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>31</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [8086:E71]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [8086:E71]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0f.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3304,8 +3304,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAA]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>32</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAA]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAA]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0f.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3330,8 +3330,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAB]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>33</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAB]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAB]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0f.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3356,8 +3356,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAC]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>34</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAC]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAC]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0f.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3382,8 +3382,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAD]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>35</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAD]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAD]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:0f.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3408,8 +3408,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>36</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3438,8 +3438,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>37</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3468,8 +3468,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [8086:EB2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>38</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [8086:EB2]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [8086:EB2]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3494,8 +3494,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [8086:EB3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>39</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [8086:EB3]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [8086:EB3]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3520,8 +3520,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>3a</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3550,8 +3550,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>3b</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3580,8 +3580,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [8086:EB6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>3c</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [8086:EB6]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [8086:EB6]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3606,8 +3606,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [8086:EB7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>3d</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [8086:EB7]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [8086:EB7]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:10.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3632,8 +3632,8 @@
      <product>Intel Corporation [8086:EB8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>3e</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:11.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3658,8 +3658,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 DDRIO Registers [8086:EBC]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>3f</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:11.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3684,8 +3684,8 @@
      <product>Intel Corporation [8086:EBD]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>40</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:11.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3710,8 +3710,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 DDRIO Registers [8086:EBE]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>41</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:11.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3736,8 +3736,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 DDRIO Registers [8086:EBF]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>42</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:11.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3762,8 +3762,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E1D]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>43</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E1D]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E1D]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:13.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3784,8 +3784,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>44</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:13.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3810,8 +3810,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [8086:E81]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>45</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [8086:E81]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [8086:E81]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:13.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3832,8 +3832,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>46</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:13.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3858,8 +3858,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>47</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:13.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3884,8 +3884,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 System Address Decoder [8086:EC8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>48</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:16.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3906,8 +3906,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [8086:EC9]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>49</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:16.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -3928,8 +3928,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [8086:ECA]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4a</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:16.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4008,8 +4008,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Target Address/Thermal Registers [8086:E68]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4e</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1d.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4034,8 +4034,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 RAS Registers [8086:E79]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4f</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1d.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4060,8 +4060,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6A]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>50</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1d.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4086,8 +4086,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6B]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>51</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1d.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4112,8 +4112,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6C]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>52</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1d.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4138,8 +4138,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6D]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>53</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1d.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4164,8 +4164,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 0 [8086:EF0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>54</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4194,8 +4194,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 1 [8086:EF1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>55</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4224,8 +4224,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 0 [8086:EF2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>56</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4250,8 +4250,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 1 [8086:EF3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>57</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4276,8 +4276,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 2 [8086:EF4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>58</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4306,8 +4306,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 3 [8086:EF5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>59</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4336,8 +4336,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 2 [8086:EF6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5a</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4362,8 +4362,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 3 [8086:EF7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5b</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1e.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4388,8 +4388,8 @@
      <product>Intel Corporation [8086:E98]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5c</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1f.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4414,8 +4414,8 @@
      <product>Intel Corporation [8086:E99]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5d</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1f.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4440,8 +4440,8 @@
      <product>Intel Corporation [8086:E9A]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5e</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1f.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4466,8 +4466,8 @@
      <product>Intel Corporation [8086:E9B]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5f</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:7f:1f.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4522,8 +4522,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>60</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 0 [8086:E20]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.0</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4556,8 +4556,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4.1</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 1 [8086:E21]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.1</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4590,8 +4590,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4.2</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 2 [8086:E22]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.2</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4624,8 +4624,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4.3</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 3 [8086:E23]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.3</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4658,8 +4658,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4.4</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 4 [8086:E24]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.4</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4692,8 +4692,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4.5</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 5 [8086:E25]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.5</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4726,8 +4726,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4.6</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 6 [8086:E26]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.6</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4760,8 +4760,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>4.7</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Crystal Beach DMA Channel 7 [8086:E27]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:04.7</businfo>
      <version>04</version>
      <width units="bits">64</width>
@@ -4794,8 +4794,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [8086:E28]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [8086:E28]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [8086:E28]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:05.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4843,8 +4843,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [8086:E2A]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5.2</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [8086:E2A]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [8086:E2A]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:05.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4869,8 +4869,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [8086:E2C]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5.4</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [8086:E2C]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [8086:E2C]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:05.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4901,8 +4901,8 @@
      <product>Intel Corporation [8086:E39]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>5.6</physid>
-     <subsysproduct>Intel Corporation [8086:E39]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:E39]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:05.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4931,8 +4931,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E10]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4957,8 +4957,8 @@
      <product>Intel Corporation [8086:E11]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6.1</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -4983,8 +4983,8 @@
      <product>Intel Corporation [8086:E12]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6.2</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5009,8 +5009,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E13]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6.3</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5035,8 +5035,8 @@
      <product>Intel Corporation [8086:E14]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6.4</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5061,8 +5061,8 @@
      <product>Intel Corporation [8086:E15]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6.5</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5087,8 +5087,8 @@
      <product>Intel Corporation [8086:E16]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6.6</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5113,8 +5113,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E17]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6.7</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:06.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5139,8 +5139,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E18]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:07.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5165,8 +5165,8 @@
      <product>Intel Corporation [8086:E19]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7.1</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:07.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5191,8 +5191,8 @@
      <product>Intel Corporation [8086:E1A]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7.2</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:07.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5217,8 +5217,8 @@
      <product>Intel Corporation [8086:E1B]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7.3</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:07.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5243,8 +5243,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 IIO Configuration Registers [8086:E1C]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7.4</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:80:07.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5269,8 +5269,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E80]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>8</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E80]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E80]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:08.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5291,8 +5291,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>61</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [8086:E32]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:08.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5317,8 +5317,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0 [8086:E83]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>62</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:08.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5343,8 +5343,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 0 [8086:E84]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>63</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:08.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5369,8 +5369,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register [8086:E85]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>64</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:08.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5395,8 +5395,8 @@
      <product>Intel Corporation [8086:E86]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>65</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:08.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5425,8 +5425,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Registers [8086:E87]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>66</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:08.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5451,8 +5451,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E90]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>67</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E90]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E90]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:09.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5473,8 +5473,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>68</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E33]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:09.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5499,8 +5499,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [8086:E93]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>69</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:09.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5525,8 +5525,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Reut 1 [8086:E94]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6a</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:09.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5551,8 +5551,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link Agent Register [8086:E95]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6b</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:09.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5577,8 +5577,8 @@
      <product>Intel Corporation [8086:E96]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6c</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:09.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5607,8 +5607,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [8086:EC0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6d</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [8086:EC0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [8086:EC0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5629,8 +5629,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [8086:EC1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6e</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [8086:EC1]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [8086:EC1]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5651,8 +5651,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [8086:EC2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>6f</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [8086:EC2]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [8086:EC2]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5673,8 +5673,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [8086:EC3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>70</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [8086:EC3]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [8086:EC3]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5695,8 +5695,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 4 [8086:EC4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>71</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5717,8 +5717,8 @@
      <product>Intel Corporation [8086:EC5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>72</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5739,8 +5739,8 @@
      <product>Intel Corporation [8086:EC6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>73</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5761,8 +5761,8 @@
      <product>Intel Corporation [8086:EC7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>74</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0a.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5783,8 +5783,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1E]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>75</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1E]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1E]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0b.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5805,8 +5805,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E7D]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>76</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0b.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5827,8 +5827,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1F]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>77</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1F]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [8086:E1F]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0b.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5849,8 +5849,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>78</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0c.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5871,8 +5871,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>79</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE2]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE2]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0c.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5893,8 +5893,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7a</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE4]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE4]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0c.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5915,8 +5915,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7b</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE6]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE6]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0c.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5937,8 +5937,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7c</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0c.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5959,8 +5959,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EEA]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7d</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0c.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -5981,8 +5981,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7e</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE1]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE1]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0d.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6003,8 +6003,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>7f</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE3]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE3]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0d.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6025,8 +6025,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>80</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE5]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE5]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0d.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6047,8 +6047,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>81</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE7]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE7]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0d.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6069,8 +6069,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE9]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>82</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0d.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6091,8 +6091,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EEB]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>83</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0d.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6113,8 +6113,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:EA0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>84</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:EA0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:EA0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0e.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6135,8 +6135,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>85</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [8086:E30]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0e.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6179,8 +6179,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [8086:EA8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>87</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [8086:EA8]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [8086:EA8]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0f.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6205,8 +6205,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [8086:E71]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>88</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [8086:E71]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [8086:E71]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0f.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6231,8 +6231,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAA]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>89</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAA]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAA]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0f.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6257,8 +6257,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAB]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>8a</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAB]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAB]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0f.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6283,8 +6283,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAC]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>8b</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAC]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAC]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0f.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6309,8 +6309,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAD]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>8c</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAD]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [8086:EAD]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:0f.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6335,8 +6335,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>8d</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [8086:EB0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6365,8 +6365,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>8e</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [8086:EB1]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6395,8 +6395,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [8086:EB2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>8f</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [8086:EB2]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [8086:EB2]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6421,8 +6421,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [8086:EB3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>90</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [8086:EB3]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [8086:EB3]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6447,8 +6447,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>91</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [8086:EB4]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6477,8 +6477,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>92</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [8086:EB5]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6507,8 +6507,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [8086:EB6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>93</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [8086:EB6]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [8086:EB6]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6533,8 +6533,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [8086:EB7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>94</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [8086:EB7]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [8086:EB7]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:10.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6559,8 +6559,8 @@
      <product>Intel Corporation [8086:EB8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>95</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:11.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6585,8 +6585,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 DDRIO Registers [8086:EBC]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>96</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:11.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6611,8 +6611,8 @@
      <product>Intel Corporation [8086:EBD]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>97</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:11.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6637,8 +6637,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 DDRIO Registers [8086:EBE]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>98</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:11.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6663,8 +6663,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 DDRIO Registers [8086:EBF]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>99</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:11.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6689,8 +6689,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E1D]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>9a</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E1D]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E1D]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:13.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6711,8 +6711,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>9b</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [8086:E34]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:13.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6737,8 +6737,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [8086:E81]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>9c</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [8086:E81]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [8086:E81]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:13.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6759,8 +6759,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>9d</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E36]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:13.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6785,8 +6785,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>9e</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [8086:E37]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:13.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6811,8 +6811,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 System Address Decoder [8086:EC8]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>9f</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:16.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6833,8 +6833,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [8086:EC9]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a0</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:16.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6855,8 +6855,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [8086:ECA]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a1</physid>
-     <subsysproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [8086:EE0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:16.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6935,8 +6935,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Target Address/Thermal Registers [8086:E68]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a5</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1d.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6961,8 +6961,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 RAS Registers [8086:E79]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a6</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1d.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -6987,8 +6987,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6A]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a7</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1d.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7013,8 +7013,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6B]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a8</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1d.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7039,8 +7039,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6C]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>a9</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1d.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7065,8 +7065,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel Target Address Decoder Registers [8086:E6D]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>aa</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1d.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7091,8 +7091,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 0 [8086:EF0]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>ab</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7121,8 +7121,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 1 [8086:EF1]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>ac</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7151,8 +7151,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 0 [8086:EF2]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>ad</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7177,8 +7177,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 1 [8086:EF3]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>ae</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.3</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7203,8 +7203,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 2 [8086:EF4]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>af</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.4</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7233,8 +7233,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 Thermal Control 3 [8086:EF5]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b0</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.5</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7263,8 +7263,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 2 [8086:EF6]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b1</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.6</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7289,8 +7289,8 @@
      <product>Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel 0-3 ERROR Registers 3 [8086:EF7]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b2</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1e.7</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7315,8 +7315,8 @@
      <product>Intel Corporation [8086:E98]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b3</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1f.0</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7341,8 +7341,8 @@
      <product>Intel Corporation [8086:E99]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b4</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1f.1</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7367,8 +7367,8 @@
      <product>Intel Corporation [8086:E9A]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b5</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1f.2</businfo>
      <version>04</version>
      <width units="bits">32</width>
@@ -7393,8 +7393,8 @@
      <product>Intel Corporation [8086:E9B]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>b6</physid>
-     <subsysproduct>Intel Corporation [8086:0]</subsysproduct>
-     <subsysvendor>Intel Corporation [8086]</subsysvendor>
+     <subproduct>Intel Corporation [8086:0]</subproduct>
+     <subvendor>Intel Corporation [8086]</subvendor>
      <businfo>pci@0000:ff:1f.3</businfo>
      <version>04</version>
      <width units="bits">32</width>

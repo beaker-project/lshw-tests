@@ -324,8 +324,8 @@
      <product>5520/5500/X58 I/O Hub to ESI Port [8086:3405]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>100</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>13</version>
      <width units="bits">32</width>
@@ -373,8 +373,8 @@
          <product>82574L Gigabit Network Connection [8086:10D3]</product>
          <vendor>Intel Corporation [8086]</vendor>
          <physid>0</physid>
-         <subsysproduct>Intel Corporation [8086:A01F]</subsysproduct>
-         <subsysvendor>Intel Corporation [8086]</subsysvendor>
+         <subproduct>Intel Corporation [8086:A01F]</subproduct>
+         <subvendor>Intel Corporation [8086]</subvendor>
          <businfo>pci@0000:03:00.0</businfo>
          <version>00</version>
          <width units="bits">32</width>
@@ -447,8 +447,8 @@
          <product>GF108GL [Quadro 600] [10DE:DF8]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
          <physid>0</physid>
-         <subsysproduct>Hewlett-Packard Company [103C:835]</subsysproduct>
-         <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+         <subproduct>Hewlett-Packard Company [103C:835]</subproduct>
+         <subvendor>Hewlett-Packard Company [103C]</subvendor>
          <businfo>pci@0000:0f:00.0</businfo>
          <version>a1</version>
          <width units="bits">64</width>
@@ -488,8 +488,8 @@
          <product>GF108 High Definition Audio Controller [10DE:BEA]</product>
          <vendor>NVIDIA Corporation [10DE]</vendor>
          <physid>0.1</physid>
-         <subsysproduct>Hewlett-Packard Company [103C:835]</subsysproduct>
-         <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+         <subproduct>Hewlett-Packard Company [103C:835]</subproduct>
+         <subvendor>Hewlett-Packard Company [103C]</subvendor>
          <businfo>pci@0000:0f:00.1</businfo>
          <version>a1</version>
          <width units="bits">32</width>
@@ -733,8 +733,8 @@
        <product>82801JI (ICH10 Family) USB UHCI Controller #4 [8086:3A37]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1a</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1a.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -790,8 +790,8 @@
        <product>82801JI (ICH10 Family) USB UHCI Controller #5 [8086:3A38]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1a.1</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1a.1</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -847,8 +847,8 @@
        <product>82801JI (ICH10 Family) USB UHCI Controller #6 [8086:3A39]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1a.2</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1a.2</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -904,8 +904,8 @@
        <product>82801JI (ICH10 Family) USB2 EHCI Controller #2 [8086:3A3C]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1a.7</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1a.7</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -963,8 +963,8 @@
        <product>82801JI (ICH10 Family) HD Audio Controller [8086:3A3E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1b</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1b.0</businfo>
        <version>00</version>
        <width units="bits">64</width>
@@ -1062,8 +1062,8 @@
          <product>NetXtreme BCM5764M Gigabit Ethernet PCIe [14E4:1684]</product>
          <vendor>Broadcom Limited [14E4]</vendor>
          <physid>0</physid>
-         <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-         <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+         <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+         <subvendor>Hewlett-Packard Company [103C]</subvendor>
          <businfo>pci@0000:01:00.0</businfo>
          <version>10</version>
          <width units="bits">64</width>
@@ -1099,8 +1099,8 @@
        <product>82801JI (ICH10 Family) USB UHCI Controller #1 [8086:3A34]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1d.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -1156,8 +1156,8 @@
        <product>82801JI (ICH10 Family) USB UHCI Controller #2 [8086:3A35]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.1</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1d.1</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -1213,8 +1213,8 @@
        <product>82801JI (ICH10 Family) USB UHCI Controller #3 [8086:3A36]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.2</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1d.2</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -1270,8 +1270,8 @@
        <product>82801JI (ICH10 Family) USB2 EHCI Controller #1 [8086:3A3A]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.7</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1d.7</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -1425,8 +1425,8 @@
          <product>FW322/323 [TrueFire] 1394a Controller [11C1:5811]</product>
          <vendor>LSI Corporation [11C1]</vendor>
          <physid>5</physid>
-         <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-         <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+         <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+         <subvendor>Hewlett-Packard Company [103C]</subvendor>
          <businfo>pci@0000:37:05.0</businfo>
          <version>70</version>
          <width units="bits">32</width>
@@ -1462,8 +1462,8 @@
        <product>82801JIR (ICH10R) LPC Interface Controller [8086:3A16]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1f.0</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -1493,8 +1493,8 @@
        <product>SATA Controller [RAID mode] [8086:2822]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f.2</physid>
-       <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-       <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+       <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+       <subvendor>Hewlett-Packard Company [103C]</subvendor>
        <businfo>pci@0000:00:1f.2</businfo>
        <version>00</version>
        <width units="bits">32</width>
@@ -1534,8 +1534,8 @@
      <product>Xeon 5500/Core i7 QuickPath Architecture Generic Non-Core Registers [8086:2C41]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>101</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:00.0</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1553,8 +1553,8 @@
      <product>Xeon 5500/Core i7 QuickPath Architecture System Address Decoder [8086:2C01]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>102</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:00.1</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1572,8 +1572,8 @@
      <product>Xeon 5500/Core i7 QPI Link 0 [8086:2C10]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>103</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:02.0</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1591,8 +1591,8 @@
      <product>Xeon 5500/Core i7 QPI Physical 0 [8086:2C11]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>104</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:02.1</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1610,8 +1610,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller [8086:2C18]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>105</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:03.0</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1629,8 +1629,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Target Address Decoder [8086:2C19]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>106</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:03.1</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1648,8 +1648,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Test Registers [8086:2C1C]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>107</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:03.4</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1667,8 +1667,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Control Registers [8086:2C20]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>108</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:04.0</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1686,8 +1686,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Address Registers [8086:2C21]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>109</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:04.1</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1705,8 +1705,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Rank Registers [8086:2C22]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>10a</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:04.2</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1724,8 +1724,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 0 Thermal Control Registers [8086:2C23]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>10b</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:04.3</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1743,8 +1743,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Control Registers [8086:2C28]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>10c</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:05.0</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1762,8 +1762,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Address Registers [8086:2C29]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>10d</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:05.1</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1781,8 +1781,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Rank Registers [8086:2C2A]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>10e</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:05.2</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1800,8 +1800,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 1 Thermal Control Registers [8086:2C2B]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>10f</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:05.3</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1819,8 +1819,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Control Registers [8086:2C30]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>110</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:06.0</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1838,8 +1838,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Address Registers [8086:2C31]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>111</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:06.1</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1857,8 +1857,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Rank Registers [8086:2C32]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>112</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:06.2</businfo>
      <version>05</version>
      <width units="bits">32</width>
@@ -1876,8 +1876,8 @@
      <product>Xeon 5500/Core i7 Integrated Memory Controller Channel 2 Thermal Control Registers [8086:2C33]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>113</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1309]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1309]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:3f:06.3</businfo>
      <version>05</version>
      <width units="bits">32</width>

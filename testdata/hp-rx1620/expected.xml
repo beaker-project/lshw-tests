@@ -180,8 +180,8 @@
      <product>OHCI USB Controller [1033:35]</product>
      <vendor>NEC Corporation [1033]</vendor>
      <physid>5</physid>
-     <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
-     <subsysvendor>NEC Corporation [1033]</subsysvendor>
+     <subproduct>OHCI USB Controller [1033:35]</subproduct>
+     <subvendor>NEC Corporation [1033]</subvendor>
      <businfo>pci@0000:00:01.0</businfo>
      <version>41</version>
      <width units="bits">32</width>
@@ -238,8 +238,8 @@
      <product>OHCI USB Controller [1033:35]</product>
      <vendor>NEC Corporation [1033]</vendor>
      <physid>6</physid>
-     <subsysproduct>OHCI USB Controller [1033:35]</subsysproduct>
-     <subsysvendor>NEC Corporation [1033]</subsysvendor>
+     <subproduct>OHCI USB Controller [1033:35]</subproduct>
+     <subvendor>NEC Corporation [1033]</subvendor>
      <businfo>pci@0000:00:01.1</businfo>
      <version>41</version>
      <width units="bits">32</width>
@@ -296,8 +296,8 @@
      <product>uPD72010x USB 2.0 Controller [1033:E0]</product>
      <vendor>NEC Corporation [1033]</vendor>
      <physid>1.2</physid>
-     <subsysproduct>uPD72010x USB 2.0 Controller [1033:E0]</subsysproduct>
-     <subsysvendor>NEC Corporation [1033]</subsysvendor>
+     <subproduct>uPD72010x USB 2.0 Controller [1033:E0]</subproduct>
+     <subvendor>NEC Corporation [1033]</subvendor>
      <businfo>pci@0000:00:01.2</businfo>
      <version>02</version>
      <width units="bits">32</width>
@@ -354,8 +354,8 @@
      <product>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</product>
      <vendor>Silicon Image, Inc. [1095]</vendor>
      <physid>7</physid>
-     <subsysproduct>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</subsysproduct>
-     <subsysvendor>Silicon Image, Inc. [1095]</subsysvendor>
+     <subproduct>SiI 0649 Ultra ATA/100 PCI to ATA Host Controller [1095:649]</subproduct>
+     <subvendor>Silicon Image, Inc. [1095]</subvendor>
      <businfo>pci@0000:00:02.0</businfo>
      <version>02</version>
      <width units="bits">32</width>
@@ -395,8 +395,8 @@
      <product>53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI [1000:30]</product>
      <vendor>LSI Logic / Symbios Logic [1000]</vendor>
      <physid>8</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1326]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1326]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:20:01.0</businfo>
      <version>08</version>
      <width units="bits">64</width>
@@ -437,8 +437,8 @@
      <product>53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI [1000:30]</product>
      <vendor>LSI Logic / Symbios Logic [1000]</vendor>
      <physid>9</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:1326]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:1326]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:20:01.1</businfo>
      <version>08</version>
      <width units="bits">64</width>
@@ -479,8 +479,8 @@
      <product>82546GB Gigabit Ethernet Controller [8086:1079]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>2</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:12C6]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:12C6]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:20:02.0</businfo>
      <version>03</version>
      <width units="bits">64</width>
@@ -519,8 +519,8 @@
      <product>82546GB Gigabit Ethernet Controller [8086:1079]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>2.1</physid>
-     <subsysproduct>Hewlett-Packard Company [103C:12C6]</subsysproduct>
-     <subsysvendor>Hewlett-Packard Company [103C]</subsysvendor>
+     <subproduct>Hewlett-Packard Company [103C:12C6]</subproduct>
+     <subvendor>Hewlett-Packard Company [103C]</subvendor>
      <businfo>pci@0000:20:02.1</businfo>
      <version>03</version>
      <width units="bits">64</width>

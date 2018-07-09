@@ -184,8 +184,8 @@
      <product>Mobile 915GM/PM/GMS/910GML Express Processor to DRAM Controller [8086:2590]</product>
      <vendor>Intel Corporation [8086]</vendor>
      <physid>100</physid>
-     <subsysproduct>IBM [1014:575]</subsysproduct>
-     <subsysvendor>IBM [1014]</subsysvendor>
+     <subproduct>IBM [1014:575]</subproduct>
+     <subvendor>IBM [1014]</subvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>03</version>
      <width units="bits">32</width>
@@ -234,8 +234,8 @@
          <product>RV370/M22 [Mobility Radeon X300] [1002:5460]</product>
          <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
          <physid>0</physid>
-         <subsysproduct>IBM [1014:56E]</subsysproduct>
-         <subsysvendor>IBM [1014]</subsysvendor>
+         <subproduct>IBM [1014:56E]</subproduct>
+         <subvendor>IBM [1014]</subvendor>
          <businfo>pci@0000:01:00.0</businfo>
          <version>00</version>
          <width units="bits">32</width>
@@ -307,8 +307,8 @@
          <product>NetXtreme BCM5751M Gigabit Ethernet PCI Express [14E4:167D]</product>
          <vendor>Broadcom Limited [14E4]</vendor>
          <physid>0</physid>
-         <subsysproduct>IBM [1014:577]</subsysproduct>
-         <subsysvendor>IBM [1014]</subsysvendor>
+         <subproduct>IBM [1014:577]</subproduct>
+         <subvendor>IBM [1014]</subvendor>
          <businfo>pci@0000:02:00.0</businfo>
          <version>11</version>
          <width units="bits">64</width>
@@ -377,8 +377,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #1 [8086:2658]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d</physid>
-       <subsysproduct>IBM [1014:565]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:565]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1d.0</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -433,8 +433,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #2 [8086:2659]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.1</physid>
-       <subsysproduct>IBM [1014:565]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:565]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1d.1</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -489,8 +489,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #3 [8086:265A]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.2</physid>
-       <subsysproduct>IBM [1014:565]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:565]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1d.2</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -545,8 +545,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #4 [8086:265B]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.3</physid>
-       <subsysproduct>IBM [1014:565]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:565]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1d.3</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -601,8 +601,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller [8086:265C]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1d.7</physid>
-       <subsysproduct>IBM [1014:566]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:566]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1d.7</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -685,8 +685,8 @@
          <product>RL5c476 II [1180:476]</product>
          <vendor>Ricoh Co Ltd [1180]</vendor>
          <physid>0</physid>
-         <subsysproduct>IBM [1014:56C]</subsysproduct>
-         <subsysvendor>IBM [1014]</subsysvendor>
+         <subproduct>IBM [1014:56C]</subproduct>
+         <subvendor>IBM [1014]</subvendor>
          <businfo>pci@0000:0b:00.0</businfo>
          <version>8d</version>
          <width units="bits">64</width>
@@ -724,8 +724,8 @@
          <product>PRO/Wireless 2200BG [Calexico2] Network Connection [8086:4220]</product>
          <vendor>Intel Corporation [8086]</vendor>
          <physid>2</physid>
-         <subsysproduct>Intel Corporation [8086:2712]</subsysproduct>
-         <subsysvendor>Intel Corporation [8086]</subsysvendor>
+         <subproduct>Intel Corporation [8086:2712]</subproduct>
+         <subvendor>Intel Corporation [8086]</subvendor>
          <businfo>pci@0000:0b:02.0</businfo>
          <version>05</version>
          <width units="bits">32</width>
@@ -760,8 +760,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Controller [8086:266E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1e.2</physid>
-       <subsysproduct>IBM [1014:567]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:567]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1e.2</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -796,8 +796,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Modem Controller [8086:266D]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1e.3</physid>
-       <subsysproduct>IBM [1014:574]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:574]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1e.3</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -831,8 +831,8 @@
        <product>82801FBM (ICH6M) LPC Interface Bridge [8086:2641]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f</physid>
-       <subsysproduct>IBM [1014:568]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:568]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1f.0</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -861,8 +861,8 @@
        <product>82801FBM (ICH6M) SATA Controller [8086:2653]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f.2</physid>
-       <subsysproduct>IBM [1014:56A]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:56A]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1f.2</businfo>
        <version>03</version>
        <width units="bits">32</width>
@@ -900,8 +900,8 @@
        <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) SMBus Controller [8086:266A]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>1f.3</physid>
-       <subsysproduct>IBM [1014:56B]</subsysproduct>
-       <subsysvendor>IBM [1014]</subsysvendor>
+       <subproduct>IBM [1014:56B]</subproduct>
+       <subvendor>IBM [1014]</subvendor>
        <businfo>pci@0000:00:1f.3</businfo>
        <version>03</version>
        <width units="bits">32</width>

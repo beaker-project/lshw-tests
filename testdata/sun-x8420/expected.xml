@@ -662,8 +662,8 @@
      <product>CK804 Memory Controller [10DE:5E]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>5</physid>
-     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+     <subproduct>Oracle/SUN [108E:4132]</subproduct>
+     <subvendor>Oracle/SUN [108E]</subvendor>
      <businfo>pci@0000:00:00.0</businfo>
      <version>a4</version>
      <width units="bits">32</width>
@@ -690,8 +690,8 @@
      <product>CK804 ISA Bridge [10DE:51]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>100</physid>
-     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+     <subproduct>Oracle/SUN [108E:4132]</subproduct>
+     <subvendor>Oracle/SUN [108E]</subvendor>
      <businfo>pci@0000:00:01.0</businfo>
      <version>b1</version>
      <width units="bits">32</width>
@@ -716,8 +716,8 @@
      <product>CK804 SMBus [10DE:52]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>1.1</physid>
-     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+     <subproduct>Oracle/SUN [108E:4132]</subproduct>
+     <subvendor>Oracle/SUN [108E]</subvendor>
      <businfo>pci@0000:00:01.1</businfo>
      <version>a2</version>
      <width units="bits">32</width>
@@ -751,8 +751,8 @@
      <product>CK804 USB Controller [10DE:5A]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>2</physid>
-     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+     <subproduct>Oracle/SUN [108E:4132]</subproduct>
+     <subvendor>Oracle/SUN [108E]</subvendor>
      <businfo>pci@0000:00:02.0</businfo>
      <version>a2</version>
      <width units="bits">32</width>
@@ -834,8 +834,8 @@
      <product>CK804 USB Controller [10DE:5B]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>2.1</physid>
-     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+     <subproduct>Oracle/SUN [108E:4132]</subproduct>
+     <subvendor>Oracle/SUN [108E]</subvendor>
      <businfo>pci@0000:00:02.1</businfo>
      <version>a4</version>
      <width units="bits">32</width>
@@ -968,8 +968,8 @@
        <product>Rage 3 [Rage XL PCI] [1002:4752]</product>
        <vendor>Advanced Micro Devices, Inc. [AMD/ATI] [1002]</vendor>
        <physid>0</physid>
-       <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+       <subproduct>Oracle/SUN [108E:4132]</subproduct>
+       <subvendor>Oracle/SUN [108E]</subvendor>
        <businfo>pci@0000:01:00.0</businfo>
        <version>27</version>
        <width units="bits">32</width>
@@ -1004,8 +1004,8 @@
        <product>SAS1064 PCI-X Fusion-MPT SAS [1000:50]</product>
        <vendor>LSI Logic / Symbios Logic [1000]</vendor>
        <physid>1</physid>
-       <subsysproduct>Oracle/SUN [108E:4131]</subsysproduct>
-       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+       <subproduct>Oracle/SUN [108E:4131]</subproduct>
+       <subvendor>Oracle/SUN [108E]</subvendor>
        <businfo>pci@0000:01:01.0</businfo>
        <version>02</version>
        <width units="bits">64</width>
@@ -1079,8 +1079,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:02:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1118,8 +1118,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:02:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1191,8 +1191,8 @@
        <product>MT25208 InfiniHost III Ex (Tavor compatibility mode) [15B3:6278]</product>
        <vendor>Mellanox Technologies [15B3]</vendor>
        <physid>0</physid>
-       <subsysproduct>MT25208 InfiniHost III Ex (Tavor compatibility mode) [15B3:6278]</subsysproduct>
-       <subsysvendor>Mellanox Technologies [15B3]</subsysvendor>
+       <subproduct>MT25208 InfiniHost III Ex (Tavor compatibility mode) [15B3:6278]</subproduct>
+       <subvendor>Mellanox Technologies [15B3]</subvendor>
        <businfo>pci@0000:08:00.0</businfo>
        <version>a0</version>
        <width units="bits">64</width>
@@ -1263,8 +1263,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:0f:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1302,8 +1302,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:0f:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1630,8 +1630,8 @@
      <product>CK804 Memory Controller [10DE:5E]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>0</physid>
-     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+     <subproduct>Oracle/SUN [108E:4132]</subproduct>
+     <subvendor>Oracle/SUN [108E]</subvendor>
      <businfo>pci@0000:80:00.0</businfo>
      <version>a4</version>
      <width units="bits">32</width>
@@ -1658,8 +1658,8 @@
      <product>CK804 Memory Controller [10DE:D3]</product>
      <vendor>NVIDIA Corporation [10DE]</vendor>
      <physid>6</physid>
-     <subsysproduct>Oracle/SUN [108E:4132]</subsysproduct>
-     <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+     <subproduct>Oracle/SUN [108E:4132]</subproduct>
+     <subvendor>Oracle/SUN [108E]</subvendor>
      <businfo>pci@0000:80:01.0</businfo>
      <version>b1</version>
      <width units="bits">32</width>
@@ -1720,8 +1720,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:81:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1759,8 +1759,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:81:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1832,8 +1832,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>Oracle/SUN [108E:F25E]</subsysproduct>
-       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+       <subproduct>Oracle/SUN [108E:F25E]</subproduct>
+       <subvendor>Oracle/SUN [108E]</subvendor>
        <businfo>pci@0000:87:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1871,8 +1871,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>Oracle/SUN [108E:F25E]</subsysproduct>
-       <subsysvendor>Oracle/SUN [108E]</subsysvendor>
+       <subproduct>Oracle/SUN [108E:F25E]</subproduct>
+       <subvendor>Oracle/SUN [108E]</subvendor>
        <businfo>pci@0000:87:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1944,8 +1944,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:8e:00.0</businfo>
        <version>06</version>
        <width units="bits">32</width>
@@ -1983,8 +1983,8 @@
        <product>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</product>
        <vendor>Intel Corporation [8086]</vendor>
        <physid>0.1</physid>
-       <subsysproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subsysproduct>
-       <subsysvendor>Intel Corporation [8086]</subsysvendor>
+       <subproduct>82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) [8086:105E]</subproduct>
+       <subvendor>Intel Corporation [8086]</subvendor>
        <businfo>pci@0000:8e:00.1</businfo>
        <version>06</version>
        <width units="bits">32</width>
