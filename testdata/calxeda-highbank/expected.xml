@@ -28,11 +28,13 @@
       <node id="bank" claimed="true" class="memory">
        <description>DDR3L</description>
        <product>1067</product>
+       <vendor>Samsung</vendor>
        <physid>0</physid>
        <version>0000,11 50,01</version>
        <serial>[REMOVED]</serial>
        <slot>SLOT_0</slot>
        <size units="bytes">4287627264</size>
+       <clock units="Hz">1333333333</clock>
        <configuration>
         <setting id="errordetection" value="ecc" />
        </configuration>
