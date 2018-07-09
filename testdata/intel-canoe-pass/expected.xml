@@ -41,7 +41,7 @@
      <version>RMLSDP.86I.R3.27.D685.1305151734</version>
      <date>05/15/2013</date>
      <size units="bytes">65536</size>
-     <capacity units="bytes">8323072</capacity>
+     <capacity units="bytes">8388608</capacity>
      <capabilities>
       <capability id="pci" >PCI bus</capability>
       <capability id="upgrade" >BIOS EEPROM can be upgraded</capability>

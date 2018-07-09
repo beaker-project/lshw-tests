@@ -38,7 +38,7 @@
      <version>2.6.1</version>
      <date>04/20/2009</date>
      <size units="bytes">65536</size>
-     <capacity units="bytes">983040</capacity>
+     <capacity units="bytes">1048576</capacity>
      <capabilities>
       <capability id="isa" >ISA bus</capability>
       <capability id="pci" >PCI bus</capability>

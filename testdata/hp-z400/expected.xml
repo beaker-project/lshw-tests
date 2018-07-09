@@ -39,7 +39,7 @@
      <version>786G3 v03.20</version>
      <date>06/10/2011</date>
      <size units="bytes">131072</size>
-     <capacity units="bytes">2031616</capacity>
+     <capacity units="bytes">2097152</capacity>
      <capabilities>
       <capability id="pci" >PCI bus</capability>
       <capability id="pnp" >Plug-and-Play</capability>

@@ -42,7 +42,7 @@
      <version>02041000</version>
      <date>11/29/2007</date>
      <size units="bytes">65536</size>
-     <capacity units="bytes">983040</capacity>
+     <capacity units="bytes">1048576</capacity>
      <capabilities>
       <capability id="pci" >PCI bus</capability>
       <capability id="pnp" >Plug-and-Play</capability>

@@ -40,7 +40,7 @@
      <version>1YET62WW (1.27 )</version>
      <date>05/18/2006</date>
      <size units="bytes">147456</size>
-     <capacity units="bytes">983040</capacity>
+     <capacity units="bytes">1048576</capacity>
      <capabilities>
       <capability id="pci" >PCI bus</capability>
       <capability id="pcmcia" >PCMCIA/PCCard</capability>

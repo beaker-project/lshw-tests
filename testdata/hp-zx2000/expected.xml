@@ -23,7 +23,7 @@
      <version>02.31</version>
      <date>03/11/2004</date>
      <size units="bytes">1048576</size>
-     <capacity units="bytes">8323072</capacity>
+     <capacity units="bytes">8388608</capacity>
      <hints>
       <hint name="icon" value="chip" />
      </hints>
