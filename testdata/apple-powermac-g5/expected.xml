@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
+<node id="computer" claimed="true" class="system">
  <description>Computer</description>
  <product>PowerMac G5</product>
  <vendor>Copyright 1983-2005 Apple Computer, Inc. All Rights Reserved</vendor>
@@ -12,14 +12,14 @@
  <hints>
   <hint name="icon" value="powermacg5" />
  </hints>
-  <node id="core" claimed="true" class="bus" handle="">
+  <node id="core" claimed="true" class="bus">
    <description>Motherboard</description>
    <physid>0</physid>
    <clock units="Hz">1250000000</clock>
    <hints>
     <hint name="icon" value="board" />
    </hints>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <product>OpenFirmware 4</product>
      <physid>0</physid>
      <logicalname>/proc/device-tree</logicalname>
@@ -27,7 +27,7 @@
       <capability id="bootinfo" />
      </capabilities>
     </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="">
+    <node id="cpu:0" claimed="true" class="processor">
      <description>CPU</description>
      <product>PPC970MP, altivec supported</product>
      <physid>1</physid>
@@ -45,19 +45,19 @@
       <hint name="icon" value="cpu" />
       <hint name="logo" value="powerpc" />
      </hints>
-      <node id="cache:0" claimed="true" class="memory" handle="">
+      <node id="cache:0" claimed="true" class="memory">
        <description>L1 Cache</description>
        <physid>0</physid>
        <size units="bytes">32768</size>
       </node>
-      <node id="cache:1" claimed="true" class="memory" handle="">
+      <node id="cache:1" claimed="true" class="memory">
        <description>L2 Cache (unified)</description>
        <physid>1</physid>
        <size units="bytes">1048576</size>
        <clock units="Hz">2500000000</clock>
       </node>
     </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
+    <node id="cpu:1" claimed="true" class="processor">
      <description>CPU</description>
      <product>PPC970MP, altivec supported</product>
      <physid>2</physid>
@@ -75,19 +75,19 @@
       <hint name="icon" value="cpu" />
       <hint name="logo" value="powerpc" />
      </hints>
-      <node id="cache:0" claimed="true" class="memory" handle="">
+      <node id="cache:0" claimed="true" class="memory">
        <description>L1 Cache</description>
        <physid>0</physid>
        <size units="bytes">32768</size>
       </node>
-      <node id="cache:1" claimed="true" class="memory" handle="">
+      <node id="cache:1" claimed="true" class="memory">
        <description>L2 Cache (unified)</description>
        <physid>1</physid>
        <size units="bytes">1048576</size>
        <clock units="Hz">2500000000</clock>
       </node>
     </node>
-    <node id="cpu:2" claimed="true" class="processor" handle="">
+    <node id="cpu:2" claimed="true" class="processor">
      <description>CPU</description>
      <product>PPC970MP, altivec supported</product>
      <physid>3</physid>
@@ -105,19 +105,19 @@
       <hint name="icon" value="cpu" />
       <hint name="logo" value="powerpc" />
      </hints>
-      <node id="cache:0" claimed="true" class="memory" handle="">
+      <node id="cache:0" claimed="true" class="memory">
        <description>L1 Cache</description>
        <physid>0</physid>
        <size units="bytes">32768</size>
       </node>
-      <node id="cache:1" claimed="true" class="memory" handle="">
+      <node id="cache:1" claimed="true" class="memory">
        <description>L2 Cache (unified)</description>
        <physid>1</physid>
        <size units="bytes">1048576</size>
        <clock units="Hz">2500000000</clock>
       </node>
     </node>
-    <node id="cpu:3" claimed="true" class="processor" handle="">
+    <node id="cpu:3" claimed="true" class="processor">
      <description>CPU</description>
      <product>PPC970MP, altivec supported</product>
      <physid>4</physid>
@@ -135,19 +135,19 @@
       <hint name="icon" value="cpu" />
       <hint name="logo" value="powerpc" />
      </hints>
-      <node id="cache:0" claimed="true" class="memory" handle="">
+      <node id="cache:0" claimed="true" class="memory">
        <description>L1 Cache</description>
        <physid>0</physid>
        <size units="bytes">32768</size>
       </node>
-      <node id="cache:1" claimed="true" class="memory" handle="">
+      <node id="cache:1" claimed="true" class="memory">
        <description>L2 Cache (unified)</description>
        <physid>1</physid>
        <size units="bytes">1048576</size>
        <clock units="Hz">2500000000</clock>
       </node>
     </node>
-    <node id="memory" claimed="true" class="memory" handle="">
+    <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
      <physid>5</physid>
      <size units="bytes">1073741824</size>

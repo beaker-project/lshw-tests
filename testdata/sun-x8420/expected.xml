@@ -35,7 +35,7 @@
    <hints>
     <hint name="icon" value="motherboard" />
    </hints>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <description>BIOS</description>
      <vendor>American Megatrends Inc.</vendor>
      <physid>1</physid>
@@ -2018,21 +2018,21 @@
        </hints>
       </node>
     </node>
-    <node id="pnp00:00" claimed="true" class="bridge" handle="">
+    <node id="pnp00:00" claimed="true" class="bridge">
      <product>PCI Bus</product>
      <physid>116</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:01" claimed="true" class="system" handle="">
+    <node id="pnp00:01" claimed="true" class="system">
      <product>AT DMA Controller</product>
      <physid>7</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:02" claimed="true" class="system" handle="">
+    <node id="pnp00:02" claimed="true" class="system">
      <product>AT Real-Time Clock</product>
      <physid>a</physid>
      <configuration>
@@ -2042,21 +2042,21 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:03" claimed="true" class="system" handle="">
+    <node id="pnp00:03" claimed="true" class="system">
      <product>AT standard speaker sound</product>
      <physid>b</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:04" claimed="true" class="system" handle="">
+    <node id="pnp00:04" claimed="true" class="system">
      <product>Math Coprocessor</product>
      <physid>d</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:05" claimed="true" class="communication" handle="">
+    <node id="pnp00:05" claimed="true" class="communication">
      <product>16550A-compatible COM port</product>
      <physid>e</physid>
      <configuration>
@@ -2066,7 +2066,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:06" claimed="true" class="system" handle="">
+    <node id="pnp00:06" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>f</physid>
      <configuration>
@@ -2076,7 +2076,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:07" claimed="true" class="system" handle="">
+    <node id="pnp00:07" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>11</physid>
      <configuration>
@@ -2086,21 +2086,21 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:08" claimed="true" class="system" handle="">
+    <node id="pnp00:08" claimed="true" class="system">
      <product>High Precision Event Timer</product>
      <physid>12</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:09" claimed="true" class="system" handle="">
+    <node id="pnp00:09" claimed="true" class="system">
      <product>High Precision Event Timer</product>
      <physid>13</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:0a" claimed="true" class="system" handle="">
+    <node id="pnp00:0a" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>14</physid>
      <configuration>
@@ -2110,7 +2110,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:0b" claimed="true" class="system" handle="">
+    <node id="pnp00:0b" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>15</physid>
      <configuration>
@@ -2120,7 +2120,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:0c" claimed="true" class="system" handle="">
+    <node id="pnp00:0c" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>16</physid>
      <configuration>
@@ -2130,7 +2130,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:0d" claimed="true" class="system" handle="">
+    <node id="pnp00:0d" claimed="true" class="system">
      <product>System Board</product>
      <physid>17</physid>
      <configuration>
@@ -2140,7 +2140,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:0e" claimed="true" class="bridge" handle="">
+    <node id="pnp00:0e" claimed="true" class="bridge">
      <product>PCI Bus</product>
      <physid>117</physid>
      <capabilities>

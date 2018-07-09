@@ -33,7 +33,7 @@
    <hints>
     <hint name="icon" value="motherboard" />
    </hints>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <description>BIOS</description>
      <vendor>AppliedMicro</vendor>
      <physid>0</physid>

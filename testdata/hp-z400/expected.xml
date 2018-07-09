@@ -32,7 +32,7 @@
    <hints>
     <hint name="icon" value="motherboard" />
    </hints>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <description>BIOS</description>
      <vendor>Hewlett-Packard</vendor>
      <physid>1</physid>
@@ -1890,7 +1890,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pnp00:00" claimed="true" class="system" handle="">
+    <node id="pnp00:00" claimed="true" class="system">
      <product>AT Real-Time Clock</product>
      <physid>0</physid>
      <configuration>
@@ -1900,7 +1900,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:01" claimed="true" class="input" handle="">
+    <node id="pnp00:01" claimed="true" class="input">
      <product>PS/2 Port for PS/2-style Mice</product>
      <physid>2</physid>
      <configuration>
@@ -1910,7 +1910,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:02" claimed="true" class="input" handle="">
+    <node id="pnp00:02" claimed="true" class="input">
      <product>IBM Enhanced keyboard controller (101/2-key)</product>
      <physid>3</physid>
      <configuration>
@@ -1920,14 +1920,14 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:03" claimed="true" class="storage" handle="">
+    <node id="pnp00:03" claimed="true" class="storage">
      <product>PC standard floppy disk controller</product>
      <physid>4</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:04" claimed="true" class="system" handle="">
+    <node id="pnp00:04" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>6</physid>
      <configuration>
@@ -1937,7 +1937,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:05" claimed="true" class="system" handle="">
+    <node id="pnp00:05" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>7</physid>
      <configuration>
@@ -1947,7 +1947,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:06" claimed="true" class="system" handle="">
+    <node id="pnp00:06" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>8</physid>
      <configuration>
@@ -1957,7 +1957,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:07" claimed="true" class="system" handle="">
+    <node id="pnp00:07" claimed="true" class="system">
      <product>System Board</product>
      <physid>9</physid>
      <configuration>

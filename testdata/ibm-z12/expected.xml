@@ -1,15 +1,15 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
+<node id="computer" claimed="true" class="system">
  <description>Computer</description>
  <width units="bits">64</width>
  <capabilities>
   <capability id="smp" >Symmetric Multi-Processing</capability>
  </capabilities>
-  <node id="core" claimed="true" class="bus" handle="">
+  <node id="core" claimed="true" class="bus">
    <description>Motherboard</description>
    <physid>0</physid>
-    <node id="memory" claimed="true" class="memory" handle="">
+    <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
      <physid>0</physid>
      <size units="bytes">2147483648</size>
@@ -17,7 +17,7 @@
       <hint name="icon" value="memory" />
      </hints>
     </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="">
+    <node id="cpu:0" claimed="true" class="processor">
      <vendor>IBM/S390</vendor>
      <physid>1</physid>
      <businfo>cpu@0</businfo>
@@ -37,7 +37,7 @@
       <hint name="logo" value="s390x" />
      </hints>
     </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
+    <node id="cpu:1" claimed="true" class="processor">
      <vendor>IBM/S390</vendor>
      <physid>2</physid>
      <businfo>cpu@1</businfo>
@@ -57,7 +57,7 @@
      </hints>
     </node>
   </node>
-  <node id="device:0" claimed="true" class="communication" handle="">
+  <node id="device:0" claimed="true" class="communication">
    <description>3215 terminal</description>
    <physid>1</physid>
    <businfo>ccw@0.0.0009</businfo>
@@ -65,7 +65,7 @@
     <setting id="driver" value="3215" />
    </configuration>
   </node>
-  <node id="device:1" disabled="true" claimed="true" class="generic" handle="">
+  <node id="device:1" disabled="true" claimed="true" class="generic">
    <description>Card reader/punch</description>
    <physid>2</physid>
    <businfo>ccw@0.0.000c</businfo>
@@ -73,7 +73,7 @@
     <setting id="driver" value="vmur" />
    </configuration>
   </node>
-  <node id="device:2" disabled="true" claimed="true" class="generic" handle="">
+  <node id="device:2" disabled="true" claimed="true" class="generic">
    <description>Card reader/punch</description>
    <physid>3</physid>
    <businfo>ccw@0.0.000d</businfo>
@@ -81,7 +81,7 @@
     <setting id="driver" value="vmur" />
    </configuration>
   </node>
-  <node id="device:3" disabled="true" claimed="true" class="printer" handle="">
+  <node id="device:3" disabled="true" claimed="true" class="printer">
    <description>Line printer</description>
    <physid>4</physid>
    <businfo>ccw@0.0.000e</businfo>
@@ -89,7 +89,7 @@
     <setting id="driver" value="vmur" />
    </configuration>
   </node>
-  <node id="device:4" disabled="true" claimed="true" class="network" handle="">
+  <node id="device:4" disabled="true" claimed="true" class="network">
    <description>Channel-to-Channel device</description>
    <physid>5</physid>
    <businfo>ccw@0.0.0150</businfo>
@@ -97,7 +97,7 @@
     <setting id="driver" value="ctcm" />
    </configuration>
   </node>
-  <node id="device:5" disabled="true" claimed="true" class="network" handle="">
+  <node id="device:5" disabled="true" claimed="true" class="network">
    <description>Channel-to-Channel device</description>
    <physid>6</physid>
    <businfo>ccw@0.0.0151</businfo>
@@ -105,7 +105,7 @@
     <setting id="driver" value="ctcm" />
    </configuration>
   </node>
-  <node id="device:6" disabled="true" claimed="true" class="disk" handle="">
+  <node id="device:6" disabled="true" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>7</physid>
@@ -114,7 +114,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:7" disabled="true" claimed="true" class="disk" handle="">
+  <node id="device:7" disabled="true" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>8</physid>
@@ -123,7 +123,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:8" disabled="true" claimed="true" class="disk" handle="">
+  <node id="device:8" disabled="true" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>9</physid>
@@ -132,7 +132,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:9" disabled="true" claimed="true" class="disk" handle="">
+  <node id="device:9" disabled="true" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>a</physid>
@@ -141,7 +141,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:10" disabled="true" claimed="true" class="disk" handle="">
+  <node id="device:10" disabled="true" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0a</product>
    <physid>b</physid>
@@ -150,7 +150,7 @@
     <setting id="driver" value="dasd-eckd" />
    </configuration>
   </node>
-  <node id="device:11" claimed="true" class="disk" handle="">
+  <node id="device:11" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -167,7 +167,7 @@
     <hint name="icon" value="disc" />
    </hints>
   </node>
-  <node id="device:12" claimed="true" class="disk" handle="">
+  <node id="device:12" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -184,7 +184,7 @@
     <hint name="icon" value="disc" />
    </hints>
   </node>
-  <node id="device:13" claimed="true" class="disk" handle="">
+  <node id="device:13" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -201,7 +201,7 @@
     <hint name="icon" value="disc" />
    </hints>
   </node>
-  <node id="device:14" claimed="true" class="disk" handle="">
+  <node id="device:14" claimed="true" class="disk">
    <description>Direct attached storage device (ECKD mode)</description>
    <product>3390/0c</product>
    <vendor>IBM</vendor>
@@ -218,7 +218,7 @@
     <hint name="icon" value="disc" />
    </hints>
   </node>
-  <node id="device:15" claimed="true" class="network" handle="">
+  <node id="device:15" claimed="true" class="network">
    <description>OSA-Express QDIO channel</description>
    <product>1732/01</product>
    <physid>10</physid>
@@ -227,7 +227,7 @@
     <setting id="driver" value="qeth" />
    </configuration>
   </node>
-  <node id="device:16" claimed="true" class="network" handle="">
+  <node id="device:16" claimed="true" class="network">
    <description>OSA-Express QDIO channel</description>
    <product>1732/01</product>
    <physid>11</physid>
@@ -236,7 +236,7 @@
     <setting id="driver" value="qeth" />
    </configuration>
   </node>
-  <node id="device:17" claimed="true" class="network" handle="">
+  <node id="device:17" claimed="true" class="network">
    <description>OSA-Express QDIO channel</description>
    <product>1732/01</product>
    <physid>12</physid>
@@ -245,7 +245,7 @@
     <setting id="driver" value="qeth" />
    </configuration>
   </node>
-  <node id="device:18" disabled="true" claimed="true" class="network" handle="">
+  <node id="device:18" disabled="true" claimed="true" class="network">
    <description>OSA-Express QDIO channel</description>
    <product>1732/01</product>
    <physid>13</physid>
@@ -254,7 +254,7 @@
     <setting id="driver" value="qeth" />
    </configuration>
   </node>
-  <node id="device:19" disabled="true" claimed="true" class="network" handle="">
+  <node id="device:19" disabled="true" claimed="true" class="network">
    <description>OSA-Express QDIO channel</description>
    <product>1732/01</product>
    <physid>14</physid>
@@ -263,7 +263,7 @@
     <setting id="driver" value="qeth" />
    </configuration>
   </node>
-  <node id="device:20" disabled="true" claimed="true" class="network" handle="">
+  <node id="device:20" disabled="true" claimed="true" class="network">
    <description>OSA-Express QDIO channel</description>
    <product>1732/01</product>
    <physid>15</physid>
@@ -272,7 +272,7 @@
     <setting id="driver" value="qeth" />
    </configuration>
   </node>
-  <node id="device:21" disabled="true" claimed="true" class="disk" handle="">
+  <node id="device:21" disabled="true" claimed="true" class="disk">
    <description>Direct attached storage device (FBA mode)</description>
    <product>9336/10</product>
    <physid>16</physid>
@@ -281,7 +281,7 @@
     <setting id="driver" value="dasd-fba" />
    </configuration>
   </node>
-  <node id="hvc_iucv0" claimed="true" class="generic" handle="">
+  <node id="hvc_iucv0" claimed="true" class="generic">
    <description>z/VM IUCV hypervisor console</description>
    <physid>17</physid>
    <configuration>

@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
+<node id="computer" claimed="true" class="system">
  <description>Computer</description>
  <product>Power 750 Express</product>
  <vendor>IBM</vendor>
@@ -15,18 +15,18 @@
  <hints>
   <hint name="icon" value="" />
  </hints>
-  <node id="core" claimed="true" class="bus" handle="">
+  <node id="core" claimed="true" class="bus">
    <description>Motherboard</description>
    <physid>0</physid>
    <hints>
     <hint name="icon" value="board" />
    </hints>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <product>IBM,AL710_119</product>
      <physid>0</physid>
      <logicalname>/proc/device-tree</logicalname>
     </node>
-    <node id="memory" claimed="true" class="memory" handle="">
+    <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
      <physid>1</physid>
      <size units="bytes">8589934592</size>
@@ -34,7 +34,7 @@
       <hint name="icon" value="memory" />
      </hints>
     </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="">
+    <node id="cpu:0" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
      <physid>2</physid>
      <businfo>cpu@0</businfo>
@@ -45,7 +45,7 @@
       <hint name="logo" value="powerpc" />
      </hints>
     </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
+    <node id="cpu:1" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
      <physid>3</physid>
      <businfo>cpu@1</businfo>
@@ -56,7 +56,7 @@
       <hint name="logo" value="powerpc" />
      </hints>
     </node>
-    <node id="cpu:2" claimed="true" class="processor" handle="">
+    <node id="cpu:2" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
      <physid>4</physid>
      <businfo>cpu@2</businfo>
@@ -67,7 +67,7 @@
       <hint name="logo" value="powerpc" />
      </hints>
     </node>
-    <node id="cpu:3" claimed="true" class="processor" handle="">
+    <node id="cpu:3" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
      <physid>5</physid>
      <businfo>cpu@3</businfo>
@@ -79,7 +79,7 @@
      </hints>
     </node>
   </node>
-  <node id="vty" claimed="true" class="generic" handle="">
+  <node id="vty" claimed="true" class="generic">
    <description>Virtual I/O device (vty)</description>
    <physid>1</physid>
    <businfo>vio@30000000</businfo>
@@ -88,7 +88,7 @@
     <setting id="driver" value="hvc_console" />
    </configuration>
   </node>
-  <node id="v-scsi" claimed="true" class="generic" handle="">
+  <node id="v-scsi" claimed="true" class="generic">
    <description>Virtual I/O device (v-scsi)</description>
    <physid>2</physid>
    <businfo>vio@30000002</businfo>
@@ -97,25 +97,25 @@
     <setting id="driver" value="ibmvscsi" />
    </configuration>
   </node>
-  <node id="ibm_sp" claimed="true" class="generic" handle="">
+  <node id="ibm_sp" claimed="true" class="generic">
    <description>Virtual I/O device (IBM,sp)</description>
    <physid>3</physid>
    <businfo>vio@4000</businfo>
    <logicalname>/proc/device-tree/vdevice/IBM,sp@4000</logicalname>
   </node>
-  <node id="rtc" claimed="true" class="generic" handle="">
+  <node id="rtc" claimed="true" class="generic">
    <description>Virtual I/O device (rtc)</description>
    <physid>4</physid>
    <businfo>vio@4001</businfo>
    <logicalname>/proc/device-tree/vdevice/rtc@4001</logicalname>
   </node>
-  <node id="nvram" claimed="true" class="generic" handle="">
+  <node id="nvram" claimed="true" class="generic">
    <description>Virtual I/O device (nvram)</description>
    <physid>5</physid>
    <businfo>vio@4002</businfo>
    <logicalname>/proc/device-tree/vdevice/nvram@4002</logicalname>
   </node>
-  <node id="gscsi" claimed="true" class="generic" handle="">
+  <node id="gscsi" claimed="true" class="generic">
    <description>Virtual I/O device (gscsi)</description>
    <physid>6</physid>
    <businfo>vio@4004</businfo>

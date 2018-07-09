@@ -16,10 +16,10 @@
   <capability id="smp" >Symmetric Multi-Processing</capability>
   <capability id="vsyscall32" >32-bit processes</capability>
  </capabilities>
-  <node id="core" claimed="true" class="bus" handle="">
+  <node id="core" claimed="true" class="bus">
    <description>Motherboard</description>
    <physid>0</physid>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <description>BIOS</description>
      <vendor>SeaBIOS</vendor>
      <physid>0</physid>
@@ -738,7 +738,7 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
-        <node id="virtio0" class="network" handle="">
+        <node id="virtio0" class="network">
          <description>Virtual I/O device</description>
          <physid>0</physid>
          <businfo>virtio@0</businfo>
@@ -813,7 +813,7 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
-        <node id="virtio1" claimed="true" class="disk" handle="">
+        <node id="virtio1" claimed="true" class="disk">
          <description>Virtual I/O device</description>
          <physid>0</physid>
          <businfo>virtio@1</businfo>
@@ -858,7 +858,7 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
-        <node id="virtio2" class="generic" handle="">
+        <node id="virtio2" class="generic">
          <description>Virtual I/O device</description>
          <physid>0</physid>
          <businfo>virtio@2</businfo>
@@ -901,7 +901,7 @@
         <hint name="pci.subvendor" value="0x1AF4" />
         <hint name="pci.vendor" value="0x1AF4" />
        </hints>
-        <node id="virtio3" claimed="true" class="disk" handle="">
+        <node id="virtio3" claimed="true" class="disk">
          <description>Virtual I/O device</description>
          <physid>0</physid>
          <businfo>virtio@3</businfo>
@@ -918,7 +918,7 @@
         </node>
       </node>
     </node>
-    <node id="pnp00:00" claimed="true" class="system" handle="">
+    <node id="pnp00:00" claimed="true" class="system">
      <product>AT Real-Time Clock</product>
      <physid>1</physid>
      <configuration>
@@ -928,7 +928,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:01" claimed="true" class="input" handle="">
+    <node id="pnp00:01" claimed="true" class="input">
      <product>IBM Enhanced keyboard controller (101/2-key)</product>
      <physid>2</physid>
      <configuration>
@@ -938,7 +938,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:02" claimed="true" class="input" handle="">
+    <node id="pnp00:02" claimed="true" class="input">
      <product>PS/2 Port for PS/2-style Mice</product>
      <physid>3</physid>
      <configuration>
@@ -948,14 +948,14 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:03" claimed="true" class="storage" handle="">
+    <node id="pnp00:03" claimed="true" class="storage">
      <product>PC standard floppy disk controller</product>
      <physid>4</physid>
      <capabilities>
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:04" claimed="true" class="communication" handle="">
+    <node id="pnp00:04" claimed="true" class="communication">
      <product>16550A-compatible COM port</product>
      <physid>5</physid>
      <configuration>

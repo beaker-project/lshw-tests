@@ -34,7 +34,7 @@
    <hints>
     <hint name="icon" value="motherboard" />
    </hints>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <description>BIOS</description>
      <vendor>American Megatrends Inc.</vendor>
      <physid>0</physid>
@@ -7414,7 +7414,7 @@
       <hint name="pci.vendor" value="0x8086" />
      </hints>
     </node>
-    <node id="pnp00:00" claimed="true" class="system" handle="">
+    <node id="pnp00:00" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>b7</physid>
      <configuration>
@@ -7424,7 +7424,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:01" claimed="true" class="system" handle="">
+    <node id="pnp00:01" claimed="true" class="system">
      <product>AT Real-Time Clock</product>
      <physid>b8</physid>
      <configuration>
@@ -7434,7 +7434,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:02" claimed="true" class="generic" handle="">
+    <node id="pnp00:02" claimed="true" class="generic">
      <product>PnP device INT3f0d</product>
      <vendor>Interphase Corporation</vendor>
      <physid>b9</physid>
@@ -7445,7 +7445,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:03" claimed="true" class="communication" handle="">
+    <node id="pnp00:03" claimed="true" class="communication">
      <product>16550A-compatible COM port</product>
      <physid>ba</physid>
      <configuration>
@@ -7455,7 +7455,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:04" claimed="true" class="communication" handle="">
+    <node id="pnp00:04" claimed="true" class="communication">
      <product>16550A-compatible COM port</product>
      <physid>bb</physid>
      <configuration>
@@ -7465,7 +7465,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:05" claimed="true" class="generic" handle="">
+    <node id="pnp00:05" claimed="true" class="generic">
      <product>IPMI Controller</product>
      <vendor>Intelligent Platform Management Interface (IPMI) forum (Intel, HP, NEC, Dell)</vendor>
      <physid>bc</physid>
@@ -7476,7 +7476,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:06" claimed="true" class="system" handle="">
+    <node id="pnp00:06" claimed="true" class="system">
      <product>PnP device PNP0c31</product>
      <physid>bd</physid>
      <configuration>
@@ -7486,7 +7486,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:07" claimed="true" class="system" handle="">
+    <node id="pnp00:07" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>be</physid>
      <configuration>
@@ -7496,7 +7496,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:08" claimed="true" class="system" handle="">
+    <node id="pnp00:08" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>bf</physid>
      <configuration>
@@ -7506,7 +7506,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:09" claimed="true" class="system" handle="">
+    <node id="pnp00:09" claimed="true" class="system">
      <product>Motherboard registers</product>
      <physid>c0</physid>
      <configuration>
@@ -7516,7 +7516,7 @@
       <capability id="pnp" />
      </capabilities>
     </node>
-    <node id="pnp00:0a" claimed="true" class="system" handle="">
+    <node id="pnp00:0a" claimed="true" class="system">
      <product>System Board</product>
      <physid>c1</physid>
      <configuration>
@@ -7527,7 +7527,7 @@
      </capabilities>
     </node>
   </node>
-  <node id="power" class="power" handle="">
+  <node id="power" class="power">
    <description>To Be Filled By O.E.M.</description>
    <product>To Be Filled By O.E.M.</product>
    <vendor>To Be Filled By O.E.M.</vendor>

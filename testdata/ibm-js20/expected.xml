@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
-<node id="computer" claimed="true" class="system" handle="">
+<node id="computer" claimed="true" class="system">
  <description>Computer</description>
  <product>BladeCenter JS20</product>
  <vendor>IBM</vendor>
@@ -15,26 +15,26 @@
  <hints>
   <hint name="icon" value="" />
  </hints>
-  <node id="core" claimed="true" class="bus" handle="">
+  <node id="core" claimed="true" class="bus">
    <description>Motherboard</description>
    <physid>0</physid>
    <clock units="Hz">1097312280</clock>
    <hints>
     <hint name="icon" value="board" />
    </hints>
-    <node id="firmware" claimed="true" class="memory" handle="">
+    <node id="firmware" claimed="true" class="memory">
      <product>IBM,2b405_131</product>
      <physid>1</physid>
      <logicalname>/proc/device-tree</logicalname>
     </node>
-    <node id="memory" claimed="true" class="memory" handle="">
+    <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
      <physid>2</physid>
      <size units="bytes">2147483648</size>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
-      <node id="bank:0" claimed="true" class="memory" handle="">
+      <node id="bank:0" claimed="true" class="memory">
        <description>DIMM DDR SDRAM</description>
        <physid>0</physid>
        <slot>U8842.P3A.23GFC6X-P1-C1</slot>
@@ -43,7 +43,7 @@
         <hint name="icon" value="memory" />
        </hints>
       </node>
-      <node id="bank:1" claimed="true" class="memory" handle="">
+      <node id="bank:1" claimed="true" class="memory">
        <description>DIMM DDR SDRAM</description>
        <physid>1</physid>
        <slot>U8842.P3A.23GFC6X-P1-C2</slot>
@@ -52,7 +52,7 @@
         <hint name="icon" value="memory" />
        </hints>
       </node>
-      <node id="bank:2" claimed="true" class="memory" handle="">
+      <node id="bank:2" claimed="true" class="memory">
        <description>DIMM DDR SDRAM</description>
        <physid>2</physid>
        <slot>U8842.P3A.23GFC6X-P1-C3</slot>
@@ -61,7 +61,7 @@
         <hint name="icon" value="memory" />
        </hints>
       </node>
-      <node id="bank:3" claimed="true" class="memory" handle="">
+      <node id="bank:3" claimed="true" class="memory">
        <description>DIMM DDR SDRAM</description>
        <physid>3</physid>
        <slot>U8842.P3A.23GFC6X-P1-C4</slot>
@@ -71,7 +71,7 @@
        </hints>
       </node>
     </node>
-    <node id="cpu:0" claimed="true" class="processor" handle="">
+    <node id="cpu:0" claimed="true" class="processor">
      <description>CPU</description>
      <product>PPC970FX, altivec supported</product>
      <physid>4</physid>
@@ -86,18 +86,18 @@
       <hint name="icon" value="cpu" />
       <hint name="logo" value="powerpc" />
      </hints>
-      <node id="cache:0" claimed="true" class="memory" handle="">
+      <node id="cache:0" claimed="true" class="memory">
        <description>L1 Cache</description>
        <physid>0</physid>
        <size units="bytes">32768</size>
       </node>
-      <node id="cache:1" claimed="true" class="memory" handle="">
+      <node id="cache:1" claimed="true" class="memory">
        <description>L2 Cache (unified)</description>
        <physid>1</physid>
        <size units="bytes">524288</size>
       </node>
     </node>
-    <node id="cpu:1" claimed="true" class="processor" handle="">
+    <node id="cpu:1" claimed="true" class="processor">
      <description>CPU</description>
      <product>PPC970FX, altivec supported</product>
      <physid>5</physid>
@@ -112,12 +112,12 @@
       <hint name="icon" value="cpu" />
       <hint name="logo" value="powerpc" />
      </hints>
-      <node id="cache:0" claimed="true" class="memory" handle="">
+      <node id="cache:0" claimed="true" class="memory">
        <description>L1 Cache</description>
        <physid>0</physid>
        <size units="bytes">32768</size>
       </node>
-      <node id="cache:1" claimed="true" class="memory" handle="">
+      <node id="cache:1" claimed="true" class="memory">
        <description>L2 Cache (unified)</description>
        <physid>1</physid>
        <size units="bytes">524288</size>
@@ -419,7 +419,7 @@
      </hints>
     </node>
   </node>
-  <node id="vty" claimed="true" class="generic" handle="">
+  <node id="vty" claimed="true" class="generic">
    <description>Virtual I/O device (vty)</description>
    <physid>1</physid>
    <businfo>vio@0</businfo>
@@ -428,13 +428,13 @@
     <setting id="driver" value="hvc_console" />
    </configuration>
   </node>
-  <node id="ibm_sp" claimed="true" class="generic" handle="">
+  <node id="ibm_sp" claimed="true" class="generic">
    <description>Virtual I/O device (IBM,sp)</description>
    <physid>2</physid>
    <businfo>vio@4000</businfo>
    <logicalname>/proc/device-tree/vdevice/IBM,sp@4000</logicalname>
   </node>
-  <node id="rtc" claimed="true" class="generic" handle="">
+  <node id="rtc" claimed="true" class="generic">
    <description>Virtual I/O device (rtc)</description>
    <physid>3</physid>
    <businfo>vio@4001</businfo>
