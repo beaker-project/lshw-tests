@@ -18,9 +18,97 @@
    <hints>
     <hint name="icon" value="board" />
    </hints>
+    <node id="cpu:0" claimed="true" class="processor">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>0</physid>
+     <businfo>cpu@0</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>1</physid>
+     <businfo>cpu@1</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
+    </node>
+    <node id="cpu:2" claimed="true" class="processor">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>2</physid>
+     <businfo>cpu@2</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
+    </node>
+    <node id="cpu:3" claimed="true" class="processor">
+     <description>CPU</description>
+     <product>cpu</product>
+     <physid>3</physid>
+     <businfo>cpu@3</businfo>
+     <capabilities>
+      <capability id="half" >Unknown</capability>
+      <capability id="thumb" >Thumb instruction set</capability>
+      <capability id="fastmult" >Fast Multiplication</capability>
+      <capability id="vfp" >VFP (vector floating point instructions)</capability>
+      <capability id="edsp" >DSP extensions</capability>
+      <capability id="thumbee" >Thumb Execution Environment</capability>
+      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
+      <capability id="vfpv3" >VFP version 3</capability>
+      <capability id="tls" >TLS register</capability>
+      <capability id="vfpd32" >Unknown</capability>
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="arm" />
+     </hints>
+    </node>
     <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
-     <physid>0</physid>
+     <physid>4</physid>
      <size units="bytes">4287627264</size>
      <hints>
       <hint name="icon" value="memory" />
@@ -46,94 +134,6 @@
         <hint name="icon" value="memory" />
        </hints>
       </node>
-    </node>
-    <node id="cpu:0" claimed="true" class="processor">
-     <description>CPU</description>
-     <product>cpu</product>
-     <physid>1</physid>
-     <businfo>cpu@0</businfo>
-     <capabilities>
-      <capability id="half" >Unknown</capability>
-      <capability id="thumb" >Thumb instruction set</capability>
-      <capability id="fastmult" >Fast Multiplication</capability>
-      <capability id="vfp" >VFP (vector floating point instructions)</capability>
-      <capability id="edsp" >DSP extensions</capability>
-      <capability id="thumbee" >Thumb Execution Environment</capability>
-      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
-      <capability id="vfpv3" >VFP version 3</capability>
-      <capability id="tls" >TLS register</capability>
-      <capability id="vfpd32" >Unknown</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="arm" />
-     </hints>
-    </node>
-    <node id="cpu:1" claimed="true" class="processor">
-     <description>CPU</description>
-     <product>cpu</product>
-     <physid>2</physid>
-     <businfo>cpu@1</businfo>
-     <capabilities>
-      <capability id="half" >Unknown</capability>
-      <capability id="thumb" >Thumb instruction set</capability>
-      <capability id="fastmult" >Fast Multiplication</capability>
-      <capability id="vfp" >VFP (vector floating point instructions)</capability>
-      <capability id="edsp" >DSP extensions</capability>
-      <capability id="thumbee" >Thumb Execution Environment</capability>
-      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
-      <capability id="vfpv3" >VFP version 3</capability>
-      <capability id="tls" >TLS register</capability>
-      <capability id="vfpd32" >Unknown</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="arm" />
-     </hints>
-    </node>
-    <node id="cpu:2" claimed="true" class="processor">
-     <description>CPU</description>
-     <product>cpu</product>
-     <physid>3</physid>
-     <businfo>cpu@2</businfo>
-     <capabilities>
-      <capability id="half" >Unknown</capability>
-      <capability id="thumb" >Thumb instruction set</capability>
-      <capability id="fastmult" >Fast Multiplication</capability>
-      <capability id="vfp" >VFP (vector floating point instructions)</capability>
-      <capability id="edsp" >DSP extensions</capability>
-      <capability id="thumbee" >Thumb Execution Environment</capability>
-      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
-      <capability id="vfpv3" >VFP version 3</capability>
-      <capability id="tls" >TLS register</capability>
-      <capability id="vfpd32" >Unknown</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="arm" />
-     </hints>
-    </node>
-    <node id="cpu:3" claimed="true" class="processor">
-     <description>CPU</description>
-     <product>cpu</product>
-     <physid>4</physid>
-     <businfo>cpu@3</businfo>
-     <capabilities>
-      <capability id="half" >Unknown</capability>
-      <capability id="thumb" >Thumb instruction set</capability>
-      <capability id="fastmult" >Fast Multiplication</capability>
-      <capability id="vfp" >VFP (vector floating point instructions)</capability>
-      <capability id="edsp" >DSP extensions</capability>
-      <capability id="thumbee" >Thumb Execution Environment</capability>
-      <capability id="neon" >NEON aka MPE - Media Processing Engine</capability>
-      <capability id="vfpv3" >VFP version 3</capability>
-      <capability id="tls" >TLS register</capability>
-      <capability id="vfpd32" >Unknown</capability>
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="arm" />
-     </hints>
     </node>
   </node>
 </node>
