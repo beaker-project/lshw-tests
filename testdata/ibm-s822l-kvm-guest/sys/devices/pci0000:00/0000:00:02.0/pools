@@ -1,0 +1,7 @@
+poolinfo - 0.1
+ohci_ed             2  585  112  1
+ohci_td             2  682   96  1
+buffer-2048         0    0 2048  0
+buffer-512          0    0  512  0
+buffer-128          3  512  128  1
+buffer-32           0    0   32  0

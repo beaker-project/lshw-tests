@@ -1,0 +1,14 @@
+setparams 'Fedora (4.17.3-200.fc28.ppc64) 28 (Twenty Eight)'
+
+	load_video
+	insmod gzio
+	insmod part_msdos
+	insmod ext2
+	set root='hd0,msdos2'
+	if [ x$feature_platform_search_hint = xy ]; then
+	  search --no-floppy --fs-uuid --set=root --hint='hd0,msdos2'  c65b4d6c-d6f1-444a-8e72-9431898406bd
+	else
+	  search --no-floppy --fs-uuid --set=root c65b4d6c-d6f1-444a-8e72-9431898406bd
+	fi
+	linux /vmlinuz-4.17.3-200.fc28.ppc64 root=/dev/mapper/fedora_ibm--p8--kvm--03--guest--16-root ro rd.lvm.lv=fedora_ibm-p8-kvm-03-guest-16/root rd.lvm.lv=fedora_ibm-p8-kvm-03-guest-16/swap LANG=en_US.UTF-8
+	initrd /initramfs-4.17.3-200.fc28.ppc64.img

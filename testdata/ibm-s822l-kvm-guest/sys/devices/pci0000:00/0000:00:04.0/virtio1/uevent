@@ -1,0 +1,2 @@
+DRIVER=virtio_console
+MODALIAS=virtio:d00000003v00001AF4

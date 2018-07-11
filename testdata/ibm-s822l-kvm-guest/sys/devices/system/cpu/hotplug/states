@@ -1,0 +1,61 @@
+  0: offline
+  1: threads:prepare
+  2: perf:prepare
+  5: perf/powerpc:prepare
+ 10: virtio/net:dead
+ 11: slub:dead
+ 12: mm/writeback:dead
+ 13: mm/vmstat:dead
+ 14: softirq:dead
+ 16: cpuidle/pseries:DEAD
+ 19: irq_poll:dead
+ 20: block/softirq:dead
+ 23: block/mq:dead
+ 24: fs/buffer:dead
+ 25: printk:dead
+ 26: mm/memctrl:dead
+ 27: lib/percpu_cnt:dead
+ 28: lib/radix:dead
+ 29: mm/page_alloc:dead
+ 30: net/dev:dead
+ 35: workqueue:prepare
+ 36: powerpc/numa:prepare
+ 37: hrtimers:prepare
+ 40: smpcfd:prepare
+ 41: relay:prepare
+ 42: slab:prepare
+ 44: RCU/tree:prepare
+ 53: base/topology:prepare
+ 56: trace/RB:preapre
+ 57: mm/zsmalloc:prepare
+ 58: mm/zswap:prepare
+ 59: mm/zswap_pool:prepare
+ 62: timers:dead
+ 85: cpu:bringup
+ 86: idle:dead
+ 87: ap:offline
+ 88: sched:starting
+ 89: RCU/tree:dying
+124: clockevents/dummy_timer:starting
+128: smpcfd:dying
+131: ap:online
+132: cpu:teardown
+134: smpboot/threads:online
+136: irq/affinity:online
+137: perf:online
+158: workqueue:online
+159: RCU/tree:online
+160: mm/writeback:online
+161: mm/vmstat:online
+162: powerpc/watchdog:online
+163: powerpc/topology:online
+164: mm/compaction:online
+165: padata:online
+166: mm/vmscan:online
+167: lib/percpu_cnt:online
+168: cpuidle/pseries:online
+169: printk:online
+170: virtio/net:online
+171: swap_slots_cache
+193: sched:active
+194: online

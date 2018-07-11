@@ -1,0 +1,290 @@
+<?xml version="1.0" standalone="yes" ?>
+<list>
+<node id="computer" claimed="true" class="system">
+ <description>pSeries Guest</description>
+ <product>linux,kvm Model# 8247-22L</product>
+ <vendor>IBM</vendor>
+ <serial>[REMOVED]</serial>
+ <width units="bits">64</width>
+ <configuration>
+  <setting id="uuid" value="c447502a-5d98-561e-34c5-27f0d7e38aa1" />
+ </configuration>
+ <capabilities>
+  <capability id="smp" >Symmetric Multi-Processing</capability>
+ </capabilities>
+ <hints>
+  <hint name="icon" value="motherboard" />
+ </hints>
+  <node id="core" claimed="true" class="bus">
+   <description>Motherboard</description>
+   <physid>0</physid>
+   <capabilities>
+    <capability id="qemu" >QEMU virtualization</capability>
+    <capability id="guest" >Virtualization guest</capability>
+   </capabilities>
+   <hints>
+    <hint name="icon" value="board" />
+   </hints>
+    <node id="cpu" claimed="true" class="processor">
+     <description>POWER8E (raw), altivec supported</description>
+     <product>PowerPC,POWER8</product>
+     <physid>0</physid>
+     <businfo>cpu@0</businfo>
+     <version>2.1 (pvr 004b 0201)</version>
+     <size units="Hz">3425000000</size>
+     <configuration>
+      <setting id="threads" value="8" />
+     </configuration>
+     <hints>
+      <hint name="icon" value="cpu" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory">
+       <description>L1 Cache (instruction)</description>
+       <physid>0</physid>
+       <size units="bytes">32768</size>
+      </node>
+      <node id="cache:1" claimed="true" class="memory">
+       <description>L1 Cache (data)</description>
+       <physid>1</physid>
+       <size units="bytes">65536</size>
+      </node>
+    </node>
+    <node id="memory" claimed="true" class="memory">
+     <description>System memory</description>
+     <physid>6</physid>
+     <size units="bytes">9663676416</size>
+     <hints>
+      <hint name="icon" value="memory" />
+     </hints>
+    </node>
+    <node id="network" claimed="true" class="network" handle="PCI:0000:00:01.0" modalias="pci:v00001AF4d00001000sv00001AF4sd00000001bc02sc00i00">
+     <description>Ethernet controller</description>
+     <product>Virtio network device [1AF4:1000]</product>
+     <vendor>Red Hat, Inc. [1AF4]</vendor>
+     <physid>1</physid>
+     <subproduct>Red Hat, Inc. [1AF4:1]</subproduct>
+     <subvendor>Red Hat, Inc. [1AF4]</subvendor>
+     <businfo>pci@0000:00:01.0</businfo>
+     <version>00</version>
+     <slot>qemu_virtio-net-pci:0000:00:01.0</slot>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="virtio-pci" />
+      <setting id="latency" value="0" />
+     </configuration>
+     <capabilities>
+      <capability id="msix" >MSI-X</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+      <capability id="rom" >extension ROM</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="17" />
+      <resource type="ioport" value="c0(size=32)" />
+      <resource type="memory" value="100b0003000-100b0003fff" />
+      <resource type="memory" value="100b0040000-100b007ffff" />
+     </resources>
+     <hints>
+      <hint name="icon" value="network" />
+      <hint name="pci.class" value="0x200" />
+      <hint name="pci.device" value="0x1000" />
+      <hint name="pci.subdevice" value="0x1" />
+      <hint name="pci.subvendor" value="0x1AF4" />
+      <hint name="pci.vendor" value="0x1AF4" />
+     </hints>
+      <node id="virtio3" class="network">
+       <description>Virtual I/O device</description>
+       <physid>0</physid>
+       <businfo>virtio@3</businfo>
+       <configuration>
+        <setting id="driver" value="virtio_net" />
+       </configuration>
+      </node>
+    </node>
+    <node id="usb" claimed="true" class="bus" handle="PCI:0000:00:02.0" modalias="pci:v0000106Bd0000003Fsv00001AF4sd00001100bc0Csc03i10">
+     <description>USB controller</description>
+     <product>KeyLargo/Intrepid USB [106B:3F]</product>
+     <vendor>Apple Inc. [106B]</vendor>
+     <physid>2</physid>
+     <subproduct>Red Hat, Inc. [1AF4:1100]</subproduct>
+     <subvendor>Red Hat, Inc. [1AF4]</subvendor>
+     <businfo>pci@0000:00:02.0</businfo>
+     <version>00</version>
+     <slot>qemu_pci-ohci:0000:00:02.0</slot>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="ohci-pci" />
+      <setting id="latency" value="0" />
+     </configuration>
+     <capabilities>
+      <capability id="ohci" >Open Host Controller Interface</capability>
+      <capability id="bus_master" >bus mastering</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="20" />
+      <resource type="memory" value="100b0002000-100b00020ff" />
+     </resources>
+     <hints>
+      <hint name="icon" value="usb" />
+      <hint name="pci.class" value="0xC03" />
+      <hint name="pci.device" value="0x3F" />
+      <hint name="pci.subdevice" value="0x1100" />
+      <hint name="pci.subvendor" value="0x1AF4" />
+      <hint name="pci.vendor" value="0x106B" />
+     </hints>
+    </node>
+    <node id="scsi" claimed="true" class="storage" handle="PCI:0000:00:03.0" modalias="pci:v00001AF4d00001001sv00001AF4sd00000002bc01sc00i00">
+     <description>SCSI storage controller</description>
+     <product>Virtio block device [1AF4:1001]</product>
+     <vendor>Red Hat, Inc. [1AF4]</vendor>
+     <physid>3</physid>
+     <subproduct>Red Hat, Inc. [1AF4:2]</subproduct>
+     <subvendor>Red Hat, Inc. [1AF4]</subvendor>
+     <businfo>pci@0000:00:03.0</businfo>
+     <version>00</version>
+     <slot>qemu_virtio-blk-pci:0000:00:03.0</slot>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="virtio-pci" />
+      <setting id="latency" value="0" />
+     </configuration>
+     <capabilities>
+      <capability id="scsi" />
+      <capability id="msix" >MSI-X</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="19" />
+      <resource type="ioport" value="80(size=64)" />
+      <resource type="memory" value="100b0001000-100b0001fff" />
+     </resources>
+     <hints>
+      <hint name="icon" value="scsi" />
+      <hint name="pci.class" value="0x100" />
+      <hint name="pci.device" value="0x1001" />
+      <hint name="pci.subdevice" value="0x2" />
+      <hint name="pci.subvendor" value="0x1AF4" />
+      <hint name="pci.vendor" value="0x1AF4" />
+     </hints>
+      <node id="virtio2" claimed="true" class="disk">
+       <description>Virtual I/O device</description>
+       <physid>0</physid>
+       <businfo>virtio@2</businfo>
+       <logicalname>vda</logicalname>
+       <configuration>
+        <setting id="driver" value="virtio_blk" />
+       </configuration>
+      </node>
+    </node>
+    <node id="communication" claimed="true" class="communication" handle="PCI:0000:00:04.0" modalias="pci:v00001AF4d00001003sv00001AF4sd00000003bc07sc80i00">
+     <description>Communication controller</description>
+     <product>Virtio console [1AF4:1003]</product>
+     <vendor>Red Hat, Inc. [1AF4]</vendor>
+     <physid>4</physid>
+     <subproduct>Red Hat, Inc. [1AF4:3]</subproduct>
+     <subvendor>Red Hat, Inc. [1AF4]</subvendor>
+     <businfo>pci@0000:00:04.0</businfo>
+     <version>00</version>
+     <slot>qemu_virtio-serial-pci:0000:00:04.0</slot>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="virtio-pci" />
+      <setting id="latency" value="0" />
+     </configuration>
+     <capabilities>
+      <capability id="msix" >MSI-X</capability>
+      <capability id="bus_master" >bus mastering</capability>
+      <capability id="cap_list" >PCI capabilities listing</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="18" />
+      <resource type="ioport" value="40(size=32)" />
+      <resource type="memory" value="100b0000000-100b0000fff" />
+     </resources>
+     <hints>
+      <hint name="pci.class" value="0x780" />
+      <hint name="pci.device" value="0x1003" />
+      <hint name="pci.subdevice" value="0x3" />
+      <hint name="pci.subvendor" value="0x1AF4" />
+      <hint name="pci.vendor" value="0x1AF4" />
+     </hints>
+      <node id="virtio1" class="generic">
+       <description>Virtual I/O device</description>
+       <physid>0</physid>
+       <businfo>virtio@1</businfo>
+       <configuration>
+        <setting id="driver" value="virtio_console" />
+       </configuration>
+      </node>
+    </node>
+    <node id="generic" claimed="true" class="generic" handle="PCI:0000:00:05.0" modalias="pci:v00001AF4d00001002sv00001AF4sd00000005bc00scFFi00">
+     <description>Unclassified device</description>
+     <product>Virtio memory balloon [1AF4:1002]</product>
+     <vendor>Red Hat, Inc. [1AF4]</vendor>
+     <physid>5</physid>
+     <subproduct>Red Hat, Inc. [1AF4:5]</subproduct>
+     <subvendor>Red Hat, Inc. [1AF4]</subvendor>
+     <businfo>pci@0000:00:05.0</businfo>
+     <version>00</version>
+     <slot>qemu_virtio-balloon-pci:0000:00:05.0</slot>
+     <width units="bits">32</width>
+     <clock units="Hz">33000000</clock>
+     <configuration>
+      <setting id="driver" value="virtio-pci" />
+      <setting id="latency" value="0" />
+     </configuration>
+     <capabilities>
+      <capability id="bus_master" >bus mastering</capability>
+     </capabilities>
+     <resources>
+      <resource type="irq" value="17" />
+      <resource type="ioport" value="20(size=32)" />
+     </resources>
+     <hints>
+      <hint name="pci.class" value="0xFF" />
+      <hint name="pci.device" value="0x1002" />
+      <hint name="pci.subdevice" value="0x5" />
+      <hint name="pci.subvendor" value="0x1AF4" />
+      <hint name="pci.vendor" value="0x1AF4" />
+     </hints>
+      <node id="virtio0" class="generic">
+       <description>Virtual I/O device</description>
+       <physid>0</physid>
+       <businfo>virtio@0</businfo>
+       <configuration>
+        <setting id="driver" value="virtio_balloon" />
+       </configuration>
+      </node>
+    </node>
+  </node>
+  <node id="vty" claimed="true" class="generic">
+   <description>Virtual I/O device (vty)</description>
+   <physid>1</physid>
+   <businfo>vio@30000000</businfo>
+   <logicalname>/proc/device-tree/vdevice/vty@30000000</logicalname>
+   <configuration>
+    <setting id="driver" value="hvc_console" />
+   </configuration>
+  </node>
+  <node id="nvram" claimed="true" class="generic">
+   <description>Virtual I/O device (nvram)</description>
+   <physid>2</physid>
+   <businfo>vio@71000000</businfo>
+   <logicalname>/proc/device-tree/vdevice/nvram@71000000</logicalname>
+  </node>
+  <node id="ibm_random-v1" claimed="true" class="generic">
+   <description>Virtual I/O device (ibm,random-v1)</description>
+   <physid>3</physid>
+   <businfo>vio@ibm,random-v1</businfo>
+   <logicalname>/proc/device-tree/ibm,platform-facilities/ibm,random-v1</logicalname>
+   <configuration>
+    <setting id="driver" value="pseries_rng" />
+   </configuration>
+  </node>
+</node>
+</list>

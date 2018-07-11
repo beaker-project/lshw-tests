@@ -1,0 +1,6 @@
+OF_NAME=nvram
+OF_FULLNAME=/vdevice/nvram@71000000
+OF_TYPE=nvram
+OF_COMPATIBLE_0=qemu,spapr-nvram
+OF_COMPATIBLE_N=1
+MODALIAS=vio:TnvramSqemu,spapr-nvram
