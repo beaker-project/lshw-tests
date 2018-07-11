@@ -26,97 +26,46 @@
      <physid>1</physid>
      <logicalname>/proc/device-tree</logicalname>
     </node>
-    <node id="cpu:0" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>2</physid>
+    <node id="cpu" claimed="true" class="processor">
+     <description>POWER8 (architected), altivec supported</description>
+     <product>PowerPC,POWER8</product>
+     <physid>0</physid>
      <businfo>cpu@0</businfo>
      <version>2.0 (pvr 004b 0200)</version>
      <size units="Hz">3658000000</size>
+     <configuration>
+      <setting id="threads" value="8" />
+     </configuration>
+     <capabilities>
+      <capability id="performance-monitor" />
+     </capabilities>
      <hints>
       <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
      </hints>
-    </node>
-    <node id="cpu:1" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>3</physid>
-     <businfo>cpu@1</businfo>
-     <version>2.0 (pvr 004b 0200)</version>
-     <size units="Hz">3658000000</size>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-    </node>
-    <node id="cpu:2" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>4</physid>
-     <businfo>cpu@2</businfo>
-     <version>2.0 (pvr 004b 0200)</version>
-     <size units="Hz">3658000000</size>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-    </node>
-    <node id="cpu:3" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>5</physid>
-     <businfo>cpu@3</businfo>
-     <version>2.0 (pvr 004b 0200)</version>
-     <size units="Hz">3658000000</size>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-    </node>
-    <node id="cpu:4" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>6</physid>
-     <businfo>cpu@4</businfo>
-     <version>2.0 (pvr 004b 0200)</version>
-     <size units="Hz">3658000000</size>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-    </node>
-    <node id="cpu:5" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>7</physid>
-     <businfo>cpu@5</businfo>
-     <version>2.0 (pvr 004b 0200)</version>
-     <size units="Hz">3658000000</size>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-    </node>
-    <node id="cpu:6" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>8</physid>
-     <businfo>cpu@6</businfo>
-     <version>2.0 (pvr 004b 0200)</version>
-     <size units="Hz">3658000000</size>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-    </node>
-    <node id="cpu:7" claimed="true" class="processor">
-     <product>POWER8 (architected), altivec supported</product>
-     <physid>9</physid>
-     <businfo>cpu@7</businfo>
-     <version>2.0 (pvr 004b 0200)</version>
-     <size units="Hz">3658000000</size>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
+      <node id="cache:0" claimed="true" class="memory">
+       <description>L1 Cache (instruction)</description>
+       <physid>0</physid>
+       <size units="bytes">32768</size>
+      </node>
+      <node id="cache:1" claimed="true" class="memory">
+       <description>L1 Cache (data)</description>
+       <physid>1</physid>
+       <size units="bytes">65536</size>
+      </node>
+      <node id="cache:2" claimed="true" class="memory">
+       <description>L2 Cache (unified)</description>
+       <physid>2</physid>
+       <size units="bytes">524288</size>
+      </node>
+      <node id="cache:3" claimed="true" class="memory">
+       <description>L3 Cache (unified)</description>
+       <physid>3</physid>
+       <size units="bytes">8388608</size>
+      </node>
     </node>
     <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
-     <physid>10</physid>
+     <physid>2</physid>
      <size units="bytes">17179869184</size>
      <hints>
       <hint name="icon" value="memory" />
