@@ -346,7 +346,8 @@
      <capabilities>
       <capability id="ide" />
       <capability id="pm" >Power Management</capability>
-      <capability id="pci_native_mode_controller__supports_both_channels_switched_to_isa_compatibility_mode__supports_bus_mastering" />
+      <capability id="isa_compat_mode" >ISA compatibility mode</capability>
+      <capability id="pci_native_mode" >PCI native mode</capability>
       <capability id="bus_master" >bus mastering</capability>
       <capability id="cap_list" >PCI capabilities listing</capability>
      </capabilities>

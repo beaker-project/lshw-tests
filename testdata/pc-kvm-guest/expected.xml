@@ -539,7 +539,7 @@
        </configuration>
        <capabilities>
         <capability id="ide" />
-        <capability id="isa_compatibility_mode-only_controller__supports_bus_mastering" />
+        <capability id="isa_compat_mode" >ISA compatibility mode</capability>
         <capability id="bus_master" >bus mastering</capability>
        </capabilities>
        <resources>
