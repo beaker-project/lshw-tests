@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes" ?>
 <list>
 <node id="computer" claimed="true" class="system">
- <description>Computer</description>
+ <description>pSeries LPAR</description>
  <product>Power Systems S824</product>
  <vendor>IBM</vendor>
  <serial>[REMOVED]</serial>
