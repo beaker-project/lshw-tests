@@ -41,6 +41,7 @@
      </capabilities>
      <hints>
       <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
      </hints>
       <node id="cache:0" claimed="true" class="memory">
        <description>L1 Cache (instruction)</description>
