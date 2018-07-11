@@ -26,17 +26,9 @@
      <physid>1</physid>
      <logicalname>/proc/device-tree</logicalname>
     </node>
-    <node id="memory" claimed="true" class="memory">
-     <description>System memory</description>
-     <physid>2</physid>
-     <size units="bytes">8589934592</size>
-     <hints>
-      <hint name="icon" value="memory" />
-     </hints>
-    </node>
     <node id="cpu:0" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
-     <physid>3</physid>
+     <physid>2</physid>
      <businfo>cpu@0</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
@@ -47,7 +39,7 @@
     </node>
     <node id="cpu:1" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
-     <physid>4</physid>
+     <physid>3</physid>
      <businfo>cpu@1</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
@@ -58,7 +50,7 @@
     </node>
     <node id="cpu:2" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
-     <physid>5</physid>
+     <physid>4</physid>
      <businfo>cpu@2</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
@@ -69,13 +61,21 @@
     </node>
     <node id="cpu:3" claimed="true" class="processor">
      <product>POWER7 (architected), altivec supported</product>
-     <physid>6</physid>
+     <physid>5</physid>
      <businfo>cpu@3</businfo>
      <version>2.1 (pvr 003f 0201)</version>
      <size units="Hz">3000000000</size>
      <hints>
       <hint name="icon" value="cpu" />
       <hint name="logo" value="powerpc" />
+     </hints>
+    </node>
+    <node id="memory" claimed="true" class="memory">
+     <description>System memory</description>
+     <physid>6</physid>
+     <size units="bytes">8589934592</size>
+     <hints>
+      <hint name="icon" value="memory" />
      </hints>
     </node>
   </node>

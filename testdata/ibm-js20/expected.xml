@@ -27,9 +27,61 @@
      <physid>0</physid>
      <logicalname>/proc/device-tree</logicalname>
     </node>
+    <node id="cpu:0" claimed="true" class="processor">
+     <description>CPU</description>
+     <product>PPC970FX, altivec supported</product>
+     <physid>1</physid>
+     <businfo>cpu@0</businfo>
+     <version>3.0 (pvr 003c 0300)</version>
+     <size units="Hz">2194624561</size>
+     <clock units="Hz">1097312280</clock>
+     <capabilities>
+      <capability id="performance-monitor" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory">
+       <description>L1 Cache</description>
+       <physid>0</physid>
+       <size units="bytes">32768</size>
+      </node>
+      <node id="cache:1" claimed="true" class="memory">
+       <description>L2 Cache (unified)</description>
+       <physid>1</physid>
+       <size units="bytes">524288</size>
+      </node>
+    </node>
+    <node id="cpu:1" claimed="true" class="processor">
+     <description>CPU</description>
+     <product>PPC970FX, altivec supported</product>
+     <physid>2</physid>
+     <businfo>cpu@1</businfo>
+     <version>3.0 (pvr 003c 0300)</version>
+     <size units="Hz">2194624561</size>
+     <clock units="Hz">1097312280</clock>
+     <capabilities>
+      <capability id="performance-monitor" />
+     </capabilities>
+     <hints>
+      <hint name="icon" value="cpu" />
+      <hint name="logo" value="powerpc" />
+     </hints>
+      <node id="cache:0" claimed="true" class="memory">
+       <description>L1 Cache</description>
+       <physid>0</physid>
+       <size units="bytes">32768</size>
+      </node>
+      <node id="cache:1" claimed="true" class="memory">
+       <description>L2 Cache (unified)</description>
+       <physid>1</physid>
+       <size units="bytes">524288</size>
+      </node>
+    </node>
     <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
-     <physid>1</physid>
+     <physid>3</physid>
      <size units="bytes">2147483648</size>
      <hints>
       <hint name="icon" value="memory" />
@@ -69,58 +121,6 @@
        <hints>
         <hint name="icon" value="memory" />
        </hints>
-      </node>
-    </node>
-    <node id="cpu:0" claimed="true" class="processor">
-     <description>CPU</description>
-     <product>PPC970FX, altivec supported</product>
-     <physid>4</physid>
-     <businfo>cpu@0</businfo>
-     <version>3.0 (pvr 003c 0300)</version>
-     <size units="Hz">2194624561</size>
-     <clock units="Hz">1097312280</clock>
-     <capabilities>
-      <capability id="performance-monitor" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-      <node id="cache:0" claimed="true" class="memory">
-       <description>L1 Cache</description>
-       <physid>0</physid>
-       <size units="bytes">32768</size>
-      </node>
-      <node id="cache:1" claimed="true" class="memory">
-       <description>L2 Cache (unified)</description>
-       <physid>1</physid>
-       <size units="bytes">524288</size>
-      </node>
-    </node>
-    <node id="cpu:1" claimed="true" class="processor">
-     <description>CPU</description>
-     <product>PPC970FX, altivec supported</product>
-     <physid>5</physid>
-     <businfo>cpu@1</businfo>
-     <version>3.0 (pvr 003c 0300)</version>
-     <size units="Hz">2194624561</size>
-     <clock units="Hz">1097312280</clock>
-     <capabilities>
-      <capability id="performance-monitor" />
-     </capabilities>
-     <hints>
-      <hint name="icon" value="cpu" />
-      <hint name="logo" value="powerpc" />
-     </hints>
-      <node id="cache:0" claimed="true" class="memory">
-       <description>L1 Cache</description>
-       <physid>0</physid>
-       <size units="bytes">32768</size>
-      </node>
-      <node id="cache:1" claimed="true" class="memory">
-       <description>L2 Cache (unified)</description>
-       <physid>1</physid>
-       <size units="bytes">524288</size>
       </node>
     </node>
     <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:11" modalias="pci:v00001022d00007450sv00000000sd00000000bc06sc04i00">
