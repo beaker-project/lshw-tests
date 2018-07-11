@@ -86,46 +86,10 @@
     <node id="memory" claimed="true" class="memory">
      <description>System memory</description>
      <physid>4</physid>
-     <size units="bytes">2147483648</size>
+     <size units="bytes">2048720896</size>
      <hints>
       <hint name="icon" value="memory" />
      </hints>
-      <node id="bank:0" claimed="true" class="memory">
-       <description>DIMM DDR SDRAM</description>
-       <physid>0</physid>
-       <slot>U8842.P3A.23GFC6X-P1-C1</slot>
-       <size units="bytes">536870912</size>
-       <hints>
-        <hint name="icon" value="memory" />
-       </hints>
-      </node>
-      <node id="bank:1" claimed="true" class="memory">
-       <description>DIMM DDR SDRAM</description>
-       <physid>1</physid>
-       <slot>U8842.P3A.23GFC6X-P1-C2</slot>
-       <size units="bytes">536870912</size>
-       <hints>
-        <hint name="icon" value="memory" />
-       </hints>
-      </node>
-      <node id="bank:2" claimed="true" class="memory">
-       <description>DIMM DDR SDRAM</description>
-       <physid>2</physid>
-       <slot>U8842.P3A.23GFC6X-P1-C3</slot>
-       <size units="bytes">536870912</size>
-       <hints>
-        <hint name="icon" value="memory" />
-       </hints>
-      </node>
-      <node id="bank:3" claimed="true" class="memory">
-       <description>DIMM DDR SDRAM</description>
-       <physid>3</physid>
-       <slot>U8842.P3A.23GFC6X-P1-C4</slot>
-       <size units="bytes">536870912</size>
-       <hints>
-        <hint name="icon" value="memory" />
-       </hints>
-      </node>
     </node>
     <node id="pci:0" claimed="true" class="bridge" handle="PCIBUS:0000:11" modalias="pci:v00001022d00007450sv00000000sd00000000bc06sc04i00">
      <description>PCI bridge</description>
