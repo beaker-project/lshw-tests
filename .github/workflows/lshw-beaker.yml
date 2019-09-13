@@ -1,6 +1,9 @@
-name: Upstream testing
+name: Beaker LSHW testing
 
-on: [push]
+on:
+  push:
+    branches:
+      - beaker
 
 jobs:
   build:

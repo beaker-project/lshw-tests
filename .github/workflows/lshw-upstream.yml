@@ -1,6 +1,9 @@
-name: Upstream testing
+name: Upstream LSHW testing
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
