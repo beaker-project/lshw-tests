@@ -7,3 +7,7 @@ LIBS = -ldl
 
 wrapper.so: wrapper.c
 	$(CC) $(CFLAGS) -shared -o $@ $^ $(LIBS)
+
+.PHONY: clean
+clean:
+	rm -f wrapper.so
