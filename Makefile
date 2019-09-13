@@ -6,4 +6,4 @@ CFLAGS += -std=c99 -D_GNU_SOURCE -fpic
 LIBS = -ldl
 
 wrapper.so: wrapper.c
-	$(CC) $(CFLAGS) -shared $(LIBS) -o $@ $^
+	$(CC) $(CFLAGS) -shared -o $@ $^ $(LIBS)
