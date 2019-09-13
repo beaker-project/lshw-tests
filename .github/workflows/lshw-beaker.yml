@@ -1,0 +1,26 @@
+name: Upstream testing
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Fetch upstream LSHW
+      run: |
+        git clone https://github.com/beaker-project/lshw.git
+    - name: Compile Beaker LSHW
+      run: |
+        pushd lshw
+        make DATADIR=$(readlink -f src)
+        popd
+    - name: Compile LSHW tests
+      run: |
+        make
+    - name: Execute LSHW tests
+      run: |
+        LSHW=./lshw/src/lshw ./run-tests.sh
+ 
